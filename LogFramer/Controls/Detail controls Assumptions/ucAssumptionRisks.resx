@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gbResponse.Text" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.Name" xml:space="preserve">
+    <value>cmbOwner</value>
+  </data>
+  <data name="&gt;&gt;cmbLikelihood.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbResponseStrategy.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;tbRiskLevel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblLikelihood.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblImpact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 128</value>
+  </data>
+  <data name="&gt;&gt;gbAssessment.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.Parent" xml:space="preserve">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblResponseStrategy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRiskLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblRiskCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbRiskLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 45</value>
+  </data>
+  <data name="&gt;&gt;lblRiskImpact.Name" xml:space="preserve">
+    <value>lblRiskImpact</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskCategory.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbRiskLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.Name" xml:space="preserve">
+    <value>TableLayoutPanelAssumptions</value>
+  </data>
+  <data name="tbResponseStrategy.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbRiskResponse.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbRiskLevel.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskResponse.Parent" xml:space="preserve">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;tbRiskLevel.Name" xml:space="preserve">
+    <value>tbRiskLevel</value>
+  </data>
+  <data name="&gt;&gt;cmbLikelihood.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblImpact.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblRiskLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLikelihood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbRiskResponse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 21</value>
+  </data>
+  <data name="lblImpact.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblLikelihood.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblRiskImpact.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRiskImpact.Text" xml:space="preserve">
+    <value>Potential impact:</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.Name" xml:space="preserve">
+    <value>gbResponse</value>
+  </data>
+  <data name="tbResponseStrategy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 45</value>
+  </data>
+  <data name="tbImpact.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblRiskImpact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="tbImpact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 105</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskImpact.Name" xml:space="preserve">
+    <value>cmbRiskImpact</value>
+  </data>
+  <data name="cmbOwner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 21</value>
+  </data>
+  <data name="lblOwner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 134</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskImpact.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblRiskLevel.Text" xml:space="preserve">
+    <value>Risk level:</value>
+  </data>
+  <data name="gbAssessment.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbAssessment.Name" xml:space="preserve">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskResponse.Name" xml:space="preserve">
+    <value>cmbRiskResponse</value>
+  </data>
+  <data name="lblRiskImpact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 101</value>
+  </data>
+  <data name="tbResponseStrategy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblResponseStrategy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbRiskResponse.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblRiskResponse.Parent" xml:space="preserve">
+    <value>gbResponse</value>
+  </data>
+  <data name="gbResponse.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmbRiskImpact.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblRiskCategory.Name" xml:space="preserve">
+    <value>lblRiskCategory</value>
+  </data>
+  <data name="lblRiskCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmbLikelihood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 71</value>
+  </data>
+  <data name="lblLikelihood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 74</value>
+  </data>
+  <data name="tbImpact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 125</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.Name" xml:space="preserve">
+    <value>lblOwner</value>
+  </data>
+  <data name="tbResponseStrategy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 80</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.Parent" xml:space="preserve">
+    <value>gbAssessment</value>
+  </data>
+  <data name="cmbLikelihood.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRiskLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmbRiskImpact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 98</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbResponseStrategy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblRiskCategory.Parent" xml:space="preserve">
+    <value>gbAssessment</value>
+  </data>
+  <data name="lblLikelihood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="gbAssessment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="gbResponse.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbRiskImpact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 21</value>
+  </data>
+  <data name="cmbLikelihood.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblRiskLevel.Parent" xml:space="preserve">
+    <value>gbAssessment</value>
+  </data>
+  <data name="TableLayoutPanelAssumptions.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="gbResponse" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="gbAssessment" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,100,Absolute,214" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;cmbLikelihood.Name" xml:space="preserve">
+    <value>cmbLikelihood</value>
+  </data>
+  <data name="lblResponseStrategy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="lblRiskResponse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskResponse.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbLikelihood.Parent" xml:space="preserve">
+    <value>gbAssessment</value>
+  </data>
+  <data name="gbResponse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 236</value>
+  </data>
+  <data name="&gt;&gt;lblLikelihood.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.Parent" xml:space="preserve">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;lblLikelihood.Name" xml:space="preserve">
+    <value>lblLikelihood</value>
+  </data>
+  <data name="TableLayoutPanelAssumptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblRiskResponse.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbRiskCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 18</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>859, 242</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbResponse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 3</value>
+  </data>
+  <data name="TableLayoutPanelAssumptions.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.Name" xml:space="preserve">
+    <value>lblResponseStrategy</value>
+  </data>
+  <data name="cmbRiskResponse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 18</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskResponse.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblRiskLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="lblImpact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblLikelihood.Parent" xml:space="preserve">
+    <value>gbAssessment</value>
+  </data>
+  <data name="lblResponseStrategy.Text" xml:space="preserve">
+    <value>Response strategy:</value>
+  </data>
+  <data name="tbImpact.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;lblRiskResponse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLikelihood.Text" xml:space="preserve">
+    <value>Likelihood:</value>
+  </data>
+  <data name="lblRiskCategory.Text" xml:space="preserve">
+    <value>Risk category:</value>
+  </data>
+  <data name="lblOwner.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskImpact.Parent" xml:space="preserve">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.Parent" xml:space="preserve">
+    <value>TableLayoutPanelAssumptions</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.Parent" xml:space="preserve">
+    <value>gbResponse</value>
+  </data>
+  <data name="lblImpact.Text" xml:space="preserve">
+    <value>Impact description:</value>
+  </data>
+  <data name="lblRiskCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.Parent" xml:space="preserve">
+    <value>gbResponse</value>
+  </data>
+  <data name="cmbRiskCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AssumptionRisks</value>
+  </data>
+  <data name="cmbRiskCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 21</value>
+  </data>
+  <data name="cmbLikelihood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 21</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.Parent" xml:space="preserve">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRiskLevel.Name" xml:space="preserve">
+    <value>lblRiskLevel</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskCategory.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="gbAssessment.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lblRiskCategory.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TableLayoutPanelAssumptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblRiskImpact.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gbAssessment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 236</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.Name" xml:space="preserve">
+    <value>tbResponseStrategy</value>
+  </data>
+  <data name="lblRiskResponse.Text" xml:space="preserve">
+    <value>Response:</value>
+  </data>
+  <data name="lblOwner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="TableLayoutPanelAssumptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>859, 242</value>
+  </data>
+  <data name="cmbOwner.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbAssessment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblResponseStrategy.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskCategory.Name" xml:space="preserve">
+    <value>cmbRiskCategory</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblImpact.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOwner.Text" xml:space="preserve">
+    <value>Risk owner:</value>
+  </data>
+  <data name="lblRiskCategory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblRiskResponse.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblRiskImpact.Parent" xml:space="preserve">
+    <value>gbAssessment</value>
+  </data>
+  <data name="tbImpact.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLayoutPanelAssumptions.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblRiskResponse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblRiskResponse.Name" xml:space="preserve">
+    <value>lblRiskResponse</value>
+  </data>
+  <data name="gbAssessment.Text" xml:space="preserve">
+    <value>Risk assessment</value>
+  </data>
+  <data name="&gt;&gt;lblRiskLevel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.Name" xml:space="preserve">
+    <value>lblImpact</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TableLayoutPanelAssumptions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblRiskImpact.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbRiskCategory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskCategory.Parent" xml:space="preserve">
+    <value>gbAssessment</value>
+  </data>
+  <data name="tbRiskLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmbOwner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 131</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.Name" xml:space="preserve">
+    <value>tbImpact</value>
+  </data>
+  <data name="&gt;&gt;tbRiskLevel.Parent" xml:space="preserve">
+    <value>gbAssessment</value>
+  </data>
+  <data name="lblRiskResponse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblRiskImpact.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbRiskImpact.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblRiskCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="lblOwner.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbAssessment.Parent" xml:space="preserve">
+    <value>TableLayoutPanelAssumptions</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskImpact.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbImpact.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblRiskLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr</value>
+  </metadata>
+</root>

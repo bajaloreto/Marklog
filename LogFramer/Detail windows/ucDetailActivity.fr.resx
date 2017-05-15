@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblExactEndDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1054, 6</value>
+  </data>
+  <data name="lblExactEndDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="lblExactEndDate.Text" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="lblExactStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>903, 6</value>
+  </data>
+  <data name="lblExactStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lblExactStartDate.Text" xml:space="preserve">
+    <value>Début:</value>
+  </data>
+  <data name="lblActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lblActivity.Text" xml:space="preserve">
+    <value>Activité:</value>
+  </data>
+  <data name="lblEndDateMainActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 13</value>
+  </data>
+  <data name="lblEndDateMainActivity.Text" xml:space="preserve">
+    <value>Fin:</value>
+  </data>
+  <data name="lblStartDateMainActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="lblStartDateMainActivity.Text" xml:space="preserve">
+    <value>Début:</value>
+  </data>
+  <data name="chkDurationUntilEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 17</value>
+  </data>
+  <data name="chkDurationUntilEnd.Text" xml:space="preserve">
+    <value>Jusqu'à la fin du projet</value>
+  </data>
+  <data name="lblDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lblDuration.Text" xml:space="preserve">
+    <value>Durée:</value>
+  </data>
+  <data name="dtbStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 33</value>
+  </data>
+  <data name="dtbStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 20</value>
+  </data>
+  <data name="rbtnExactDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="rbtnExactDate.Text" xml:space="preserve">
+    <value>Date exacte:</value>
+  </data>
+  <data name="lblStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="lblStart.Text" xml:space="preserve">
+    <value>Début activité:</value>
+  </data>
+  <data name="TabPageDuration.Text" xml:space="preserve">
+    <value>Durée</value>
+  </data>
+  <data name="lblType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>Type d'activité:</value>
+  </data>
+  <data name="lblLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="lblLocation.Text" xml:space="preserve">
+    <value>Endroit:</value>
+  </data>
+  <data name="lblOrganisation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblOrganisation.Text" xml:space="preserve">
+    <value>Organisé par:</value>
+  </data>
+  <data name="cmbType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 3</value>
+  </data>
+  <data name="cmbLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 57</value>
+  </data>
+  <data name="cmbOrganisation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 30</value>
+  </data>
+  <data name="lblStartDateFollowUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 36</value>
+  </data>
+  <data name="lblStartDateFollowUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="lblStartDateFollowUp.Text" xml:space="preserve">
+    <value>Début suivi:</value>
+  </data>
+  <data name="dtbStartDateFollowUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 33</value>
+  </data>
+  <data name="lblEndDatePreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>682, 10</value>
+  </data>
+  <data name="lblEndDatePreparation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 13</value>
+  </data>
+  <data name="lblEndDatePreparation.Text" xml:space="preserve">
+    <value>Fin:</value>
+  </data>
+  <data name="dtbEndDatePreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>712, 8</value>
+  </data>
+  <data name="lblEndDateFollowUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>682, 36</value>
+  </data>
+  <data name="lblEndDateFollowUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 13</value>
+  </data>
+  <data name="lblEndDateFollowUp.Text" xml:space="preserve">
+    <value>Fin:</value>
+  </data>
+  <data name="lblStartDatePreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 10</value>
+  </data>
+  <data name="lblStartDatePreparation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="lblStartDatePreparation.Text" xml:space="preserve">
+    <value>Début préparation:</value>
+  </data>
+  <data name="lblFollowUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="lblFollowUp.Text" xml:space="preserve">
+    <value>Suivi:</value>
+  </data>
+  <data name="lblPreparation.Text" xml:space="preserve">
+    <value>Préparation:</value>
+  </data>
+  <data name="dtbEndDateFollowUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>712, 34</value>
+  </data>
+  <data name="chkFollowUpRepeat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 35</value>
+  </data>
+  <data name="chkFollowUpRepeat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="chkFollowUpRepeat.Text" xml:space="preserve">
+    <value>Répétition</value>
+  </data>
+  <data name="chkPreparationRepeat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 9</value>
+  </data>
+  <data name="chkPreparationRepeat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="chkPreparationRepeat.Text" xml:space="preserve">
+    <value>Répétition</value>
+  </data>
+  <data name="dtbStartDatePreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 7</value>
+  </data>
+  <data name="chkFollowUpUntilEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 36</value>
+  </data>
+  <data name="chkFollowUpUntilEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 17</value>
+  </data>
+  <data name="chkFollowUpUntilEnd.Text" xml:space="preserve">
+    <value>Jusqu'à la fin du projet</value>
+  </data>
+  <data name="chkPreparationFromStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 9</value>
+  </data>
+  <data name="chkPreparationFromStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 17</value>
+  </data>
+  <data name="chkPreparationFromStart.Text" xml:space="preserve">
+    <value>Dès le départ du projet</value>
+  </data>
+  <data name="ntbFollowUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 33</value>
+  </data>
+  <data name="ntbPreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 7</value>
+  </data>
+  <data name="cmbFollowUpUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 33</value>
+  </data>
+  <data name="cmbPreparationUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 7</value>
+  </data>
+  <data name="TabPagePreparation.Text" xml:space="preserve">
+    <value>Préparation &amp; Suivi</value>
+  </data>
+  <data name="lvRepeatDates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 32</value>
+  </data>
+  <data name="lvRepeatDates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 152</value>
+  </data>
+  <data name="lblTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 9</value>
+  </data>
+  <data name="lblTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="lblTimes.Text" xml:space="preserve">
+    <value>fois</value>
+  </data>
+  <data name="lblNumberRepeats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 9</value>
+  </data>
+  <data name="lblNumberRepeats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lblNumberRepeats.Text" xml:space="preserve">
+    <value>Répéter:</value>
+  </data>
+  <data name="lblRepeat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="lblRepeat.Text" xml:space="preserve">
+    <value>Répète chaque:</value>
+  </data>
+  <data name="ntbRepeatTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 6</value>
+  </data>
+  <data name="chkRepeatUntilEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 8</value>
+  </data>
+  <data name="chkRepeatUntilEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 17</value>
+  </data>
+  <data name="chkRepeatUntilEnd.Text" xml:space="preserve">
+    <value>Jusqu'à la fin du projet</value>
+  </data>
+  <data name="ntbRepeatEvery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 6</value>
+  </data>
+  <data name="cmbRepeatUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 6</value>
+  </data>
+  <data name="TabPageRepeat.Text" xml:space="preserve">
+    <value>Répétition</value>
+  </data>
+  <data name="TabPageChildActivities.Text" xml:space="preserve">
+    <value>Sous-activités</value>
+  </data>
+  <data name="tbActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 3</value>
+  </data>
+  <data name="tbActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>830, 16</value>
+  </data>
+  <data name="dtbExactStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>948, 3</value>
+  </data>
+</root>

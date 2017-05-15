@@ -1,0 +1,2035 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Logframer</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>frmParent</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BottomProgressBar.Name">
+    <value>BottomProgressBar</value>
+  </data>
+  <data name="&gt;&gt;BottomProgressBar.Type">
+    <value>System.Windows.Forms.ToolStripProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewAssumptionsTable.Name">
+    <value>DropDownButtonPreviewAssumptionsTable</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewAssumptionsTable.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewBudget.Name">
+    <value>DropDownButtonPreviewBudget</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewBudget.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewDependenciesTable.Name">
+    <value>DropDownButtonPreviewDependenciesTable</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewDependenciesTable.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewIndicators.Name">
+    <value>DropDownButtonPreviewIndicators</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewIndicators.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewLogframe.Name">
+    <value>DropDownButtonPreviewLogframe</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewLogframe.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewPMF.Name">
+    <value>DropDownButtonPreviewPMF</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewPMF.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewPartnerList.Name">
+    <value>DropDownButtonPreviewPartnerList</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewPartnerList.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewPlanning.Name">
+    <value>DropDownButtonPreviewPlanning</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewPlanning.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewResources.Name">
+    <value>DropDownButtonPreviewResources</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewResources.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewRiskRegister.Name">
+    <value>DropDownButtonPreviewRiskRegister</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewRiskRegister.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewTargetGroupId.Name">
+    <value>DropDownButtonPreviewTargetGroupId</value>
+  </data>
+  <data name="&gt;&gt;DropDownButtonPreviewTargetGroupId.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonAlignCentre.Name">
+    <value>RibbonButtonAlignCentre</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonAlignCentre.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonAlignLeft.Name">
+    <value>RibbonButtonAlignLeft</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonAlignLeft.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonAlignRight.Name">
+    <value>RibbonButtonAlignRight</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonAlignRight.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetDetailsWindow.Name">
+    <value>RibbonButtonBudgetDetailsWindow</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetDetailsWindow.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetEmptyCells.Name">
+    <value>RibbonButtonBudgetEmptyCells</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetEmptyCells.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetExchangeRates.Name">
+    <value>RibbonButtonBudgetExchangeRates</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetExchangeRates.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetShowDurationColumn.Name">
+    <value>RibbonButtonBudgetShowDurationColumn</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetShowDurationColumn.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetShowLocalCurrencyColumn.Name">
+    <value>RibbonButtonBudgetShowLocalCurrencyColumn</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetShowLocalCurrencyColumn.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetTemplateDcAc.Name">
+    <value>RibbonButtonBudgetTemplateDcAc</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetTemplateDcAc.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetTemplateDevelopment1.Name">
+    <value>RibbonButtonBudgetTemplateDevelopment1</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetTemplateDevelopment1.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetTemplateHumanitarian1.Name">
+    <value>RibbonButtonBudgetTemplateHumanitarian1</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetTemplateHumanitarian1.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetTemplateHumanitarian2.Name">
+    <value>RibbonButtonBudgetTemplateHumanitarian2</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetTemplateHumanitarian2.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetTemplateHumanitarian3.Name">
+    <value>RibbonButtonBudgetTemplateHumanitarian3</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonBudgetTemplateHumanitarian3.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCaps.Name">
+    <value>RibbonButtonCaps</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCaps.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCloseProject.Name">
+    <value>RibbonButtonCloseProject</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCloseProject.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCloudDownload.Name">
+    <value>RibbonButtonCloudDownload</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCloudDownload.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCloudSettings.Name">
+    <value>RibbonButtonCloudSettings</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCloudSettings.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCloudUpload.Name">
+    <value>RibbonButtonCloudUpload</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCloudUpload.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCopyItems.Name">
+    <value>RibbonButtonCopyItems</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCopyItems.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCopyText.Name">
+    <value>RibbonButtonCopyText</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCopyText.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCutItems.Name">
+    <value>RibbonButtonCutItems</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCutItems.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCutText.Name">
+    <value>RibbonButtonCutText</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonCutText.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonDetailsWindow.Name">
+    <value>RibbonButtonDetailsWindow</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonDetailsWindow.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonEditItem.Name">
+    <value>RibbonButtonEditItem</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonEditItem.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonEmptyCells.Name">
+    <value>RibbonButtonEmptyCells</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonEmptyCells.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonEraseFormating.Name">
+    <value>RibbonButtonEraseFormating</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonEraseFormating.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExcel.Name">
+    <value>RibbonButtonExcel</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExcel.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportExcelBudget.Name">
+    <value>RibbonButtonExportExcelBudget</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportExcelBudget.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportExcelLogframe.Name">
+    <value>RibbonButtonExportExcelLogframe</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportExcelLogframe.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportExcelMonitoring.Name">
+    <value>RibbonButtonExportExcelMonitoring</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportExcelMonitoring.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportExcelPmf.Name">
+    <value>RibbonButtonExportExcelPmf</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportExcelPmf.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportExcelRiskRegister.Name">
+    <value>RibbonButtonExportExcelRiskRegister</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportExcelRiskRegister.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportMonitoringTool.Name">
+    <value>RibbonButtonExportMonitoringTool</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportMonitoringTool.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportRiskRegister.Name">
+    <value>RibbonButtonExportRiskRegister</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportRiskRegister.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordAssumptions.Name">
+    <value>RibbonButtonExportWordAssumptions</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordAssumptions.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordIdForm.Name">
+    <value>RibbonButtonExportWordIdForm</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordIdForm.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordLogframe.Name">
+    <value>RibbonButtonExportWordLogframe</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordLogframe.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordPartners.Name">
+    <value>RibbonButtonExportWordPartners</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordPartners.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordPlanning.Name">
+    <value>RibbonButtonExportWordPlanning</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordPlanning.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordPmf.Name">
+    <value>RibbonButtonExportWordPmf</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordPmf.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordRisks.Name">
+    <value>RibbonButtonExportWordRisks</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonExportWordRisks.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFind.Name">
+    <value>RibbonButtonFind</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFind.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFirstLetterUppercase.Name">
+    <value>RibbonButtonFirstLetterUppercase</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFirstLetterUppercase.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontBold.Name">
+    <value>RibbonButtonFontBold</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontBold.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontColor.Name">
+    <value>RibbonButtonFontColor</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontColor.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontItalic.Name">
+    <value>RibbonButtonFontItalic</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontItalic.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontLarger.Name">
+    <value>RibbonButtonFontLarger</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontLarger.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontSmaller.Name">
+    <value>RibbonButtonFontSmaller</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontSmaller.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontStrikeout.Name">
+    <value>RibbonButtonFontStrikeout</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontStrikeout.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontSubscript.Name">
+    <value>RibbonButtonFontSubscript</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontSubscript.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontSuperscript.Name">
+    <value>RibbonButtonFontSuperscript</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontSuperscript.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontUnderline.Name">
+    <value>RibbonButtonFontUnderline</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonFontUnderline.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonImportExcelBudget.Name">
+    <value>RibbonButtonImportExcelBudget</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonImportExcelBudget.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonImportExcelLogframe.Name">
+    <value>RibbonButtonImportExcelLogframe</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonImportExcelLogframe.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonImportWordLogframe.Name">
+    <value>RibbonButtonImportWordLogframe</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonImportWordLogframe.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonInsertChild.Name">
+    <value>RibbonButtonInsertChild</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonInsertChild.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonInsertItem.Name">
+    <value>RibbonButtonInsertItem</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonInsertItem.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonInsertParent.Name">
+    <value>RibbonButtonInsertParent</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonInsertParent.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLanguage.Name">
+    <value>RibbonButtonLanguage</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLanguage.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLanguageDutch.Name">
+    <value>RibbonButtonLanguageDutch</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLanguageDutch.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLanguageEnglish.Name">
+    <value>RibbonButtonLanguageEnglish</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLanguageEnglish.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLanguageFrench.Name">
+    <value>RibbonButtonLanguageFrench</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLanguageFrench.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLeftIndentDecrease.Name">
+    <value>RibbonButtonLeftIndentDecrease</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLeftIndentDecrease.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLeftIndentIncrease.Name">
+    <value>RibbonButtonLeftIndentIncrease</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLeftIndentIncrease.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLevelDown.Name">
+    <value>RibbonButtonLevelDown</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLevelDown.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLevelUp.Name">
+    <value>RibbonButtonLevelUp</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLevelUp.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLink.Name">
+    <value>RibbonButtonLink</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLink.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonListBudgetTemplates.Name">
+    <value>RibbonButtonListBudgetTemplates</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonListBudgetTemplates.Type">
+    <value>System.Windows.Forms.RibbonButtonList, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonListReports.Name">
+    <value>RibbonButtonListReports</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonListReports.Type">
+    <value>System.Windows.Forms.RibbonButtonList, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLowercase.Name">
+    <value>RibbonButtonLowercase</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonLowercase.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonMarkerColor.Name">
+    <value>RibbonButtonMarkerColor</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonMarkerColor.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonMoveDown.Name">
+    <value>RibbonButtonMoveDown</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonMoveDown.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonMoveUp.Name">
+    <value>RibbonButtonMoveUp</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonMoveUp.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonMultiYearBudget.Name">
+    <value>RibbonButtonMultiYearBudget</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonMultiYearBudget.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonNewItem.Name">
+    <value>RibbonButtonNewItem</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonNewItem.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonNewProject.Name">
+    <value>RibbonButtonNewProject</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonNewProject.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonOpenProject.Name">
+    <value>RibbonButtonOpenProject</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonOpenProject.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonOpenWebsite.Name">
+    <value>RibbonButtonOpenWebsite</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonOpenWebsite.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteItems.Name">
+    <value>RibbonButtonPasteItems</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteItems.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteKeepFormatting.Name">
+    <value>RibbonButtonPasteKeepFormatting</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteKeepFormatting.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteMergeFormatting.Name">
+    <value>RibbonButtonPasteMergeFormatting</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteMergeFormatting.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteNoDependencies.Name">
+    <value>RibbonButtonPasteNoDependencies</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteNoDependencies.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteNoDetail.Name">
+    <value>RibbonButtonPasteNoDetail</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteNoDetail.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteNoVertLogic.Name">
+    <value>RibbonButtonPasteNoVertLogic</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteNoVertLogic.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteText.Name">
+    <value>RibbonButtonPasteText</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteText.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteTextOnly.Name">
+    <value>RibbonButtonPasteTextOnly</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPasteTextOnly.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningActivities.Name">
+    <value>RibbonButtonPlanningActivities</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningActivities.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningDays.Name">
+    <value>RibbonButtonPlanningDays</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningDays.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningDetailsWindow.Name">
+    <value>RibbonButtonPlanningDetailsWindow</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningDetailsWindow.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningEmptyCells.Name">
+    <value>RibbonButtonPlanningEmptyCells</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningEmptyCells.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningKeyMoments.Name">
+    <value>RibbonButtonPlanningKeyMoments</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningKeyMoments.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningMonths.Name">
+    <value>RibbonButtonPlanningMonths</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningMonths.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningShowActivityLinks.Name">
+    <value>RibbonButtonPlanningShowActivityLinks</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningShowActivityLinks.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningShowDatesColumn.Name">
+    <value>RibbonButtonPlanningShowDatesColumn</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningShowDatesColumn.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningShowKeyMomentLinks.Name">
+    <value>RibbonButtonPlanningShowKeyMomentLinks</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningShowKeyMomentLinks.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningShowRtfColumn.Name">
+    <value>RibbonButtonPlanningShowRtfColumn</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningShowRtfColumn.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningWeeks.Name">
+    <value>RibbonButtonPlanningWeeks</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningWeeks.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningYears.Name">
+    <value>RibbonButtonPlanningYears</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPlanningYears.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewBudget.Name">
+    <value>RibbonButtonPreviewBudget</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewBudget.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewIdForm.Name">
+    <value>RibbonButtonPreviewIdForm</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewIdForm.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewIndicators.Name">
+    <value>RibbonButtonPreviewIndicators</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewIndicators.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewLogframe.Name">
+    <value>RibbonButtonPreviewLogframe</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewLogframe.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewPMF.Name">
+    <value>RibbonButtonPreviewPMF</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewPMF.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewPlanning.Name">
+    <value>RibbonButtonPreviewPlanning</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewPlanning.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewRiskRegister.Name">
+    <value>RibbonButtonPreviewRiskRegister</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonPreviewRiskRegister.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonProject1.Name">
+    <value>RibbonButtonProject1</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonProject1.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonQuickSave.Name">
+    <value>RibbonButtonQuickSave</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonQuickSave.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonRecentFiles.Name">
+    <value>RibbonButtonRecentFiles</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonRecentFiles.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonRedo.Name">
+    <value>RibbonButtonRedo</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonRedo.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonReferenceCopyNextYear.Name">
+    <value>RibbonButtonReferenceCopyNextYear</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonReferenceCopyNextYear.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonReferenceCopyPreviousYear.Name">
+    <value>RibbonButtonReferenceCopyPreviousYear</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonReferenceCopyPreviousYear.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonRemoveItem.Name">
+    <value>RibbonButtonRemoveItem</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonRemoveItem.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonReplace.Name">
+    <value>RibbonButtonReplace</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonReplace.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSaveProject.Name">
+    <value>RibbonButtonSaveProject</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSaveProject.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSaveProjectAs.Name">
+    <value>RibbonButtonSaveProjectAs</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSaveProjectAs.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSectionDown.Name">
+    <value>RibbonButtonSectionDown</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSectionDown.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSectionUp.Name">
+    <value>RibbonButtonSectionUp</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSectionUp.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectAllText.Name">
+    <value>RibbonButtonSelectAllText</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectAllText.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectAssumptions.Name">
+    <value>RibbonButtonSelectAssumptions</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectAssumptions.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectBudget.Name">
+    <value>RibbonButtonSelectBudget</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectBudget.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectBudgetItems.Name">
+    <value>RibbonButtonSelectBudgetItems</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectBudgetItems.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectIndicators.Name">
+    <value>RibbonButtonSelectIndicators</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectIndicators.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectProjectLogic.Name">
+    <value>RibbonButtonSelectProjectLogic</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectProjectLogic.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectResources.Name">
+    <value>RibbonButtonSelectResources</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectResources.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectStatements.Name">
+    <value>RibbonButtonSelectStatements</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectStatements.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectTextInCell.Name">
+    <value>RibbonButtonSelectTextInCell</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectTextInCell.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectTextInLogframe.Name">
+    <value>RibbonButtonSelectTextInLogframe</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectTextInLogframe.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectVerificationSources.Name">
+    <value>RibbonButtonSelectVerificationSources</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSelectVerificationSources.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSendEmail.Name">
+    <value>RibbonButtonSendEmail</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSendEmail.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSendLetter.Name">
+    <value>RibbonButtonSendLetter</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSendLetter.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSentence.Name">
+    <value>RibbonButtonSentence</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSentence.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSettings.Name">
+    <value>RibbonButtonSettings</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSettings.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowActivities.Name">
+    <value>RibbonButtonShowActivities</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowActivities.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowAssumptions.Name">
+    <value>RibbonButtonShowAssumptions</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowAssumptions.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowGoals.Name">
+    <value>RibbonButtonShowGoals</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowGoals.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowIndicators.Name">
+    <value>RibbonButtonShowIndicators</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowIndicators.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowLogframe.Name">
+    <value>RibbonButtonShowLogframe</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowLogframe.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowOutputs.Name">
+    <value>RibbonButtonShowOutputs</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowOutputs.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowProcessIndicators.Name">
+    <value>RibbonButtonShowProcessIndicators</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowProcessIndicators.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowProjectLogic.Name">
+    <value>RibbonButtonShowProjectLogic</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowProjectLogic.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowPurposes.Name">
+    <value>RibbonButtonShowPurposes</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowPurposes.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowPurposesOnly.Name">
+    <value>RibbonButtonShowPurposesOnly</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowPurposesOnly.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowResourcesBudget.Name">
+    <value>RibbonButtonShowResourcesBudget</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowResourcesBudget.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowVerificationSources.Name">
+    <value>RibbonButtonShowVerificationSources</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonShowVerificationSources.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSimpleBudget.Name">
+    <value>RibbonButtonSimpleBudget</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSimpleBudget.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSkype.Name">
+    <value>RibbonButtonSkype</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonSkype.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonTextColor.Name">
+    <value>RibbonButtonTextColor</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonTextColor.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonUndo.Name">
+    <value>RibbonButtonUndo</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonUndo.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonUnlink.Name">
+    <value>RibbonButtonUnlink</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonUnlink.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonUppercase.Name">
+    <value>RibbonButtonUppercase</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonUppercase.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonWord.Name">
+    <value>RibbonButtonWord</value>
+  </data>
+  <data name="&gt;&gt;RibbonButtonWord.Type">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonComboBoxFontName.Name">
+    <value>RibbonComboBoxFontName</value>
+  </data>
+  <data name="&gt;&gt;RibbonComboBoxFontName.Type">
+    <value>System.Windows.Forms.RibbonComboBox, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonComboBoxFontSize.Name">
+    <value>RibbonComboBoxFontSize</value>
+  </data>
+  <data name="&gt;&gt;RibbonComboBoxFontSize.Type">
+    <value>System.Windows.Forms.RibbonComboBox, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonComboBoxTextSelection.Name">
+    <value>RibbonComboBoxTextSelection</value>
+  </data>
+  <data name="&gt;&gt;RibbonComboBoxTextSelection.Type">
+    <value>System.Windows.Forms.RibbonComboBox, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupCaps.Name">
+    <value>RibbonItemGroupCaps</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupCaps.Type">
+    <value>System.Windows.Forms.RibbonItemGroup, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupErase.Name">
+    <value>RibbonItemGroupErase</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupErase.Type">
+    <value>System.Windows.Forms.RibbonItemGroup, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupFont.Name">
+    <value>RibbonItemGroupFont</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupFont.Type">
+    <value>System.Windows.Forms.RibbonItemGroup, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupFontColour.Name">
+    <value>RibbonItemGroupFontColour</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupFontColour.Type">
+    <value>System.Windows.Forms.RibbonItemGroup, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupFontOptions.Name">
+    <value>RibbonItemGroupFontOptions</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupFontOptions.Type">
+    <value>System.Windows.Forms.RibbonItemGroup, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupLeftIndent.Name">
+    <value>RibbonItemGroupLeftIndent</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupLeftIndent.Type">
+    <value>System.Windows.Forms.RibbonItemGroup, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupParagraphAlign.Name">
+    <value>RibbonItemGroupParagraphAlign</value>
+  </data>
+  <data name="&gt;&gt;RibbonItemGroupParagraphAlign.Type">
+    <value>System.Windows.Forms.RibbonItemGroup, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonLF.Name">
+    <value>RibbonLF</value>
+  </data>
+  <data name="&gt;&gt;RibbonLF.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RibbonLF.Type">
+    <value>System.Windows.Forms.Ribbon, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonLF.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RibbonLabelItemPasteOptions.Name">
+    <value>RibbonLabelItemPasteOptions</value>
+  </data>
+  <data name="&gt;&gt;RibbonLabelItemPasteOptions.Type">
+    <value>System.Windows.Forms.RibbonLabel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonLabelPasteOptions.Name">
+    <value>RibbonLabelPasteOptions</value>
+  </data>
+  <data name="&gt;&gt;RibbonLabelPasteOptions.Type">
+    <value>System.Windows.Forms.RibbonLabel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelAddRemove.Name">
+    <value>RibbonPanelAddRemove</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelAddRemove.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelBudgetColumns.Name">
+    <value>RibbonPanelBudgetColumns</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelBudgetColumns.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelBudgetStructure.Name">
+    <value>RibbonPanelBudgetStructure</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelBudgetStructure.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelBudgetView.Name">
+    <value>RibbonPanelBudgetView</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelBudgetView.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelClipboardItems.Name">
+    <value>RibbonPanelClipboardItems</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelClipboardItems.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelClipboardText.Name">
+    <value>RibbonPanelClipboardText</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelClipboardText.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelCloud.Name">
+    <value>RibbonPanelCloud</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelCloud.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelColumns.Name">
+    <value>RibbonPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelColumns.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelDocuments.Name">
+    <value>RibbonPanelDocuments</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelDocuments.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelEdit.Name">
+    <value>RibbonPanelEdit</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelEdit.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelEditItems.Name">
+    <value>RibbonPanelEditItems</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelEditItems.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelExternalCom.Name">
+    <value>RibbonPanelExternalCom</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelExternalCom.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelImportExport.Name">
+    <value>RibbonPanelImportExport</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelImportExport.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelLink.Name">
+    <value>RibbonPanelLink</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelLink.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelParagraph.Name">
+    <value>RibbonPanelParagraph</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelParagraph.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelPlanningColumns.Name">
+    <value>RibbonPanelPlanningColumns</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelPlanningColumns.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelPlanningItems.Name">
+    <value>RibbonPanelPlanningItems</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelPlanningItems.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelPlanningView.Name">
+    <value>RibbonPanelPlanningView</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelPlanningView.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelProjects.Name">
+    <value>RibbonPanelProjects</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelProjects.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelReferences.Name">
+    <value>RibbonPanelReferences</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelReferences.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelReports.Name">
+    <value>RibbonPanelReports</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelReports.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelSections.Name">
+    <value>RibbonPanelSections</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelSections.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelSettings.Name">
+    <value>RibbonPanelSettings</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelSettings.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelStructure.Name">
+    <value>RibbonPanelStructure</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelStructure.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelTypeface.Name">
+    <value>RibbonPanelTypeface</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelTypeface.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelView.Name">
+    <value>RibbonPanelView</value>
+  </data>
+  <data name="&gt;&gt;RibbonPanelView.Type">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator1.Name">
+    <value>RibbonSeparator1</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator1.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator10.Name">
+    <value>RibbonSeparator10</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator10.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator11.Name">
+    <value>RibbonSeparator11</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator11.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator12.Name">
+    <value>RibbonSeparator12</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator12.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator13.Name">
+    <value>RibbonSeparator13</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator13.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator14.Name">
+    <value>RibbonSeparator14</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator14.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator15.Name">
+    <value>RibbonSeparator15</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator15.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator16.Name">
+    <value>RibbonSeparator16</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator16.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator17.Name">
+    <value>RibbonSeparator17</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator17.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator18.Name">
+    <value>RibbonSeparator18</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator18.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator2.Name">
+    <value>RibbonSeparator2</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator2.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator3.Name">
+    <value>RibbonSeparator3</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator3.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator4.Name">
+    <value>RibbonSeparator4</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator4.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator5.Name">
+    <value>RibbonSeparator5</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator5.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator6.Name">
+    <value>RibbonSeparator6</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator6.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator7.Name">
+    <value>RibbonSeparator7</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator7.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator8.Name">
+    <value>RibbonSeparator8</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator8.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator9.Name">
+    <value>RibbonSeparator9</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparator9.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparatorBudget10.Name">
+    <value>RibbonSeparatorBudget10</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparatorBudget10.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparatorBudget11.Name">
+    <value>RibbonSeparatorBudget11</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparatorBudget11.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparatorMarkerColor.Name">
+    <value>RibbonSeparatorMarkerColor</value>
+  </data>
+  <data name="&gt;&gt;RibbonSeparatorMarkerColor.Type">
+    <value>System.Windows.Forms.RibbonSeparator, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabCollaborate.Name">
+    <value>RibbonTabCollaborate</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabCollaborate.Type">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabFile.Name">
+    <value>RibbonTabFile</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabFile.Type">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabItems.Name">
+    <value>RibbonTabItems</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabItems.Type">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabLayOutBudget.Name">
+    <value>RibbonTabLayOutBudget</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabLayOutBudget.Type">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabLayOutLogframe.Name">
+    <value>RibbonTabLayOutLogframe</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabLayOutLogframe.Type">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabLayOutPlanning.Name">
+    <value>RibbonTabLayOutPlanning</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabLayOutPlanning.Type">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabText.Name">
+    <value>RibbonTabText</value>
+  </data>
+  <data name="&gt;&gt;RibbonTabText.Type">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;StatusLabelGeneral.Name">
+    <value>StatusLabelGeneral</value>
+  </data>
+  <data name="&gt;&gt;StatusLabelGeneral.Type">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusStripBottom.Name">
+    <value>StatusStripBottom</value>
+  </data>
+  <data name="&gt;&gt;StatusStripBottom.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StatusStripBottom.Type">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusStripBottom.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="DropDownButtonPreviewAssumptionsTable.Text">
+    <value>Assumptions table</value>
+  </data>
+  <data name="DropDownButtonPreviewBudget.Text">
+    <value>Budget</value>
+  </data>
+  <data name="DropDownButtonPreviewDependenciesTable.Text">
+    <value>Dependencies table</value>
+  </data>
+  <data name="DropDownButtonPreviewIndicators.Text">
+    <value>Indicators</value>
+  </data>
+  <data name="DropDownButtonPreviewLogframe.Text">
+    <value>Logframe</value>
+  </data>
+  <data name="DropDownButtonPreviewPMF.Text">
+    <value>Performance Measurement Framework</value>
+  </data>
+  <data name="DropDownButtonPreviewPartnerList.Text">
+    <value>List of partner organisations</value>
+  </data>
+  <data name="DropDownButtonPreviewPlanning.Text">
+    <value>Planning</value>
+  </data>
+  <data name="DropDownButtonPreviewResources.Text">
+    <value>Resources table</value>
+  </data>
+  <data name="DropDownButtonPreviewRiskRegister.Text">
+    <value>Risk Register</value>
+  </data>
+  <data name="DropDownButtonPreviewTargetGroupId.Text">
+    <value>Target group identification form</value>
+  </data>
+  <data name="RibbonButtonBudgetDetailsWindow.Text">
+    <value>Show details</value>
+  </data>
+  <data name="RibbonButtonBudgetEmptyCells.Text">
+    <value>Hide empty cells</value>
+  </data>
+  <data name="RibbonButtonBudgetExchangeRates.Text">
+    <value>Exchange rates</value>
+  </data>
+  <data name="RibbonButtonBudgetShowDurationColumn.Text">
+    <value>Duration</value>
+  </data>
+  <data name="RibbonButtonBudgetShowLocalCurrencyColumn.Text">
+    <value>Local currency</value>
+  </data>
+  <data name="RibbonButtonBudgetTemplateDcAc.Text">
+    <value>Direct / Admin cost</value>
+  </data>
+  <data name="RibbonButtonBudgetTemplateDevelopment1.Text">
+    <value>Development 1 (EuropeAid)</value>
+  </data>
+  <data name="RibbonButtonBudgetTemplateHumanitarian1.Text">
+    <value>Humanitarian 1 (ECHO)</value>
+  </data>
+  <data name="RibbonButtonBudgetTemplateHumanitarian2.Text">
+    <value>Humanitarian 2 (DFID)</value>
+  </data>
+  <data name="RibbonButtonBudgetTemplateHumanitarian3.Text">
+    <value>Humanitarian 3 (CIDA)</value>
+  </data>
+  <data name="RibbonButtonCloseProject.Text">
+    <value>Close project</value>
+  </data>
+  <data name="RibbonButtonCloudDownload.Text">
+    <value>Download project</value>
+  </data>
+  <data name="RibbonButtonCloudSettings.Text">
+    <value>Cloud settings</value>
+  </data>
+  <data name="RibbonButtonCloudUpload.Text">
+    <value>Upload  project</value>
+  </data>
+  <data name="RibbonButtonCopyItems.Text">
+    <value>Copy items</value>
+  </data>
+  <data name="RibbonButtonCopyText.Text">
+    <value>Copy text</value>
+  </data>
+  <data name="RibbonButtonCutItems.Text">
+    <value>Cut items</value>
+  </data>
+  <data name="RibbonButtonCutText.Text">
+    <value>Cut text</value>
+  </data>
+  <data name="RibbonButtonDetailsWindow.Text">
+    <value>Show details</value>
+  </data>
+  <data name="RibbonButtonEditItem.Text">
+    <value>Edit</value>
+  </data>
+  <data name="RibbonButtonEmptyCells.Text">
+    <value>Hide empty cells</value>
+  </data>
+  <data name="RibbonButtonExcel.Text">
+    <value>Excel</value>
+  </data>
+  <data name="RibbonButtonExportExcelBudget.Text">
+    <value>Export budget</value>
+  </data>
+  <data name="RibbonButtonExportExcelLogframe.Text">
+    <value>Export logframe</value>
+  </data>
+  <data name="RibbonButtonExportExcelMonitoring.Text">
+    <value>Export monitoring tool</value>
+  </data>
+  <data name="RibbonButtonExportExcelPmf.Text">
+    <value>Export Performance Measurement Framework</value>
+  </data>
+  <data name="RibbonButtonExportExcelRiskRegister.Text">
+    <value>Export Risk Register</value>
+  </data>
+  <data name="RibbonButtonExportMonitoringTool.Text">
+    <value>Create Monitoring Tool</value>
+  </data>
+  <data name="RibbonButtonExportRiskRegister.Text">
+    <value>Create Risk Register</value>
+  </data>
+  <data name="RibbonButtonExportWordAssumptions.Text">
+    <value>Export assumptions table</value>
+  </data>
+  <data name="RibbonButtonExportWordIdForm.Text">
+    <value>Export target group ID form</value>
+  </data>
+  <data name="RibbonButtonExportWordLogframe.Text">
+    <value>Export logical framework</value>
+  </data>
+  <data name="RibbonButtonExportWordPartners.Text">
+    <value>Export partner info</value>
+  </data>
+  <data name="RibbonButtonExportWordPlanning.Text">
+    <value>Export planning</value>
+  </data>
+  <data name="RibbonButtonExportWordPmf.Text">
+    <value>Export Performance Measurement Framework (PMF)</value>
+  </data>
+  <data name="RibbonButtonExportWordRisks.Text">
+    <value>Export risks table</value>
+  </data>
+  <data name="RibbonButtonFind.Text">
+    <value>Find text</value>
+  </data>
+  <data name="RibbonButtonFirstLetterUppercase.Text">
+    <value>First Letter Uppercase</value>
+  </data>
+  <data name="RibbonButtonFontBold.Text">
+    <value>Bold</value>
+  </data>
+  <data name="RibbonButtonImportExcelBudget.Text">
+    <value>Import a budget from a MS Excel workbook </value>
+  </data>
+  <data name="RibbonButtonImportExcelLogframe.Text">
+    <value>Import a logframe from a MS Excel workbook </value>
+  </data>
+  <data name="RibbonButtonImportWordLogframe.Text">
+    <value>Import an existing logical framework</value>
+  </data>
+  <data name="RibbonButtonInsertChild.Text">
+    <value>Insert child</value>
+  </data>
+  <data name="RibbonButtonInsertItem.Text">
+    <value>Insert</value>
+  </data>
+  <data name="RibbonButtonInsertParent.Text">
+    <value>Insert parent</value>
+  </data>
+  <data name="RibbonButtonLanguage.Text">
+    <value>Language</value>
+  </data>
+  <data name="RibbonButtonLanguageDutch.Text">
+    <value>Nederlands</value>
+  </data>
+  <data name="RibbonButtonLanguageEnglish.Text">
+    <value>English</value>
+  </data>
+  <data name="RibbonButtonLanguageFrench.Text">
+    <value>Français</value>
+  </data>
+  <data name="RibbonButtonLevelDown.Text">
+    <value>Level down</value>
+  </data>
+  <data name="RibbonButtonLevelUp.Text">
+    <value>Level up</value>
+  </data>
+  <data name="RibbonButtonLink.Text">
+    <value>Link</value>
+  </data>
+  <data name="RibbonButtonLowercase.Text">
+    <value>all lower case</value>
+  </data>
+  <data name="RibbonButtonMoveDown.Text">
+    <value>Move down</value>
+  </data>
+  <data name="RibbonButtonMoveUp.Text">
+    <value>Move up</value>
+  </data>
+  <data name="RibbonButtonMultiYearBudget.Text">
+    <value>Multi-year budget</value>
+  </data>
+  <data name="RibbonButtonNewItem.Text">
+    <value>Add</value>
+  </data>
+  <data name="RibbonButtonNewProject.Text">
+    <value>New project</value>
+  </data>
+  <data name="RibbonButtonOpenProject.Text">
+    <value>Open project</value>
+  </data>
+  <data name="RibbonButtonOpenWebsite.Text">
+    <value>View site</value>
+  </data>
+  <data name="RibbonButtonPasteItems.Text">
+    <value>Paste items</value>
+  </data>
+  <data name="RibbonButtonPasteKeepFormatting.Text">
+    <value>Keep source formatting</value>
+  </data>
+  <data name="RibbonButtonPasteKeepFormatting.ToolTip">
+    <value>Keep source formatting</value>
+  </data>
+  <data name="RibbonButtonPasteMergeFormatting.Text">
+    <value>Merge formatting</value>
+  </data>
+  <data name="RibbonButtonPasteMergeFormatting.ToolTip">
+    <value>Merge formatting</value>
+  </data>
+  <data name="RibbonButtonPasteNoDependencies.Text">
+    <value>No vertical children or details</value>
+  </data>
+  <data name="RibbonButtonPasteNoDependencies.ToolTip">
+    <value>No vertical children or details</value>
+  </data>
+  <data name="RibbonButtonPasteNoDetail.Text">
+    <value>No details</value>
+  </data>
+  <data name="RibbonButtonPasteNoDetail.ToolTip">
+    <value>No details</value>
+  </data>
+  <data name="RibbonButtonPasteNoVertLogic.Text">
+    <value>No vertical children</value>
+  </data>
+  <data name="RibbonButtonPasteNoVertLogic.ToolTip">
+    <value>No vertical children</value>
+  </data>
+  <data name="RibbonButtonPasteText.Text">
+    <value>Paste text</value>
+  </data>
+  <data name="RibbonButtonPasteTextOnly.Text">
+    <value>Keep text only</value>
+  </data>
+  <data name="RibbonButtonPasteTextOnly.ToolTip">
+    <value>Keep text only</value>
+  </data>
+  <data name="RibbonButtonPlanningActivities.Text">
+    <value>Activities</value>
+  </data>
+  <data name="RibbonButtonPlanningDays.Text">
+    <value>Days</value>
+  </data>
+  <data name="RibbonButtonPlanningDetailsWindow.Text">
+    <value>Show details</value>
+  </data>
+  <data name="RibbonButtonPlanningEmptyCells.Text">
+    <value>Hide empty cells</value>
+  </data>
+  <data name="RibbonButtonPlanningKeyMoments.Text">
+    <value>Key moments</value>
+  </data>
+  <data name="RibbonButtonPlanningMonths.Text">
+    <value>Months</value>
+  </data>
+  <data name="RibbonButtonPlanningShowActivityLinks.Text">
+    <value>Links to activities</value>
+  </data>
+  <data name="RibbonButtonPlanningShowDatesColumn.Text">
+    <value>Dates</value>
+  </data>
+  <data name="RibbonButtonPlanningShowKeyMomentLinks.Text">
+    <value>Links to key moments</value>
+  </data>
+  <data name="RibbonButtonPlanningShowRtfColumn.Text">
+    <value>Descriptions</value>
+  </data>
+  <data name="RibbonButtonPlanningWeeks.Text">
+    <value>Weeks</value>
+  </data>
+  <data name="RibbonButtonPlanningYears.Text">
+    <value>Years</value>
+  </data>
+  <data name="RibbonButtonPreviewBudget.Text">
+    <value>Budget</value>
+  </data>
+  <data name="RibbonButtonPreviewIdForm.Text">
+    <value>Target group identification</value>
+  </data>
+  <data name="RibbonButtonPreviewIndicators.Text">
+    <value>Indicators (questionnaires)</value>
+  </data>
+  <data name="RibbonButtonPreviewLogframe.Text">
+    <value>Logframe</value>
+  </data>
+  <data name="RibbonButtonPreviewPMF.Text">
+    <value>Performance</value>
+  </data>
+  <data name="RibbonButtonPreviewPlanning.Text">
+    <value>Planning</value>
+  </data>
+  <data name="RibbonButtonPreviewRiskRegister.Text">
+    <value>Risk Register</value>
+  </data>
+  <data name="RibbonButtonProject1.Text">
+    <value>Project 1</value>
+  </data>
+  <data name="RibbonButtonQuickSave.Text">
+    <value>Save</value>
+  </data>
+  <data name="RibbonButtonRecentFiles.Text">
+    <value>Recent files</value>
+  </data>
+  <data name="RibbonButtonRedo.Text">
+    <value>Save</value>
+  </data>
+  <data name="RibbonButtonReferenceCopyNextYear.Text">
+    <value>Copy values from next year</value>
+  </data>
+  <data name="RibbonButtonReferenceCopyPreviousYear.Text">
+    <value>Copy values from previous year</value>
+  </data>
+  <data name="RibbonButtonRemoveItem.Text">
+    <value>Remove</value>
+  </data>
+  <data name="RibbonButtonReplace.Text">
+    <value>Replace text</value>
+  </data>
+  <data name="RibbonButtonSaveProject.Text">
+    <value>Save project</value>
+  </data>
+  <data name="RibbonButtonSaveProjectAs.Text">
+    <value>Save as</value>
+  </data>
+  <data name="RibbonButtonSectionDown.Text">
+    <value>Section down</value>
+  </data>
+  <data name="RibbonButtonSectionUp.Text">
+    <value>Section up</value>
+  </data>
+  <data name="RibbonButtonSelectAllText.Text">
+    <value>Select all text</value>
+  </data>
+  <data name="RibbonButtonSelectAssumptions.Text">
+    <value>Assumptions</value>
+  </data>
+  <data name="RibbonButtonSelectBudget.Text">
+    <value>budget totals (logframe)</value>
+  </data>
+  <data name="RibbonButtonSelectBudgetItems.Text">
+    <value>budget items</value>
+  </data>
+  <data name="RibbonButtonSelectIndicators.Text">
+    <value>indicators</value>
+  </data>
+  <data name="RibbonButtonSelectProjectLogic.Text">
+    <value>project logic</value>
+  </data>
+  <data name="RibbonButtonSelectResources.Text">
+    <value>resources</value>
+  </data>
+  <data name="RibbonButtonSelectStatements.Text">
+    <value>responses</value>
+  </data>
+  <data name="RibbonButtonSelectTextInCell.Text">
+    <value>Select text in cell</value>
+  </data>
+  <data name="RibbonButtonSelectTextInLogframe.Text">
+    <value>Select text in logframe</value>
+  </data>
+  <data name="RibbonButtonSelectVerificationSources.Text">
+    <value>verification sources</value>
+  </data>
+  <data name="RibbonButtonSendEmail.Text">
+    <value>Send e-mail</value>
+  </data>
+  <data name="RibbonButtonSendLetter.Text">
+    <value>Send letter</value>
+  </data>
+  <data name="RibbonButtonSentence.Text">
+    <value>Like a sentence.</value>
+  </data>
+  <data name="RibbonButtonSettings.Text">
+    <value>Settings</value>
+  </data>
+  <data name="RibbonButtonShowActivities.Text">
+    <value>Activities</value>
+  </data>
+  <data name="RibbonButtonShowAssumptions.Text">
+    <value>Assumptions</value>
+  </data>
+  <data name="RibbonButtonShowGoals.Text">
+    <value>Goals</value>
+  </data>
+  <data name="RibbonButtonShowIndicators.Text">
+    <value>Indicators</value>
+  </data>
+  <data name="RibbonButtonShowLogframe.Text">
+    <value>Entire logframe</value>
+  </data>
+  <data name="RibbonButtonShowOutputs.Text">
+    <value>Outputs</value>
+  </data>
+  <data name="RibbonButtonShowProcessIndicators.Text">
+    <value>Process indicators</value>
+  </data>
+  <data name="RibbonButtonShowProjectLogic.Text">
+    <value>Project logic</value>
+  </data>
+  <data name="RibbonButtonShowPurposes.Text">
+    <value>Purposes</value>
+  </data>
+  <data name="RibbonButtonShowPurposesOnly.Text">
+    <value>Purpose(s) only</value>
+  </data>
+  <data name="RibbonButtonShowResourcesBudget.Text">
+    <value>Resources &amp; budget</value>
+  </data>
+  <data name="RibbonButtonShowVerificationSources.Text">
+    <value>Verification sources</value>
+  </data>
+  <data name="RibbonButtonSimpleBudget.Text">
+    <value>Simple  budget</value>
+  </data>
+  <data name="RibbonButtonSkype.Text">
+    <value>Skype</value>
+  </data>
+  <data name="RibbonButtonUndo.Text">
+    <value>undo list</value>
+  </data>
+  <data name="RibbonButtonUnlink.Text">
+    <value>Unlink</value>
+  </data>
+  <data name="RibbonButtonUppercase.Text">
+    <value>ALL UPPERCASE</value>
+  </data>
+  <data name="RibbonButtonWord.Text">
+    <value>Word</value>
+  </data>
+  <data name="RibbonComboBoxTextSelection.Text">
+    <value>Select:</value>
+  </data>
+  <data name="RibbonLabelItemPasteOptions.Text">
+    <value>Paste options:</value>
+  </data>
+  <data name="RibbonLabelPasteOptions.Text">
+    <value>Paste options:</value>
+  </data>
+  <data name="RibbonPanelAddRemove.Text">
+    <value>Add &amp; Remove</value>
+  </data>
+  <data name="RibbonPanelBudgetColumns.Text">
+    <value>Columns</value>
+  </data>
+  <data name="RibbonPanelBudgetStructure.Text">
+    <value>Structure</value>
+  </data>
+  <data name="RibbonPanelBudgetView.Text">
+    <value>View</value>
+  </data>
+  <data name="RibbonPanelClipboardItems.Text">
+    <value>Clipboard</value>
+  </data>
+  <data name="RibbonPanelClipboardText.Text">
+    <value>Clipboard</value>
+  </data>
+  <data name="RibbonPanelCloud.Text">
+    <value>Cloud</value>
+  </data>
+  <data name="RibbonPanelColumns.Text">
+    <value>Columns</value>
+  </data>
+  <data name="RibbonPanelDocuments.Text">
+    <value>Documents</value>
+  </data>
+  <data name="RibbonPanelEdit.Text">
+    <value>Edit</value>
+  </data>
+  <data name="RibbonPanelEditItems.Text">
+    <value>Edit</value>
+  </data>
+  <data name="RibbonPanelExternalCom.Text">
+    <value>Communicate</value>
+  </data>
+  <data name="RibbonPanelImportExport.Text">
+    <value>Import - export</value>
+  </data>
+  <data name="RibbonPanelLink.Text">
+    <value>Links</value>
+  </data>
+  <data name="RibbonPanelParagraph.Text">
+    <value>Paragraph</value>
+  </data>
+  <data name="RibbonPanelPlanningColumns.Text">
+    <value>Columns</value>
+  </data>
+  <data name="RibbonPanelPlanningItems.Text">
+    <value>Items</value>
+  </data>
+  <data name="RibbonPanelPlanningView.Text">
+    <value>View</value>
+  </data>
+  <data name="RibbonPanelProjects.Text">
+    <value>Projects</value>
+  </data>
+  <data name="RibbonPanelReferences.Text">
+    <value>References</value>
+  </data>
+  <data name="RibbonPanelReports.Text">
+    <value>Reports</value>
+  </data>
+  <data name="RibbonPanelSections.Text">
+    <value>Sections</value>
+  </data>
+  <data name="RibbonPanelSettings.Text">
+    <value>Settings</value>
+  </data>
+  <data name="RibbonPanelStructure.Text">
+    <value>Structure</value>
+  </data>
+  <data name="RibbonPanelTypeface.Text">
+    <value>Typeface</value>
+  </data>
+  <data name="RibbonPanelView.Text">
+    <value>View</value>
+  </data>
+  <data name="RibbonTabCollaborate.Text">
+    <value>Collaborate</value>
+  </data>
+  <data name="RibbonTabFile.Text">
+    <value>File</value>
+  </data>
+  <data name="RibbonTabItems.Text">
+    <value>Items</value>
+  </data>
+  <data name="RibbonTabLayOutBudget.Text">
+    <value>Lay-out</value>
+  </data>
+  <data name="RibbonTabLayOutLogframe.Text">
+    <value>Lay-out</value>
+  </data>
+  <data name="RibbonTabLayOutPlanning.Text">
+    <value>Lay-out</value>
+  </data>
+  <data name="RibbonTabText.Text">
+    <value>Text</value>
+  </data>
+  <data name="StatusLabelGeneral.Text">
+    <value>Ready</value>
+  </data>
+  <data name="StatusStripBottom.Text">
+    <value>StatusStrip1</value>
+  </data>
+</root>

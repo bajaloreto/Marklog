@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Warning</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DialogWarning</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNo.Name">
+    <value>btnNo</value>
+  </data>
+  <data name="&gt;&gt;btnNo.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnNo.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNo.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnYes.Name">
+    <value>btnYes</value>
+  </data>
+  <data name="&gt;&gt;btnYes.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnYes.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnYes.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkNotShow.Name">
+    <value>chkNotShow</value>
+  </data>
+  <data name="&gt;&gt;chkNotShow.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkNotShow.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNotShow.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblWarning.Name">
+    <value>lblWarning</value>
+  </data>
+  <data name="&gt;&gt;lblWarning.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblWarning.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWarning.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="btnNo.Text">
+    <value>No</value>
+  </data>
+  <data name="btnYes.Text">
+    <value>Yes</value>
+  </data>
+  <data name="chkNotShow.Text">
+    <value>Do not show this warning again</value>
+  </data>
+  <data name="lblTitle.Text">
+    <value>Warning</value>
+  </data>
+  <data name="lblWarning.Text">
+    <value>Warning</value>
+  </data>
+</root>

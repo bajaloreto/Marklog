@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{1850006B-9021-473F-99EB-A84DD3B7633C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LogFramer/My Project/Resources.resx">
+    <Files>
+      <File FileName="LogFramer/My Project/Resources.resx" Line="123" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.LogFramer_2202.0 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

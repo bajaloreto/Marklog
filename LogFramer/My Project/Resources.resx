@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EditDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditDelete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilePrint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilePrint.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextBold.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logframer_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logframer Icon.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_landscape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print landscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutHideEmpty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LayOutHideEmpty.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutDetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LayOutDetails.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DetailNewRow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DetailNewRow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_margins_medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print margins medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_portrait2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print portrait2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Detailweb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Detailweb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextItalic.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextRight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextLeft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextSuperscript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextSuperscript.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextCenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextCenter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutVerificationSources" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LayOutVerificationSources.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditPaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditPaste.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutPlanning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LayOutPlanning.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextUnderline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextUnderline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_margins_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print margins small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_portrait1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print portrait1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextColor.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutAssumptions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LayOutAssumptions.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextStrikeOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextStrikeOut.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DetailShowDetail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DetailShowDetail.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Printer_groot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Printer groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DetailMail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DetailMail.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_margins_wide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print margins wide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilePrintPreview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilePrintPreview.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logframer_icon_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logframer icon-128-no text.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextMarker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextMarker.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditCopy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditCopy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditCut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditCut.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Printer_middelgroot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Printer middelgroot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutIndicators" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LayOutIndicators.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_landscape1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print landscape1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Printer_middelgroot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Printer middelgroot1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_table_grid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print table grid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextSubscript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextSubscript.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutProjectLogic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LayOutProjectLogic.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_portrait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print portrait.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_table_fill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print table fill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logframer_splash_screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logframer 1.3 splash screen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - nieuw project klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileNew_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - nieuw project groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - open project klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileOpen_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - open project groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileProject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - project klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileProject_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - project groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileSave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - opslaan project klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileSave_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - opslaan project groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - sluiten project klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileClose_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - sluiten project groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontBold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst vet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst schuin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontMarkerColour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst markeerkleur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontStrikeThrough" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst doorstreept.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontSubscript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst subscript.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontSuperscript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst superscript.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontTextColour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst kleur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontUnderline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst onderlijnd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontSizeLarger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst vergroten.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontSizeSmaller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst verkleinen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontClearFormating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst normaliseren.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParagraphAlignCentre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Paragraph buttons - centreren.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParagraphAlignLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Paragraph buttons - links uitlijnen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParagraphAlignRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Paragraph buttons - rechts uitlijnen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParagraphLeftIndentDecrease" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Paragraph buttons - linker indent verkleinen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParagraphLeftIndentIncrease" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Paragraph buttons - linker indent vergroten.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileCloud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - cloud klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileCloud_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - cloud groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileDownload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - download klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileDownload_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - download groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileUpload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - upload klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileUpload_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - upload groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FontCapsSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst hoofd-kleine letters.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditRedo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Edit buttons - redo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditUndo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Edit buttons - undo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst kopiëren.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst knippen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst plakken klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paste_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - tekst plakken groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutActivitiesSection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - activities sectie klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutActivitiesSection_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - activities sectie groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutAssumptionsColumn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - hypothesen kolom klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutAssumptionsColumn_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - hypothesen kolom groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutGoalsSection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - goals sectie klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutGoalsSection_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - goals sectie groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutIndicatorsColumn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - indicatoren kolom klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutIndicatorsColumn_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - indicatoren kolom groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutOutputsSection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - outputs sectie klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutOutputsSection_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - outputs sectie groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutProjectLogicColumn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - project logica klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutProjectLogicColumn_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - project logica groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutPurposesOnly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - purposes klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutPurposesOnly_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - purposes groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutPurposesSection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - purposes sectie klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutPurposesSection_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - purposes sectie groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutVerificationSourcesColumn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - verificatiebronnen kolom klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutverificationSourcesColumn_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - verificatiebronnen kolom groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextFind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - zoeken klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextFind_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - zoeken groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextReplace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - vervangen klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextReplace_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - vervangen groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextSelectInCell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - selecteren cel klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextSelectInCell_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - selecteren cel groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextSelectLogframe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - selecteren loka klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextSelectLogframe_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - selecteren loka groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutResourcesBudget" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - resources-budget klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutResourcesBudget_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - resources-budget groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutShowDetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - detailvenster klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutShowDetails_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - detailvenster groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutEmptyCells" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - lege cellen klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutEmptyCells_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - lege cellen groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopyItems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - kopiëren klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsertItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - item invoegen klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsertItem_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - item invoegen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsertParentItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - hoofditem invoegen klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsertSubItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - subitem invoegen klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewItem_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - nieuw item.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PasteItems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - plakken klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PasteItems_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - plakken groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - item verwijderen klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveItem_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - item verwijderen groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - bewerken klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditItem_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - bewerken groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsLevelDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - niveau lager klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsLevelUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - niveau hoger klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsMoveDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - omlaag klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsMoveDown_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - omlaag groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsMoveUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - omhoog klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsMoveUp_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - omhoog groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsSectionDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - sectie omlaag klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsSectionUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Item buttons - sectie omhoog klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextSelectAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Text buttons - alle tekst selecteren klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilePrintBudget_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - print budget groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilePrintLogframe_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - print logframe groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilePrintPlanning_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - print planning groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excel_icon_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excel icon 16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excel_icon_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excel icon 32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_icon_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Word icon 16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Word_icon_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Word icon 32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Budget_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Main tabcontrol - budget.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Planning_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Main tabcontrol - planning2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProjectInfo_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Main tabcontrol - project info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilePrintIndicators_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - print indicators groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilePrintPMF_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - print PMF groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileLanguage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - language klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileLanguage_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - language groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilePrintRiskRegister_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - print risk register groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileSettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - settings klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileSettings_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - settings groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilePrintIdForm_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - print ID form groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutActivities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - activiteiten klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutActivities_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - activiteiten groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutCalenderDay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - kalender dag klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutCalenderDay_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - kalender dag groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutCalenderMonth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - kalender maand klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutCalenderMonth_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - kalender maand groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutCalenderWeek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - kalender week klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutCalenderWeek_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - kalender week groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutCalenderYear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - kalender jaar klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutCalenderYear_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - kalender jaar groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutKeyMoment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - key moment klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutKeyMoment_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - key moment groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsLink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - link klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsLink_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - link groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsUnlink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - unlink klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemsUnlink_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - unlink groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutDescriptionColumn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - description kolom klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutDescriptionColumn_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - description kolom groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutLinkActivities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - link activiteiten klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutLinkActivities_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - link activiteiten groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutLinkKeyMoments" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - link key moments klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutLinkKeyMoments_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - link key moments groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutCurrency" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - currency klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutCurrency_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - currency groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutExchangeRate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - exchange rate klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutExchangeRate_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - exchange rate groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutMultiYearBudget" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - multi-year budget klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutMultiYearBudget_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - multi-year budget groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutSingleYearBudget" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - single-year budget klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutSingleYearBudget_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - single-year budget groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutBudgetBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - single-year budget blauw klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutBudgetBlue_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - single-year budget blauw groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutBudgetGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - single-year budget groen klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutBudgetGreen_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - single-year budget groen groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutBudgetRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - single-year budget rood klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutBudgetRed_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - single-year budget rood groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutMultiYearBudgetBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - multi-year budget blauw klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutMultiYearBudgetBlue_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - multi-year budget blauw groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutMultiYearBudgetGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - multi-year budget groen klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOutMultiYearBudgetGreen_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Lay-out buttons - multi-year budget groen groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollaborateEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Collaborate buttons - Email klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollaborateEmail_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Collaborate buttons - Email groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollaborateInternet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Collaborate buttons - Internet klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollaborateInternet_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Collaborate buttons - Internet groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollaborateLetter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Collaborate buttons - Letter klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollaborateLetter_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Collaborate buttons - Letter groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollaborateSkype" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Collaborate buttons - Skype klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollaborateSkype_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Collaborate buttons - Skype 48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollaborateSkype_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Collaborate buttons - Skype 64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollaborateSkype_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - Collaborate buttons - Skype groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logframer_2_0_splash_screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logframer 2.0 splash screen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileHelp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - help klein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileHelp_large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LF 2.0 - File buttons - help groot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logframer_2_Aide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Help\Logframer 2 Aide.chm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Logframer_2_Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Help\Logframer 2 Help.chm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

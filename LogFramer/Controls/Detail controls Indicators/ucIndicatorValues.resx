@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;gbScoring.Name" xml:space="preserve">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;gbValueRange.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rbtnScoringPercentage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmbUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 21</value>
+  </data>
+  <data name="gbValueRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 74</value>
+  </data>
+  <data name="tbNrDecimals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 19</value>
+  </data>
+  <data name="gbValueRange.Text" xml:space="preserve">
+    <value>Value range (optional)</value>
+  </data>
+  <data name="gbTargetSystem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 154</value>
+  </data>
+  <data name="lblMaxValue.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax.Parent" xml:space="preserve">
+    <value>gbValueRange</value>
+  </data>
+  <data name="rbtnScoringValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 17</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemValueRange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbMinValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="lblUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="rbtnTargetSystemSimple.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbScoring.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 3</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.Parent" xml:space="preserve">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemFormula.Name" xml:space="preserve">
+    <value>rbtnTargetSystemFormula</value>
+  </data>
+  <data name="rbtnTargetSystemSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Name" xml:space="preserve">
+    <value>lblUnit</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue.Name" xml:space="preserve">
+    <value>lblMaxValue</value>
+  </data>
+  <data name="rbtnScoringValue.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbtnTargetSystemSimple.Text" xml:space="preserve">
+    <value>Simple (value &gt;= target)</value>
+  </data>
+  <data name="&gt;&gt;tbNrDecimals.Name" xml:space="preserve">
+    <value>tbNrDecimals</value>
+  </data>
+  <data name="lblMaxValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.Parent" xml:space="preserve">
+    <value>gbNumber</value>
+  </data>
+  <data name="gbScoring.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 154</value>
+  </data>
+  <data name="tbMinValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 19</value>
+  </data>
+  <data name="rbtnTargetSystemValueRange.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtnTargetSystemSimple.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 17</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbValueRange.Name" xml:space="preserve">
+    <value>gbValueRange</value>
+  </data>
+  <data name="lblNrDecimals.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbNumber.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbtnTargetSystemFormula.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 17</value>
+  </data>
+  <data name="&gt;&gt;tbMaxValue.Parent" xml:space="preserve">
+    <value>gbValueRange</value>
+  </data>
+  <data name="rbtnScoringValue.Text" xml:space="preserve">
+    <value>Score = value (default)</value>
+  </data>
+  <data name="lblNrDecimals.Text" xml:space="preserve">
+    <value>Decimals:</value>
+  </data>
+  <data name="rbtnScoringScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 32</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue.Parent" xml:space="preserve">
+    <value>gbValueRange</value>
+  </data>
+  <data name="gbValueRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 83</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.Name" xml:space="preserve">
+    <value>gbTargetSystem</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Name" xml:space="preserve">
+    <value>rbtnScoringPercentage</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="rbtnScoringPercentage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblMaxValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit.Parent" xml:space="preserve">
+    <value>gbNumber</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemValueRange.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbOpMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 19</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.Parent" xml:space="preserve">
+    <value>gbTargetSystem</value>
+  </data>
+  <data name="lblUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnScoringScore.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.Name" xml:space="preserve">
+    <value>rbtnTargetSystemSimple</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemFormula.Parent" xml:space="preserve">
+    <value>gbTargetSystem</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbtnTargetSystemValueRange.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbMaxValue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMinValue.Text" xml:space="preserve">
+    <value>Min. value:</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemFormula.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Parent" xml:space="preserve">
+    <value>gbScoring</value>
+  </data>
+  <data name="cmbOpMax.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tbMinValue.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbMaxValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 45</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>IndicatorValues</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemValueRange.Parent" xml:space="preserve">
+    <value>gbTargetSystem</value>
+  </data>
+  <data name="lblUnit.Text" xml:space="preserve">
+    <value>Unit:</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbTargetSystem.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Name" xml:space="preserve">
+    <value>rbtnScoringScore</value>
+  </data>
+  <data name="rbtnScoringScore.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectValue, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectValue, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbMinValue.Name" xml:space="preserve">
+    <value>tbMinValue</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin.Name" xml:space="preserve">
+    <value>cmbOpMin</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Parent" xml:space="preserve">
+    <value>gbScoring</value>
+  </data>
+  <data name="rbtnScoringValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMinValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="tbNrDecimals.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 45</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit.Name" xml:space="preserve">
+    <value>cmbUnit</value>
+  </data>
+  <data name="gbValueRange.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbValueRange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbtnTargetSystemFormula.Text" xml:space="preserve">
+    <value>Target = formula</value>
+  </data>
+  <data name="gbScoring.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmbOpMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 45</value>
+  </data>
+  <data name="gbNumber.Text" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>630, 163</value>
+  </data>
+  <data name="tbNrDecimals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemFormula.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtnScoringScore.Text" xml:space="preserve">
+    <value>Score = scoring value when target is achieved</value>
+  </data>
+  <data name="lblNrDecimals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="&gt;&gt;gbNumber.Name" xml:space="preserve">
+    <value>gbNumber</value>
+  </data>
+  <data name="rbtnTargetSystemFormula.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNrDecimals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="cmbOpMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 21</value>
+  </data>
+  <data name="&gt;&gt;gbNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Parent" xml:space="preserve">
+    <value>gbNumber</value>
+  </data>
+  <data name="lblMinValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbMaxValue.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax.Name" xml:space="preserve">
+    <value>cmbOpMax</value>
+  </data>
+  <data name="&gt;&gt;tbNrDecimals.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="gbNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="gbNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 74</value>
+  </data>
+  <data name="lblMaxValue.Text" xml:space="preserve">
+    <value>Max. value:</value>
+  </data>
+  <data name="&gt;&gt;tbMinValue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbNrDecimals.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMinValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="lblMaxValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbTargetSystem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 3</value>
+  </data>
+  <data name="cmbOpMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 21</value>
+  </data>
+  <data name="rbtnTargetSystemFormula.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 66</value>
+  </data>
+  <data name="rbtnTargetSystemValueRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemValueRange.Name" xml:space="preserve">
+    <value>rbtnTargetSystemValueRange</value>
+  </data>
+  <data name="rbtnTargetSystemFormula.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmbUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tbMaxValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;tbMaxValue.Name" xml:space="preserve">
+    <value>tbMaxValue</value>
+  </data>
+  <data name="rbtnTargetSystemValueRange.Text" xml:space="preserve">
+    <value>Target = value range</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbOpMin.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtnScoringValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 80</value>
+  </data>
+  <data name="lblNrDecimals.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbtnScoringPercentage.Text" xml:space="preserve">
+    <value>Score = percentage of target</value>
+  </data>
+  <data name="&gt;&gt;tbMinValue.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="rbtnTargetSystemSimple.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="rbtnScoringScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;tbMaxValue.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="rbtnTargetSystemValueRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 17</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin.Parent" xml:space="preserve">
+    <value>gbValueRange</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.Name" xml:space="preserve">
+    <value>rbtnScoringValue</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.Name" xml:space="preserve">
+    <value>lblNrDecimals</value>
+  </data>
+  <data name="rbtnScoringPercentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 17</value>
+  </data>
+  <data name="lblUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="gbTargetSystem.Text" xml:space="preserve">
+    <value>Targeting</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue.Parent" xml:space="preserve">
+    <value>gbValueRange</value>
+  </data>
+  <data name="rbtnScoringPercentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="lblMinValue.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbMinValue.Parent" xml:space="preserve">
+    <value>gbValueRange</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue.Name" xml:space="preserve">
+    <value>lblMinValue</value>
+  </data>
+  <data name="gbScoring.Text" xml:space="preserve">
+    <value>Scoring</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.StructuredComboBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbValueRange.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbNrDecimals.Parent" xml:space="preserve">
+    <value>gbNumber</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>nl</value>
+  </metadata>
+</root>

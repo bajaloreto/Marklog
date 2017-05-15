@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>DetailVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxVerificationSource.Name">
+    <value>GroupBoxVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxVerificationSource.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxVerificationSource.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxVerificationSource.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbFrequency.Name">
+    <value>cmbFrequency</value>
+  </data>
+  <data name="&gt;&gt;cmbFrequency.Parent">
+    <value>GroupBoxVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;cmbFrequency.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 1.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbFrequency.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmbResponsibility.Name">
+    <value>cmbResponsibility</value>
+  </data>
+  <data name="&gt;&gt;cmbResponsibility.Parent">
+    <value>GroupBoxVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;cmbResponsibility.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 1.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbResponsibility.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbSource.Name">
+    <value>cmbSource</value>
+  </data>
+  <data name="&gt;&gt;cmbSource.Parent">
+    <value>GroupBoxVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;cmbSource.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 1.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbSource.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblCollectionMethod.Name">
+    <value>lblCollectionMethod</value>
+  </data>
+  <data name="&gt;&gt;lblCollectionMethod.Parent">
+    <value>GroupBoxVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;lblCollectionMethod.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCollectionMethod.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblFrequency.Name">
+    <value>lblFrequency</value>
+  </data>
+  <data name="&gt;&gt;lblFrequency.Parent">
+    <value>GroupBoxVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;lblFrequency.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFrequency.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblResponsibility.Name">
+    <value>lblResponsibility</value>
+  </data>
+  <data name="&gt;&gt;lblResponsibility.Parent">
+    <value>GroupBoxVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;lblResponsibility.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResponsibility.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblSource.Name">
+    <value>lblSource</value>
+  </data>
+  <data name="&gt;&gt;lblSource.Parent">
+    <value>GroupBoxVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;lblSource.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSource.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblVerificationSource.Name">
+    <value>lblVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;lblVerificationSource.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblVerificationSource.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVerificationSource.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblWebsite.Name">
+    <value>lblWebsite</value>
+  </data>
+  <data name="&gt;&gt;lblWebsite.Parent">
+    <value>GroupBoxVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;lblWebsite.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWebsite.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbCollectionMethod.Name">
+    <value>tbCollectionMethod</value>
+  </data>
+  <data name="&gt;&gt;tbCollectionMethod.Parent">
+    <value>GroupBoxVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;tbCollectionMethod.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 1.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbCollectionMethod.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbVerificationSource.Name">
+    <value>tbVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;tbVerificationSource.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbVerificationSource.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 1.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbVerificationSource.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbWebsite.Name">
+    <value>tbWebsite</value>
+  </data>
+  <data name="&gt;&gt;tbWebsite.Parent">
+    <value>GroupBoxVerificationSource</value>
+  </data>
+  <data name="&gt;&gt;tbWebsite.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 1.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbWebsite.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="GroupBoxVerificationSource.Text">
+    <value>Data collection</value>
+  </data>
+  <data name="lblCollectionMethod.Text">
+    <value>Collection method:</value>
+  </data>
+  <data name="lblFrequency.Text">
+    <value>Frequency:</value>
+  </data>
+  <data name="lblResponsibility.Text">
+    <value>Responsibility of:</value>
+  </data>
+  <data name="lblSource.Text">
+    <value>Information source:</value>
+  </data>
+  <data name="lblVerificationSource.Text">
+    <value>Verification source:</value>
+  </data>
+  <data name="lblWebsite.Text">
+    <value>Website:</value>
+  </data>
+</root>

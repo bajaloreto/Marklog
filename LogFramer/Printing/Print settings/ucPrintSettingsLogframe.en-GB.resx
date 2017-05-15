@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>PrintSettingsLogframe</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxColumns.Name">
+    <value>GroupBoxColumns</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxColumns.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxColumns.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxColumns.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkShowActivities.Name">
+    <value>chkShowActivities</value>
+  </data>
+  <data name="&gt;&gt;chkShowActivities.Parent">
+    <value>gbSections</value>
+  </data>
+  <data name="&gt;&gt;chkShowActivities.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowActivities.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkShowAsm.Name">
+    <value>chkShowAsm</value>
+  </data>
+  <data name="&gt;&gt;chkShowAsm.Parent">
+    <value>GroupBoxColumns</value>
+  </data>
+  <data name="&gt;&gt;chkShowAsm.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowAsm.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkShowGoals.Name">
+    <value>chkShowGoals</value>
+  </data>
+  <data name="&gt;&gt;chkShowGoals.Parent">
+    <value>gbSections</value>
+  </data>
+  <data name="&gt;&gt;chkShowGoals.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowGoals.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkShowInd.Name">
+    <value>chkShowInd</value>
+  </data>
+  <data name="&gt;&gt;chkShowInd.Parent">
+    <value>GroupBoxColumns</value>
+  </data>
+  <data name="&gt;&gt;chkShowInd.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowInd.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkShowOutputs.Name">
+    <value>chkShowOutputs</value>
+  </data>
+  <data name="&gt;&gt;chkShowOutputs.Parent">
+    <value>gbSections</value>
+  </data>
+  <data name="&gt;&gt;chkShowOutputs.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowOutputs.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkShowPurposes.Name">
+    <value>chkShowPurposes</value>
+  </data>
+  <data name="&gt;&gt;chkShowPurposes.Parent">
+    <value>gbSections</value>
+  </data>
+  <data name="&gt;&gt;chkShowPurposes.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowPurposes.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkShowStruct.Name">
+    <value>chkShowStruct</value>
+  </data>
+  <data name="&gt;&gt;chkShowStruct.Parent">
+    <value>GroupBoxColumns</value>
+  </data>
+  <data name="&gt;&gt;chkShowStruct.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowStruct.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkShowVer.Name">
+    <value>chkShowVer</value>
+  </data>
+  <data name="&gt;&gt;chkShowVer.Parent">
+    <value>GroupBoxColumns</value>
+  </data>
+  <data name="&gt;&gt;chkShowVer.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowVer.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbSections.Name">
+    <value>gbSections</value>
+  </data>
+  <data name="&gt;&gt;gbSections.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbSections.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbSections.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbStructure.Name">
+    <value>gbStructure</value>
+  </data>
+  <data name="&gt;&gt;gbStructure.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbStructure.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbStructure.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrintIndicators.Name">
+    <value>rbtnPrintIndicators</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrintIndicators.Parent">
+    <value>gbStructure</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrintIndicators.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrintIndicators.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrintResourcesBudget.Name">
+    <value>rbtnPrintResourcesBudget</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrintResourcesBudget.Parent">
+    <value>gbStructure</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrintResourcesBudget.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrintResourcesBudget.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="GroupBoxColumns.Text">
+    <value>Columns</value>
+  </data>
+  <data name="chkShowActivities.Text">
+    <value>Activities</value>
+  </data>
+  <data name="chkShowGoals.Text">
+    <value>Goals</value>
+  </data>
+  <data name="chkShowOutputs.Text">
+    <value>Outputs</value>
+  </data>
+  <data name="chkShowPurposes.Text">
+    <value>Purposes</value>
+  </data>
+  <data name="gbSections.Text">
+    <value>Sections</value>
+  </data>
+  <data name="gbStructure.Text">
+    <value>Structure</value>
+  </data>
+  <data name="rbtnPrintIndicators.Text">
+    <value>Process indicators</value>
+  </data>
+  <data name="rbtnPrintResourcesBudget.Text">
+    <value>Resources &amp;&amp; budget</value>
+  </data>
+</root>

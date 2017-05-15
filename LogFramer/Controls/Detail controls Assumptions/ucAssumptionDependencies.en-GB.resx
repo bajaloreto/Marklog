@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>AssumptionDependencies</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.Name">
+    <value>TableLayoutPanelAssumptions</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbDeliverableType.Name">
+    <value>cmbDeliverableType</value>
+  </data>
+  <data name="&gt;&gt;cmbDeliverableType.Parent">
+    <value>gbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;cmbDeliverableType.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbDeliverableType.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cmbDependencyType.Name">
+    <value>cmbDependencyType</value>
+  </data>
+  <data name="&gt;&gt;cmbDependencyType.Parent">
+    <value>gbDependency</value>
+  </data>
+  <data name="&gt;&gt;cmbDependencyType.Type">
+    <value>FaciliDev.LogFramer.StructuredComboBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbDependencyType.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbImportanceLevel.Name">
+    <value>cmbImportanceLevel</value>
+  </data>
+  <data name="&gt;&gt;cmbImportanceLevel.Parent">
+    <value>gbDependency</value>
+  </data>
+  <data name="&gt;&gt;cmbImportanceLevel.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbImportanceLevel.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmbInputType.Name">
+    <value>cmbInputType</value>
+  </data>
+  <data name="&gt;&gt;cmbInputType.Parent">
+    <value>gbDependency</value>
+  </data>
+  <data name="&gt;&gt;cmbInputType.Type">
+    <value>FaciliDev.LogFramer.StructuredComboBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbInputType.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.Name">
+    <value>cmbOwner</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.Parent">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbSupplier.Name">
+    <value>cmbSupplier</value>
+  </data>
+  <data name="&gt;&gt;cmbSupplier.Parent">
+    <value>gbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;cmbSupplier.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbSupplier.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dtbDateDelivered.Name">
+    <value>dtbDateDelivered</value>
+  </data>
+  <data name="&gt;&gt;dtbDateDelivered.Parent">
+    <value>gbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;dtbDateDelivered.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbDateDelivered.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dtbDateExpected.Name">
+    <value>dtbDateExpected</value>
+  </data>
+  <data name="&gt;&gt;dtbDateExpected.Parent">
+    <value>gbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;dtbDateExpected.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbDateExpected.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gbDeliverables.Name">
+    <value>gbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;gbDeliverables.Parent">
+    <value>TableLayoutPanelAssumptions</value>
+  </data>
+  <data name="&gt;&gt;gbDeliverables.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbDeliverables.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbDependency.Name">
+    <value>gbDependency</value>
+  </data>
+  <data name="&gt;&gt;gbDependency.Parent">
+    <value>TableLayoutPanelAssumptions</value>
+  </data>
+  <data name="&gt;&gt;gbDependency.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbDependency.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.Name">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.Parent">
+    <value>TableLayoutPanelAssumptions</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblDateDelivered.Name">
+    <value>lblDateDelivered</value>
+  </data>
+  <data name="&gt;&gt;lblDateDelivered.Parent">
+    <value>gbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;lblDateDelivered.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDateDelivered.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblDateExpected.Name">
+    <value>lblDateExpected</value>
+  </data>
+  <data name="&gt;&gt;lblDateExpected.Parent">
+    <value>gbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;lblDateExpected.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDateExpected.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblDeliverableType.Name">
+    <value>lblDeliverableType</value>
+  </data>
+  <data name="&gt;&gt;lblDeliverableType.Parent">
+    <value>gbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;lblDeliverableType.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDeliverableType.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblDeliverables.Name">
+    <value>lblDeliverables</value>
+  </data>
+  <data name="&gt;&gt;lblDeliverables.Parent">
+    <value>gbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;lblDeliverables.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDeliverables.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblDependencyType.Name">
+    <value>lblDependencyType</value>
+  </data>
+  <data name="&gt;&gt;lblDependencyType.Parent">
+    <value>gbDependency</value>
+  </data>
+  <data name="&gt;&gt;lblDependencyType.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDependencyType.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.Name">
+    <value>lblImpact</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.Parent">
+    <value>gbDependency</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblImportanceLevel.Name">
+    <value>lblImportanceLevel</value>
+  </data>
+  <data name="&gt;&gt;lblImportanceLevel.Parent">
+    <value>gbDependency</value>
+  </data>
+  <data name="&gt;&gt;lblImportanceLevel.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblImportanceLevel.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblInputType.Name">
+    <value>lblInputType</value>
+  </data>
+  <data name="&gt;&gt;lblInputType.Parent">
+    <value>gbDependency</value>
+  </data>
+  <data name="&gt;&gt;lblInputType.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInputType.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.Name">
+    <value>lblResponseStrategy</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.Parent">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblRiskOwner.Name">
+    <value>lblRiskOwner</value>
+  </data>
+  <data name="&gt;&gt;lblRiskOwner.Parent">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;lblRiskOwner.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRiskOwner.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblSupplier.Name">
+    <value>lblSupplier</value>
+  </data>
+  <data name="&gt;&gt;lblSupplier.Parent">
+    <value>gbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;lblSupplier.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplier.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbDeliverables.Name">
+    <value>tbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;tbDeliverables.Parent">
+    <value>gbDeliverables</value>
+  </data>
+  <data name="&gt;&gt;tbDeliverables.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbDeliverables.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.Name">
+    <value>tbImpact</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.Parent">
+    <value>gbDependency</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.Name">
+    <value>tbResponseStrategy</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.Parent">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="gbDeliverables.Text">
+    <value>Deliverables</value>
+  </data>
+  <data name="gbDependency.Text">
+    <value>Dependency</value>
+  </data>
+  <data name="gbResponse.Text">
+    <value>Response</value>
+  </data>
+  <data name="lblDateDelivered.Text">
+    <value>Delivery date:</value>
+  </data>
+  <data name="lblDateExpected.Text">
+    <value>Expected delivery:</value>
+  </data>
+  <data name="lblDeliverableType.Text">
+    <value>Deliverable type:</value>
+  </data>
+  <data name="lblDeliverables.Text">
+    <value>Deliverables:</value>
+  </data>
+  <data name="lblDependencyType.Text">
+    <value>Dependency type:</value>
+  </data>
+  <data name="lblImpact.Text">
+    <value>Impact description:</value>
+  </data>
+  <data name="lblImportanceLevel.Text">
+    <value>Importance:</value>
+  </data>
+  <data name="lblInputType.Text">
+    <value>Type of input:</value>
+  </data>
+  <data name="lblResponseStrategy.Text">
+    <value>Response strategy:</value>
+  </data>
+  <data name="lblRiskOwner.Text">
+    <value>Owner:</value>
+  </data>
+  <data name="lblSupplier.Text">
+    <value>Supplier:</value>
+  </data>
+</root>

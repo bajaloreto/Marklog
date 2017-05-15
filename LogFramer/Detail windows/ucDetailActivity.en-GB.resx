@@ -1,0 +1,931 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>DetailActivity</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlActivity.Name">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="&gt;&gt;TabControlActivity.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControlActivity.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlActivity.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPageChildActivities.Name">
+    <value>TabPageChildActivities</value>
+  </data>
+  <data name="&gt;&gt;TabPageChildActivities.Parent">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="&gt;&gt;TabPageChildActivities.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageChildActivities.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TabPageDuration.Name">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;TabPageDuration.Parent">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="&gt;&gt;TabPageDuration.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageDuration.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrganisation.Name">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrganisation.Parent">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrganisation.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrganisation.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPagePreparation.Name">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;TabPagePreparation.Parent">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="&gt;&gt;TabPagePreparation.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPagePreparation.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TabPageRepeat.Name">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;TabPageRepeat.Parent">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="&gt;&gt;TabPageRepeat.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageRepeat.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkDurationUntilEnd.Name">
+    <value>chkDurationUntilEnd</value>
+  </data>
+  <data name="&gt;&gt;chkDurationUntilEnd.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;chkDurationUntilEnd.Type">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkDurationUntilEnd.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpRepeat.Name">
+    <value>chkFollowUpRepeat</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpRepeat.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpRepeat.Type">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpRepeat.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpUntilEnd.Name">
+    <value>chkFollowUpUntilEnd</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpUntilEnd.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpUntilEnd.Type">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpUntilEnd.ZOrder">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationFromStart.Name">
+    <value>chkPreparationFromStart</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationFromStart.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationFromStart.Type">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationFromStart.ZOrder">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationRepeat.Name">
+    <value>chkPreparationRepeat</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationRepeat.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationRepeat.Type">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationRepeat.ZOrder">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatUntilEnd.Name">
+    <value>chkRepeatUntilEnd</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatUntilEnd.Parent">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatUntilEnd.Type">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatUntilEnd.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Name">
+    <value>cmbDurationUnit</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbFollowUpUnit.Name">
+    <value>cmbFollowUpUnit</value>
+  </data>
+  <data name="&gt;&gt;cmbFollowUpUnit.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;cmbFollowUpUnit.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbFollowUpUnit.ZOrder">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;cmbGuidReferenceMoment.Name">
+    <value>cmbGuidReferenceMoment</value>
+  </data>
+  <data name="&gt;&gt;cmbGuidReferenceMoment.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;cmbGuidReferenceMoment.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectValue, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbGuidReferenceMoment.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cmbLocation.Name">
+    <value>cmbLocation</value>
+  </data>
+  <data name="&gt;&gt;cmbLocation.Parent">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="&gt;&gt;cmbLocation.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbLocation.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbOrganisation.Name">
+    <value>cmbOrganisation</value>
+  </data>
+  <data name="&gt;&gt;cmbOrganisation.Parent">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="&gt;&gt;cmbOrganisation.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbOrganisation.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.Name">
+    <value>cmbPeriodDirection</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.ZOrder">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.Name">
+    <value>cmbPeriodUnit</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.ZOrder">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cmbPreparationUnit.Name">
+    <value>cmbPreparationUnit</value>
+  </data>
+  <data name="&gt;&gt;cmbPreparationUnit.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;cmbPreparationUnit.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbPreparationUnit.ZOrder">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cmbRepeatUnit.Name">
+    <value>cmbRepeatUnit</value>
+  </data>
+  <data name="&gt;&gt;cmbRepeatUnit.Parent">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;cmbRepeatUnit.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbRepeatUnit.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Name">
+    <value>cmbType</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Parent">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectValue, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbType.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateFollowUp.Name">
+    <value>dtbEndDateFollowUp</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateFollowUp.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateFollowUp.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateFollowUp.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateMainActivity.Name">
+    <value>dtbEndDateMainActivity</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateMainActivity.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateMainActivity.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateMainActivity.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDatePreparation.Name">
+    <value>dtbEndDatePreparation</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDatePreparation.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDatePreparation.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDatePreparation.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dtbExactEndDate.Name">
+    <value>dtbExactEndDate</value>
+  </data>
+  <data name="&gt;&gt;dtbExactEndDate.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtbExactEndDate.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbExactEndDate.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dtbExactStartDate.Name">
+    <value>dtbExactStartDate</value>
+  </data>
+  <data name="&gt;&gt;dtbExactStartDate.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtbExactStartDate.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbExactStartDate.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDate.Name">
+    <value>dtbStartDate</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDate.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDate.Type">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDate.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateFollowUp.Name">
+    <value>dtbStartDateFollowUp</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateFollowUp.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateFollowUp.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateFollowUp.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateMainActivity.Name">
+    <value>dtbStartDateMainActivity</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateMainActivity.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateMainActivity.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateMainActivity.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDatePreparation.Name">
+    <value>dtbStartDatePreparation</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDatePreparation.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDatePreparation.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDatePreparation.ZOrder">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Name">
+    <value>lblActivity</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Name">
+    <value>lblDuration</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateFollowUp.Name">
+    <value>lblEndDateFollowUp</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateFollowUp.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateFollowUp.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateFollowUp.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateMainActivity.Name">
+    <value>lblEndDateMainActivity</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateMainActivity.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateMainActivity.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateMainActivity.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblEndDatePreparation.Name">
+    <value>lblEndDatePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblEndDatePreparation.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblEndDatePreparation.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndDatePreparation.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblExactEndDate.Name">
+    <value>lblExactEndDate</value>
+  </data>
+  <data name="&gt;&gt;lblExactEndDate.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblExactEndDate.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExactEndDate.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblExactStartDate.Name">
+    <value>lblExactStartDate</value>
+  </data>
+  <data name="&gt;&gt;lblExactStartDate.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblExactStartDate.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExactStartDate.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblFollowUp.Name">
+    <value>lblFollowUp</value>
+  </data>
+  <data name="&gt;&gt;lblFollowUp.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblFollowUp.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFollowUp.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.Name">
+    <value>lblLocation</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.Parent">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblNumberRepeats.Name">
+    <value>lblNumberRepeats</value>
+  </data>
+  <data name="&gt;&gt;lblNumberRepeats.Parent">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;lblNumberRepeats.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumberRepeats.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblOrganisation.Name">
+    <value>lblOrganisation</value>
+  </data>
+  <data name="&gt;&gt;lblOrganisation.Parent">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="&gt;&gt;lblOrganisation.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOrganisation.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblPreparation.Name">
+    <value>lblPreparation</value>
+  </data>
+  <data name="&gt;&gt;lblPreparation.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblPreparation.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPreparation.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblRepeat.Name">
+    <value>lblRepeat</value>
+  </data>
+  <data name="&gt;&gt;lblRepeat.Parent">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;lblRepeat.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRepeat.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatDates.Name">
+    <value>lblRepeatDates</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatDates.Parent">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatDates.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatDates.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Name">
+    <value>lblStart</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStart.ZOrder">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateFollowUp.Name">
+    <value>lblStartDateFollowUp</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateFollowUp.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateFollowUp.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateFollowUp.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateMainActivity.Name">
+    <value>lblStartDateMainActivity</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateMainActivity.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateMainActivity.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateMainActivity.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblStartDatePreparation.Name">
+    <value>lblStartDatePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblStartDatePreparation.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblStartDatePreparation.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartDatePreparation.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblTimes.Name">
+    <value>lblTimes</value>
+  </data>
+  <data name="&gt;&gt;lblTimes.Parent">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;lblTimes.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTimes.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblType.Name">
+    <value>lblType</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblType.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lvDetailProcesses.Name">
+    <value>lvDetailProcesses</value>
+  </data>
+  <data name="&gt;&gt;lvDetailProcesses.Parent">
+    <value>TabPageChildActivities</value>
+  </data>
+  <data name="&gt;&gt;lvDetailProcesses.Type">
+    <value>FaciliDev.LogFramer.ListViewProcesses, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lvDetailProcesses.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lvRepeatDates.Name">
+    <value>lvRepeatDates</value>
+  </data>
+  <data name="&gt;&gt;lvRepeatDates.Parent">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;lvRepeatDates.Type">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvRepeatDates.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Name">
+    <value>ntbDuration</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ntbFollowUp.Name">
+    <value>ntbFollowUp</value>
+  </data>
+  <data name="&gt;&gt;ntbFollowUp.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;ntbFollowUp.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbFollowUp.ZOrder">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.Name">
+    <value>ntbPeriod</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.ZOrder">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ntbPreparation.Name">
+    <value>ntbPreparation</value>
+  </data>
+  <data name="&gt;&gt;ntbPreparation.Parent">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;ntbPreparation.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbPreparation.ZOrder">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatEvery.Name">
+    <value>ntbRepeatEvery</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatEvery.Parent">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatEvery.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatEvery.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatTimes.Name">
+    <value>ntbRepeatTimes</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatTimes.Parent">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatTimes.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatTimes.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.Name">
+    <value>rbtnExactDate</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.ZOrder">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.Name">
+    <value>rbtnReferenceDate</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.Parent">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.ZOrder">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tbActivity.Name">
+    <value>tbActivity</value>
+  </data>
+  <data name="&gt;&gt;tbActivity.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbActivity.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbActivity.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="TabPageChildActivities.Text">
+    <value>Child activities</value>
+  </data>
+  <data name="TabPageDuration.Text">
+    <value>Duration</value>
+  </data>
+  <data name="TabPageOrganisation.Text">
+    <value>Organisation</value>
+  </data>
+  <data name="TabPagePreparation.Text">
+    <value>Preparation &amp; Follow-up</value>
+  </data>
+  <data name="TabPageRepeat.Text">
+    <value>Repeat</value>
+  </data>
+  <data name="chkDurationUntilEnd.Text">
+    <value>Until end of project</value>
+  </data>
+  <data name="chkFollowUpRepeat.Text">
+    <value>Repeat</value>
+  </data>
+  <data name="chkFollowUpUntilEnd.Text">
+    <value>Until end of project</value>
+  </data>
+  <data name="chkPreparationFromStart.Text">
+    <value>From start of project</value>
+  </data>
+  <data name="chkPreparationRepeat.Text">
+    <value>Repeat</value>
+  </data>
+  <data name="chkRepeatUntilEnd.Text">
+    <value>Until end of project</value>
+  </data>
+  <data name="dtbEndDateFollowUp.Text">
+    <value>30/05/2013</value>
+  </data>
+  <data name="dtbEndDateMainActivity.Text">
+    <value>30/05/2013</value>
+  </data>
+  <data name="dtbEndDatePreparation.Text">
+    <value>30/05/2013</value>
+  </data>
+  <data name="dtbExactEndDate.Text">
+    <value>30/05/2013</value>
+  </data>
+  <data name="dtbExactStartDate.Text">
+    <value>30/05/2013</value>
+  </data>
+  <data name="dtbStartDateFollowUp.Text">
+    <value>30/05/2013</value>
+  </data>
+  <data name="dtbStartDateMainActivity.Text">
+    <value>30/05/2013</value>
+  </data>
+  <data name="dtbStartDatePreparation.Text">
+    <value>30/05/2013</value>
+  </data>
+  <data name="lblActivity.Text">
+    <value>Activity:</value>
+  </data>
+  <data name="lblDuration.Text">
+    <value>Duration:</value>
+  </data>
+  <data name="lblEndDateFollowUp.Text">
+    <value>Ends:</value>
+  </data>
+  <data name="lblEndDateMainActivity.Text">
+    <value>End date:</value>
+  </data>
+  <data name="lblEndDatePreparation.Text">
+    <value>Ends:</value>
+  </data>
+  <data name="lblExactEndDate.Text">
+    <value>Ends</value>
+  </data>
+  <data name="lblExactStartDate.Text">
+    <value>Starts:</value>
+  </data>
+  <data name="lblFollowUp.Text">
+    <value>Follow-up:</value>
+  </data>
+  <data name="lblLocation.Text">
+    <value>Location:</value>
+  </data>
+  <data name="lblNumberRepeats.Text">
+    <value>Repeat:</value>
+  </data>
+  <data name="lblOrganisation.Text">
+    <value>Organised by:</value>
+  </data>
+  <data name="lblPreparation.Text">
+    <value>Preparation:</value>
+  </data>
+  <data name="lblRepeat.Text">
+    <value>Repeat every:</value>
+  </data>
+  <data name="lblRepeatDates.Text">
+    <value>Dates:</value>
+  </data>
+  <data name="lblStart.Text">
+    <value>Activity starts:</value>
+  </data>
+  <data name="lblStartDateFollowUp.Text">
+    <value>Follow-up starts:</value>
+  </data>
+  <data name="lblStartDateMainActivity.Text">
+    <value>Start date:</value>
+  </data>
+  <data name="lblStartDatePreparation.Text">
+    <value>Preparation starts:</value>
+  </data>
+  <data name="lblTimes.Text">
+    <value>times</value>
+  </data>
+  <data name="lblType.Text">
+    <value>Activity type:</value>
+  </data>
+  <data name="rbtnExactDate.Text">
+    <value>At this exact date:</value>
+  </data>
+</root>

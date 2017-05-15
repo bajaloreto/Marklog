@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Website</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DialogWebsite</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Name">
+    <value>OK_Button</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Name">
+    <value>cmbType</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbType.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblType.Name">
+    <value>lblType</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblType.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblWebsiteName.Name">
+    <value>lblWebsiteName</value>
+  </data>
+  <data name="&gt;&gt;lblWebsiteName.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblWebsiteName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWebsiteName.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblWebsitePath.Name">
+    <value>lblWebsitePath</value>
+  </data>
+  <data name="&gt;&gt;lblWebsitePath.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblWebsitePath.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWebsitePath.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbWebsiteName.Name">
+    <value>tbWebsiteName</value>
+  </data>
+  <data name="&gt;&gt;tbWebsiteName.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbWebsiteName.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbWebsiteName.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbWebsitePath.Name">
+    <value>tbWebsitePath</value>
+  </data>
+  <data name="&gt;&gt;tbWebsitePath.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbWebsitePath.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbWebsitePath.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="Cancel_Button.Text">
+    <value>Cancel</value>
+  </data>
+  <data name="OK_Button.Text">
+    <value>OK</value>
+  </data>
+  <data name="lblType.Text">
+    <value>Type:</value>
+  </data>
+  <data name="lblWebsiteName.Text">
+    <value>Site name:</value>
+  </data>
+  <data name="lblWebsitePath.Text">
+    <value>Site address:</value>
+  </data>
+</root>

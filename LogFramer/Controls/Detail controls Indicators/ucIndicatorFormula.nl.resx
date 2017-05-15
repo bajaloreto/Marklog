@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gbFormula.Text">
+    <value>Formule</value>
+  </data>
+  <data name="gbNumber.Text">
+    <value>Aantal</value>
+  </data>
+  <data name="gbQuestions.Text">
+    <value>Vragen</value>
+  </data>
+  <data name="gbScoring.Text">
+    <value>Score</value>
+  </data>
+  <data name="gbTargetSystem.Text">
+    <value>Doelwaarden</value>
+  </data>
+  <data name="lblNrDecimals.Text">
+    <value>Decimalen:</value>
+  </data>
+  <data name="lblUnit.Text">
+    <value>Eenheid:</value>
+  </data>
+  <data name="rbtnScoringPercentage.Text">
+    <value>Score = percentage van doelwaarde</value>
+  </data>
+  <data name="rbtnScoringScore.Text">
+    <value>Score = doelwaarde wanneer doel is bereikt</value>
+  </data>
+  <data name="rbtnScoringValue.Text">
+    <value>Score = waarde (standaard)</value>
+  </data>
+  <data name="rbtnTargetSystemSimple.Text">
+    <value>Eenvoudig (waarde&gt;=doel)</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>IndicatorFormula</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit.Name">
+    <value>cmbUnit</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit.Parent">
+    <value>gbNumber</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit.Type">
+    <value>FaciliDev.LogFramer.StructuredComboBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbFormula.Name">
+    <value>gbFormula</value>
+  </data>
+  <data name="&gt;&gt;gbFormula.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbFormula.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbFormula.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbNumber.Name">
+    <value>gbNumber</value>
+  </data>
+  <data name="&gt;&gt;gbNumber.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbNumber.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbNumber.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbQuestions.Name">
+    <value>gbQuestions</value>
+  </data>
+  <data name="&gt;&gt;gbQuestions.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbQuestions.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbQuestions.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.Name">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.Name">
+    <value>gbTargetSystem</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblFormula.Name">
+    <value>lblFormula</value>
+  </data>
+  <data name="&gt;&gt;lblFormula.Parent">
+    <value>gbFormula</value>
+  </data>
+  <data name="&gt;&gt;lblFormula.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFormula.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.Name">
+    <value>lblNrDecimals</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.Parent">
+    <value>gbNumber</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Name">
+    <value>lblUnit</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Parent">
+    <value>gbNumber</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals.Name">
+    <value>ntbNrDecimals</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals.Parent">
+    <value>gbNumber</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals.Type">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Name">
+    <value>rbtnScoringPercentage</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Parent">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Name">
+    <value>rbtnScoringScore</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Parent">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.Name">
+    <value>rbtnScoringValue</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.Parent">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.Name">
+    <value>rbtnTargetSystemSimple</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.Parent">
+    <value>gbTargetSystem</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbFormula.Name">
+    <value>tbFormula</value>
+  </data>
+  <data name="&gt;&gt;tbFormula.Parent">
+    <value>gbFormula</value>
+  </data>
+  <data name="&gt;&gt;tbFormula.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbFormula.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="lblFormula.Text">
+    <value>=</value>
+  </data>
+</root>

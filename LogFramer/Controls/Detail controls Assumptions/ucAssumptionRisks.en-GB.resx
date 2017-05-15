@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>AssumptionRisks</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.Name">
+    <value>TableLayoutPanelAssumptions</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelAssumptions.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbLikelihood.Name">
+    <value>cmbLikelihood</value>
+  </data>
+  <data name="&gt;&gt;cmbLikelihood.Parent">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;cmbLikelihood.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbLikelihood.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.Name">
+    <value>cmbOwner</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.Parent">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbOwner.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskCategory.Name">
+    <value>cmbRiskCategory</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskCategory.Parent">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskCategory.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskCategory.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskImpact.Name">
+    <value>cmbRiskImpact</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskImpact.Parent">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskImpact.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskImpact.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskResponse.Name">
+    <value>cmbRiskResponse</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskResponse.Parent">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskResponse.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbRiskResponse.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gbAssessment.Name">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;gbAssessment.Parent">
+    <value>TableLayoutPanelAssumptions</value>
+  </data>
+  <data name="&gt;&gt;gbAssessment.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbAssessment.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.Name">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.Parent">
+    <value>TableLayoutPanelAssumptions</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbResponse.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.Name">
+    <value>lblImpact</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.Parent">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblImpact.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLikelihood.Name">
+    <value>lblLikelihood</value>
+  </data>
+  <data name="&gt;&gt;lblLikelihood.Parent">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;lblLikelihood.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLikelihood.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.Name">
+    <value>lblOwner</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.Parent">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOwner.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.Name">
+    <value>lblResponseStrategy</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.Parent">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResponseStrategy.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblRiskCategory.Name">
+    <value>lblRiskCategory</value>
+  </data>
+  <data name="&gt;&gt;lblRiskCategory.Parent">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;lblRiskCategory.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRiskCategory.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblRiskImpact.Name">
+    <value>lblRiskImpact</value>
+  </data>
+  <data name="&gt;&gt;lblRiskImpact.Parent">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;lblRiskImpact.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRiskImpact.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblRiskLevel.Name">
+    <value>lblRiskLevel</value>
+  </data>
+  <data name="&gt;&gt;lblRiskLevel.Parent">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;lblRiskLevel.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRiskLevel.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblRiskResponse.Name">
+    <value>lblRiskResponse</value>
+  </data>
+  <data name="&gt;&gt;lblRiskResponse.Parent">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;lblRiskResponse.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRiskResponse.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.Name">
+    <value>tbImpact</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.Parent">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbImpact.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.Name">
+    <value>tbResponseStrategy</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.Parent">
+    <value>gbResponse</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbResponseStrategy.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbRiskLevel.Name">
+    <value>tbRiskLevel</value>
+  </data>
+  <data name="&gt;&gt;tbRiskLevel.Parent">
+    <value>gbAssessment</value>
+  </data>
+  <data name="&gt;&gt;tbRiskLevel.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbRiskLevel.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="gbAssessment.Text">
+    <value>Risk assessment</value>
+  </data>
+  <data name="gbResponse.Text">
+    <value>Response</value>
+  </data>
+  <data name="lblImpact.Text">
+    <value>Impact description:</value>
+  </data>
+  <data name="lblLikelihood.Text">
+    <value>Likelihood:</value>
+  </data>
+  <data name="lblOwner.Text">
+    <value>Risk owner:</value>
+  </data>
+  <data name="lblResponseStrategy.Text">
+    <value>Response strategy:</value>
+  </data>
+  <data name="lblRiskCategory.Text">
+    <value>Risk category:</value>
+  </data>
+  <data name="lblRiskImpact.Text">
+    <value>Potential impact:</value>
+  </data>
+  <data name="lblRiskLevel.Text">
+    <value>Risk level:</value>
+  </data>
+  <data name="lblRiskResponse.Text">
+    <value>Response:</value>
+  </data>
+</root>

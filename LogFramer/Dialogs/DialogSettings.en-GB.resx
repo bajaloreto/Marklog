@@ -1,0 +1,1072 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>LogFramer settings</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DialogSettings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ColorDialogSettings.Name">
+    <value>ColorDialogSettings</value>
+  </data>
+  <data name="&gt;&gt;ColorDialogSettings.Type">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FontDialogSettings.Name">
+    <value>FontDialogSettings</value>
+  </data>
+  <data name="&gt;&gt;FontDialogSettings.Type">
+    <value>System.Windows.Forms.FontDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Name">
+    <value>OK_Button</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Name">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Parent">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel3.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Name">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Parent">
+    <value>TabPageCurrentLogFrame</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel4.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Name">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Parent">
+    <value>TabPageCurrentLogFrame</value>
+  </data>
+  <data name="&gt;&gt;Panel5.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel5.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Panel6.Name">
+    <value>Panel6</value>
+  </data>
+  <data name="&gt;&gt;Panel6.Parent">
+    <value>TabPageCurrentLogFrame</value>
+  </data>
+  <data name="&gt;&gt;Panel6.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel6.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Panel7.Name">
+    <value>Panel7</value>
+  </data>
+  <data name="&gt;&gt;Panel7.Parent">
+    <value>TabPageCurrentLogFrame</value>
+  </data>
+  <data name="&gt;&gt;Panel7.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel7.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel8.Name">
+    <value>Panel8</value>
+  </data>
+  <data name="&gt;&gt;Panel8.Parent">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;Panel8.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel8.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControlSettings.Name">
+    <value>TabControlSettings</value>
+  </data>
+  <data name="&gt;&gt;TabControlSettings.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControlSettings.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlSettings.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageCurrentLogFrame.Name">
+    <value>TabPageCurrentLogFrame</value>
+  </data>
+  <data name="&gt;&gt;TabPageCurrentLogFrame.Parent">
+    <value>TabControlSettings</value>
+  </data>
+  <data name="&gt;&gt;TabPageCurrentLogFrame.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageCurrentLogFrame.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPageDesign.Name">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;TabPageDesign.Parent">
+    <value>TabControlSettings</value>
+  </data>
+  <data name="&gt;&gt;TabPageDesign.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageDesign.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageGeneral.Name">
+    <value>TabPageGeneral</value>
+  </data>
+  <data name="&gt;&gt;TabPageGeneral.Parent">
+    <value>TabControlSettings</value>
+  </data>
+  <data name="&gt;&gt;TabPageGeneral.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageGeneral.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnEqualColor.Name">
+    <value>btnEqualColor</value>
+  </data>
+  <data name="&gt;&gt;btnEqualColor.Parent">
+    <value>Panel8</value>
+  </data>
+  <data name="&gt;&gt;btnEqualColor.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEqualColor.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnEqualColorLf.Name">
+    <value>btnEqualColorLf</value>
+  </data>
+  <data name="&gt;&gt;btnEqualColorLf.Parent">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;btnEqualColorLf.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEqualColorLf.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkDefaultScheme.Name">
+    <value>chkDefaultScheme</value>
+  </data>
+  <data name="&gt;&gt;chkDefaultScheme.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;chkDefaultScheme.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDefaultScheme.ZOrder">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatOutputs.Name">
+    <value>chkRepeatOutputs</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatOutputs.Parent">
+    <value>Panel8</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatOutputs.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatOutputs.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatPurposes.Name">
+    <value>chkRepeatPurposes</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatPurposes.Parent">
+    <value>Panel8</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatPurposes.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatPurposes.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkSortNumberRepeatParent.Name">
+    <value>chkSortNumberRepeatParent</value>
+  </data>
+  <data name="&gt;&gt;chkSortNumberRepeatParent.Parent">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;chkSortNumberRepeatParent.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSortNumberRepeatParent.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkSortNumberTerminateWithDivider.Name">
+    <value>chkSortNumberTerminateWithDivider</value>
+  </data>
+  <data name="&gt;&gt;chkSortNumberTerminateWithDivider.Parent">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;chkSortNumberTerminateWithDivider.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSortNumberTerminateWithDivider.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkWarnLinkedObjDelete.Name">
+    <value>chkWarnLinkedObjDelete</value>
+  </data>
+  <data name="&gt;&gt;chkWarnLinkedObjDelete.Parent">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;chkWarnLinkedObjDelete.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWarnLinkedObjDelete.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbCurrency.Name">
+    <value>cmbCurrency</value>
+  </data>
+  <data name="&gt;&gt;cmbCurrency.Parent">
+    <value>Panel7</value>
+  </data>
+  <data name="&gt;&gt;cmbCurrency.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbCurrency.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultCurrency.Name">
+    <value>cmbDefaultCurrency</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultCurrency.Parent">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultCurrency.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultCurrency.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultIndType.Name">
+    <value>cmbDefaultIndType</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultIndType.Parent">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultIndType.Type">
+    <value>FaciliDev.LogFramer.StructuredComboBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbDefaultIndType.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvProjectLogic.Name">
+    <value>dgvProjectLogic</value>
+  </data>
+  <data name="&gt;&gt;dgvProjectLogic.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;dgvProjectLogic.Type">
+    <value>FaciliDev.LogFramer.DataGridViewProjectLogic, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dgvProjectLogic.ZOrder">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblAssumptionName.Name">
+    <value>lblAssumptionName</value>
+  </data>
+  <data name="&gt;&gt;lblAssumptionName.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;lblAssumptionName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAssumptionName.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblAutoSaveMinutes.Name">
+    <value>lblAutoSaveMinutes</value>
+  </data>
+  <data name="&gt;&gt;lblAutoSaveMinutes.Parent">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;lblAutoSaveMinutes.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAutoSaveMinutes.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblBudgetName.Name">
+    <value>lblBudgetName</value>
+  </data>
+  <data name="&gt;&gt;lblBudgetName.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;lblBudgetName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBudgetName.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblCurrency.Name">
+    <value>lblCurrency</value>
+  </data>
+  <data name="&gt;&gt;lblCurrency.Parent">
+    <value>Panel7</value>
+  </data>
+  <data name="&gt;&gt;lblCurrency.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCurrency.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultColorSection.Name">
+    <value>lblDefaultColorSection</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultColorSection.Parent">
+    <value>Panel8</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultColorSection.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultColorSection.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultCurrency.Name">
+    <value>lblDefaultCurrency</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultCurrency.Parent">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultCurrency.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultCurrency.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFont.Name">
+    <value>lblDefaultFont</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFont.Parent">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFont.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFont.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSectionColor.Name">
+    <value>lblDefaultFontSectionColor</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSectionColor.Parent">
+    <value>Panel8</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSectionColor.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSectionColor.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSections.Name">
+    <value>lblDefaultFontSections</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSections.Parent">
+    <value>Panel8</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSections.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSections.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSortNumbers.Name">
+    <value>lblDefaultFontSortNumbers</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSortNumbers.Parent">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSortNumbers.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontSortNumbers.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontUI.Name">
+    <value>lblDefaultFontUI</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontUI.Parent">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontUI.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultFontUI.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultIndType.Name">
+    <value>lblDefaultIndType</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultIndType.Parent">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultIndType.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDefaultIndType.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblDetailsFont.Name">
+    <value>lblDetailsFont</value>
+  </data>
+  <data name="&gt;&gt;lblDetailsFont.Parent">
+    <value>Panel6</value>
+  </data>
+  <data name="&gt;&gt;lblDetailsFont.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDetailsFont.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblIndicatorName.Name">
+    <value>lblIndicatorName</value>
+  </data>
+  <data name="&gt;&gt;lblIndicatorName.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;lblIndicatorName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIndicatorName.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblRecentFilesMax.Name">
+    <value>lblRecentFilesMax</value>
+  </data>
+  <data name="&gt;&gt;lblRecentFilesMax.Parent">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;lblRecentFilesMax.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRecentFilesMax.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblResourceName.Name">
+    <value>lblResourceName</value>
+  </data>
+  <data name="&gt;&gt;lblResourceName.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;lblResourceName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResourceName.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblSectionColor.Name">
+    <value>lblSectionColor</value>
+  </data>
+  <data name="&gt;&gt;lblSectionColor.Parent">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;lblSectionColor.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSectionColor.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblSectionTitleFont.Name">
+    <value>lblSectionTitleFont</value>
+  </data>
+  <data name="&gt;&gt;lblSectionTitleFont.Parent">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;lblSectionTitleFont.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSectionTitleFont.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblSectionTitleFontColor.Name">
+    <value>lblSectionTitleFontColor</value>
+  </data>
+  <data name="&gt;&gt;lblSectionTitleFontColor.Parent">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;lblSectionTitleFontColor.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSectionTitleFontColor.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblSortNumberExample.Name">
+    <value>lblSortNumberExample</value>
+  </data>
+  <data name="&gt;&gt;lblSortNumberExample.Parent">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;lblSortNumberExample.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSortNumberExample.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblSortNumberFont.Name">
+    <value>lblSortNumberFont</value>
+  </data>
+  <data name="&gt;&gt;lblSortNumberFont.Parent">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;lblSortNumberFont.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSortNumberFont.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblTimerAutoSave.Name">
+    <value>lblTimerAutoSave</value>
+  </data>
+  <data name="&gt;&gt;lblTimerAutoSave.Parent">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;lblTimerAutoSave.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTimerAutoSave.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblUse.Name">
+    <value>lblUse</value>
+  </data>
+  <data name="&gt;&gt;lblUse.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;lblUse.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUse.ZOrder">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblVerificationSourceName.Name">
+    <value>lblVerificationSourceName</value>
+  </data>
+  <data name="&gt;&gt;lblVerificationSourceName.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;lblVerificationSourceName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVerificationSourceName.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ntbRecentFilesMax.Name">
+    <value>ntbRecentFilesMax</value>
+  </data>
+  <data name="&gt;&gt;ntbRecentFilesMax.Parent">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;ntbRecentFilesMax.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbRecentFilesMax.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ntbTimerAutoSave.Name">
+    <value>ntbTimerAutoSave</value>
+  </data>
+  <data name="&gt;&gt;ntbTimerAutoSave.Parent">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;ntbTimerAutoSave.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbTimerAutoSave.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbAssumptionName.Name">
+    <value>tbAssumptionName</value>
+  </data>
+  <data name="&gt;&gt;tbAssumptionName.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;tbAssumptionName.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAssumptionName.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbBudgetName.Name">
+    <value>tbBudgetName</value>
+  </data>
+  <data name="&gt;&gt;tbBudgetName.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;tbBudgetName.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbBudgetName.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultColorSectionBottom.Name">
+    <value>tbDefaultColorSectionBottom</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultColorSectionBottom.Parent">
+    <value>Panel8</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultColorSectionBottom.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultColorSectionBottom.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultColorSectionTop.Name">
+    <value>tbDefaultColorSectionTop</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultColorSectionTop.Parent">
+    <value>Panel8</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultColorSectionTop.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultColorSectionTop.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFont.Name">
+    <value>tbDefaultFont</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFont.Parent">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFont.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFont.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSectionColor.Name">
+    <value>tbDefaultFontSectionColor</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSectionColor.Parent">
+    <value>Panel8</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSectionColor.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSectionColor.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSections.Name">
+    <value>tbDefaultFontSections</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSections.Parent">
+    <value>Panel8</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSections.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSections.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSortNumbers.Name">
+    <value>tbDefaultFontSortNumbers</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSortNumbers.Parent">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSortNumbers.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontSortNumbers.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontUI.Name">
+    <value>tbDefaultFontUI</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontUI.Parent">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontUI.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDefaultFontUI.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbDetailsFont.Name">
+    <value>tbDetailsFont</value>
+  </data>
+  <data name="&gt;&gt;tbDetailsFont.Parent">
+    <value>Panel6</value>
+  </data>
+  <data name="&gt;&gt;tbDetailsFont.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDetailsFont.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbIndicatorName.Name">
+    <value>tbIndicatorName</value>
+  </data>
+  <data name="&gt;&gt;tbIndicatorName.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;tbIndicatorName.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIndicatorName.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tbResourceName.Name">
+    <value>tbResourceName</value>
+  </data>
+  <data name="&gt;&gt;tbResourceName.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;tbResourceName.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbResourceName.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbSectionColorBottom.Name">
+    <value>tbSectionColorBottom</value>
+  </data>
+  <data name="&gt;&gt;tbSectionColorBottom.Parent">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;tbSectionColorBottom.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSectionColorBottom.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbSectionColorTop.Name">
+    <value>tbSectionColorTop</value>
+  </data>
+  <data name="&gt;&gt;tbSectionColorTop.Parent">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;tbSectionColorTop.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSectionColorTop.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbSectionTitleFont.Name">
+    <value>tbSectionTitleFont</value>
+  </data>
+  <data name="&gt;&gt;tbSectionTitleFont.Parent">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;tbSectionTitleFont.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSectionTitleFont.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbSectionTitleFontColor.Name">
+    <value>tbSectionTitleFontColor</value>
+  </data>
+  <data name="&gt;&gt;tbSectionTitleFontColor.Parent">
+    <value>Panel5</value>
+  </data>
+  <data name="&gt;&gt;tbSectionTitleFontColor.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSectionTitleFontColor.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbSortNumberDivider.Name">
+    <value>tbSortNumberDivider</value>
+  </data>
+  <data name="&gt;&gt;tbSortNumberDivider.Parent">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;tbSortNumberDivider.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSortNumberDivider.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbSortNumberFont.Name">
+    <value>tbSortNumberFont</value>
+  </data>
+  <data name="&gt;&gt;tbSortNumberFont.Parent">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;tbSortNumberFont.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSortNumberFont.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbVerificationSourceName.Name">
+    <value>tbVerificationSourceName</value>
+  </data>
+  <data name="&gt;&gt;tbVerificationSourceName.Parent">
+    <value>TabPageDesign</value>
+  </data>
+  <data name="&gt;&gt;tbVerificationSourceName.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbVerificationSourceName.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="Cancel_Button.Text">
+    <value>Cancel</value>
+  </data>
+  <data name="Label1.Text">
+    <value>Divider:</value>
+  </data>
+  <data name="OK_Button.Text">
+    <value>OK</value>
+  </data>
+  <data name="TabPageCurrentLogFrame.Text">
+    <value>Current logframe</value>
+  </data>
+  <data name="TabPageDesign.Text">
+    <value>LogFrame design</value>
+  </data>
+  <data name="TabPageGeneral.Text">
+    <value>Default settings</value>
+  </data>
+  <data name="btnEqualColor.Text">
+    <value>à</value>
+  </data>
+  <data name="btnEqualColorLf.Text">
+    <value>à</value>
+  </data>
+  <data name="chkDefaultScheme.Text">
+    <value>Make this the default scheme</value>
+  </data>
+  <data name="chkRepeatOutputs.Text">
+    <value>Repeat outputs in the activities section</value>
+  </data>
+  <data name="chkRepeatPurposes.Text">
+    <value>Repeat purposes in the outputs and activities sections</value>
+  </data>
+  <data name="chkSortNumberRepeatParent.Text">
+    <value>Repeat number of parent</value>
+  </data>
+  <data name="chkSortNumberTerminateWithDivider.Text">
+    <value>End with divider</value>
+  </data>
+  <data name="chkWarnLinkedObjDelete.Text">
+    <value>Give warning when linked elements (outputs, activities, indicators...) will be deleted</value>
+  </data>
+  <data name="lblAssumptionName.Text">
+    <value>Assumption column header:</value>
+  </data>
+  <data name="lblAutoSaveMinutes.Text">
+    <value>minutes</value>
+  </data>
+  <data name="lblBudgetName.Text">
+    <value>Budget column header:</value>
+  </data>
+  <data name="lblCurrency.Text">
+    <value>Currency (budget):</value>
+  </data>
+  <data name="lblDefaultColorSection.Text">
+    <value>Section color gradient:</value>
+  </data>
+  <data name="lblDefaultCurrency.Text">
+    <value>Default currency (budget):</value>
+  </data>
+  <data name="lblDefaultFont.Text">
+    <value>Default font:</value>
+  </data>
+  <data name="lblDefaultFontSectionColor.Text">
+    <value>Section title text color:</value>
+  </data>
+  <data name="lblDefaultFontSections.Text">
+    <value>Default font Section headers:</value>
+  </data>
+  <data name="lblDefaultFontSortNumbers.Text">
+    <value>Default font of sorting numbers:</value>
+  </data>
+  <data name="lblDefaultFontUI.Text">
+    <value>Default font of Details pane:</value>
+  </data>
+  <data name="lblDefaultIndType.Text">
+    <value>Default indicator type:</value>
+  </data>
+  <data name="lblDetailsFont.Text">
+    <value>Details pane font:</value>
+  </data>
+  <data name="lblIndicatorName.Text">
+    <value>Indicator column header:</value>
+  </data>
+  <data name="lblRecentFilesMax.Text">
+    <value>Number of files in 'Recent files' list:</value>
+  </data>
+  <data name="lblResourceName.Text">
+    <value>Resource column header:</value>
+  </data>
+  <data name="lblSectionColor.Text">
+    <value>Section color gradient:</value>
+  </data>
+  <data name="lblSectionTitleFont.Text">
+    <value>Section headers font:</value>
+  </data>
+  <data name="lblSectionTitleFontColor.Text">
+    <value>Section title text color:</value>
+  </data>
+  <data name="lblSortNumberExample.Text">
+    <value>1111</value>
+  </data>
+  <data name="lblSortNumberFont.Text">
+    <value>Sort numbers font:</value>
+  </data>
+  <data name="lblTimerAutoSave.Text">
+    <value>Auto save every:</value>
+  </data>
+  <data name="lblUse.Text">
+    <value>Click on the scheme you want to use for the LogFrame, then press &lt;OK&gt;</value>
+  </data>
+  <data name="lblVerificationSourceName.Text">
+    <value>Verification source column header:</value>
+  </data>
+</root>

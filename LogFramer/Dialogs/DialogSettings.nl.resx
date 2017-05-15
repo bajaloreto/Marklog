@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cancel_Button.Text" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="TabPageDesign.Text" xml:space="preserve">
+    <value>Structuur van het logisch kader</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblAssumptionName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 13</value>
+  </data>
+  <data name="lblAssumptionName.Text" xml:space="preserve">
+    <value>Titel Veronderstellingen kolom:</value>
+  </data>
+  <data name="lblBudgetName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="lblBudgetName.Text" xml:space="preserve">
+    <value>Titel Budget kolom:</value>
+  </data>
+  <data name="lblResourceName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="lblResourceName.Text" xml:space="preserve">
+    <value>Titel Middelen kolom:</value>
+  </data>
+  <data name="lblVerificationSourceName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 13</value>
+  </data>
+  <data name="lblVerificationSourceName.Text" xml:space="preserve">
+    <value>Titel Verificatiebronnen kolom:</value>
+  </data>
+  <data name="lblIndicatorName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 13</value>
+  </data>
+  <data name="lblIndicatorName.Text" xml:space="preserve">
+    <value>Titel Indicatoren kolom:</value>
+  </data>
+  <data name="chkDefaultScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 17</value>
+  </data>
+  <data name="chkDefaultScheme.Text" xml:space="preserve">
+    <value>Maak dit het standaard schema</value>
+  </data>
+  <data name="lblUse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 13</value>
+  </data>
+  <data name="lblUse.Text" xml:space="preserve">
+    <value>Klik op het schema dat uw wilt gebruiken voor het logisch kader en daarna op &lt;OK&gt;</value>
+  </data>
+  <data name="TabPageCurrentLogFrame.Text" xml:space="preserve">
+    <value>Huidig logisch kader</value>
+  </data>
+  <data name="cmbCurrency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 3</value>
+  </data>
+  <data name="lblCurrency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="lblCurrency.Text" xml:space="preserve">
+    <value>Munteenheid (budget):</value>
+  </data>
+  <data name="tbDetailsFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 3</value>
+  </data>
+  <data name="lblDetailsFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 13</value>
+  </data>
+  <data name="lblDetailsFont.Text" xml:space="preserve">
+    <value>Lettertype van Details venster:</value>
+  </data>
+  <data name="tbSectionTitleFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 3</value>
+  </data>
+  <data name="lblSectionTitleFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="lblSectionTitleFont.Text" xml:space="preserve">
+    <value>Lettertype sectietitels:</value>
+  </data>
+  <data name="btnEqualColorLf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 53</value>
+  </data>
+  <data name="lblSectionColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 13</value>
+  </data>
+  <data name="lblSectionColor.Text" xml:space="preserve">
+    <value>Kleurengradiënt v/d secties:</value>
+  </data>
+  <data name="tbSectionTitleFontColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 29</value>
+  </data>
+  <data name="tbSectionColorTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 55</value>
+  </data>
+  <data name="lblSectionTitleFontColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="lblSectionTitleFontColor.Text" xml:space="preserve">
+    <value>Kleur sectietitel:</value>
+  </data>
+  <data name="tbSectionColorBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 55</value>
+  </data>
+  <data name="lblSortNumberExample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 35</value>
+  </data>
+  <data name="chkSortNumberRepeatParent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 81</value>
+  </data>
+  <data name="chkSortNumberRepeatParent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 17</value>
+  </data>
+  <data name="chkSortNumberRepeatParent.Text" xml:space="preserve">
+    <value>Herhaal volgnummer van bovenliggend niveau</value>
+  </data>
+  <data name="chkSortNumberTerminateWithDivider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 58</value>
+  </data>
+  <data name="chkSortNumberTerminateWithDivider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="chkSortNumberTerminateWithDivider.Text" xml:space="preserve">
+    <value>Eindig met verdeler</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Verdeler:</value>
+  </data>
+  <data name="tbSortNumberDivider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 32</value>
+  </data>
+  <data name="tbSortNumberFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 6</value>
+  </data>
+  <data name="lblSortNumberFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="lblSortNumberFont.Text" xml:space="preserve">
+    <value>Lettertype nummering:</value>
+  </data>
+  <data name="TabPageGeneral.Text" xml:space="preserve">
+    <value>Standaard instellingen</value>
+  </data>
+  <data name="btnEqualColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 53</value>
+  </data>
+  <data name="tbDefaultFontSectionColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 29</value>
+  </data>
+  <data name="lblDefaultFontSectionColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 32</value>
+  </data>
+  <data name="lblDefaultFontSectionColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="lblDefaultFontSectionColor.Text" xml:space="preserve">
+    <value>Kleur sectietitel:</value>
+  </data>
+  <data name="chkRepeatPurposes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 82</value>
+  </data>
+  <data name="chkRepeatPurposes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 17</value>
+  </data>
+  <data name="chkRepeatPurposes.Text" xml:space="preserve">
+    <value>Herhaal specifieke objectieven in de resultaten- en activiteitensecties</value>
+  </data>
+  <data name="tbDefaultColorSectionBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 55</value>
+  </data>
+  <data name="chkRepeatOutputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 105</value>
+  </data>
+  <data name="chkRepeatOutputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 17</value>
+  </data>
+  <data name="chkRepeatOutputs.Text" xml:space="preserve">
+    <value>Herhaal resultaten in de sectie Activiteiten</value>
+  </data>
+  <data name="tbDefaultColorSectionTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 55</value>
+  </data>
+  <data name="lblDefaultFontSections.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 6</value>
+  </data>
+  <data name="lblDefaultFontSections.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 13</value>
+  </data>
+  <data name="lblDefaultFontSections.Text" xml:space="preserve">
+    <value>Standaard lettertype sectiehoofdingen:</value>
+  </data>
+  <data name="lblDefaultColorSection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 58</value>
+  </data>
+  <data name="lblDefaultColorSection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 13</value>
+  </data>
+  <data name="lblDefaultColorSection.Text" xml:space="preserve">
+    <value>Kleurengradiënt v/d secties:</value>
+  </data>
+  <data name="tbDefaultFontSections.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 3</value>
+  </data>
+  <data name="lblAutoSaveMinutes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 39</value>
+  </data>
+  <data name="lblAutoSaveMinutes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lblAutoSaveMinutes.Text" xml:space="preserve">
+    <value>minuten</value>
+  </data>
+  <data name="ntbTimerAutoSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 36</value>
+  </data>
+  <data name="lblTimerAutoSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 13</value>
+  </data>
+  <data name="lblTimerAutoSave.Text" xml:space="preserve">
+    <value>Automatisch opslaan:</value>
+  </data>
+  <data name="ntbRecentFilesMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 7</value>
+  </data>
+  <data name="lblRecentFilesMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 13</value>
+  </data>
+  <data name="lblRecentFilesMax.Text" xml:space="preserve">
+    <value>Aantal bestanden in 'Recent geopend' lijst:</value>
+  </data>
+  <data name="cmbDefaultIndType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 29</value>
+  </data>
+  <data name="tbDefaultFontUI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 3</value>
+  </data>
+  <data name="lblDefaultCurrency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 13</value>
+  </data>
+  <data name="lblDefaultCurrency.Text" xml:space="preserve">
+    <value>Standaard munteenheid (budget):</value>
+  </data>
+  <data name="lblDefaultFontUI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 13</value>
+  </data>
+  <data name="lblDefaultFontUI.Text" xml:space="preserve">
+    <value>Standaard lettertype Details venster:</value>
+  </data>
+  <data name="cmbDefaultCurrency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 56</value>
+  </data>
+  <data name="lblDefaultIndType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 13</value>
+  </data>
+  <data name="lblDefaultIndType.Text" xml:space="preserve">
+    <value>Standaard indicator type:</value>
+  </data>
+  <data name="tbDefaultFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 3</value>
+  </data>
+  <data name="lblDefaultFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="lblDefaultFont.Text" xml:space="preserve">
+    <value>Standaard lettertype:</value>
+  </data>
+  <data name="tbDefaultFontSortNumbers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 29</value>
+  </data>
+  <data name="chkWarnLinkedObjDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="chkWarnLinkedObjDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>549, 17</value>
+  </data>
+  <data name="chkWarnLinkedObjDelete.Text" xml:space="preserve">
+    <value>Waarschuw als onderling verbonden elementen (resultaten, activiteiten, indicatoren...) verwijderd zullen worden</value>
+  </data>
+  <data name="lblDefaultFontSortNumbers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 13</value>
+  </data>
+  <data name="lblDefaultFontSortNumbers.Text" xml:space="preserve">
+    <value>Standaard lettertype nummering:</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Logframer instellingen</value>
+  </data>
+</root>

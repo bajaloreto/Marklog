@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ToolStripButtonNewContact.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL6SURBVDhPrZA/TFNhFMW/0UUncdEEE11MjE6CDpoQSTRx
+        gUkG4240RhR1M3EQB+MgTkqMEAgIFlsolAKFlj8tbV/b915paR+UfyFK+CMYjIMJyfHe732vFBcXh1/u
+        ueec7/alIm0WkE4XYDKsS/biLO0wqudkcldaOOLAY6egvKLP2slLOqVacKH4C4riVzg7a2d3+gqn6/SF
+        rs9DN+aRYvSC1HJnn+DJmeOV7vItU6JFIjmHRIqgWVP7GhppLTUPjX2F3Lkjp430JSpTu4hqc4hqloQP
+        MnJPsD+HmMpiWhaxhEFkKMti95cgP0/kyMsqbUGEYxbCsTwiBB/74p6R0/aczEIkbmBx5TbiqSAdiGIP
+        gvQ4ND0Aq/AU03Ed4XgeYmI6D5tc8aBzlD3OJploGtFkAKtrdchar7D+vQrWwjMUlhugGW764YTsiWA4
+        h9BUDsGp2QMHXT0mKi82QOaSNCKJEWSsRmxsn5Vsbl/C/FI99Mx7TEQ02ROBiVkEJrPg6Rz81KWj+UME
+        b5pCuFDxkDL7P/u9dwhf129gfes8dnbLaV7Gyreb2Pl5RuZ8QwyFshgaJ2herX6OprcTeNE4hAf1n3G0
+        rBp+yvyUDY/Tf6S5kF+4j7XNKjp2BWsb1+gL7yBuNNMNU/aEbywD31iWyMivaXw5LI8dPlIpvSKhJEJR
+        DzJzj+XR5dU6WIt3aX+C8agbg0EdA8EMhDcwA6YvkMGp07fwqKGHjlXY3ij7du4dTcHM3UNouhvh5Dts
+        /TiHsUgvRsNeWEu16A/osis8w2m4Cc/wDI6fqEHZsetSs29njjbRO5KEhyHN/5n9ziQMpdMQPf40XMyg
+        ifKTdbYm2O8hz+U3afKutMzVVL7symlCdPsMdA2Y6Ca6fPt0D7BvZ3ZOmn2F7DlZ0TMgOvsNdHoNdBCd
+        Xh0d/Yy9S0p2u2fv/G7f2/dFW5+Otl4F69KdaO9NHcjb2fv7DXtKixZ3Cq1Ei0fNf+HR5Wx106Q3tref
+        y4P/i4/uFP4AUNr/ATi5SvEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonNewContact.ToolTipText" xml:space="preserve">
+    <value>Nieuw contactpersoon...</value>
+  </data>
+  <data name="ToolStripButtonEditContact.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJCSURBVDhPrZBLT1pRFIXP7+kjtZN23o76GLS/gEcCJIBA
+        hJkBGgZNE8LMeTUajKQGlErVELEirRTK5XUFVGZMCDHhH6zufbgXr+YWatKbfNl7n7PWYh9Es3GFZvMK
+        DYZ7wzytRg2j6fQ7OWu90JtbZl2gnU3PudfvDRpjL1gw/QWN6Rb6zL0+63oNXavrhaJcQqlfoka8e5+4
+        F69ef8SLlx+kX+YQovr7AtUaQdXMNIs3bz/JwIrmrxDirHKBs0pPYmaax7PnQZSrnDHJEaVyD6VyFz+I
+        lZWVexGPx+HxeMjfk/7Sry7Eyc8uJnSk6O4Guvn6+hrD4RCj0Qjj8Rj8dTodGcj+ooYolDo4Pu2gcHo+
+        NZvBZlVVJcaeAzmjQBnHVEX+5Bz5ogquZkGziEQicLlc0psvElTFwbGKg+8EVRb97clm32AwgNvtll7O
+        2Kcqckdt5I5Uoj01m6E/0Ui/35cbTjLa2Cu0IbL5Fpjd/OxAMxKJhPwPbzJaEJnDJtJE5rAlRfOerM9M
+        LBaTgexNE5wltveb+MJ8a9wS/wuBQABWqxWcsb3fkIhUro6tvQZSRCgUwpMFDxaeevHosQsPHjoQDAYR
+        jUa1/SC3Wlpakuc2m00GpnLkJ7YoS2x+rWMzW0eSCIfDWF5exuLiooSN/CS73Q6/3w+fzye3cjqd8Hq9
+        sFgscDgc0pvMKkhSlljfVbC+o8G9cSY2dmq37jf47K6Hz7RerKZrWCNWM1qdR0aRdS1NlTyTs5t7Gfi/
+        +Jyu4Q/q06RKZvz2kQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ToolStripButtonEditContact.Text" xml:space="preserve">
+    <value>Bewerken...</value>
+  </data>
+  <data name="ToolStripButtonEditContact.ToolTipText" xml:space="preserve">
+    <value>Contactpersoon bewerken...</value>
+  </data>
+  <data name="ToolStripButtonRemoveContact.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhPrY7LTxNRFMbvn6iJhBDjKyQEYlwYg3GhGxe4
+        0QRpEAWE8ppSaJnSlhZKgekL+pxpp5SWlv/l89xz5w6DGzcufvnOOd93zr3C7dzBde/Qkcg60PsazEi8
+        nPa492qhiwfLOuDN/LmstR/IBGshA/4LHv4vdC9r3eu81PYIxVIXuZwN2x6yLxxnBIcMW+Lccc09zadn
+        VpDJNtnTM4brISzLxcdPu5h9vw2+Q4hma4gmXZfaIFWM0KBeBo1IUfUywzpCnbzcqYO5LwdIphuoNW/V
+        PiGqjSGqjVumJpVM7ptDvH23iddv1pCmX1brA55f1gbcP3r8DTHzCqXLPh2UN9QdUandokIhGZSqe0ny
+        SC0a0TLK1QEK5RtEY5c8i8avYJV7Xl49VKFHRfFqAEXf03usSo+XJfFkHeHtgnpgr4KzQhcF+p3OljzE
+        RaVPL/VxQa/7dUAP0uqX86Esa2gph9xFlzyZJ7ycVItU5Is3yJd6YOU6APUn1rX/y9kPBsI7JeQsynv+
+        3ypOyDwpEFJ17ZE972LXrPkHP8+ZiKWaONYZvePtHZOKzPk1Muc9gvTCg+r0qYvlsIWp6VX/oGTdKLOn
+        80e8rziiXqTyXUiS+WulZ6peNyp49uIHH/m6kMX80inXiytniGfblFX5IElCJHIuTCKR6/rsJluYeBri
+        A5NTK9hLtRBJNDE1o35rmA3OBfdMVhcifuwiJsl2WI3DFsYnFnjxydg8Qqvn9CMX+5k2Ftcsni9tFFWe
+        5vHjDqG1A7FHwehRB3tENNPhBc3LyV/YjDc8v41I2uEfS28nafOcPdqTROmWiKQpmGrDICIpB2Pj33nh
+        +auf2DJbMOiIQRnlt7G8U+FMOFb3Z1IN2pU5sZV0sHXoIWtCHtSz7UP7oZ+wsfC7gLX9xv2Mc6oWYdPG
+        BhGmIOu/SDisGyYp7ajZvc8H/xfrpo0/e9/yQQyh9NsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonRemoveContact.ToolTipText" xml:space="preserve">
+    <value>Contactpersoon verwijderen...</value>
+  </data>
+  <data name="TabPageContacts.Text" xml:space="preserve">
+    <value>Contactpersonen</value>
+  </data>
+  <data name="ToolStripButtonNewWebsite.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL6SURBVDhPrZA/TFNhFMW/0UUncdEEE11MjE6CDpoQSTRx
+        gUkG4240RhR1M3EQB+MgTkqMEAgIFlsolAKFlj8tbV/b915paR+UfyFK+CMYjIMJyfHe732vFBcXh1/u
+        ueec7/alIm0WkE4XYDKsS/biLO0wqudkcldaOOLAY6egvKLP2slLOqVacKH4C4riVzg7a2d3+gqn6/SF
+        rs9DN+aRYvSC1HJnn+DJmeOV7vItU6JFIjmHRIqgWVP7GhppLTUPjX2F3Lkjp430JSpTu4hqc4hqloQP
+        MnJPsD+HmMpiWhaxhEFkKMti95cgP0/kyMsqbUGEYxbCsTwiBB/74p6R0/aczEIkbmBx5TbiqSAdiGIP
+        gvQ4ND0Aq/AU03Ed4XgeYmI6D5tc8aBzlD3OJploGtFkAKtrdchar7D+vQrWwjMUlhugGW764YTsiWA4
+        h9BUDsGp2QMHXT0mKi82QOaSNCKJEWSsRmxsn5Vsbl/C/FI99Mx7TEQ02ROBiVkEJrPg6Rz81KWj+UME
+        b5pCuFDxkDL7P/u9dwhf129gfes8dnbLaV7Gyreb2Pl5RuZ8QwyFshgaJ2herX6OprcTeNE4hAf1n3G0
+        rBp+yvyUDY/Tf6S5kF+4j7XNKjp2BWsb1+gL7yBuNNMNU/aEbywD31iWyMivaXw5LI8dPlIpvSKhJEJR
+        DzJzj+XR5dU6WIt3aX+C8agbg0EdA8EMhDcwA6YvkMGp07fwqKGHjlXY3ij7du4dTcHM3UNouhvh5Dts
+        /TiHsUgvRsNeWEu16A/osis8w2m4Cc/wDI6fqEHZsetSs29njjbRO5KEhyHN/5n9ziQMpdMQPf40XMyg
+        ifKTdbYm2O8hz+U3afKutMzVVL7symlCdPsMdA2Y6Ca6fPt0D7BvZ3ZOmn2F7DlZ0TMgOvsNdHoNdBCd
+        Xh0d/Yy9S0p2u2fv/G7f2/dFW5+Otl4F69KdaO9NHcjb2fv7DXtKixZ3Cq1Ei0fNf+HR5Wx106Q3tref
+        y4P/i4/uFP4AUNr/ATi5SvEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonNewWebsite.ToolTipText" xml:space="preserve">
+    <value>Nieuwe website...</value>
+  </data>
+  <data name="ToolStripButtonEditWebsite.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJCSURBVDhPrZBLT1pRFIXP7+kjtZN23o76GLS/gEcCJIBA
+        hJkBGgZNE8LMeTUajKQGlErVELEirRTK5XUFVGZMCDHhH6zufbgXr+YWatKbfNl7n7PWYh9Es3GFZvMK
+        DYZ7wzytRg2j6fQ7OWu90JtbZl2gnU3PudfvDRpjL1gw/QWN6Rb6zL0+63oNXavrhaJcQqlfoka8e5+4
+        F69ef8SLlx+kX+YQovr7AtUaQdXMNIs3bz/JwIrmrxDirHKBs0pPYmaax7PnQZSrnDHJEaVyD6VyFz+I
+        lZWVexGPx+HxeMjfk/7Sry7Eyc8uJnSk6O4Guvn6+hrD4RCj0Qjj8Rj8dTodGcj+ooYolDo4Pu2gcHo+
+        NZvBZlVVJcaeAzmjQBnHVEX+5Bz5ogquZkGziEQicLlc0psvElTFwbGKg+8EVRb97clm32AwgNvtll7O
+        2Kcqckdt5I5Uoj01m6E/0Ui/35cbTjLa2Cu0IbL5Fpjd/OxAMxKJhPwPbzJaEJnDJtJE5rAlRfOerM9M
+        LBaTgexNE5wltveb+MJ8a9wS/wuBQABWqxWcsb3fkIhUro6tvQZSRCgUwpMFDxaeevHosQsPHjoQDAYR
+        jUa1/SC3Wlpakuc2m00GpnLkJ7YoS2x+rWMzW0eSCIfDWF5exuLiooSN/CS73Q6/3w+fzye3cjqd8Hq9
+        sFgscDgc0pvMKkhSlljfVbC+o8G9cSY2dmq37jf47K6Hz7RerKZrWCNWM1qdR0aRdS1NlTyTs5t7Gfi/
+        +Jyu4Q/q06RKZvz2kQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ToolStripButtonEditWebsite.Text" xml:space="preserve">
+    <value>Bewerken...</value>
+  </data>
+  <data name="ToolStripButtonEditWebsite.ToolTipText" xml:space="preserve">
+    <value>Website bewerken</value>
+  </data>
+  <data name="ToolStripButtonRemoveWebsite.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhPrY7LTxNRFMbvn6iJhBDjKyQEYlwYg3GhGxe4
+        0QRpEAWE8ppSaJnSlhZKgekL+pxpp5SWlv/l89xz5w6DGzcufvnOOd93zr3C7dzBde/Qkcg60PsazEi8
+        nPa492qhiwfLOuDN/LmstR/IBGshA/4LHv4vdC9r3eu81PYIxVIXuZwN2x6yLxxnBIcMW+Lccc09zadn
+        VpDJNtnTM4brISzLxcdPu5h9vw2+Q4hma4gmXZfaIFWM0KBeBo1IUfUywzpCnbzcqYO5LwdIphuoNW/V
+        PiGqjSGqjVumJpVM7ptDvH23iddv1pCmX1brA55f1gbcP3r8DTHzCqXLPh2UN9QdUandokIhGZSqe0ny
+        SC0a0TLK1QEK5RtEY5c8i8avYJV7Xl49VKFHRfFqAEXf03usSo+XJfFkHeHtgnpgr4KzQhcF+p3OljzE
+        RaVPL/VxQa/7dUAP0uqX86Esa2gph9xFlzyZJ7ycVItU5Is3yJd6YOU6APUn1rX/y9kPBsI7JeQsynv+
+        3ypOyDwpEFJ17ZE972LXrPkHP8+ZiKWaONYZvePtHZOKzPk1Muc9gvTCg+r0qYvlsIWp6VX/oGTdKLOn
+        80e8rziiXqTyXUiS+WulZ6peNyp49uIHH/m6kMX80inXiytniGfblFX5IElCJHIuTCKR6/rsJluYeBri
+        A5NTK9hLtRBJNDE1o35rmA3OBfdMVhcifuwiJsl2WI3DFsYnFnjxydg8Qqvn9CMX+5k2Ftcsni9tFFWe
+        5vHjDqG1A7FHwehRB3tENNPhBc3LyV/YjDc8v41I2uEfS28nafOcPdqTROmWiKQpmGrDICIpB2Pj33nh
+        +auf2DJbMOiIQRnlt7G8U+FMOFb3Z1IN2pU5sZV0sHXoIWtCHtSz7UP7oZ+wsfC7gLX9xv2Mc6oWYdPG
+        BhGmIOu/SDisGyYp7ajZvc8H/xfrpo0/e9/yQQyh9NsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonRemoveWebsite.ToolTipText" xml:space="preserve">
+    <value>Website verwijderen...</value>
+  </data>
+  <data name="ToolStripButtonVisitWebsite.Text" xml:space="preserve">
+    <value>Open de website...</value>
+  </data>
+  <data name="ToolStripButtonVisitWebsite.ToolTipText" xml:space="preserve">
+    <value>Als u hier drukt wordt uw webbrower geopend en wordt de website getoond</value>
+  </data>
+  <data name="TabPageWebsites.Text" xml:space="preserve">
+    <value>Websites</value>
+  </data>
+  <data name="cmbType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 55</value>
+  </data>
+  <data name="cmbType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 21</value>
+  </data>
+  <data name="lblSwift.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lblSwift.Text" xml:space="preserve">
+    <value>BIC code:</value>
+  </data>
+  <data name="lblBankAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="lblBankAccount.Text" xml:space="preserve">
+    <value>Bankrekening:</value>
+  </data>
+  <data name="tbSwift.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 32</value>
+  </data>
+  <data name="tbAbreviation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 29</value>
+  </data>
+  <data name="tbAbreviation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 20</value>
+  </data>
+  <data name="tbBankAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 6</value>
+  </data>
+  <data name="tbBankAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 20</value>
+  </data>
+  <data name="TabPageBank.Text" xml:space="preserve">
+    <value>Bankrekening</value>
+  </data>
+  <data name="ToolStripButtonNewAddress.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL6SURBVDhPrZA/TFNhFMW/0UUncdEEE11MjE6CDpoQSTRx
+        gUkG4240RhR1M3EQB+MgTkqMEAgIFlsolAKFlj8tbV/b915paR+UfyFK+CMYjIMJyfHe732vFBcXh1/u
+        ueec7/alIm0WkE4XYDKsS/biLO0wqudkcldaOOLAY6egvKLP2slLOqVacKH4C4riVzg7a2d3+gqn6/SF
+        rs9DN+aRYvSC1HJnn+DJmeOV7vItU6JFIjmHRIqgWVP7GhppLTUPjX2F3Lkjp430JSpTu4hqc4hqloQP
+        MnJPsD+HmMpiWhaxhEFkKMti95cgP0/kyMsqbUGEYxbCsTwiBB/74p6R0/aczEIkbmBx5TbiqSAdiGIP
+        gvQ4ND0Aq/AU03Ed4XgeYmI6D5tc8aBzlD3OJploGtFkAKtrdchar7D+vQrWwjMUlhugGW764YTsiWA4
+        h9BUDsGp2QMHXT0mKi82QOaSNCKJEWSsRmxsn5Vsbl/C/FI99Mx7TEQ02ROBiVkEJrPg6Rz81KWj+UME
+        b5pCuFDxkDL7P/u9dwhf129gfes8dnbLaV7Gyreb2Pl5RuZ8QwyFshgaJ2herX6OprcTeNE4hAf1n3G0
+        rBp+yvyUDY/Tf6S5kF+4j7XNKjp2BWsb1+gL7yBuNNMNU/aEbywD31iWyMivaXw5LI8dPlIpvSKhJEJR
+        DzJzj+XR5dU6WIt3aX+C8agbg0EdA8EMhDcwA6YvkMGp07fwqKGHjlXY3ij7du4dTcHM3UNouhvh5Dts
+        /TiHsUgvRsNeWEu16A/osis8w2m4Cc/wDI6fqEHZsetSs29njjbRO5KEhyHN/5n9ziQMpdMQPf40XMyg
+        ifKTdbYm2O8hz+U3afKutMzVVL7symlCdPsMdA2Y6Ca6fPt0D7BvZ3ZOmn2F7DlZ0TMgOvsNdHoNdBCd
+        Xh0d/Yy9S0p2u2fv/G7f2/dFW5+Otl4F69KdaO9NHcjb2fv7DXtKixZ3Cq1Ei0fNf+HR5Wx106Q3tref
+        y4P/i4/uFP4AUNr/ATi5SvEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonNewAddress.ToolTipText" xml:space="preserve">
+    <value>Nieuw adres...</value>
+  </data>
+  <data name="ToolStripButtonEditAddress.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJCSURBVDhPrZBLT1pRFIXP7+kjtZN23o76GLS/gEcCJIBA
+        hJkBGgZNE8LMeTUajKQGlErVELEirRTK5XUFVGZMCDHhH6zufbgXr+YWatKbfNl7n7PWYh9Es3GFZvMK
+        DYZ7wzytRg2j6fQ7OWu90JtbZl2gnU3PudfvDRpjL1gw/QWN6Rb6zL0+63oNXavrhaJcQqlfoka8e5+4
+        F69ef8SLlx+kX+YQovr7AtUaQdXMNIs3bz/JwIrmrxDirHKBs0pPYmaax7PnQZSrnDHJEaVyD6VyFz+I
+        lZWVexGPx+HxeMjfk/7Sry7Eyc8uJnSk6O4Guvn6+hrD4RCj0Qjj8Rj8dTodGcj+ooYolDo4Pu2gcHo+
+        NZvBZlVVJcaeAzmjQBnHVEX+5Bz5ogquZkGziEQicLlc0psvElTFwbGKg+8EVRb97clm32AwgNvtll7O
+        2Kcqckdt5I5Uoj01m6E/0Ui/35cbTjLa2Cu0IbL5Fpjd/OxAMxKJhPwPbzJaEJnDJtJE5rAlRfOerM9M
+        LBaTgexNE5wltveb+MJ8a9wS/wuBQABWqxWcsb3fkIhUro6tvQZSRCgUwpMFDxaeevHosQsPHjoQDAYR
+        jUa1/SC3Wlpakuc2m00GpnLkJ7YoS2x+rWMzW0eSCIfDWF5exuLiooSN/CS73Q6/3w+fzye3cjqd8Hq9
+        sFgscDgc0pvMKkhSlljfVbC+o8G9cSY2dmq37jf47K6Hz7RerKZrWCNWM1qdR0aRdS1NlTyTs5t7Gfi/
+        +Jyu4Q/q06RKZvz2kQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ToolStripButtonEditAddress.Text" xml:space="preserve">
+    <value>Bewerken...</value>
+  </data>
+  <data name="ToolStripButtonEditAddress.ToolTipText" xml:space="preserve">
+    <value>Adres bewerken...</value>
+  </data>
+  <data name="ToolStripButtonRemoveAddress.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhPrY7LTxNRFMbvn6iJhBDjKyQEYlwYg3GhGxe4
+        0QRpEAWE8ppSaJnSlhZKgekL+pxpp5SWlv/l89xz5w6DGzcufvnOOd93zr3C7dzBde/Qkcg60PsazEi8
+        nPa492qhiwfLOuDN/LmstR/IBGshA/4LHv4vdC9r3eu81PYIxVIXuZwN2x6yLxxnBIcMW+Lccc09zadn
+        VpDJNtnTM4brISzLxcdPu5h9vw2+Q4hma4gmXZfaIFWM0KBeBo1IUfUywzpCnbzcqYO5LwdIphuoNW/V
+        PiGqjSGqjVumJpVM7ptDvH23iddv1pCmX1brA55f1gbcP3r8DTHzCqXLPh2UN9QdUandokIhGZSqe0ny
+        SC0a0TLK1QEK5RtEY5c8i8avYJV7Xl49VKFHRfFqAEXf03usSo+XJfFkHeHtgnpgr4KzQhcF+p3OljzE
+        RaVPL/VxQa/7dUAP0uqX86Esa2gph9xFlzyZJ7ycVItU5Is3yJd6YOU6APUn1rX/y9kPBsI7JeQsynv+
+        3ypOyDwpEFJ17ZE972LXrPkHP8+ZiKWaONYZvePtHZOKzPk1Muc9gvTCg+r0qYvlsIWp6VX/oGTdKLOn
+        80e8rziiXqTyXUiS+WulZ6peNyp49uIHH/m6kMX80inXiytniGfblFX5IElCJHIuTCKR6/rsJluYeBri
+        A5NTK9hLtRBJNDE1o35rmA3OBfdMVhcifuwiJsl2WI3DFsYnFnjxydg8Qqvn9CMX+5k2Ftcsni9tFFWe
+        5vHjDqG1A7FHwehRB3tENNPhBc3LyV/YjDc8v41I2uEfS28nafOcPdqTROmWiKQpmGrDICIpB2Pj33nh
+        +auf2DJbMOiIQRnlt7G8U+FMOFb3Z1IN2pU5sZV0sHXoIWtCHtSz7UP7oZ+wsfC7gLX9xv2Mc6oWYdPG
+        BhGmIOu/SDisGyYp7ajZvc8H/xfrpo0/e9/yQQyh9NsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonRemoveAddress.ToolTipText" xml:space="preserve">
+    <value>Adres verwijderen...</value>
+  </data>
+  <data name="TabPageAddresses.Text" xml:space="preserve">
+    <value>Adressen</value>
+  </data>
+  <data name="ToolStripButtonNewTelephoneNumber.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL6SURBVDhPrZA/TFNhFMW/0UUncdEEE11MjE6CDpoQSTRx
+        gUkG4240RhR1M3EQB+MgTkqMEAgIFlsolAKFlj8tbV/b915paR+UfyFK+CMYjIMJyfHe732vFBcXh1/u
+        ueec7/alIm0WkE4XYDKsS/biLO0wqudkcldaOOLAY6egvKLP2slLOqVacKH4C4riVzg7a2d3+gqn6/SF
+        rs9DN+aRYvSC1HJnn+DJmeOV7vItU6JFIjmHRIqgWVP7GhppLTUPjX2F3Lkjp430JSpTu4hqc4hqloQP
+        MnJPsD+HmMpiWhaxhEFkKMti95cgP0/kyMsqbUGEYxbCsTwiBB/74p6R0/aczEIkbmBx5TbiqSAdiGIP
+        gvQ4ND0Aq/AU03Ed4XgeYmI6D5tc8aBzlD3OJploGtFkAKtrdchar7D+vQrWwjMUlhugGW764YTsiWA4
+        h9BUDsGp2QMHXT0mKi82QOaSNCKJEWSsRmxsn5Vsbl/C/FI99Mx7TEQ02ROBiVkEJrPg6Rz81KWj+UME
+        b5pCuFDxkDL7P/u9dwhf129gfes8dnbLaV7Gyreb2Pl5RuZ8QwyFshgaJ2herX6OprcTeNE4hAf1n3G0
+        rBp+yvyUDY/Tf6S5kF+4j7XNKjp2BWsb1+gL7yBuNNMNU/aEbywD31iWyMivaXw5LI8dPlIpvSKhJEJR
+        DzJzj+XR5dU6WIt3aX+C8agbg0EdA8EMhDcwA6YvkMGp07fwqKGHjlXY3ij7du4dTcHM3UNouhvh5Dts
+        /TiHsUgvRsNeWEu16A/osis8w2m4Cc/wDI6fqEHZsetSs29njjbRO5KEhyHN/5n9ziQMpdMQPf40XMyg
+        ifKTdbYm2O8hz+U3afKutMzVVL7symlCdPsMdA2Y6Ca6fPt0D7BvZ3ZOmn2F7DlZ0TMgOvsNdHoNdBCd
+        Xh0d/Yy9S0p2u2fv/G7f2/dFW5+Otl4F69KdaO9NHcjb2fv7DXtKixZ3Cq1Ei0fNf+HR5Wx106Q3tref
+        y4P/i4/uFP4AUNr/ATi5SvEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonNewTelephoneNumber.ToolTipText" xml:space="preserve">
+    <value>Nieuw telefoonnummer...</value>
+  </data>
+  <data name="ToolStripButtonEditTelephoneNumber.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJCSURBVDhPrZBLT1pRFIXP7+kjtZN23o76GLS/gEcCJIBA
+        hJkBGgZNE8LMeTUajKQGlErVELEirRTK5XUFVGZMCDHhH6zufbgXr+YWatKbfNl7n7PWYh9Es3GFZvMK
+        DYZ7wzytRg2j6fQ7OWu90JtbZl2gnU3PudfvDRpjL1gw/QWN6Rb6zL0+63oNXavrhaJcQqlfoka8e5+4
+        F69ef8SLlx+kX+YQovr7AtUaQdXMNIs3bz/JwIrmrxDirHKBs0pPYmaax7PnQZSrnDHJEaVyD6VyFz+I
+        lZWVexGPx+HxeMjfk/7Sry7Eyc8uJnSk6O4Guvn6+hrD4RCj0Qjj8Rj8dTodGcj+ooYolDo4Pu2gcHo+
+        NZvBZlVVJcaeAzmjQBnHVEX+5Bz5ogquZkGziEQicLlc0psvElTFwbGKg+8EVRb97clm32AwgNvtll7O
+        2Kcqckdt5I5Uoj01m6E/0Ui/35cbTjLa2Cu0IbL5Fpjd/OxAMxKJhPwPbzJaEJnDJtJE5rAlRfOerM9M
+        LBaTgexNE5wltveb+MJ8a9wS/wuBQABWqxWcsb3fkIhUro6tvQZSRCgUwpMFDxaeevHosQsPHjoQDAYR
+        jUa1/SC3Wlpakuc2m00GpnLkJ7YoS2x+rWMzW0eSCIfDWF5exuLiooSN/CS73Q6/3w+fzye3cjqd8Hq9
+        sFgscDgc0pvMKkhSlljfVbC+o8G9cSY2dmq37jf47K6Hz7RerKZrWCNWM1qdR0aRdS1NlTyTs5t7Gfi/
+        +Jyu4Q/q06RKZvz2kQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ToolStripButtonEditTelephoneNumber.Text" xml:space="preserve">
+    <value>Bewerken...</value>
+  </data>
+  <data name="ToolStripButtonEditTelephoneNumber.ToolTipText" xml:space="preserve">
+    <value>Telefoonnummer bewerken...</value>
+  </data>
+  <data name="ToolStripButtonRemoveTelephoneNumber.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhPrY7LTxNRFMbvn6iJhBDjKyQEYlwYg3GhGxe4
+        0QRpEAWE8ppSaJnSlhZKgekL+pxpp5SWlv/l89xz5w6DGzcufvnOOd93zr3C7dzBde/Qkcg60PsazEi8
+        nPa492qhiwfLOuDN/LmstR/IBGshA/4LHv4vdC9r3eu81PYIxVIXuZwN2x6yLxxnBIcMW+Lccc09zadn
+        VpDJNtnTM4brISzLxcdPu5h9vw2+Q4hma4gmXZfaIFWM0KBeBo1IUfUywzpCnbzcqYO5LwdIphuoNW/V
+        PiGqjSGqjVumJpVM7ptDvH23iddv1pCmX1brA55f1gbcP3r8DTHzCqXLPh2UN9QdUandokIhGZSqe0ny
+        SC0a0TLK1QEK5RtEY5c8i8avYJV7Xl49VKFHRfFqAEXf03usSo+XJfFkHeHtgnpgr4KzQhcF+p3OljzE
+        RaVPL/VxQa/7dUAP0uqX86Esa2gph9xFlzyZJ7ycVItU5Is3yJd6YOU6APUn1rX/y9kPBsI7JeQsynv+
+        3ypOyDwpEFJ17ZE972LXrPkHP8+ZiKWaONYZvePtHZOKzPk1Muc9gvTCg+r0qYvlsIWp6VX/oGTdKLOn
+        80e8rziiXqTyXUiS+WulZ6peNyp49uIHH/m6kMX80inXiytniGfblFX5IElCJHIuTCKR6/rsJluYeBri
+        A5NTK9hLtRBJNDE1o35rmA3OBfdMVhcifuwiJsl2WI3DFsYnFnjxydg8Qqvn9CMX+5k2Ftcsni9tFFWe
+        5vHjDqG1A7FHwehRB3tENNPhBc3LyV/YjDc8v41I2uEfS28nafOcPdqTROmWiKQpmGrDICIpB2Pj33nh
+        +auf2DJbMOiIQRnlt7G8U+FMOFb3Z1IN2pU5sZV0sHXoIWtCHtSz7UP7oZ+wsfC7gLX9xv2Mc6oWYdPG
+        BhGmIOu/SDisGyYp7ajZvc8H/xfrpo0/e9/yQQyh9NsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonRemoveTelephoneNumber.ToolTipText" xml:space="preserve">
+    <value>Telefoonnummer verwijderen...</value>
+  </data>
+  <data name="TabPageTelephoneNumbers.Text" xml:space="preserve">
+    <value>Telefoon</value>
+  </data>
+  <data name="ToolStripButtonNewEmail.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL6SURBVDhPrZA/TFNhFMW/0UUncdEEE11MjE6CDpoQSTRx
+        gUkG4240RhR1M3EQB+MgTkqMEAgIFlsolAKFlj8tbV/b915paR+UfyFK+CMYjIMJyfHe732vFBcXh1/u
+        ueec7/alIm0WkE4XYDKsS/biLO0wqudkcldaOOLAY6egvKLP2slLOqVacKH4C4riVzg7a2d3+gqn6/SF
+        rs9DN+aRYvSC1HJnn+DJmeOV7vItU6JFIjmHRIqgWVP7GhppLTUPjX2F3Lkjp430JSpTu4hqc4hqloQP
+        MnJPsD+HmMpiWhaxhEFkKMti95cgP0/kyMsqbUGEYxbCsTwiBB/74p6R0/aczEIkbmBx5TbiqSAdiGIP
+        gvQ4ND0Aq/AU03Ed4XgeYmI6D5tc8aBzlD3OJploGtFkAKtrdchar7D+vQrWwjMUlhugGW764YTsiWA4
+        h9BUDsGp2QMHXT0mKi82QOaSNCKJEWSsRmxsn5Vsbl/C/FI99Mx7TEQ02ROBiVkEJrPg6Rz81KWj+UME
+        b5pCuFDxkDL7P/u9dwhf129gfes8dnbLaV7Gyreb2Pl5RuZ8QwyFshgaJ2herX6OprcTeNE4hAf1n3G0
+        rBp+yvyUDY/Tf6S5kF+4j7XNKjp2BWsb1+gL7yBuNNMNU/aEbywD31iWyMivaXw5LI8dPlIpvSKhJEJR
+        DzJzj+XR5dU6WIt3aX+C8agbg0EdA8EMhDcwA6YvkMGp07fwqKGHjlXY3ij7du4dTcHM3UNouhvh5Dts
+        /TiHsUgvRsNeWEu16A/osis8w2m4Cc/wDI6fqEHZsetSs29njjbRO5KEhyHN/5n9ziQMpdMQPf40XMyg
+        ifKTdbYm2O8hz+U3afKutMzVVL7symlCdPsMdA2Y6Ca6fPt0D7BvZ3ZOmn2F7DlZ0TMgOvsNdHoNdBCd
+        Xh0d/Yy9S0p2u2fv/G7f2/dFW5+Otl4F69KdaO9NHcjb2fv7DXtKixZ3Cq1Ei0fNf+HR5Wx106Q3tref
+        y4P/i4/uFP4AUNr/ATi5SvEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonNewEmail.ToolTipText" xml:space="preserve">
+    <value>Nieuw e-mail adres...</value>
+  </data>
+  <data name="ToolStripButtonEditEmail.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJCSURBVDhPrZBLT1pRFIXP7+kjtZN23o76GLS/gEcCJIBA
+        hJkBGgZNE8LMeTUajKQGlErVELEirRTK5XUFVGZMCDHhH6zufbgXr+YWatKbfNl7n7PWYh9Es3GFZvMK
+        DYZ7wzytRg2j6fQ7OWu90JtbZl2gnU3PudfvDRpjL1gw/QWN6Rb6zL0+63oNXavrhaJcQqlfoka8e5+4
+        F69ef8SLlx+kX+YQovr7AtUaQdXMNIs3bz/JwIrmrxDirHKBs0pPYmaax7PnQZSrnDHJEaVyD6VyFz+I
+        lZWVexGPx+HxeMjfk/7Sry7Eyc8uJnSk6O4Guvn6+hrD4RCj0Qjj8Rj8dTodGcj+ooYolDo4Pu2gcHo+
+        NZvBZlVVJcaeAzmjQBnHVEX+5Bz5ogquZkGziEQicLlc0psvElTFwbGKg+8EVRb97clm32AwgNvtll7O
+        2Kcqckdt5I5Uoj01m6E/0Ui/35cbTjLa2Cu0IbL5Fpjd/OxAMxKJhPwPbzJaEJnDJtJE5rAlRfOerM9M
+        LBaTgexNE5wltveb+MJ8a9wS/wuBQABWqxWcsb3fkIhUro6tvQZSRCgUwpMFDxaeevHosQsPHjoQDAYR
+        jUa1/SC3Wlpakuc2m00GpnLkJ7YoS2x+rWMzW0eSCIfDWF5exuLiooSN/CS73Q6/3w+fzye3cjqd8Hq9
+        sFgscDgc0pvMKkhSlljfVbC+o8G9cSY2dmq37jf47K6Hz7RerKZrWCNWM1qdR0aRdS1NlTyTs5t7Gfi/
+        +Jyu4Q/q06RKZvz2kQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ToolStripButtonEditEmail.Text" xml:space="preserve">
+    <value>Bewerken...</value>
+  </data>
+  <data name="ToolStripButtonEditEmail.ToolTipText" xml:space="preserve">
+    <value>E-mail adres bewerken...</value>
+  </data>
+  <data name="ToolStripButtonRemoveEmail.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhPrY7LTxNRFMbvn6iJhBDjKyQEYlwYg3GhGxe4
+        0QRpEAWE8ppSaJnSlhZKgekL+pxpp5SWlv/l89xz5w6DGzcufvnOOd93zr3C7dzBde/Qkcg60PsazEi8
+        nPa492qhiwfLOuDN/LmstR/IBGshA/4LHv4vdC9r3eu81PYIxVIXuZwN2x6yLxxnBIcMW+Lccc09zadn
+        VpDJNtnTM4brISzLxcdPu5h9vw2+Q4hma4gmXZfaIFWM0KBeBo1IUfUywzpCnbzcqYO5LwdIphuoNW/V
+        PiGqjSGqjVumJpVM7ptDvH23iddv1pCmX1brA55f1gbcP3r8DTHzCqXLPh2UN9QdUandokIhGZSqe0ny
+        SC0a0TLK1QEK5RtEY5c8i8avYJV7Xl49VKFHRfFqAEXf03usSo+XJfFkHeHtgnpgr4KzQhcF+p3OljzE
+        RaVPL/VxQa/7dUAP0uqX86Esa2gph9xFlzyZJ7ycVItU5Is3yJd6YOU6APUn1rX/y9kPBsI7JeQsynv+
+        3ypOyDwpEFJ17ZE972LXrPkHP8+ZiKWaONYZvePtHZOKzPk1Muc9gvTCg+r0qYvlsIWp6VX/oGTdKLOn
+        80e8rziiXqTyXUiS+WulZ6peNyp49uIHH/m6kMX80inXiytniGfblFX5IElCJHIuTCKR6/rsJluYeBri
+        A5NTK9hLtRBJNDE1o35rmA3OBfdMVhcifuwiJsl2WI3DFsYnFnjxydg8Qqvn9CMX+5k2Ftcsni9tFFWe
+        5vHjDqG1A7FHwehRB3tENNPhBc3LyV/YjDc8v41I2uEfS28nafOcPdqTROmWiKQpmGrDICIpB2Pj33nh
+        +auf2DJbMOiIQRnlt7G8U+FMOFb3Z1IN2pU5sZV0sHXoIWtCHtSz7UP7oZ+wsfC7gLX9xv2Mc6oWYdPG
+        BhGmIOu/SDisGyYp7ajZvc8H/xfrpo0/e9/yQQyh9NsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonRemoveEmail.ToolTipText" xml:space="preserve">
+    <value>E-mail verwijderen...</value>
+  </data>
+  <data name="ToolStripButtonSendEmail.Text" xml:space="preserve">
+    <value>Nieuw bericht...</value>
+  </data>
+  <data name="ToolStripButtonSendEmail.ToolTipText" xml:space="preserve">
+    <value>Stuur een nieuw e-mail bericht</value>
+  </data>
+  <data name="lblAbreviation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lblAbreviation.Text" xml:space="preserve">
+    <value>Afkorting:</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Naam:</value>
+  </data>
+  <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 3</value>
+  </data>
+  <data name="tbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 20</value>
+  </data>
+</root>

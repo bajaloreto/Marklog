@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TabPageReferences.Text">
+    <value>Verwijzingen</value>
+  </data>
+  <data name="TabPageType.Text">
+    <value>Type</value>
+  </data>
+  <data name="lblType.Text">
+    <value>Type:</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DetailBudgetItem</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelBudgetItemType.Name">
+    <value>PanelBudgetItemType</value>
+  </data>
+  <data name="&gt;&gt;PanelBudgetItemType.Parent">
+    <value>TabPageType</value>
+  </data>
+  <data name="&gt;&gt;PanelBudgetItemType.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelBudgetItemType.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TabControlBudgetItem.Name">
+    <value>TabControlBudgetItem</value>
+  </data>
+  <data name="&gt;&gt;TabControlBudgetItem.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControlBudgetItem.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlBudgetItem.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageReferences.Name">
+    <value>TabPageReferences</value>
+  </data>
+  <data name="&gt;&gt;TabPageReferences.Parent">
+    <value>TabControlBudgetItem</value>
+  </data>
+  <data name="&gt;&gt;TabPageReferences.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageReferences.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageType.Name">
+    <value>TabPageType</value>
+  </data>
+  <data name="&gt;&gt;TabPageType.Parent">
+    <value>TabControlBudgetItem</value>
+  </data>
+  <data name="&gt;&gt;TabPageType.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageType.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Name">
+    <value>cmbType</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Parent">
+    <value>TabPageType</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbType.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblType.Name">
+    <value>lblType</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent">
+    <value>TabPageType</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblType.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbBudgetItem.Name">
+    <value>tbBudgetItem</value>
+  </data>
+  <data name="&gt;&gt;tbBudgetItem.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbBudgetItem.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbBudgetItem.ZOrder">
+    <value>1</value>
+  </data>
+</root>

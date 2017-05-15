@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>PrintSettingsIndicators</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInclude.Name">
+    <value>GroupBoxInclude</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInclude.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInclude.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxInclude.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMeasurement.Name">
+    <value>GroupBoxMeasurement</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMeasurement.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMeasurement.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMeasurement.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxStruct.Name">
+    <value>GroupBoxStruct</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxStruct.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxStruct.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxStruct.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxTargetGroup.Name">
+    <value>GroupBoxTargetGroup</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxTargetGroup.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxTargetGroup.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxTargetGroup.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkPrintActivities.Name">
+    <value>chkPrintActivities</value>
+  </data>
+  <data name="&gt;&gt;chkPrintActivities.Parent">
+    <value>GroupBoxInclude</value>
+  </data>
+  <data name="&gt;&gt;chkPrintActivities.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPrintActivities.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOptionValues.Name">
+    <value>chkPrintOptionValues</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOptionValues.Parent">
+    <value>GroupBoxInclude</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOptionValues.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOptionValues.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOutputs.Name">
+    <value>chkPrintOutputs</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOutputs.Parent">
+    <value>GroupBoxInclude</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOutputs.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOutputs.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkPrintPurposes.Name">
+    <value>chkPrintPurposes</value>
+  </data>
+  <data name="&gt;&gt;chkPrintPurposes.Parent">
+    <value>GroupBoxInclude</value>
+  </data>
+  <data name="&gt;&gt;chkPrintPurposes.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPrintPurposes.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkPrintRanges.Name">
+    <value>chkPrintRanges</value>
+  </data>
+  <data name="&gt;&gt;chkPrintRanges.Parent">
+    <value>GroupBoxInclude</value>
+  </data>
+  <data name="&gt;&gt;chkPrintRanges.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPrintRanges.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkPrintTargets.Name">
+    <value>chkPrintTargets</value>
+  </data>
+  <data name="&gt;&gt;chkPrintTargets.Parent">
+    <value>GroupBoxInclude</value>
+  </data>
+  <data name="&gt;&gt;chkPrintTargets.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPrintTargets.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbPrintSection.Name">
+    <value>cmbPrintSection</value>
+  </data>
+  <data name="&gt;&gt;cmbPrintSection.Parent">
+    <value>GroupBoxStruct</value>
+  </data>
+  <data name="&gt;&gt;cmbPrintSection.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPrintSection.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.Name">
+    <value>cmbTargetGroupGuid</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.Parent">
+    <value>GroupBoxTargetGroup</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnAllMeasurements.Name">
+    <value>rbtnAllMeasurements</value>
+  </data>
+  <data name="&gt;&gt;rbtnAllMeasurements.Parent">
+    <value>GroupBoxMeasurement</value>
+  </data>
+  <data name="&gt;&gt;rbtnAllMeasurements.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnAllMeasurements.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnSingleMeasurement.Name">
+    <value>rbtnSingleMeasurement</value>
+  </data>
+  <data name="&gt;&gt;rbtnSingleMeasurement.Parent">
+    <value>GroupBoxMeasurement</value>
+  </data>
+  <data name="&gt;&gt;rbtnSingleMeasurement.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnSingleMeasurement.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="GroupBoxInclude.Text">
+    <value>Include</value>
+  </data>
+  <data name="GroupBoxMeasurement.Text">
+    <value>Measurement</value>
+  </data>
+  <data name="GroupBoxStruct.Text">
+    <value>Indicators of</value>
+  </data>
+  <data name="GroupBoxTargetGroup.Text">
+    <value>Target group</value>
+  </data>
+  <data name="chkPrintActivities.Text">
+    <value>Activities</value>
+  </data>
+  <data name="chkPrintOptionValues.Text">
+    <value>Option values</value>
+  </data>
+  <data name="chkPrintOutputs.Text">
+    <value>Outputs</value>
+  </data>
+  <data name="chkPrintPurposes.Text">
+    <value>Purposes</value>
+  </data>
+  <data name="chkPrintRanges.Text">
+    <value>Value ranges</value>
+  </data>
+  <data name="chkPrintTargets.Text">
+    <value>Targets</value>
+  </data>
+  <data name="rbtnAllMeasurements.Text">
+    <value>All measurements</value>
+  </data>
+  <data name="rbtnSingleMeasurement.Text">
+    <value>Single measurement</value>
+  </data>
+</root>

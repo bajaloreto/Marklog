@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>IndicatorRatio</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax1.Name">
+    <value>cmbOpMax1</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax1.Parent">
+    <value>gbValueRangeFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax1.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectValue, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax1.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax2.Name">
+    <value>cmbOpMax2</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax2.Parent">
+    <value>gbValueRangeSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax2.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectValue, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMax2.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin1.Name">
+    <value>cmbOpMin1</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin1.Parent">
+    <value>gbValueRangeFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin1.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectValue, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin1.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin2.Name">
+    <value>cmbOpMin2</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin2.Parent">
+    <value>gbValueRangeSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin2.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectValue, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin2.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit1.Name">
+    <value>cmbUnit1</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit1.Parent">
+    <value>gbNumberFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit1.Type">
+    <value>FaciliDev.LogFramer.StructuredComboBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit1.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit2.Name">
+    <value>cmbUnit2</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit2.Parent">
+    <value>gbNumberSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit2.Type">
+    <value>FaciliDev.LogFramer.StructuredComboBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbUnit2.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbFirstStatement.Name">
+    <value>gbFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;gbFirstStatement.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbFirstStatement.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbFirstStatement.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gbNumberFirstStatement.Name">
+    <value>gbNumberFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;gbNumberFirstStatement.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbNumberFirstStatement.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbNumberFirstStatement.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;gbNumberSecondStatement.Name">
+    <value>gbNumberSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;gbNumberSecondStatement.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbNumberSecondStatement.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbNumberSecondStatement.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.Name">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gbSecondStatement.Name">
+    <value>gbSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;gbSecondStatement.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbSecondStatement.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbSecondStatement.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.Name">
+    <value>gbTargetSystem</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbTargetSystem.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gbValueRangeFirstStatement.Name">
+    <value>gbValueRangeFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;gbValueRangeFirstStatement.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbValueRangeFirstStatement.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbValueRangeFirstStatement.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;gbValueRangeSecondStatement.Name">
+    <value>gbValueRangeSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;gbValueRangeSecondStatement.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbValueRangeSecondStatement.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbValueRangeSecondStatement.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue1.Name">
+    <value>lblMaxValue1</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue1.Parent">
+    <value>gbValueRangeFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue1.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue1.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue2.Name">
+    <value>lblMaxValue2</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue2.Parent">
+    <value>gbValueRangeSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue2.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMaxValue2.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue1.Name">
+    <value>lblMinValue1</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue1.Parent">
+    <value>gbValueRangeFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue1.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue1.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue2.Name">
+    <value>lblMinValue2</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue2.Parent">
+    <value>gbValueRangeSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue2.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMinValue2.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals1.Name">
+    <value>lblNrDecimals1</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals1.Parent">
+    <value>gbNumberFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals1.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals1.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals2.Name">
+    <value>lblNrDecimals2</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals2.Parent">
+    <value>gbNumberSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals2.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals2.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblUnit1.Name">
+    <value>lblUnit1</value>
+  </data>
+  <data name="&gt;&gt;lblUnit1.Parent">
+    <value>gbNumberFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;lblUnit1.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit1.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblUnit2.Name">
+    <value>lblUnit2</value>
+  </data>
+  <data name="&gt;&gt;lblUnit2.Parent">
+    <value>gbNumberSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;lblUnit2.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit2.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ntbMaxValue1.Name">
+    <value>ntbMaxValue1</value>
+  </data>
+  <data name="&gt;&gt;ntbMaxValue1.Parent">
+    <value>gbValueRangeFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;ntbMaxValue1.Type">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbMaxValue1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbMaxValue2.Name">
+    <value>ntbMaxValue2</value>
+  </data>
+  <data name="&gt;&gt;ntbMaxValue2.Parent">
+    <value>gbValueRangeSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;ntbMaxValue2.Type">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbMaxValue2.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbMinValue1.Name">
+    <value>ntbMinValue1</value>
+  </data>
+  <data name="&gt;&gt;ntbMinValue1.Parent">
+    <value>gbValueRangeFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;ntbMinValue1.Type">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbMinValue1.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ntbMinValue2.Name">
+    <value>ntbMinValue2</value>
+  </data>
+  <data name="&gt;&gt;ntbMinValue2.Parent">
+    <value>gbValueRangeSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;ntbMinValue2.Type">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbMinValue2.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals1.Name">
+    <value>ntbNrDecimals1</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals1.Parent">
+    <value>gbNumberFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals1.Type">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals2.Name">
+    <value>ntbNrDecimals2</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals2.Parent">
+    <value>gbNumberSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals2.Type">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals2.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Name">
+    <value>rbtnScoringPercentage</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Parent">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Name">
+    <value>rbtnScoringScore</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Parent">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.Name">
+    <value>rbtnScoringValue</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.Parent">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringValue.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemFormula.Name">
+    <value>rbtnTargetSystemFormula</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemFormula.Parent">
+    <value>gbTargetSystem</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemFormula.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemFormula.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.Name">
+    <value>rbtnTargetSystemSimple</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.Parent">
+    <value>gbTargetSystem</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemSimple.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemValueRange.Name">
+    <value>rbtnTargetSystemValueRange</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemValueRange.Parent">
+    <value>gbTargetSystem</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemValueRange.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnTargetSystemValueRange.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rtbFirstStatement.Name">
+    <value>rtbFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;rtbFirstStatement.Parent">
+    <value>gbFirstStatement</value>
+  </data>
+  <data name="&gt;&gt;rtbFirstStatement.Type">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbFirstStatement.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rtbSecondStatement.Name">
+    <value>rtbSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;rtbSecondStatement.Parent">
+    <value>gbSecondStatement</value>
+  </data>
+  <data name="&gt;&gt;rtbSecondStatement.Type">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbSecondStatement.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="gbFirstStatement.Text">
+    <value>First question</value>
+  </data>
+  <data name="gbNumberFirstStatement.Text">
+    <value>Number</value>
+  </data>
+  <data name="gbNumberSecondStatement.Text">
+    <value>Number</value>
+  </data>
+  <data name="gbScoring.Text">
+    <value>Scoring</value>
+  </data>
+  <data name="gbSecondStatement.Text">
+    <value>Second question</value>
+  </data>
+  <data name="gbTargetSystem.Text">
+    <value>Targeting</value>
+  </data>
+  <data name="gbValueRangeFirstStatement.Text">
+    <value>Value range (optional)</value>
+  </data>
+  <data name="gbValueRangeSecondStatement.Text">
+    <value>Value range (optional)</value>
+  </data>
+  <data name="lblMaxValue1.Text">
+    <value>Max. value:</value>
+  </data>
+  <data name="lblMaxValue2.Text">
+    <value>Max. value:</value>
+  </data>
+  <data name="lblMinValue1.Text">
+    <value>Min. value:</value>
+  </data>
+  <data name="lblMinValue2.Text">
+    <value>Min. value:</value>
+  </data>
+  <data name="lblNrDecimals1.Text">
+    <value>Decimals:</value>
+  </data>
+  <data name="lblNrDecimals2.Text">
+    <value>Decimals:</value>
+  </data>
+  <data name="lblUnit1.Text">
+    <value>Unit:</value>
+  </data>
+  <data name="lblUnit2.Text">
+    <value>Unit:</value>
+  </data>
+  <data name="rbtnScoringPercentage.Text">
+    <value>Score = percentage of target</value>
+  </data>
+  <data name="rbtnScoringScore.Text">
+    <value>Score = scoring value when target is achieved</value>
+  </data>
+  <data name="rbtnScoringValue.Text">
+    <value>Score = value (default)</value>
+  </data>
+  <data name="rbtnTargetSystemFormula.Text">
+    <value>Target = formula</value>
+  </data>
+  <data name="rbtnTargetSystemSimple.Text">
+    <value>Simple (value &gt;= target)</value>
+  </data>
+  <data name="rbtnTargetSystemValueRange.Text">
+    <value>Target = value range</value>
+  </data>
+</root>

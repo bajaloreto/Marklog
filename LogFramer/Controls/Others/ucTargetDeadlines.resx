@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lblAfterProjectStarts.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitEnd.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ntbPeriodStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="&gt;&gt;lvTargetDeadlines.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ListViewTargetDeadlines, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateStart.Name" xml:space="preserve">
+    <value>rbtnReferenceDateStart</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateStart.Parent" xml:space="preserve">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dtpEndDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 20</value>
+  </data>
+  <data name="lvTargetDeadlines.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 10</value>
+  </data>
+  <data name="lblStarting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbTargetSystem.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lblAfterProjectStarts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 22</value>
+  </data>
+  <data name="gbStarting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 3</value>
+  </data>
+  <data name="dtpEndDate.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="lblAfterProjectStarts.Text" xml:space="preserve">
+    <value>after project starts</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectStarts.Parent" xml:space="preserve">
+    <value>gbStarting</value>
+  </data>
+  <data name="lblAfterProjectStarts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="&gt;&gt;gbStarting.Name" xml:space="preserve">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateStart.Parent" xml:space="preserve">
+    <value>gbStarting</value>
+  </data>
+  <data name="cmbPeriodUnitEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="ntbPeriodStart.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodStart.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectStarts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ntbPeriodEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="lblEnding.Text" xml:space="preserve">
+    <value>Ending:</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Parent" xml:space="preserve">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectStarts.Name" xml:space="preserve">
+    <value>lblAfterProjectStarts</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbtnReferenceDateEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateEnd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblTargetSystem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTargetSystem.Text" xml:space="preserve">
+    <value>Set targets:</value>
+  </data>
+  <data name="lblAfterProjectEnds.Text" xml:space="preserve">
+    <value>after project ends</value>
+  </data>
+  <data name="lblTargetSystem.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitStart.Name" xml:space="preserve">
+    <value>cmbPeriodUnitStart</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateEnd.Name" xml:space="preserve">
+    <value>rbtnExactDateEnd</value>
+  </data>
+  <data name="&gt;&gt;gbStarting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gbEnding.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="cmbTargetSystem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 22</value>
+  </data>
+  <data name="lblAfterProjectEnds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 22</value>
+  </data>
+  <data name="rbtnExactDateEnd.Text" xml:space="preserve">
+    <value>At this exact date:</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectEnds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvTargetDeadlines.Name" xml:space="preserve">
+    <value>lvTargetDeadlines</value>
+  </data>
+  <data name="ntbPeriodStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitStart.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dtpEndDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 46</value>
+  </data>
+  <data name="lblStarting.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbPeriodUnitEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 19</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Name" xml:space="preserve">
+    <value>dtpEndDate</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetSystem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateEnd.Parent" xml:space="preserve">
+    <value>gbEnding</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblStarting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gbStarting.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="gbEnding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 82</value>
+  </data>
+  <data name="&gt;&gt;lblEnding.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblEnding.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEnding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="lblAfterProjectEnds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateStart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbStarting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 73</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucTargetDeadlines</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbPeriodUnitEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="rbtnReferenceDateEnd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnExactDateEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="&gt;&gt;lvTargetDeadlines.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbtnExactDateStart.Text" xml:space="preserve">
+    <value>At this exact date:</value>
+  </data>
+  <data name="ntbPeriodEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="rbtnReferenceDateStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitEnd.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lvTargetDeadlines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 148</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectEnds.Name" xml:space="preserve">
+    <value>lblAfterProjectEnds</value>
+  </data>
+  <data name="&gt;&gt;lblEnding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitEnd.Name" xml:space="preserve">
+    <value>cmbPeriodUnitEnd</value>
+  </data>
+  <data name="rbtnExactDateStart.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;lblStarting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lvTargetDeadlines.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitStart.Parent" xml:space="preserve">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;lblStarting.Parent" xml:space="preserve">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;gbEnding.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtnExactDateStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodStart.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateEnd.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbtnExactDateEnd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateEnd.Name" xml:space="preserve">
+    <value>rbtnReferenceDateEnd</value>
+  </data>
+  <data name="ntbPeriodEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="dtpStartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;gbStarting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbtnReferenceDateStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectEnds.Parent" xml:space="preserve">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodEnd.Parent" xml:space="preserve">
+    <value>gbEnding</value>
+  </data>
+  <data name="rbtnExactDateEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 46</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbEnding.Name" xml:space="preserve">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Parent" xml:space="preserve">
+    <value>gbEnding</value>
+  </data>
+  <data name="lblAfterProjectStarts.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 161</value>
+  </data>
+  <data name="cmbPeriodUnitStart.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTargetSystem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetSystem.Name" xml:space="preserve">
+    <value>cmbTargetSystem</value>
+  </data>
+  <data name="rbtnExactDateStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblEnding.Name" xml:space="preserve">
+    <value>lblEnding</value>
+  </data>
+  <data name="lblStarting.Text" xml:space="preserve">
+    <value>Starting:</value>
+  </data>
+  <data name="dtpStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 20</value>
+  </data>
+  <data name="rbtnReferenceDateStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="lblEnding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="rbtnReferenceDateStart.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="lblAfterProjectStarts.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEnding.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAfterProjectStarts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnExactDateStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 46</value>
+  </data>
+  <data name="rbtnReferenceDateEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="rbtnExactDateStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="&gt;&gt;lblStarting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAfterProjectEnds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStarting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="cmbPeriodUnitStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="lblTargetSystem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 25</value>
+  </data>
+  <data name="&gt;&gt;gbEnding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbtnExactDateEnd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetSystem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodEnd.Name" xml:space="preserve">
+    <value>ntbPeriodEnd</value>
+  </data>
+  <data name="&gt;&gt;lblStarting.Name" xml:space="preserve">
+    <value>lblStarting</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodStart.Name" xml:space="preserve">
+    <value>ntbPeriodStart</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetSystem.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateStart.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblEnding.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;lvTargetDeadlines.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbTargetSystem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 21</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitEnd.Parent" xml:space="preserve">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;lblTargetSystem.Name" xml:space="preserve">
+    <value>lblTargetSystem</value>
+  </data>
+  <data name="gbEnding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 77</value>
+  </data>
+  <data name="lblAfterProjectEnds.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitStart.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="rbtnReferenceDateEnd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lvTargetDeadlines.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="lblTargetSystem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Name" xml:space="preserve">
+    <value>dtpStartDate</value>
+  </data>
+  <data name="lblTargetSystem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="rbtnReferenceDateEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="rbtnReferenceDateStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbtnExactDateEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="lblTargetSystem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodEnd.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblAfterProjectEnds.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodStart.Parent" xml:space="preserve">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;lblTargetSystem.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateStart.Name" xml:space="preserve">
+    <value>rbtnExactDateStart</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateEnd.Parent" xml:space="preserve">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodEnd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblStarting.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="dtpStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 46</value>
+  </data>
+  <data name="cmbPeriodUnitStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 19</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectEnds.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbStarting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbEnding.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblEnding.Parent" xml:space="preserve">
+    <value>gbEnding</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr</value>
+  </metadata>
+</root>

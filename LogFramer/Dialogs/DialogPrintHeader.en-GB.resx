@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Print header (top of page)</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DialogPrintHeader</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Name">
+    <value>OK_Button</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator6.Name">
+    <value>ToolStripSeparator6</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator6.Type">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator7.Name">
+    <value>ToolStripSeparator7</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator7.Type">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator8.Name">
+    <value>ToolStripSeparator8</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator8.Type">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAddPageNumber.Name">
+    <value>buttonAddPageNumber</value>
+  </data>
+  <data name="&gt;&gt;buttonAddPageNumber.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTotalPages.Name">
+    <value>buttonAddTotalPages</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTotalPages.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonParAlignCentre.Name">
+    <value>buttonParAlignCentre</value>
+  </data>
+  <data name="&gt;&gt;buttonParAlignCentre.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonParAlignLeft.Name">
+    <value>buttonParAlignLeft</value>
+  </data>
+  <data name="&gt;&gt;buttonParAlignLeft.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonParAlignRight.Name">
+    <value>buttonParAlignRight</value>
+  </data>
+  <data name="&gt;&gt;buttonParAlignRight.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTextBackGround.Name">
+    <value>buttonTextBackGround</value>
+  </data>
+  <data name="&gt;&gt;buttonTextBackGround.Type">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTextBold.Name">
+    <value>buttonTextBold</value>
+  </data>
+  <data name="&gt;&gt;buttonTextBold.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTextColor.Name">
+    <value>buttonTextColor</value>
+  </data>
+  <data name="&gt;&gt;buttonTextColor.Type">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTextItalics.Name">
+    <value>buttonTextItalics</value>
+  </data>
+  <data name="&gt;&gt;buttonTextItalics.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTextStrikeThrough.Name">
+    <value>buttonTextStrikeThrough</value>
+  </data>
+  <data name="&gt;&gt;buttonTextStrikeThrough.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTextSubscript.Name">
+    <value>buttonTextSubscript</value>
+  </data>
+  <data name="&gt;&gt;buttonTextSubscript.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTextSuperscript.Name">
+    <value>buttonTextSuperscript</value>
+  </data>
+  <data name="&gt;&gt;buttonTextSuperscript.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTextUnderlined.Name">
+    <value>buttonTextUnderlined</value>
+  </data>
+  <data name="&gt;&gt;buttonTextUnderlined.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCopyToAllReports.Name">
+    <value>chkCopyToAllReports</value>
+  </data>
+  <data name="&gt;&gt;chkCopyToAllReports.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkCopyToAllReports.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCopyToAllReports.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbFontSize.Name">
+    <value>cmbFontSize</value>
+  </data>
+  <data name="&gt;&gt;cmbFontSize.Type">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbFonts.Name">
+    <value>cmbFonts</value>
+  </data>
+  <data name="&gt;&gt;cmbFonts.Type">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbLeft.Name">
+    <value>rtbLeft</value>
+  </data>
+  <data name="&gt;&gt;rtbLeft.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rtbLeft.Type">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbLeft.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;rtbMiddle.Name">
+    <value>rtbMiddle</value>
+  </data>
+  <data name="&gt;&gt;rtbMiddle.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rtbMiddle.Type">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbMiddle.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rtbRight.Name">
+    <value>rtbRight</value>
+  </data>
+  <data name="&gt;&gt;rtbRight.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rtbRight.Type">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbRight.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tspFormatting.Name">
+    <value>tspFormatting</value>
+  </data>
+  <data name="&gt;&gt;tspFormatting.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tspFormatting.Type">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tspFormatting.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="Cancel_Button.Text">
+    <value>Cancel</value>
+  </data>
+  <data name="OK_Button.Text">
+    <value>OK</value>
+  </data>
+  <data name="buttonAddPageNumber.Text">
+    <value>Page number</value>
+  </data>
+  <data name="buttonAddTotalPages.Text">
+    <value>Total pages</value>
+  </data>
+  <data name="buttonParAlignCentre.Text">
+    <value>C</value>
+  </data>
+  <data name="buttonParAlignCentre.ToolTipText">
+    <value>Align Centre</value>
+  </data>
+  <data name="buttonParAlignLeft.Text">
+    <value>L</value>
+  </data>
+  <data name="buttonParAlignLeft.ToolTipText">
+    <value>Align Left</value>
+  </data>
+  <data name="buttonParAlignRight.Text">
+    <value>R</value>
+  </data>
+  <data name="buttonParAlignRight.ToolTipText">
+    <value>Align Right</value>
+  </data>
+  <data name="buttonTextBackGround.Text">
+    <value>A</value>
+  </data>
+  <data name="buttonTextBackGround.ToolTipText">
+    <value>Marker</value>
+  </data>
+  <data name="buttonTextBold.Text">
+    <value>B</value>
+  </data>
+  <data name="buttonTextBold.ToolTipText">
+    <value>Bold</value>
+  </data>
+  <data name="buttonTextColor.Text">
+    <value>A</value>
+  </data>
+  <data name="buttonTextColor.ToolTipText">
+    <value>Text Colour</value>
+  </data>
+  <data name="buttonTextItalics.Text">
+    <value>I</value>
+  </data>
+  <data name="buttonTextItalics.ToolTipText">
+    <value>Italics</value>
+  </data>
+  <data name="buttonTextStrikeThrough.Text">
+    <value>S</value>
+  </data>
+  <data name="buttonTextStrikeThrough.ToolTipText">
+    <value>Strikethrough</value>
+  </data>
+  <data name="buttonTextSubscript.Text">
+    <value>2</value>
+  </data>
+  <data name="buttonTextSubscript.ToolTipText">
+    <value>Subscript</value>
+  </data>
+  <data name="buttonTextSuperscript.Text">
+    <value>2</value>
+  </data>
+  <data name="buttonTextSuperscript.ToolTipText">
+    <value>Superscript</value>
+  </data>
+  <data name="buttonTextUnderlined.Text">
+    <value>U</value>
+  </data>
+  <data name="buttonTextUnderlined.ToolTipText">
+    <value>Underline</value>
+  </data>
+  <data name="chkCopyToAllReports.Text">
+    <value>Copy this header to all reports</value>
+  </data>
+  <data name="tspFormatting.Text">
+    <value>ToolStrip1</value>
+  </data>
+</root>

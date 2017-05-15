@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>DetailGoal</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlProjectInfo.Name">
+    <value>TabControlProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;TabControlProjectInfo.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControlProjectInfo.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlProjectInfo.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPagePartners.Name">
+    <value>TabPagePartners</value>
+  </data>
+  <data name="&gt;&gt;TabPagePartners.Parent">
+    <value>TabControlProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;TabPagePartners.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPagePartners.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPageProjectInfo.Name">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;TabPageProjectInfo.Parent">
+    <value>TabControlProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;TabPageProjectInfo.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageProjectInfo.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Name">
+    <value>cmbDurationUnit</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Name">
+    <value>dtpEndDate</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Type">
+    <value>FaciliDev.LogFramer.DateTimePickerLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Name">
+    <value>dtpStartDate</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Type">
+    <value>FaciliDev.LogFramer.DateTimePickerLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblCode.Name">
+    <value>lblCode</value>
+  </data>
+  <data name="&gt;&gt;lblCode.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;lblCode.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCode.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Name">
+    <value>lblDuration</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.ZOrder">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.Name">
+    <value>lblEndDate</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblProjectTitle.Name">
+    <value>lblProjectTitle</value>
+  </data>
+  <data name="&gt;&gt;lblProjectTitle.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;lblProjectTitle.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblProjectTitle.ZOrder">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblShortTitle.Name">
+    <value>lblShortTitle</value>
+  </data>
+  <data name="&gt;&gt;lblShortTitle.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;lblShortTitle.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShortTitle.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Name">
+    <value>lblStartDate</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lvPartners.Name">
+    <value>lvPartners</value>
+  </data>
+  <data name="&gt;&gt;lvPartners.Parent">
+    <value>TabPagePartners</value>
+  </data>
+  <data name="&gt;&gt;lvPartners.Type">
+    <value>FaciliDev.LogFramer.ListViewPartners, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lvPartners.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Name">
+    <value>ntbDuration</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Type">
+    <value>FaciliDev.LogFramer.SimpleNumericTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbCode.Name">
+    <value>tbCode</value>
+  </data>
+  <data name="&gt;&gt;tbCode.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;tbCode.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbCode.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbProjectTitle.Name">
+    <value>tbProjectTitle</value>
+  </data>
+  <data name="&gt;&gt;tbProjectTitle.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;tbProjectTitle.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbProjectTitle.ZOrder">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbShortTitle.Name">
+    <value>tbShortTitle</value>
+  </data>
+  <data name="&gt;&gt;tbShortTitle.Parent">
+    <value>TabPageProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;tbShortTitle.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbShortTitle.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="TabPagePartners.Text">
+    <value>Partners</value>
+  </data>
+  <data name="TabPageProjectInfo.Text">
+    <value>Project info</value>
+  </data>
+  <data name="lblCode.Text">
+    <value>Code:</value>
+  </data>
+  <data name="lblDuration.Text">
+    <value>Duration:</value>
+  </data>
+  <data name="lblEndDate.Text">
+    <value>End date:</value>
+  </data>
+  <data name="lblProjectTitle.Text">
+    <value>Project title:</value>
+  </data>
+  <data name="lblShortTitle.Text">
+    <value>Short title:</value>
+  </data>
+  <data name="lblStartDate.Text">
+    <value>Start date:</value>
+  </data>
+</root>

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ToolStripButtonNewProperty.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL6SURBVDhPrZA/TFNhFMW/0UUncdEEE11MjE6CDpoQSTRx
+        gUkG4240RhR1M3EQB+MgTkqMEAgIFlsolAKFlj8tbV/b915paR+UfyFK+CMYjIMJyfHe732vFBcXh1/u
+        ueec7/alIm0WkE4XYDKsS/biLO0wqudkcldaOOLAY6egvKLP2slLOqVacKH4C4riVzg7a2d3+gqn6/SF
+        rs9DN+aRYvSC1HJnn+DJmeOV7vItU6JFIjmHRIqgWVP7GhppLTUPjX2F3Lkjp430JSpTu4hqc4hqloQP
+        MnJPsD+HmMpiWhaxhEFkKMti95cgP0/kyMsqbUGEYxbCsTwiBB/74p6R0/aczEIkbmBx5TbiqSAdiGIP
+        gvQ4ND0Aq/AU03Ed4XgeYmI6D5tc8aBzlD3OJploGtFkAKtrdchar7D+vQrWwjMUlhugGW764YTsiWA4
+        h9BUDsGp2QMHXT0mKi82QOaSNCKJEWSsRmxsn5Vsbl/C/FI99Mx7TEQ02ROBiVkEJrPg6Rz81KWj+UME
+        b5pCuFDxkDL7P/u9dwhf129gfes8dnbLaV7Gyreb2Pl5RuZ8QwyFshgaJ2herX6OprcTeNE4hAf1n3G0
+        rBp+yvyUDY/Tf6S5kF+4j7XNKjp2BWsb1+gL7yBuNNMNU/aEbywD31iWyMivaXw5LI8dPlIpvSKhJEJR
+        DzJzj+XR5dU6WIt3aX+C8agbg0EdA8EMhDcwA6YvkMGp07fwqKGHjlXY3ij7du4dTcHM3UNouhvh5Dts
+        /TiHsUgvRsNeWEu16A/osis8w2m4Cc/wDI6fqEHZsetSs29njjbRO5KEhyHN/5n9ziQMpdMQPf40XMyg
+        ifKTdbYm2O8hz+U3afKutMzVVL7symlCdPsMdA2Y6Ca6fPt0D7BvZ3ZOmn2F7DlZ0TMgOvsNdHoNdBCd
+        Xh0d/Yy9S0p2u2fv/G7f2/dFW5+Otl4F69KdaO9NHcjb2fv7DXtKixZ3Cq1Ei0fNf+HR5Wx106Q3tref
+        y4P/i4/uFP4AUNr/ATi5SvEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonNewProperty.ToolTipText" xml:space="preserve">
+    <value>Nouvelle propriété</value>
+  </data>
+  <data name="ToolStripButtonEditProperty.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJCSURBVDhPrZBLT1pRFIXP7+kjtZN23o76GLS/gEcCJIBA
+        hJkBGgZNE8LMeTUajKQGlErVELEirRTK5XUFVGZMCDHhH6zufbgXr+YWatKbfNl7n7PWYh9Es3GFZvMK
+        DYZ7wzytRg2j6fQ7OWu90JtbZl2gnU3PudfvDRpjL1gw/QWN6Rb6zL0+63oNXavrhaJcQqlfoka8e5+4
+        F69ef8SLlx+kX+YQovr7AtUaQdXMNIs3bz/JwIrmrxDirHKBs0pPYmaax7PnQZSrnDHJEaVyD6VyFz+I
+        lZWVexGPx+HxeMjfk/7Sry7Eyc8uJnSk6O4Guvn6+hrD4RCj0Qjj8Rj8dTodGcj+ooYolDo4Pu2gcHo+
+        NZvBZlVVJcaeAzmjQBnHVEX+5Bz5ogquZkGziEQicLlc0psvElTFwbGKg+8EVRb97clm32AwgNvtll7O
+        2Kcqckdt5I5Uoj01m6E/0Ui/35cbTjLa2Cu0IbL5Fpjd/OxAMxKJhPwPbzJaEJnDJtJE5rAlRfOerM9M
+        LBaTgexNE5wltveb+MJ8a9wS/wuBQABWqxWcsb3fkIhUro6tvQZSRCgUwpMFDxaeevHosQsPHjoQDAYR
+        jUa1/SC3Wlpakuc2m00GpnLkJ7YoS2x+rWMzW0eSCIfDWF5exuLiooSN/CS73Q6/3w+fzye3cjqd8Hq9
+        sFgscDgc0pvMKkhSlljfVbC+o8G9cSY2dmq37jf47K6Hz7RerKZrWCNWM1qdR0aRdS1NlTyTs5t7Gfi/
+        +Jyu4Q/q06RKZvz2kQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ToolStripButtonEditProperty.Text" xml:space="preserve">
+    <value>Edition...</value>
+  </data>
+  <data name="ToolStripButtonEditProperty.ToolTipText" xml:space="preserve">
+    <value>Modifier propriété</value>
+  </data>
+  <data name="ToolStripButtonDeleteProperty.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhPrY7LTxNRFMbvn6iJhBDjKyQEYlwYg3GhGxe4
+        0QRpEAWE8ppSaJnSlhZKgekL+pxpp5SWlv/l89xz5w6DGzcufvnOOd93zr3C7dzBde/Qkcg60PsazEi8
+        nPa492qhiwfLOuDN/LmstR/IBGshA/4LHv4vdC9r3eu81PYIxVIXuZwN2x6yLxxnBIcMW+Lccc09zadn
+        VpDJNtnTM4brISzLxcdPu5h9vw2+Q4hma4gmXZfaIFWM0KBeBo1IUfUywzpCnbzcqYO5LwdIphuoNW/V
+        PiGqjSGqjVumJpVM7ptDvH23iddv1pCmX1brA55f1gbcP3r8DTHzCqXLPh2UN9QdUandokIhGZSqe0ny
+        SC0a0TLK1QEK5RtEY5c8i8avYJV7Xl49VKFHRfFqAEXf03usSo+XJfFkHeHtgnpgr4KzQhcF+p3OljzE
+        RaVPL/VxQa/7dUAP0uqX86Esa2gph9xFlzyZJ7ycVItU5Is3yJd6YOU6APUn1rX/y9kPBsI7JeQsynv+
+        3ypOyDwpEFJ17ZE972LXrPkHP8+ZiKWaONYZvePtHZOKzPk1Muc9gvTCg+r0qYvlsIWp6VX/oGTdKLOn
+        80e8rziiXqTyXUiS+WulZ6peNyp49uIHH/m6kMX80inXiytniGfblFX5IElCJHIuTCKR6/rsJluYeBri
+        A5NTK9hLtRBJNDE1o35rmA3OBfdMVhcifuwiJsl2WI3DFsYnFnjxydg8Qqvn9CMX+5k2Ftcsni9tFFWe
+        5vHjDqG1A7FHwehRB3tENNPhBc3LyV/YjDc8v41I2uEfS28nafOcPdqTROmWiKQpmGrDICIpB2Pj33nh
+        +auf2DJbMOiIQRnlt7G8U+FMOFb3Z1IN2pU5sZV0sHXoIWtCHtSz7UP7oZ+wsfC7gLX9xv2Mc6oWYdPG
+        BhGmIOu/SDisGyYp7ajZvc8H/xfrpo0/e9/yQQyh9NsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ToolStripButtonDeleteProperty.ToolTipText" xml:space="preserve">
+    <value>Supprimer propriété</value>
+  </data>
+  <data name="ToolStripButtonPrintIdForm.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMiSURBVDhPrZLZT1NBFMbnj0BwS0RxSRDEDVCMJgIakSXy
+        IioaYlS0WIkKiokRUFxo0EQfjBpQtlJCBcpaKjYU2aRSukEFKSSERxIIT/BEPs/MvbcUovHFSX75zpk5
+        39e5t5e5XZNwuyfh4vDar/ep/wxHnlPORC/XTClWmZUBec+3z2vl3G/Gv2Z8wPcLMr5bkC4uLmLtWlhY
+        8IUqs8o8czi8cDi9sHMck6IWPd8nlpeX5ZiVNT8/L83JM/41sw1PwGYnSIdIJbwYov5va2ZmRpoX0Kzi
+        J9jg0AQGh34JrFxtUj1om8DS0pIcsbLm5ubEjJgVTMBKs0oO67f+Qr91HAMEV97HHLmPbSHpmJqakmOk
+        xR+V74XvUWFPRBaiD+UiLPyG8Aj/j3Gwnu/jkBgTeib1FfIL2vAovw0Jp5+LXiE55YXg2fMOHI8twMHI
+        Oyh6aqJQFXrJy2GW/jF0943B0vcTvObGd+/7oau1o9Ew8lfi4h/jUWEb7ucZELI9g/yUQ35m7vkJc68H
+        XI8ee4hP5dY/BihUa214/caCffvVUGVpUaz5ii3BaZRBOZTBvnR78OUbQXo4Jg9lH7+vCtB/dgmt0zvF
+        rYs1nXhSZMT+A7dxLbMK129oERAQLzJMlMGMXaMwdnmIUezYkQFNiVkE8EePjLqLTZtTsWFjCv0JKuzc
+        dRmxcYXiLHR3Ji6kf8DZtLd0w3PC324ZBWs1j4DTYh5FxF41Sl52iXcYvPU8rlwtRU5uDW6qy3Aruwrq
+        bB39s/dQ3+CmR85GUrIGQeuThF/KGAFr6nTDQDR1SrfiLzvmyAN4vV54PB7B9PQ0ZmdnxafDZxKTNAgJ
+        uYjAoETh4xiEusEaTG7UczpcQrlBMfovpQ/dfQ2BgQlYF3iKPG40mFyEoi4wvdGJunYX9MS/wsLCrkNv
+        dKGmeRh1pNwnvFRz6iiL1bY5UdvqFKa1nDhZhKjoHPrOLiGIHq9UN4CqRht03EPoyMe9XHWtDrHPqlsc
+        qG6W4bV/T2ib7avOtXxvrYfvyTWrMNhRSVQ0yfovmhxCKw2k5JH2Vs5F4P+i3GDHb8qK0yStJ49jAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="ToolStripButtonPrintIdForm.Text" xml:space="preserve">
+    <value>Im&amp;primer</value>
+  </data>
+  <data name="ToolStripButtonPrintIdForm.ToolTipText" xml:space="preserve">
+    <value>Imprimer la fiche d'identification</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Nom du groupe cible:</value>
+  </data>
+  <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 12</value>
+  </data>
+  <data name="tbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 20</value>
+  </data>
+  <data name="cmbType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 65</value>
+  </data>
+  <data name="cmbType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 21</value>
+  </data>
+  <data name="lblNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="lblNumber.Text" xml:space="preserve">
+    <value>Nombre de bénéficiaires:</value>
+  </data>
+  <data name="lblNumberOfFemales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="lblNumberOfFemales.Text" xml:space="preserve">
+    <value>Nombre de femmes:</value>
+  </data>
+  <data name="lblNumberOfMales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="lblNumberOfMales.Text" xml:space="preserve">
+    <value>Nombre d'hommes:</value>
+  </data>
+  <data name="lblNumberOfPeople.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblNumberOfPeople.Text" xml:space="preserve">
+    <value>Nombre total:</value>
+  </data>
+  <data name="tbLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 170</value>
+  </data>
+  <data name="tbLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 20</value>
+  </data>
+  <data name="lblLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="lblLocation.Text" xml:space="preserve">
+    <value>Endroit:</value>
+  </data>
+  <data name="lblOtherProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 13</value>
+  </data>
+  <data name="lblOtherProperties.Text" xml:space="preserve">
+    <value>Autres informations à inclure sur la fiche d'identification:</value>
+  </data>
+  <data name="ntbNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 92</value>
+  </data>
+  <data name="ntbNumberOfPeople.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 144</value>
+  </data>
+  <data name="ntbNumberOfMales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 118</value>
+  </data>
+  <data name="ntbNumberOfFemales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 92</value>
+  </data>
+  <data name="lblPurpose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="lblPurpose.Text" xml:space="preserve">
+    <value>Objectif spécifique:</value>
+  </data>
+  <data name="cmbPurpose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 38</value>
+  </data>
+  <data name="cmbPurpose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 21</value>
+  </data>
+  <data name="btnReady.Text" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Groupe cible</value>
+  </data>
+</root>

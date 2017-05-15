@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Contact person</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DialogContact</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Name">
+    <value>OK_Button</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControlDetails.Name">
+    <value>TabControlDetails</value>
+  </data>
+  <data name="&gt;&gt;TabControlDetails.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControlDetails.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlDetails.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TabPageAddresses.Name">
+    <value>TabPageAddresses</value>
+  </data>
+  <data name="&gt;&gt;TabPageAddresses.Parent">
+    <value>TabControlDetails</value>
+  </data>
+  <data name="&gt;&gt;TabPageAddresses.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageAddresses.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageEmails.Name">
+    <value>TabPageEmails</value>
+  </data>
+  <data name="&gt;&gt;TabPageEmails.Parent">
+    <value>TabControlDetails</value>
+  </data>
+  <data name="&gt;&gt;TabPageEmails.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageEmails.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TabPageSkype.Name">
+    <value>TabPageSkype</value>
+  </data>
+  <data name="&gt;&gt;TabPageSkype.Parent">
+    <value>TabControlDetails</value>
+  </data>
+  <data name="&gt;&gt;TabPageSkype.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageSkype.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPageTelephoneNumbers.Name">
+    <value>TabPageTelephoneNumbers</value>
+  </data>
+  <data name="&gt;&gt;TabPageTelephoneNumbers.Parent">
+    <value>TabControlDetails</value>
+  </data>
+  <data name="&gt;&gt;TabPageTelephoneNumbers.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageTelephoneNumbers.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TabPageWebsites.Name">
+    <value>TabPageWebsites</value>
+  </data>
+  <data name="&gt;&gt;TabPageWebsites.Parent">
+    <value>TabControlDetails</value>
+  </data>
+  <data name="&gt;&gt;TabPageWebsites.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageWebsites.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ToolStripAddresses.Name">
+    <value>ToolStripAddresses</value>
+  </data>
+  <data name="&gt;&gt;ToolStripAddresses.Parent">
+    <value>TabPageAddresses</value>
+  </data>
+  <data name="&gt;&gt;ToolStripAddresses.Type">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripAddresses.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditAddress.Name">
+    <value>ToolStripButtonEditAddress</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditAddress.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditEmail.Name">
+    <value>ToolStripButtonEditEmail</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditEmail.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditTelephoneNumber.Name">
+    <value>ToolStripButtonEditTelephoneNumber</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditTelephoneNumber.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditWebsite.Name">
+    <value>ToolStripButtonEditWebsite</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditWebsite.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewAddress.Name">
+    <value>ToolStripButtonNewAddress</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewAddress.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewEmail.Name">
+    <value>ToolStripButtonNewEmail</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewEmail.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewTelephoneNumber.Name">
+    <value>ToolStripButtonNewTelephoneNumber</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewTelephoneNumber.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewWebsite.Name">
+    <value>ToolStripButtonNewWebsite</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewWebsite.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonPrint.Name">
+    <value>ToolStripButtonPrint</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonPrint.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonRemoveAddress.Name">
+    <value>ToolStripButtonRemoveAddress</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonRemoveAddress.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonRemoveEmail.Name">
+    <value>ToolStripButtonRemoveEmail</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonRemoveEmail.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonRemoveTelephoneNumber.Name">
+    <value>ToolStripButtonRemoveTelephoneNumber</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonRemoveTelephoneNumber.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonRemoveWebsite.Name">
+    <value>ToolStripButtonRemoveWebsite</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonRemoveWebsite.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonSendEmail.Name">
+    <value>ToolStripButtonSendEmail</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonSendEmail.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonVisitWebsite.Name">
+    <value>ToolStripButtonVisitWebsite</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonVisitWebsite.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContact.Name">
+    <value>ToolStripContact</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContact.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContact.Type">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripContact.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolStripEmails.Name">
+    <value>ToolStripEmails</value>
+  </data>
+  <data name="&gt;&gt;ToolStripEmails.Parent">
+    <value>TabPageEmails</value>
+  </data>
+  <data name="&gt;&gt;ToolStripEmails.Type">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripEmails.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Name">
+    <value>ToolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Type">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripTelephoneNumbers.Name">
+    <value>ToolStripTelephoneNumbers</value>
+  </data>
+  <data name="&gt;&gt;ToolStripTelephoneNumbers.Parent">
+    <value>TabPageTelephoneNumbers</value>
+  </data>
+  <data name="&gt;&gt;ToolStripTelephoneNumbers.Type">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripTelephoneNumbers.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolStripWebsites.Name">
+    <value>ToolStripWebsites</value>
+  </data>
+  <data name="&gt;&gt;ToolStripWebsites.Parent">
+    <value>TabPageWebsites</value>
+  </data>
+  <data name="&gt;&gt;ToolStripWebsites.Type">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripWebsites.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSkypeCall.Name">
+    <value>btnSkypeCall</value>
+  </data>
+  <data name="&gt;&gt;btnSkypeCall.Parent">
+    <value>TabPageSkype</value>
+  </data>
+  <data name="&gt;&gt;btnSkypeCall.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSkypeCall.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbGender.Name">
+    <value>cmbGender</value>
+  </data>
+  <data name="&gt;&gt;cmbGender.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbGender.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbGender.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbTitle.Name">
+    <value>cmbTitle</value>
+  </data>
+  <data name="&gt;&gt;cmbTitle.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbTitle.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbTitle.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblFirstName.Name">
+    <value>lblFirstName</value>
+  </data>
+  <data name="&gt;&gt;lblFirstName.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFirstName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFirstName.ZOrder">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblGender.Name">
+    <value>lblGender</value>
+  </data>
+  <data name="&gt;&gt;lblGender.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblGender.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGender.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblJobTitle.Name">
+    <value>lblJobTitle</value>
+  </data>
+  <data name="&gt;&gt;lblJobTitle.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblJobTitle.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJobTitle.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.Name">
+    <value>lblLastName</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.ZOrder">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblRole.Name">
+    <value>lblRole</value>
+  </data>
+  <data name="&gt;&gt;lblRole.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRole.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRole.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblSkypeAccount.Name">
+    <value>lblSkypeAccount</value>
+  </data>
+  <data name="&gt;&gt;lblSkypeAccount.Parent">
+    <value>TabPageSkype</value>
+  </data>
+  <data name="&gt;&gt;lblSkypeAccount.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSkypeAccount.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbFirstName.Name">
+    <value>tbFirstName</value>
+  </data>
+  <data name="&gt;&gt;tbFirstName.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbFirstName.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbFirstName.ZOrder">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tbJobTitle.Name">
+    <value>tbJobTitle</value>
+  </data>
+  <data name="&gt;&gt;tbJobTitle.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbJobTitle.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbJobTitle.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbLastName.Name">
+    <value>tbLastName</value>
+  </data>
+  <data name="&gt;&gt;tbLastName.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbLastName.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbLastName.ZOrder">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbRole.Name">
+    <value>tbRole</value>
+  </data>
+  <data name="&gt;&gt;tbRole.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbRole.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbRole.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbSkypeAccount.Name">
+    <value>tbSkypeAccount</value>
+  </data>
+  <data name="&gt;&gt;tbSkypeAccount.Parent">
+    <value>TabPageSkype</value>
+  </data>
+  <data name="&gt;&gt;tbSkypeAccount.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbSkypeAccount.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="Cancel_Button.Text">
+    <value>Cancel</value>
+  </data>
+  <data name="OK_Button.Text">
+    <value>OK</value>
+  </data>
+  <data name="TabPageAddresses.Text">
+    <value>Addresses</value>
+  </data>
+  <data name="TabPageEmails.Text">
+    <value>E-mail</value>
+  </data>
+  <data name="TabPageSkype.Text">
+    <value>Skype</value>
+  </data>
+  <data name="TabPageTelephoneNumbers.Text">
+    <value>Telephone</value>
+  </data>
+  <data name="TabPageWebsites.Text">
+    <value>Web sites</value>
+  </data>
+  <data name="ToolStripAddresses.Text">
+    <value>ToolStripPartners</value>
+  </data>
+  <data name="ToolStripButtonEditAddress.Text">
+    <value>Edit...</value>
+  </data>
+  <data name="ToolStripButtonEditAddress.ToolTipText">
+    <value>Edit address...</value>
+  </data>
+  <data name="ToolStripButtonEditEmail.Text">
+    <value>Edit...</value>
+  </data>
+  <data name="ToolStripButtonEditEmail.ToolTipText">
+    <value>Edit e-mail address...</value>
+  </data>
+  <data name="ToolStripButtonEditTelephoneNumber.Text">
+    <value>Edit...</value>
+  </data>
+  <data name="ToolStripButtonEditTelephoneNumber.ToolTipText">
+    <value>Edit telephone number...</value>
+  </data>
+  <data name="ToolStripButtonEditWebsite.Text">
+    <value>Edit...</value>
+  </data>
+  <data name="ToolStripButtonEditWebsite.ToolTipText">
+    <value>Edit website...</value>
+  </data>
+  <data name="ToolStripButtonNewAddress.Text">
+    <value>u</value>
+  </data>
+  <data name="ToolStripButtonNewAddress.ToolTipText">
+    <value>New address...</value>
+  </data>
+  <data name="ToolStripButtonNewEmail.Text">
+    <value>u</value>
+  </data>
+  <data name="ToolStripButtonNewEmail.ToolTipText">
+    <value>New e-mail address...</value>
+  </data>
+  <data name="ToolStripButtonNewTelephoneNumber.Text">
+    <value>u</value>
+  </data>
+  <data name="ToolStripButtonNewTelephoneNumber.ToolTipText">
+    <value>New telephone number...</value>
+  </data>
+  <data name="ToolStripButtonNewWebsite.Text">
+    <value>u</value>
+  </data>
+  <data name="ToolStripButtonNewWebsite.ToolTipText">
+    <value>New website...</value>
+  </data>
+  <data name="ToolStripButtonPrint.Text">
+    <value>&amp;Print</value>
+  </data>
+  <data name="ToolStripButtonRemoveAddress.Text">
+    <value>û</value>
+  </data>
+  <data name="ToolStripButtonRemoveAddress.ToolTipText">
+    <value>Remove address...</value>
+  </data>
+  <data name="ToolStripButtonRemoveEmail.Text">
+    <value>û</value>
+  </data>
+  <data name="ToolStripButtonRemoveEmail.ToolTipText">
+    <value>Remove e-mail address...</value>
+  </data>
+  <data name="ToolStripButtonRemoveTelephoneNumber.Text">
+    <value>û</value>
+  </data>
+  <data name="ToolStripButtonRemoveTelephoneNumber.ToolTipText">
+    <value>Remove telephone number</value>
+  </data>
+  <data name="ToolStripButtonRemoveWebsite.Text">
+    <value>û</value>
+  </data>
+  <data name="ToolStripButtonRemoveWebsite.ToolTipText">
+    <value>Remove website...</value>
+  </data>
+  <data name="ToolStripButtonSendEmail.Text">
+    <value>New message...</value>
+  </data>
+  <data name="ToolStripButtonSendEmail.ToolTipText">
+    <value>Send a new e-mail message</value>
+  </data>
+  <data name="ToolStripButtonVisitWebsite.Text">
+    <value>Open website...</value>
+  </data>
+  <data name="ToolStripButtonVisitWebsite.ToolTipText">
+    <value>Pressing this button will open your browser and show the website</value>
+  </data>
+  <data name="ToolStripContact.Text">
+    <value>ToolStripContact</value>
+  </data>
+  <data name="ToolStripEmails.Text">
+    <value>ToolStripEmails</value>
+  </data>
+  <data name="ToolStripTelephoneNumbers.Text">
+    <value>ToolStripTelephoneNumbers</value>
+  </data>
+  <data name="ToolStripWebsites.Text">
+    <value>ToolStripWebsites</value>
+  </data>
+  <data name="lblFirstName.Text">
+    <value>First name:</value>
+  </data>
+  <data name="lblGender.Text">
+    <value>Gender:</value>
+  </data>
+  <data name="lblJobTitle.Text">
+    <value>Job title:</value>
+  </data>
+  <data name="lblLastName.Text">
+    <value>Last name:</value>
+  </data>
+  <data name="lblRole.Text">
+    <value>Role in the project:</value>
+  </data>
+  <data name="lblSkypeAccount.Text">
+    <value>Skype account:</value>
+  </data>
+  <data name="lblTitle.Text">
+    <value>Title:</value>
+  </data>
+</root>

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>BudgetItemRatio</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbReferenceRow.Name">
+    <value>cmbReferenceRow</value>
+  </data>
+  <data name="&gt;&gt;cmbReferenceRow.Parent">
+    <value>tblRatio</value>
+  </data>
+  <data name="&gt;&gt;cmbReferenceRow.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbReferenceRow.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblAmount.Name">
+    <value>lblAmount</value>
+  </data>
+  <data name="&gt;&gt;lblAmount.Parent">
+    <value>tblRatio</value>
+  </data>
+  <data name="&gt;&gt;lblAmount.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAmount.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblRatio.Name">
+    <value>lblRatio</value>
+  </data>
+  <data name="&gt;&gt;lblRatio.Parent">
+    <value>tblRatio</value>
+  </data>
+  <data name="&gt;&gt;lblRatio.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRatio.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblReferenceAmount.Name">
+    <value>lblReferenceAmount</value>
+  </data>
+  <data name="&gt;&gt;lblReferenceAmount.Parent">
+    <value>tblRatio</value>
+  </data>
+  <data name="&gt;&gt;lblReferenceAmount.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReferenceAmount.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblReferenceRow.Name">
+    <value>lblReferenceRow</value>
+  </data>
+  <data name="&gt;&gt;lblReferenceRow.Parent">
+    <value>tblRatio</value>
+  </data>
+  <data name="&gt;&gt;lblReferenceRow.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReferenceRow.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ntbRatio.Name">
+    <value>ntbRatio</value>
+  </data>
+  <data name="&gt;&gt;ntbRatio.Parent">
+    <value>tblRatio</value>
+  </data>
+  <data name="&gt;&gt;ntbRatio.Type">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbRatio.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ntbReferenceAmount.Name">
+    <value>ntbReferenceAmount</value>
+  </data>
+  <data name="&gt;&gt;ntbReferenceAmount.Parent">
+    <value>tblRatio</value>
+  </data>
+  <data name="&gt;&gt;ntbReferenceAmount.Type">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbReferenceAmount.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbTotalCost.Name">
+    <value>ntbTotalCost</value>
+  </data>
+  <data name="&gt;&gt;ntbTotalCost.Parent">
+    <value>tblRatio</value>
+  </data>
+  <data name="&gt;&gt;ntbTotalCost.Type">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbTotalCost.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tblRatio.Name">
+    <value>tblRatio</value>
+  </data>
+  <data name="&gt;&gt;tblRatio.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tblRatio.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tblRatio.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="lblAmount.Text">
+    <value>Amount</value>
+  </data>
+  <data name="lblRatio.Text">
+    <value>Ratio</value>
+  </data>
+  <data name="lblReferenceAmount.Text">
+    <value>Reference amount</value>
+  </data>
+  <data name="lblReferenceRow.Text">
+    <value>Reference row</value>
+  </data>
+</root>

@@ -1,0 +1,939 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonTextSubscript.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="rtbLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 30</value>
+  </data>
+  <data name="buttonTextSuperscript.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;cmbFonts.Name" xml:space="preserve">
+    <value>cmbFonts</value>
+  </data>
+  <data name="buttonParAlignCentre.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAG8SURBVDhPrY79UhpRDMXziO2D9RmqoyMjU2epKEWHilW3
+        hUJZdlk+BN/lNMlNdi90Ozqd/vGbk5yc3Bsq8hcUxQtyQeqorzTOCJbzmfZWkxd7yx4wr/Kl9nmUiWuS
+        QPWDUV3hvdTee97wrOcpy3bI5jvMmHfvP/wTsq/vMDT9tcV0xrBOWAM7TMQ3tJeMakB9xWbW02iyxWjy
+        rIyZdLxGOlo3XhIj2bC3xXgqb4R3KB3LIxt8Z0S9D57PRJ//6Ou8zLj+uQE9/Ngg8PpVf0P2Hw0apmvc
+        P60xfFqhqiPVWvSwTyXPuM8qPg0eVhg8LqGq9Qr94aLxkhjJeT5Wurlf4uYbI+q1w32fte8zm4u3t+M+
+        K/XuSvTulkzZeMlbCG+UuB6WoO5gAeFyUAb9eljX88pXDXWMZKlzWyBhOreLPZouiZFMvJeoFqCLfoFP
+        wpc8qCH+hXo5q/RW69zUfM2q5qB2b47z6xxtpumSt9Du8T5zzm9R62qOVneOM6bVzXB2JYReifqQC73s
+        1V7t08llhpPPhtRxzxxec8re6eGOeFbTUTLDMXPUMX2NTqZ6nLDyTvDquT74v/iYzPAbtLTM7L+8UvkA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;cmbFontSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbFonts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rtbRight.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Cancel_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="buttonParAlignCentre.ToolTipText" xml:space="preserve">
+    <value>Align Centre</value>
+  </data>
+  <data name="buttonTextUnderlined.ToolTipText" xml:space="preserve">
+    <value>Underline</value>
+  </data>
+  <data name="buttonTextUnderlined.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Underline</value>
+  </data>
+  <data name="OK_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Name" xml:space="preserve">
+    <value>OK_Button</value>
+  </data>
+  <data name="buttonTextBackGround.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="buttonTextBold.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="buttonParAlignCentre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="tspFormatting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>935, 27</value>
+  </data>
+  <data name="buttonTextSuperscript.ToolTipText" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="&gt;&gt;chkCopyToAllReports.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTextBold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAALiSURBVDhPrZFZT1NRFIXP3xFkUkDAAaOAMSHGIVFBQR4Y
+        AqJRZhPRYHwxRBNjMJAYAamFVppCgTJVQOZaaOltoWX4L8u9z73nePFFH3z4svbZe6/V23OEET2CYRwh
+        ynBtO2u17zDWnprJs1ULVRwzqwWrp/tcq7ltx14LXtC/YKG/Qp25Vme1b6F21b6IRA4R2TlEmGhrH9W0
+        tn1Dc4sLDxuHUFbeg+s33uLmrXeoqOyh/iAmJoOQXsuvarG1fYCtMEHKpn/hclEXioq74HAuIbR9iJDl
+        DxFiM3SAzdC+JEhMz4Vxt+yDNnOPZ+ubCfhnt9He4cSFwufIzGqk4HaaHSC4xRlmjlgL7mMtmMQ6wcpn
+        /rv37n+UgeaMdyiUmF+IIie3CSmptTiZViv75oy8P5MQyxtJmCQsTco7rK3rl4F8XtE7Sfimt2TgiZQa
+        lF57ofu8w4jFtQSWVhNYXN2DqjmworJXBsoeMb8Uh8O1gjtl3TIw61QDBr4ukI+8NGflPRFY3kNgZRdS
+        Zb0nA9UdMiVXXiP3TLMMYoqKO+Fwr+p9u4rZpV3M/iBYrdoeWFzySoakpTfQ36xGekYDPcgjnC9sw7Bn
+        45hvhlT4F+LwL+wSpIsmzS1uHWjO4/AFDAyOrKKi6j1OZz+hR6lBWUU3pqw5M0VeMRGIgfEF4qZ+j+FB
+        VZ8O9NnmjGs8hOycp/JrM+keld/ciUGMzRnwEmNzMY0KY7yyp+YGBtzr1itXIyOrXnvUnvDMGBhlpqNS
+        P49sHAscntiGZ9qAeyqC3i/LuFr6UoYxt8vfwDMTJQxLoxBu/w5cU1EyRFF4sRMFZzuQl9+qXzQtvV4H
+        2Ck414RPw+um12/ioiwxPLlDX7EDJ5GX36aDGL54HZJq3tml4meoe9yH/tGg9CivcyICJ2WJIV8EQ+MW
+        XNvPhGM8fGzu4N6fHu5ZtRjwhjFIDIxZ+jfGIlIHvaTkMXu/5zLwf9HvDeMXTOaYrjJ08qwAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;rtbLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTextSuperscript.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="chkCopyToAllReports.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Print header (top of page)</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonTextItalics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTextBackGround.ToolTipText" xml:space="preserve">
+    <value>Marker</value>
+  </data>
+  <data name="buttonTextBackGround.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAIfSURBVDhPrZFPTxNhEMbn0+gXUEj8cxJPKupJr57kqjHG
+        g0KiJurBg3owJmgxJhqNpU2VCqRQLLZSu3bZbVcK2x75CE04Mc4z7/suuwkn0jf55Xlm5pnpEigM+hyG
+        fQ4AfKpONJ0BNudmWltPzmSWXcD2kj68m6cyaU8IJL9gSb7C1fCudnmLy7o8+X7M/mbMbeD31Wst/StX
+        n6ti5nrpWndBypP3d4e9tiDaEjXE3JIaB01famRUDdeuv9I50BlyAm20dnijta24gNaeOeho2gzyqG9O
+        zXJ+PuT5Qocnzj/UPuZUb25zvdnjhgBFjQV4pw3bc4rXaDR48vIznntf4zNn75j9Pz2m2u8eG7Y07EDP
+        6br1p07f02PuxXHMY+NTSQZQtb7Fa7/MsbTP9AT49IuiiM9N3OWq5JCBIkeV2j+urEcMxRI4cfKW9A7q
+        Cxef2jPm4Ri+zOwKKaWltYiXfgpQ5x1Sj43f5mPHb/BwOOTBYJAcy+zYvUVRKq92ubwaCaJVi/a6PPt2
+        hff2SL6J+NLkE/Y8T4+5ObILzgsLUtO3SodBqdI1umL8i5dFPba/bw7u7pL+Vw+yJp+mJFBxOeSCUFzu
+        ZLj/4DVPz7xRHj3O8btcVfrZbNZDQ6b8YshfwY/AqAX9vPYCUdTW69yq7WtWNWD6Ut7UP2kUfJZb9On7
+        6A5+lFv0oeQfOjwKuEVzhfahw6OAW3pwVOQKbf4PaojrFymBXD8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonTextItalics.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="buttonTextSubscript.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 7pt</value>
+  </data>
+  <data name="buttonAddPageNumber.Text" xml:space="preserve">
+    <value>Page number</value>
+  </data>
+  <data name="buttonTextColor.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAJ/SURBVDhPrZA7bxNREIVvBwXhH4ARCAlRICR+BVRARwOB
+        BoIQSDRQRaID0SAaHgXkhaOEOH47dljixY5jO7Z37XX8iG0RCSmituhSMMzMvXdzjSzRUHw68zhn9iG8
+        xgA8bwANgmqj99X0EMqnd9yrWuhiJKwNaubPqdZ7w2PWggz+ExT+W+ieat1rv0J7tV+4bh/ceh8cwh1w
+        zT3NkR9PpgGEYBp37vKcvOxTHrMW1VoPqg6CWkGV9KFCc+TXxUv+weaJgNwh7GeoV3lElCo9KFV2mTJp
+        Vdalag+cRA5+q2NEC9n+FGUPe5kelNGr74hCeRcK5S5sIaS6J/YePYUDPLJvHK3dnkIvebRP1pzf7oLI
+        Fbsg6Sg9ZHj+AuzRkes3/IPeyVPKO+rPK0S20AF7swPZzTb4NWrxs8UHmscmwLZqcDBxnHv67PxcFD3k
+        R5Sf1EYVVq4NVr4FrFxL+vce84HKlWs4b8H+5avcd5DSrSnp035DRcZuQeYbQqprZHj2HPzEsP3yHaRx
+        Xnv+hg8S9cDp0YzKkU+kNnYgtdFCULMSey7ph8dBn/3lQ5S9Sc5LktiLuNUEImbtSP3ahM7kg5Gwpqtm
+        bSR/8z77TWKIiKx7EEYi602fYeAMfMeQ9eI97mgm99az1/6DHPSYOe0TobQHK8RaA0JJB7amX8k3O3IU
+        VsNF3OF8zYMQauZtyD9Ib5mdfAirkSLu5J4Qy6k6LCUbsIxoswntiHE7/SuWU5hHlvCWWEzUYTFehyBi
+        /i9NMOEi43dlJI1QNhiXPjEfc2E+qqDa7JGFqDOyX6DZ3xmaqVrMhB2YRWYiSv9FxGWdDaNiRs4O93zw
+        f/Ex7MAf4iuzgYsMkKUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator6.Name" xml:space="preserve">
+    <value>ToolStripSeparator6</value>
+  </data>
+  <data name="buttonTextBold.ToolTipText" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="TableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rtbLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonTextSuperscript.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 7pt</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;buttonTextSubscript.Name" xml:space="preserve">
+    <value>buttonTextSubscript</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OK_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;chkCopyToAllReports.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTextBackGround.Name" xml:space="preserve">
+    <value>buttonTextBackGround</value>
+  </data>
+  <data name="&gt;&gt;buttonTextBold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTextUnderlined.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonTextItalics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="&gt;&gt;buttonTextStrikeThrough.Name" xml:space="preserve">
+    <value>buttonTextStrikeThrough</value>
+  </data>
+  <data name="&gt;&gt;tspFormatting.Name" xml:space="preserve">
+    <value>tspFormatting</value>
+  </data>
+  <data name="buttonTextBold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;buttonParAlignCentre.Name" xml:space="preserve">
+    <value>buttonParAlignCentre</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator7.Name" xml:space="preserve">
+    <value>ToolStripSeparator7</value>
+  </data>
+  <data name="ToolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="buttonAddTotalPages.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="buttonParAlignCentre.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;buttonParAlignCentre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTextStrikeThrough.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="buttonTextItalics.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Cancel_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 3</value>
+  </data>
+  <data name="buttonParAlignRight.ToolTipText" xml:space="preserve">
+    <value>Align Right</value>
+  </data>
+  <data name="buttonAddTotalPages.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;buttonTextStrikeThrough.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbMiddle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;rtbLeft.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonAddPageNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 24</value>
+  </data>
+  <data name="TableLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="buttonTextSuperscript.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonParAlignCentre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="buttonParAlignRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="buttonTextColor.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;rtbRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonParAlignLeft.ToolTipText" xml:space="preserve">
+    <value>Align Left</value>
+  </data>
+  <data name="buttonTextSubscript.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonTextStrikeThrough.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="buttonTextSubscript.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAKQSURBVDhPrZLLTxphFMW/P7E2adMmTRujhj5Sa03a1EWb
+        dNNFk5LWV0VRQVSK1YAKFHDkoWBFkIEBFB//y+m932McXLSbLn4595x77gwQhNO6huNco8Xw7PGuejuM
+        7pmd9HoWZug7NgWduTnPZu/peGfBBfcNGvdTGM+z8aavMV3TF7Z9Bbt5hQZjX8tZes4JVt6ZzOvlLeOZ
+        Rf30EvUGQVojVVyhxrlGeu5IVchconfai+PaJY5rF5Iqa13Nx3XOL1VmdhLKqeP1Vd1lLyrVC1SqPRwR
+        rOzHxsO4M/BF4nsWxMxczvXM23drsmf6jLw/6UEc/O5Bca61h2LlDLPze3jwcBL7B10cUpYrtDHiW0Aw
+        lEeh3O3rM9xhRKFyjmL5nEpncGetswsWPnz8CavUwehYGJEfZbUjCvRSie6zci6sgzNYh11IlbMH8p/9
+        SQwNBxBYyt/s/6IiW+wiWyJYzazJFDqYeB/DyNMFLK6U3H3GdMyNyUlFOt9BOt8lSOkBEpqTloM3E1FM
+        ze1hO9OE7/ki1reqSMl+B1MBC08Gv2Pgrh+PHs9gmnyKbsWu1QazY3WU7rcR2znFy9cr+BbYo1ztVzer
+        GBwKYGmtjHjWwb37XxEIFZHItjA9vy89d0Ui5yBOJHJtF+9fJLJ5gkC41Jcx3DN3y9EjDPuCNDsQWxkH
+        m8yvllIN51sya5Gy17Pca6XcP5vD6HgEEfo5uCM20k3EUi1sELH0DRspztVO7WnmXDMZLODFqxV88qcR
+        pm/BnzpGzxLRZBPR3SbWieiujfUko7zE41VP+ds/AcO5iOzYiGxrePZ6YnW70bdf5ez2DWd6FqF4A2Ei
+        lND6LxK21HCclG5UdrOXD/xfLMcb+APNX/3NH4cizQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="buttonParAlignRight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkCopyToAllReports.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rtbMiddle.Name" xml:space="preserve">
+    <value>rtbMiddle</value>
+  </data>
+  <data name="&gt;&gt;buttonAddPageNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonParAlignRight.Name" xml:space="preserve">
+    <value>buttonParAlignRight</value>
+  </data>
+  <data name="TableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>777, 144</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="buttonTextUnderlined.Text" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="&gt;&gt;buttonTextUnderlined.Name" xml:space="preserve">
+    <value>buttonTextUnderlined</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTotalPages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonParAlignLeft.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAGySURBVDhPrY7hTsJAEIT3EfXBfAY1GolEA4oimioqoiLY
+        0loExHdZd/Zu20NLJMYfX2Z2dvZaytJPzrJPTgF8MBcadoDv2U5n78nM0rEVfFbk8LYPOqEnFIoveIq/
+        sBneZut7rGt9SpIFJ+MFx8LG5tafwL2+I9Do9YNHsSA6FHUseIjcozM6qg7NFb/zMz0PP/h5OFeqvr6K
+        gb/B/WCEN9w71B/MuT+Y8aMAtdlltoPOf8xlHzvxLzOm+6cZO6aVf7IOuO95qNuf8u3DlLsP71z4QNVD
+        v8999AXLRZFTdP/OUW/C0KqvryLqyZ3eLitd3k748k6Amjdk7oh2bOf3yJZuLBel9k3O7ZuJkFf+yTq4
+        N3I+7+ZMreiNwWmUO73+7st9kas6H4IuNa8ybgjNq7fKr68CfbtzHpoxHXcyPgIXqVMP8mPNUlHM3uve
+        q8+1q5oy1dtjPjxPuS5U/ck61NtyLxzKW1Q7G3OtNeYDodZK+OAMuFkJZtdzM+7KrMxp7zThvRNH+FXL
+        9k/iwqO7jyy4sXvk8LTTiHlX2Gl6/Y1morrbEJUbl5V7ffC/2G7E/AWXg8OeVH8AVQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="&gt;&gt;buttonTextBackGround.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonAddTotalPages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="&gt;&gt;rtbMiddle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonParAlignLeft.Text" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="ToolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="rtbRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 100</value>
+  </data>
+  <data name="TableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 29</value>
+  </data>
+  <data name="&gt;&gt;buttonTextBold.Name" xml:space="preserve">
+    <value>buttonTextBold</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbLeft.Name" xml:space="preserve">
+    <value>rtbLeft</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="buttonTextUnderlined.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAKfSURBVDhPrZHbS1RRFMb33+F7RRFEQleKgqyEHsqywEy6
+        QCGYmhGBD4VdoCfppYKgUlHPpClnLjrN2ORcnDGnM/e7l//la629zz5zBh8i6OHHt/b6vvXNDCNKxR2U
+        SjsoMjy73o66M4yd055827PQQ8uxDtg7Z8+z9l0Z9yw44HyCjfMt9Jtn/dZ5G53VeZHPbyNf2EaOeDQy
+        hcGhiV0MPPwsM0PDuz2GPdlDiEx2C5kcQXqla3wXZ84+k1iUce8vdr7GkaOPJezxvUWIDWsLG9amZC1V
+        hT9o4Vr3W3l06vQoDE8cCdqnyWcNLGfQdXVcFn2dTyCeJC/DHapHpNKbSKUbWCdY+a0LT5x8isR6jTzO
+        bNracAqTG3W5Vx7d/m5AJH41oKjb2nAK+SiarGHNyaicLoyvN284w4hoqo5Ysi4P9ewujCSqiNE+yhlW
+        Qheu0s919qScE5FEDZG1Kh2SyrnWUhiOVWQp77WvC3/EW/esIhyrIkyGVHt2FwajZYS0Z/u6MBSttOw5
+        J4KrFQRXqwQpBZju66rw2PEn8IWL0ltmj5XgwsPtgzSX5Vt1qIwIRMpg/JGK0p9l9Pa9l4XnOsbwxUg6
+        PjO7mJaF+/Z3y70bPyG8KyWYhHel7DD6/Jss7Dj/CvcefIThteR+eiGNgeFJtLVdxo3ekZY7U2oJYjFU
+        wgLzvaiUMHxZ3O//JEuZm7feoe/2B1zofIE9e+/gUHsPZk2LbkpYDBUJrUWI+WABc8tFzBNzwSaGN4ux
+        Nz50Xnop/wDmwMEe3O0fx4yZUTm+4VuamTnqEp6lAjyBAgzCE8jDWGLUW+J6q5x6811z19yLaX8e0z6F
+        /on/Ct/OcAd1iUkzhyli0mvr3/DmpU6ZpHSjdk1fFv4vJswc/gAD1LRyOkfBpgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="rtbMiddle.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="rtbLeft.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTextItalics.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Italic</value>
+  </data>
+  <data name="buttonTextUnderlined.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTotalPages.Name" xml:space="preserve">
+    <value>buttonAddTotalPages</value>
+  </data>
+  <data name="buttonTextBold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="rtbMiddle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 100</value>
+  </data>
+  <data name="chkCopyToAllReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 137</value>
+  </data>
+  <data name="buttonTextColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 24</value>
+  </data>
+  <data name="buttonAddTotalPages.Text" xml:space="preserve">
+    <value>Total pages</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name" xml:space="preserve">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="tspFormatting.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOuAAA
+        DrgBakH1WwAAAcJJREFUOE+tjttOIlEQRev/f2IkGglkDCjCoGFEQRwQpm+KXP+lrF2nqvs0ZjIvPqzs
+        S+3TQEV+5KI4cg7go1xqvAG285tm8+Sm9tgH1pU9vN+jTewJg/IXjPJfeIb37HvDt76nND1wmh04AelR
+        vWb0AhQ37+Ksb0HkafV3z6tEEF2KBg68RG9oxkY1oL1iN8s0X+55vtwpC+gq+PkK/T50flOkl02cF7ZF
+        ptlix7PFll8EqOfQ+Q26+5KrPW7iX7dMkz9bDmxMY0I3/dI5VY8NoPFsw4/PGx4/f3DpI1UPPc0z7AXv
+        RdHTaPLBo+maVdVHeJ7IvZb/rXT3uOa7JwHq3pE8FB36ze7oam+8F6XBwzsPHtaC6NjQrk7f+n7cSxdn
+        bKg3emNwM3oP+vvUV/eyVw0+Blvq3hfcEbr3byegw8190Hhb9+FOV8OCf4JfeVAD/ZV2uSiyeb2bWq9b
+        1ZypPci41c+5LbQGFe0++nALd/HoDd35rewypuZtxs1expdCs5fy5S0IWYly2IWMd1VX9XR+k/L5tQEf
+        Z+HiOqndL9CdvkFnns46CTeEs67p/+imqo2OqLwJXXXXD34XPzoJfwKF3CzqRgZObwAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="rtbMiddle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 30</value>
+  </data>
+  <data name="buttonParAlignLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="buttonTextItalics.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAKOSURBVDhPrZFLT1NRFIXP3xFHKlAwUTSMFXAmUSRCjInE
+        8CiEhMSBAwcGUFTiAA2PAg1F0/JooU2hvIrUlt7eC6VQ+C/Lffa553JoYpw4+LLWXmft3RaEY1/AcS5g
+        S6Q3Zk/NjsTt6TeeXS+0ubKsC27m5dLrd6NjeiEL3ie4eN9Cz9LrWfdddFf3hWWdwyqcIy+xLtjzLHNi
+        7FMCff4FvOoK4HHrOJpbRtDUPEx+jN/1vvYid1hGLk+QZkkV58jKnHjy9Asf0VTX9ODGzdd41j7Cnewh
+        dfU+IQ6yZRxkz5iM1JzyBzmZE79P0dM7w8duVXfjeecHbKePVZcpI6O7NIt05gzpzCn2Cal6VpnyL15O
+        8MFrVZ34Nhl3c91Tnvfpw8XOr1MoSq6alLCxU0TLo1E+WHW9E4lNm/PK/q6LSKVL2NorIbV3As8bOhfa
+        9/5+9xsH1BuRSss+4fakylwkd06Q3C2Clb0BzcNjMT5WV9+P9o5RL/+bivhWEfFtQqr2Gpr9g/N8sKa2
+        F2/eBjlfN97NvXVSEds8RmyzSJCmXDhTtLV/xYOH7/ngxMwWosab7JpzlGaxkjyCZDl5rHTj0i9G8/zt
+        6m8P0E/2Ixx3jK7qmCwTIpJwECYiiaMKHIx/T/FBn8+PppZ3nJndq17tiJ/rDn5I1mylLqFVC939c3yw
+        1teHto7PWFwrQPVtpWsOqfJKbYhQrICFqI0QsRBTdPUE+JDmbsMQfHX9uNMwiBC9S7grd+SulxUggqsF
+        BFcKmCeCKxbm6Zvdaxzif0IlrW0fqSc71CXUjlKdi8CyhcCSi/TmTMwu5a+8z8qsckdmrhdT4TymiamI
+        q/8iYrFOh0lpR2WX73zwfzEZzuMPdGHjD/HHyIAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="rtbRight.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonParAlignLeft.Name" xml:space="preserve">
+    <value>buttonParAlignLeft</value>
+  </data>
+  <data name="buttonParAlignCentre.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Cancel_Button.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="buttonTextBackGround.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 24</value>
+  </data>
+  <data name="buttonParAlignRight.Text" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="&gt;&gt;buttonTextItalics.Name" xml:space="preserve">
+    <value>buttonTextItalics</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tspFormatting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cmbFonts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 27</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTextSuperscript.Name" xml:space="preserve">
+    <value>buttonTextSuperscript</value>
+  </data>
+  <data name="&gt;&gt;cmbFontSize.Name" xml:space="preserve">
+    <value>cmbFontSize</value>
+  </data>
+  <data name="chkCopyToAllReports.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="rtbLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="OK_Button" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Cancel_Button" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="buttonTextStrikeThrough.Text" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="buttonTextColor.ToolTipText" xml:space="preserve">
+    <value>Text Colour</value>
+  </data>
+  <data name="&gt;&gt;buttonParAlignLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTextUnderlined.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="buttonTextColor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="buttonTextSubscript.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="buttonTextStrikeThrough.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAKFSURBVDhPrZBbT1NREIX3T9TEACEoooBBMb5qVOKDCcYE
+        lTspSAs0bSiQlksrlqZteoHW1p6eAm25/JflzOy921NefOHhy5q1Zu3pAdVwb9Fo3MJlePb4jno7jOnZ
+        nXgzKzv0PLYFk3Vynu3e0/HOigudXzB0vsJ6nq23fYPt2r5ynBs49RvUGOdWZvGcE6y8s5nXy1vGM6vq
+        32tUawRphVRzgwr5UDiHyE5Re+6IaqQvmJ3xqlS5RqlyJZRZq3ouVa/RPzCLBw9nujuB+tTx+jJ17R1V
+        LF+hWG6jWGohf2ZpokD+lHZ8sFhqS15gTF6QrKlzmk/5xp82VO6sDca/mcXYi1U86vshXxYMFyhvyUGe
+        OdN5XnJW9gODc1hYTtJh/gE6mCm2kC20MDrmw6o/g91oGd/mEhh5tgLe8cHhkWVMf90XnlKepZyVfSCY
+        w8SrdWToBucqlWsilb/E9/ljzMwm8Hk6hsk3ATnEO9aJyXXET1zEk25Pzj6Vb8qHsHKufmcvZXkfHNMt
+        lUhfIJG+xOi4Dy9f+7HgS2E9mEdf/yzmV07ofzQvf/L7Tzv4QDynHr/hPvuln2mE9sqSxTMXUIepczC+
+        zTweDy9hfGINvo0c3n7cFv9uKoLFtTQGhxaE1c0cDlIXpHnxQ08W8WXmSG4cECqWbCBKxJLnd+CMd3bW
+        6u32znqv9o4b2GV+uVoNnO9J5pKyN7PsjZpcuqIuVCRRx3bcRYTYTnSJxDnXO72nmXOD9Oyuk9Whwkd1
+        hA/rCBHhQwehI0Z7weN1T3t+1826udo6cLC1b+DZ64ngfq1nH+Ts7hvOzKwC0Ro2iEDM6P+IOaIbUVJ6
+        o7PuXg7eF/5oDf8AxIXieq4F8g4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DialogPrintHeader</value>
+  </data>
+  <data name="buttonParAlignLeft.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="buttonTextSuperscript.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="OK_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonTextStrikeThrough.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonTextStrikeThrough.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Strikeout</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonAddPageNumber.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;tspFormatting.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonTextBold.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonTextSubscript.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonParAlignLeft.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="chkCopyToAllReports.Text" xml:space="preserve">
+    <value>Copy this header to all reports</value>
+  </data>
+  <data name="buttonTextColor.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Cancel_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;buttonTextColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTextBackGround.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonTextSuperscript.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAKFSURBVDhPrZDLTxNhFMW/P1Fc+Fj5QIJoNKjByEIStyYS
+        0dhQeUjpQC2UtJS29jH0RQuUlnY6baE8/pfjvd9jOrjQjYtfzj3nnjszGeF2r+G61+gyPPu8p/4Oo3tm
+        J72ehRluHJuCzrycZ7P3dfyz4IL3Bo33FcbzbLzpa0zX9EWnc4WOc4U207mWs/ScE6y8M5nx1kYZj8cX
+        MXZ7Hg8eBshXZF+0Ti/RahOkTVLFFZqca6TnjlTFnbufsR07xFFjCCtSJb8gb8Rx8xLHzQtJg7Wl5uMW
+        55cqMzsJ5dTx+1SmhannK9KLeuMCdXrLIcHKfvp1CLfGPkkmp5bxbTHveebtuw3Z4/5qqCR9znZQPxlC
+        VI+GUJxrHaJcP0PgewH37n/BfnWAA8rypR4mJpewvFZEqTaA9bOGNzMWAsECMgVHvoh7olQ/R7l2TqUz
+        eLPWwJKNuQ/bsCt9vJwOIUwPkTvC/8UGzoVdPYN9MIBUOfsg/3E+hfEnQQRXi6P9X1TkygPkKgSrmTXZ
+        Uh+z76OYeLqElfWKt8+ajrkxOanIFPvIFAcEKT1AQnPKdjEzG8HXxQJ2sw4mn61gc6eBtOxrqOv3afJi
+        z+6BSdp9pfs9RJOnePFqHQv0w5N6b8UaeDQexOpGDfGcS5nq++GuSORdxIlEvufh/9Hh2AmCocqNjOGe
+        /y4u1YXYybqIMb+6SjWc78isS8pez3KvVeeyK7ULsZVxEE13sUVEMyO20pyrndrTzLlG9szOyxyISMpB
+        ZM/BJhHZ62AzxSgv8XnVU57vRtkoF+FkB+FdDc9+T1i77Rt7i7M/bzjTs1iLtxEi1hJa/0WiIzUUJ6Ub
+        lY328oH/ix/xNn4DrD762dtTQNcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="buttonTextItalics.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;buttonTextSubscript.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTextBold.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;rtbRight.Name" xml:space="preserve">
+    <value>rtbRight</value>
+  </data>
+  <data name="buttonTextSubscript.ToolTipText" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="tspFormatting.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="buttonParAlignCentre.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tspFormatting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonParAlignRight.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAGwSURBVDhPrY7rTsJQEIT3EfXBfAY1GolEUxRFNCh4QUWw
+        pbUIiO8y7uWc9qAlEuOPLzM7O+dCWfqJLPtEKogP5kLDjuB6fqez8+TN0mFfcFmRi/f7oBN6kkLxgqP4
+        hZ/F+9n3Hb7r+5QkCyTjBWJmY3PrT8h5vYeh0esHRjHDOmQ1FhhK7tBZOqqG5orbuZmehx94Hs6VgejI
+        fNVPVjEYyR12D/UHc/QHMzwyon62zO9E5z/msi879i8z0N3TDMa08vV1kPP3Dur2p+g9TNF9eEfhA1Uv
+        +n3uS5/xOavk1Ll7R+d+AlX1RtVPVlGcY6XL3gSXt4yo9x6e26xtv3N7yZbO+JyVWjc5WjcTJq98fR3s
+        jhzn3RzU7LxBOO3kptfffbkvclXzIdKlxlWGiGlcvS1R9ZNVSD/ScxnouJ3hSLhITR2SH2uWssrsvO6d
+        uly7qimo3hrj8DxFnal6fR3qLT7PHPJdVDsbo9Yc44CpNRMcnAk2K8FsPZvlXJmVOe2dJtg7cYgPZ2b/
+        JF7a70vGGv7QerannSjGLrPTcPobjUR1N2LlM5aVe73wv9iOYnwB4vnDocd2A3sAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tspFormatting.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="rtbMiddle.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tspFormatting.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="buttonAddPageNumber.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonParAlignRight.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="chkCopyToAllReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 17</value>
+  </data>
+  <data name="OK_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>935, 185</value>
+  </data>
+  <data name="&gt;&gt;buttonTextSuperscript.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonParAlignRight.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="TableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonTextSuperscript.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;buttonAddPageNumber.Name" xml:space="preserve">
+    <value>buttonAddPageNumber</value>
+  </data>
+  <data name="&gt;&gt;rtbMiddle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tspFormatting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rtbRight.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonTextUnderlined.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCopyToAllReports.Name" xml:space="preserve">
+    <value>chkCopyToAllReports</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator8.Name" xml:space="preserve">
+    <value>ToolStripSeparator8</value>
+  </data>
+  <data name="cmbFonts.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Cancel_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonTextStrikeThrough.ToolTipText" xml:space="preserve">
+    <value>Strikethrough</value>
+  </data>
+  <data name="&gt;&gt;buttonParAlignRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTextColor.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="rtbRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 30</value>
+  </data>
+  <data name="rtbLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 100</value>
+  </data>
+  <data name="&gt;&gt;buttonTextColor.Name" xml:space="preserve">
+    <value>buttonTextColor</value>
+  </data>
+  <data name="buttonTextBackGround.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;rtbRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonTextItalics.ToolTipText" xml:space="preserve">
+    <value>Italics</value>
+  </data>
+  <data name="buttonTextSubscript.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="cmbFontSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 27</value>
+  </data>
+  <data name="buttonParAlignLeft.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="OK_Button.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr</value>
+  </metadata>
+  <metadata name="tspFormatting.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

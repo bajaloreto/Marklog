@@ -1,0 +1,2 @@
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Release/.NETFramework,Version=v4.0.AssemblyAttribute.vb
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/bin/x86/Release/System.Windows.Forms.Ribbon35.dll

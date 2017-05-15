@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Target group</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DialogTargetGroup</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelProperties.Name">
+    <value>PanelProperties</value>
+  </data>
+  <data name="&gt;&gt;PanelProperties.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PanelProperties.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelProperties.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonDeleteProperty.Name">
+    <value>ToolStripButtonDeleteProperty</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonDeleteProperty.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditProperty.Name">
+    <value>ToolStripButtonEditProperty</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditProperty.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewProperty.Name">
+    <value>ToolStripButtonNewProperty</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewProperty.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonPrintIdForm.Name">
+    <value>ToolStripButtonPrintIdForm</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonPrintIdForm.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReady.Name">
+    <value>btnReady</value>
+  </data>
+  <data name="&gt;&gt;btnReady.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReady.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReady.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbPurpose.Name">
+    <value>cmbPurpose</value>
+  </data>
+  <data name="&gt;&gt;cmbPurpose.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbPurpose.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPurpose.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Name">
+    <value>cmbType</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbType.ZOrder">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.Name">
+    <value>lblLocation</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name">
+    <value>lblName</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.Name">
+    <value>lblNumber</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfFemales.Name">
+    <value>lblNumberOfFemales</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfFemales.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfFemales.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfFemales.ZOrder">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfMales.Name">
+    <value>lblNumberOfMales</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfMales.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfMales.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfMales.ZOrder">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPeople.Name">
+    <value>lblNumberOfPeople</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPeople.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPeople.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPeople.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblOtherProperties.Name">
+    <value>lblOtherProperties</value>
+  </data>
+  <data name="&gt;&gt;lblOtherProperties.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblOtherProperties.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOtherProperties.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblPurpose.Name">
+    <value>lblPurpose</value>
+  </data>
+  <data name="&gt;&gt;lblPurpose.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPurpose.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPurpose.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblType.Name">
+    <value>lblType</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblType.ZOrder">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ntbNumber.Name">
+    <value>ntbNumber</value>
+  </data>
+  <data name="&gt;&gt;ntbNumber.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbNumber.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbNumber.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfFemales.Name">
+    <value>ntbNumberOfFemales</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfFemales.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfFemales.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfFemales.ZOrder">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfMales.Name">
+    <value>ntbNumberOfMales</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfMales.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfMales.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfMales.ZOrder">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfPeople.Name">
+    <value>ntbNumberOfPeople</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfPeople.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfPeople.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfPeople.ZOrder">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbLocation.Name">
+    <value>tbLocation</value>
+  </data>
+  <data name="&gt;&gt;tbLocation.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbLocation.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbLocation.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbName.Name">
+    <value>tbName</value>
+  </data>
+  <data name="&gt;&gt;tbName.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbName.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbName.ZOrder">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Name">
+    <value>toolStripSeparator</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Type">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tspEditProperties.Name">
+    <value>tspEditProperties</value>
+  </data>
+  <data name="&gt;&gt;tspEditProperties.Parent">
+    <value>PanelProperties</value>
+  </data>
+  <data name="&gt;&gt;tspEditProperties.Type">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tspEditProperties.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="ToolStripButtonDeleteProperty.Text">
+    <value>X</value>
+  </data>
+  <data name="ToolStripButtonDeleteProperty.ToolTipText">
+    <value>Remove property</value>
+  </data>
+  <data name="ToolStripButtonEditProperty.Text">
+    <value>Edit...</value>
+  </data>
+  <data name="ToolStripButtonEditProperty.ToolTipText">
+    <value>Edit property</value>
+  </data>
+  <data name="ToolStripButtonNewProperty.Text">
+    <value>u</value>
+  </data>
+  <data name="ToolStripButtonNewProperty.ToolTipText">
+    <value>New property</value>
+  </data>
+  <data name="ToolStripButtonPrintIdForm.Text">
+    <value>&amp;Print</value>
+  </data>
+  <data name="ToolStripButtonPrintIdForm.ToolTipText">
+    <value>Print identification form</value>
+  </data>
+  <data name="btnReady.Text">
+    <value>Ready</value>
+  </data>
+  <data name="lblLocation.Text">
+    <value>Location:</value>
+  </data>
+  <data name="lblName.Text">
+    <value>Target group name:</value>
+  </data>
+  <data name="lblNumber.Text">
+    <value>Number of beneficiaries:</value>
+  </data>
+  <data name="lblNumberOfFemales.Text">
+    <value>Number of women:</value>
+  </data>
+  <data name="lblNumberOfMales.Text">
+    <value>Number of men:</value>
+  </data>
+  <data name="lblNumberOfPeople.Text">
+    <value>Total number of people:</value>
+  </data>
+  <data name="lblOtherProperties.Text">
+    <value>Other information to include on identification form:</value>
+  </data>
+  <data name="lblPurpose.Text">
+    <value>Purpose:</value>
+  </data>
+  <data name="lblType.Text">
+    <value>Type:</value>
+  </data>
+  <data name="tspEditProperties.Text">
+    <value>ToolStrip1</value>
+  </data>
+</root>

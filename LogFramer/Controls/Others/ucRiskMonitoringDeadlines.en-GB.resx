@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>ucRiskMonitoringDeadlines</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitEnd.Name">
+    <value>cmbPeriodUnitEnd</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitEnd.Parent">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitEnd.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitEnd.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitStart.Name">
+    <value>cmbPeriodUnitStart</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitStart.Parent">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitStart.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnitStart.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbRepetition.Name">
+    <value>cmbRepetition</value>
+  </data>
+  <data name="&gt;&gt;cmbRepetition.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbRepetition.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbRepetition.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Name">
+    <value>dtpEndDate</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Parent">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Type">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Name">
+    <value>dtpStartDate</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Parent">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Type">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gbEnding.Name">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;gbEnding.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbEnding.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbEnding.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbStarting.Name">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;gbStarting.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbStarting.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbStarting.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectEnds.Name">
+    <value>lblAfterProjectEnds</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectEnds.Parent">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectEnds.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectEnds.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectStarts.Name">
+    <value>lblAfterProjectStarts</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectStarts.Parent">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectStarts.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAfterProjectStarts.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblEnding.Name">
+    <value>lblEnding</value>
+  </data>
+  <data name="&gt;&gt;lblEnding.Parent">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;lblEnding.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEnding.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblStarting.Name">
+    <value>lblStarting</value>
+  </data>
+  <data name="&gt;&gt;lblStarting.Parent">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;lblStarting.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStarting.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblTargetSystem.Name">
+    <value>lblTargetSystem</value>
+  </data>
+  <data name="&gt;&gt;lblTargetSystem.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTargetSystem.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTargetSystem.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lvRiskMonitoringDeadlines.Name">
+    <value>lvRiskMonitoringDeadlines</value>
+  </data>
+  <data name="&gt;&gt;lvRiskMonitoringDeadlines.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lvRiskMonitoringDeadlines.Type">
+    <value>FaciliDev.LogFramer.ListViewRiskMonitoringDeadlines, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lvRiskMonitoringDeadlines.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodEnd.Name">
+    <value>ntbPeriodEnd</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodEnd.Parent">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodEnd.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodEnd.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodStart.Name">
+    <value>ntbPeriodStart</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodStart.Parent">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodStart.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriodStart.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateEnd.Name">
+    <value>rbtnExactDateEnd</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateEnd.Parent">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateEnd.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateEnd.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateStart.Name">
+    <value>rbtnExactDateStart</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateStart.Parent">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateStart.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDateStart.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateEnd.Name">
+    <value>rbtnReferenceDateEnd</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateEnd.Parent">
+    <value>gbEnding</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateEnd.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateEnd.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateStart.Name">
+    <value>rbtnReferenceDateStart</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateStart.Parent">
+    <value>gbStarting</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateStart.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDateStart.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="lblAfterProjectEnds.Text">
+    <value>after project ends</value>
+  </data>
+  <data name="lblAfterProjectStarts.Text">
+    <value>after project starts</value>
+  </data>
+  <data name="lblEnding.Text">
+    <value>Ending:</value>
+  </data>
+  <data name="lblStarting.Text">
+    <value>Starting:</value>
+  </data>
+  <data name="lblTargetSystem.Text">
+    <value>Set deadlines:</value>
+  </data>
+  <data name="rbtnExactDateEnd.Text">
+    <value>At this exact date:</value>
+  </data>
+  <data name="rbtnExactDateStart.Text">
+    <value>At this exact date:</value>
+  </data>
+</root>

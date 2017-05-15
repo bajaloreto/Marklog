@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>DetailIndicator</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelQuestionType.Name">
+    <value>PanelQuestionType</value>
+  </data>
+  <data name="&gt;&gt;PanelQuestionType.Parent">
+    <value>TabPageScores</value>
+  </data>
+  <data name="&gt;&gt;PanelQuestionType.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelQuestionType.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PanelTargets.Name">
+    <value>PanelTargets</value>
+  </data>
+  <data name="&gt;&gt;PanelTargets.Parent">
+    <value>TabPageTargets</value>
+  </data>
+  <data name="&gt;&gt;PanelTargets.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelTargets.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControlIndicator.Name">
+    <value>TabControlIndicator</value>
+  </data>
+  <data name="&gt;&gt;TabControlIndicator.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControlIndicator.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlIndicator.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageRegistration.Name">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="&gt;&gt;TabPageRegistration.Parent">
+    <value>TabControlIndicator</value>
+  </data>
+  <data name="&gt;&gt;TabPageRegistration.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageRegistration.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPageScores.Name">
+    <value>TabPageScores</value>
+  </data>
+  <data name="&gt;&gt;TabPageScores.Parent">
+    <value>TabControlIndicator</value>
+  </data>
+  <data name="&gt;&gt;TabPageScores.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageScores.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageSubIndicators.Name">
+    <value>TabPageSubIndicators</value>
+  </data>
+  <data name="&gt;&gt;TabPageSubIndicators.Parent">
+    <value>TabControlIndicator</value>
+  </data>
+  <data name="&gt;&gt;TabPageSubIndicators.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageSubIndicators.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargets.Name">
+    <value>TabPageTargets</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargets.Parent">
+    <value>TabControlIndicator</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargets.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargets.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkAdvanced.Name">
+    <value>chkAdvanced</value>
+  </data>
+  <data name="&gt;&gt;chkAdvanced.Parent">
+    <value>TabPageScores</value>
+  </data>
+  <data name="&gt;&gt;chkAdvanced.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAdvanced.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateHorizontal.Name">
+    <value>cmbAggregateHorizontal</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateHorizontal.Parent">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateHorizontal.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateHorizontal.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateVertical.Name">
+    <value>cmbAggregateVertical</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateVertical.Parent">
+    <value>gbTotals</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateVertical.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateVertical.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbQuestionType.Name">
+    <value>cmbQuestionType</value>
+  </data>
+  <data name="&gt;&gt;cmbQuestionType.Parent">
+    <value>TabPageScores</value>
+  </data>
+  <data name="&gt;&gt;cmbQuestionType.Type">
+    <value>FaciliDev.LogFramer.StructuredComboBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbQuestionType.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbRegistration.Name">
+    <value>cmbRegistration</value>
+  </data>
+  <data name="&gt;&gt;cmbRegistration.Parent">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="&gt;&gt;cmbRegistration.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbRegistration.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.Name">
+    <value>cmbTargetGroupGuid</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.Parent">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.Type">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gbSubIndicators.Name">
+    <value>gbSubIndicators</value>
+  </data>
+  <data name="&gt;&gt;gbSubIndicators.Parent">
+    <value>TabPageSubIndicators</value>
+  </data>
+  <data name="&gt;&gt;gbSubIndicators.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbSubIndicators.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbTotals.Name">
+    <value>gbTotals</value>
+  </data>
+  <data name="&gt;&gt;gbTotals.Parent">
+    <value>TabPageSubIndicators</value>
+  </data>
+  <data name="&gt;&gt;gbTotals.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbTotals.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbWeightingChildren.Name">
+    <value>gbWeightingChildren</value>
+  </data>
+  <data name="&gt;&gt;gbWeightingChildren.Parent">
+    <value>TabPageSubIndicators</value>
+  </data>
+  <data name="&gt;&gt;gbWeightingChildren.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbWeightingChildren.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateHorizontal.Name">
+    <value>lblAggregateHorizontal</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateHorizontal.Parent">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateHorizontal.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateHorizontal.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateVertical.Name">
+    <value>lblAggregateVertical</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateVertical.Parent">
+    <value>gbTotals</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateVertical.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateVertical.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblRegistration.Name">
+    <value>lblRegistration</value>
+  </data>
+  <data name="&gt;&gt;lblRegistration.Parent">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="&gt;&gt;lblRegistration.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRegistration.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblResponseType.Name">
+    <value>lblResponseType</value>
+  </data>
+  <data name="&gt;&gt;lblResponseType.Parent">
+    <value>TabPageScores</value>
+  </data>
+  <data name="&gt;&gt;lblResponseType.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResponseType.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblTargetGroupName.Name">
+    <value>lblTargetGroupName</value>
+  </data>
+  <data name="&gt;&gt;lblTargetGroupName.Parent">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="&gt;&gt;lblTargetGroupName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTargetGroupName.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblWeightingFactorChildren.Name">
+    <value>lblWeightingFactorChildren</value>
+  </data>
+  <data name="&gt;&gt;lblWeightingFactorChildren.Parent">
+    <value>gbWeightingChildren</value>
+  </data>
+  <data name="&gt;&gt;lblWeightingFactorChildren.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWeightingFactorChildren.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbWeightingFactorChildren.Name">
+    <value>ntbWeightingFactorChildren</value>
+  </data>
+  <data name="&gt;&gt;ntbWeightingFactorChildren.Parent">
+    <value>gbWeightingChildren</value>
+  </data>
+  <data name="&gt;&gt;ntbWeightingFactorChildren.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbWeightingFactorChildren.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbIndicator.Name">
+    <value>tbIndicator</value>
+  </data>
+  <data name="&gt;&gt;tbIndicator.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbIndicator.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIndicator.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="TabPageRegistration.Text">
+    <value>Registration</value>
+  </data>
+  <data name="TabPageScores.Text">
+    <value>Scoring</value>
+  </data>
+  <data name="TabPageSubIndicators.Text">
+    <value>Sub-indicators</value>
+  </data>
+  <data name="TabPageTargets.Text">
+    <value>Targets</value>
+  </data>
+  <data name="chkAdvanced.Text">
+    <value>Show advanced options</value>
+  </data>
+  <data name="gbSubIndicators.Text">
+    <value>Sub-indicators</value>
+  </data>
+  <data name="gbTotals.Text">
+    <value>Calculate total score of this indicator</value>
+  </data>
+  <data name="gbWeightingChildren.Text">
+    <value>Weighting</value>
+  </data>
+  <data name="lblAggregateHorizontal.Text">
+    <value>Aggregate:</value>
+  </data>
+  <data name="lblAggregateVertical.Text">
+    <value>Aggregate:</value>
+  </data>
+  <data name="lblRegistration.Text">
+    <value>Registration:</value>
+  </data>
+  <data name="lblResponseType.Text">
+    <value>Question type:</value>
+  </data>
+  <data name="lblTargetGroupName.Text">
+    <value>Target group:</value>
+  </data>
+  <data name="lblWeightingFactorChildren.Text">
+    <value>Weighting factor:</value>
+  </data>
+</root>

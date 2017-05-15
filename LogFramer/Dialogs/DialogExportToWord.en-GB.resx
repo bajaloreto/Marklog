@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Export to Microsoft Word</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DialogExportToWord</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMainOptions.Name">
+    <value>GroupBoxMainOptions</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMainOptions.Parent">
+    <value>TabPageWordOptions</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMainOptions.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxMainOptions.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PanelExportOptions.Name">
+    <value>PanelExportOptions</value>
+  </data>
+  <data name="&gt;&gt;PanelExportOptions.Parent">
+    <value>GroupBoxMainOptions</value>
+  </data>
+  <data name="&gt;&gt;PanelExportOptions.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelExportOptions.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControlOptions.Name">
+    <value>TabControlOptions</value>
+  </data>
+  <data name="&gt;&gt;TabControlOptions.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControlOptions.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlOptions.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageIndicatorOptions.Name">
+    <value>TabPageIndicatorOptions</value>
+  </data>
+  <data name="&gt;&gt;TabPageIndicatorOptions.Parent">
+    <value>TabControlOptions</value>
+  </data>
+  <data name="&gt;&gt;TabPageIndicatorOptions.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageIndicatorOptions.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrientation.Name">
+    <value>TabPageOrientation</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrientation.Parent">
+    <value>TabControlOptions</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrientation.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrientation.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPagePlanningOptions.Name">
+    <value>TabPagePlanningOptions</value>
+  </data>
+  <data name="&gt;&gt;TabPagePlanningOptions.Parent">
+    <value>TabControlOptions</value>
+  </data>
+  <data name="&gt;&gt;TabPagePlanningOptions.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPagePlanningOptions.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TabPageWordOptions.Name">
+    <value>TabPageWordOptions</value>
+  </data>
+  <data name="&gt;&gt;TabPageWordOptions.Parent">
+    <value>TabControlOptions</value>
+  </data>
+  <data name="&gt;&gt;TabPageWordOptions.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageWordOptions.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnExport.Name">
+    <value>btnExport</value>
+  </data>
+  <data name="&gt;&gt;btnExport.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnExport.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExport.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFile.Name">
+    <value>btnLoadFile</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFile.Parent">
+    <value>PanelExportOptions</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFile.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFile.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOutput.Name">
+    <value>chkPrintOutput</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOutput.Parent">
+    <value>TabPageIndicatorOptions</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOutput.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPrintOutput.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkPrintPurpose.Name">
+    <value>chkPrintPurpose</value>
+  </data>
+  <data name="&gt;&gt;chkPrintPurpose.Parent">
+    <value>TabPageIndicatorOptions</value>
+  </data>
+  <data name="&gt;&gt;chkPrintPurpose.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPrintPurpose.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkPrintRange.Name">
+    <value>chkPrintRange</value>
+  </data>
+  <data name="&gt;&gt;chkPrintRange.Parent">
+    <value>TabPageIndicatorOptions</value>
+  </data>
+  <data name="&gt;&gt;chkPrintRange.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPrintRange.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkPrintResponse.Name">
+    <value>chkPrintResponse</value>
+  </data>
+  <data name="&gt;&gt;chkPrintResponse.Parent">
+    <value>TabPageIndicatorOptions</value>
+  </data>
+  <data name="&gt;&gt;chkPrintResponse.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPrintResponse.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkPrintTarget.Name">
+    <value>chkPrintTarget</value>
+  </data>
+  <data name="&gt;&gt;chkPrintTarget.Parent">
+    <value>TabPageIndicatorOptions</value>
+  </data>
+  <data name="&gt;&gt;chkPrintTarget.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPrintTarget.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbBookmark.Name">
+    <value>cmbBookmark</value>
+  </data>
+  <data name="&gt;&gt;cmbBookmark.Parent">
+    <value>gbInsertOptions</value>
+  </data>
+  <data name="&gt;&gt;cmbBookmark.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbBookmark.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbPrintLevel.Name">
+    <value>cmbPrintLevel</value>
+  </data>
+  <data name="&gt;&gt;cmbPrintLevel.Parent">
+    <value>TabPageIndicatorOptions</value>
+  </data>
+  <data name="&gt;&gt;cmbPrintLevel.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPrintLevel.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmbShowElements.Name">
+    <value>cmbShowElements</value>
+  </data>
+  <data name="&gt;&gt;cmbShowElements.Parent">
+    <value>TabPagePlanningOptions</value>
+  </data>
+  <data name="&gt;&gt;cmbShowElements.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbShowElements.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbInsertOptions.Name">
+    <value>gbInsertOptions</value>
+  </data>
+  <data name="&gt;&gt;gbInsertOptions.Parent">
+    <value>PanelExportOptions</value>
+  </data>
+  <data name="&gt;&gt;gbInsertOptions.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbInsertOptions.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbOrientation.Name">
+    <value>gbOrientation</value>
+  </data>
+  <data name="&gt;&gt;gbOrientation.Parent">
+    <value>TabPageOrientation</value>
+  </data>
+  <data name="&gt;&gt;gbOrientation.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbOrientation.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Name">
+    <value>lblFileName</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Parent">
+    <value>PanelExportOptions</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblOptions.Name">
+    <value>lblOptions</value>
+  </data>
+  <data name="&gt;&gt;lblOptions.Parent">
+    <value>TabPageIndicatorOptions</value>
+  </data>
+  <data name="&gt;&gt;lblOptions.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOptions.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPrintLevel.Name">
+    <value>lblPrintLevel</value>
+  </data>
+  <data name="&gt;&gt;lblPrintLevel.Parent">
+    <value>TabPageIndicatorOptions</value>
+  </data>
+  <data name="&gt;&gt;lblPrintLevel.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPrintLevel.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblShowElements.Name">
+    <value>lblShowElements</value>
+  </data>
+  <data name="&gt;&gt;lblShowElements.Parent">
+    <value>TabPagePlanningOptions</value>
+  </data>
+  <data name="&gt;&gt;lblShowElements.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShowElements.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnBookmark.Name">
+    <value>rbtnBookmark</value>
+  </data>
+  <data name="&gt;&gt;rbtnBookmark.Parent">
+    <value>gbInsertOptions</value>
+  </data>
+  <data name="&gt;&gt;rbtnBookmark.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnBookmark.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtnEndDoc.Name">
+    <value>rbtnEndDoc</value>
+  </data>
+  <data name="&gt;&gt;rbtnEndDoc.Parent">
+    <value>gbInsertOptions</value>
+  </data>
+  <data name="&gt;&gt;rbtnEndDoc.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnEndDoc.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbtnLandscape.Name">
+    <value>rbtnLandscape</value>
+  </data>
+  <data name="&gt;&gt;rbtnLandscape.Parent">
+    <value>gbOrientation</value>
+  </data>
+  <data name="&gt;&gt;rbtnLandscape.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnLandscape.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnNewWordDoc.Name">
+    <value>rbtnNewWordDoc</value>
+  </data>
+  <data name="&gt;&gt;rbtnNewWordDoc.Parent">
+    <value>GroupBoxMainOptions</value>
+  </data>
+  <data name="&gt;&gt;rbtnNewWordDoc.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnNewWordDoc.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbtnPortrait.Name">
+    <value>rbtnPortrait</value>
+  </data>
+  <data name="&gt;&gt;rbtnPortrait.Parent">
+    <value>gbOrientation</value>
+  </data>
+  <data name="&gt;&gt;rbtnPortrait.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnPortrait.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtnStartDoc.Name">
+    <value>rbtnStartDoc</value>
+  </data>
+  <data name="&gt;&gt;rbtnStartDoc.Parent">
+    <value>gbInsertOptions</value>
+  </data>
+  <data name="&gt;&gt;rbtnStartDoc.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnStartDoc.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbtnWordDoc.Name">
+    <value>rbtnWordDoc</value>
+  </data>
+  <data name="&gt;&gt;rbtnWordDoc.Parent">
+    <value>GroupBoxMainOptions</value>
+  </data>
+  <data name="&gt;&gt;rbtnWordDoc.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnWordDoc.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbFileName.Name">
+    <value>tbFileName</value>
+  </data>
+  <data name="&gt;&gt;tbFileName.Parent">
+    <value>PanelExportOptions</value>
+  </data>
+  <data name="&gt;&gt;tbFileName.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFileName.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="Cancel_Button.Text">
+    <value>Cancel</value>
+  </data>
+  <data name="TabPageIndicatorOptions.Text">
+    <value>Indicator selection</value>
+  </data>
+  <data name="TabPageOrientation.Text">
+    <value>Page orientation</value>
+  </data>
+  <data name="TabPagePlanningOptions.Text">
+    <value>Planning options</value>
+  </data>
+  <data name="TabPageWordOptions.Text">
+    <value>Export options</value>
+  </data>
+  <data name="btnExport.Text">
+    <value>Export</value>
+  </data>
+  <data name="chkPrintOutput.Text">
+    <value>Outputs</value>
+  </data>
+  <data name="chkPrintPurpose.Text">
+    <value>Purposes</value>
+  </data>
+  <data name="chkPrintRange.Text">
+    <value>Value ranges</value>
+  </data>
+  <data name="chkPrintResponse.Text">
+    <value>Responses</value>
+  </data>
+  <data name="chkPrintTarget.Text">
+    <value>Targets</value>
+  </data>
+  <data name="gbInsertOptions.Text">
+    <value>Insert LogFrame at:</value>
+  </data>
+  <data name="gbOrientation.Text">
+    <value>Page orientation</value>
+  </data>
+  <data name="lblFileName.Text">
+    <value>File name:</value>
+  </data>
+  <data name="lblOptions.Text">
+    <value>Include:</value>
+  </data>
+  <data name="lblPrintLevel.Text">
+    <value>Export indicators of:</value>
+  </data>
+  <data name="lblShowElements.Text">
+    <value>Export:</value>
+  </data>
+  <data name="rbtnBookmark.Text">
+    <value>After this bookmark:</value>
+  </data>
+  <data name="rbtnEndDoc.Text">
+    <value>End of document</value>
+  </data>
+  <data name="rbtnLandscape.Text">
+    <value>Landscape</value>
+  </data>
+  <data name="rbtnNewWordDoc.Text">
+    <value>Export LogFrame to new MS Word document</value>
+  </data>
+  <data name="rbtnPortrait.Text">
+    <value>Portrait</value>
+  </data>
+  <data name="rbtnStartDoc.Text">
+    <value>Start of document</value>
+  </data>
+  <data name="rbtnWordDoc.Text">
+    <value>Export LogFrame to existing MS Word document</value>
+  </data>
+</root>

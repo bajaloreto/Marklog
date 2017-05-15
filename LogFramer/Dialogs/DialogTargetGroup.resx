@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lblLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblType.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfMales.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmbPurpose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 38</value>
+  </data>
+  <data name="btnReady.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 475</value>
+  </data>
+  <data name="lblType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfMales.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOtherProperties.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblOtherProperties.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonDeleteProperty.Name" xml:space="preserve">
+    <value>ToolStripButtonDeleteProperty</value>
+  </data>
+  <data name="ToolStripButtonDeleteProperty.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="tbLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 170</value>
+  </data>
+  <data name="lblNumberOfPeople.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ToolStripButtonEditProperty.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblOtherProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 13</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Name" xml:space="preserve">
+    <value>toolStripSeparator</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ntbNumber.Name" xml:space="preserve">
+    <value>ntbNumber</value>
+  </data>
+  <data name="toolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="ToolStripButtonNewProperty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;lblPurpose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="tspEditProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>609, 27</value>
+  </data>
+  <data name="ToolStripButtonDeleteProperty.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="cmbType.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tspEditProperties.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.Name" xml:space="preserve">
+    <value>lblNumber</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonDeleteProperty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfMales.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfFemales.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Target group</value>
+  </data>
+  <data name="ntbNumberOfFemales.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditProperty.Name" xml:space="preserve">
+    <value>ToolStripButtonEditProperty</value>
+  </data>
+  <data name="&gt;&gt;PanelProperties.Name" xml:space="preserve">
+    <value>PanelProperties</value>
+  </data>
+  <data name="ToolStripButtonEditProperty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOtherProperties.Text" xml:space="preserve">
+    <value>Other information to include on identification form:</value>
+  </data>
+  <data name="lblOtherProperties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 198</value>
+  </data>
+  <data name="lblType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 68</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfFemales.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnReady.Text" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="&gt;&gt;btnReady.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ntbNumberOfMales.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnReady.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="lblNumberOfPeople.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 13</value>
+  </data>
+  <data name="tbName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblNumberOfMales.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tspEditProperties.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lblNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfPeople.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfFemales.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbLocation.Name" xml:space="preserve">
+    <value>tbLocation</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPeople.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="PanelProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>609, 249</value>
+  </data>
+  <data name="PanelProperties.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ntbNumberOfPeople.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 144</value>
+  </data>
+  <data name="&gt;&gt;btnReady.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbPurpose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblPurpose.Name" xml:space="preserve">
+    <value>lblPurpose</value>
+  </data>
+  <data name="&gt;&gt;lblOtherProperties.Name" xml:space="preserve">
+    <value>lblOtherProperties</value>
+  </data>
+  <data name="&gt;&gt;tbLocation.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnReady.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbNumber.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblNumberOfFemales.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbName.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ToolStripButtonDeleteProperty.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;lblOtherProperties.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReady.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPeople.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Target group name:</value>
+  </data>
+  <data name="tbLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>485, 20</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfMales.Name" xml:space="preserve">
+    <value>lblNumberOfMales</value>
+  </data>
+  <data name="ToolStripButtonPrintIdForm.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;cmbPurpose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DialogTargetGroup</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>636, 510</value>
+  </data>
+  <data name="ToolStripButtonEditProperty.Text" xml:space="preserve">
+    <value>Edit...</value>
+  </data>
+  <data name="ToolStripButtonPrintIdForm.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;tbName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblNumberOfFemales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="lblLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="ToolStripButtonNewProperty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Wingdings 3, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblOtherProperties.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonEditProperty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="lblPurpose.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblNumberOfMales.Text" xml:space="preserve">
+    <value>Number of males:</value>
+  </data>
+  <data name="lblLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 173</value>
+  </data>
+  <data name="ntbNumberOfFemales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="lblNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfMales.Name" xml:space="preserve">
+    <value>ntbNumberOfMales</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfPeople.Name" xml:space="preserve">
+    <value>ntbNumberOfPeople</value>
+  </data>
+  <data name="ToolStripButtonNewProperty.Text" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="&gt;&gt;ntbNumber.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfMales.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbLocation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 65</value>
+  </data>
+  <data name="lblNumberOfPeople.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 147</value>
+  </data>
+  <data name="ToolStripButtonPrintIdForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="ntbNumberOfMales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 118</value>
+  </data>
+  <data name="cmbPurpose.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPurpose.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblNumberOfFemales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 95</value>
+  </data>
+  <data name="ToolStripButtonNewProperty.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblNumber.Text" xml:space="preserve">
+    <value>Number of beneficiaries:</value>
+  </data>
+  <data name="lblPurpose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblPurpose.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNumberOfPeople.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblOtherProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ntbNumberOfMales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="ToolStripButtonNewProperty.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAL6SURBVDhPrZA/TFNhFMW/0UUncdEEE11MjE6CDpoQSTRx
+        gUkG4240RhR1M3EQB+MgTkqMEAgIFlsolAKFlj8tbV/b915paR+UfyFK+CMYjIMJyfHe732vFBcXh1/u
+        ueec7/alIm0WkE4XYDKsS/biLO0wqudkcldaOOLAY6egvKLP2slLOqVacKH4C4riVzg7a2d3+gqn6/SF
+        rs9DN+aRYvSC1HJnn+DJmeOV7vItU6JFIjmHRIqgWVP7GhppLTUPjX2F3Lkjp430JSpTu4hqc4hqloQP
+        MnJPsD+HmMpiWhaxhEFkKMti95cgP0/kyMsqbUGEYxbCsTwiBB/74p6R0/aczEIkbmBx5TbiqSAdiGIP
+        gvQ4ND0Aq/AU03Ed4XgeYmI6D5tc8aBzlD3OJploGtFkAKtrdchar7D+vQrWwjMUlhugGW764YTsiWA4
+        h9BUDsGp2QMHXT0mKi82QOaSNCKJEWSsRmxsn5Vsbl/C/FI99Mx7TEQ02ROBiVkEJrPg6Rz81KWj+UME
+        b5pCuFDxkDL7P/u9dwhf129gfes8dnbLaV7Gyreb2Pl5RuZ8QwyFshgaJ2herX6OprcTeNE4hAf1n3G0
+        rBp+yvyUDY/Tf6S5kF+4j7XNKjp2BWsb1+gL7yBuNNMNU/aEbywD31iWyMivaXw5LI8dPlIpvSKhJEJR
+        DzJzj+XR5dU6WIt3aX+C8agbg0EdA8EMhDcwA6YvkMGp07fwqKGHjlXY3ij7du4dTcHM3UNouhvh5Dts
+        /TiHsUgvRsNeWEu16A/osis8w2m4Cc/wDI6fqEHZsetSs29njjbRO5KEhyHN/5n9ziQMpdMQPf40XMyg
+        ifKTdbYm2O8hz+U3afKutMzVVL7symlCdPsMdA2Y6Ca6fPt0D7BvZ3ZOmn2F7DlZ0TMgOvsNdHoNdBCd
+        Xh0d/Yy9S0p2u2fv/G7f2/dFW5+Otl4F69KdaO9NHcjb2fv7DXtKixZ3Cq1Ei0fNf+HR5Wx106Q3tref
+        y4P/i4/uFP4AUNr/ATi5SvEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="lblNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 95</value>
+  </data>
+  <data name="ntbNumberOfPeople.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblNumberOfMales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 121</value>
+  </data>
+  <data name="&gt;&gt;PanelProperties.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ToolStripButtonDeleteProperty.ToolTipText" xml:space="preserve">
+    <value>Remove property</value>
+  </data>
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="tspEditProperties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 12</value>
+  </data>
+  <data name="ToolStripButtonPrintIdForm.ToolTipText" xml:space="preserve">
+    <value>Print identification form</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPeople.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPurpose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 41</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.Name" xml:space="preserve">
+    <value>lblLocation</value>
+  </data>
+  <data name="&gt;&gt;cmbPurpose.Name" xml:space="preserve">
+    <value>cmbPurpose</value>
+  </data>
+  <data name="lblNumberOfMales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfFemales.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ntbNumberOfPeople.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="btnReady.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btnReady.Name" xml:space="preserve">
+    <value>btnReady</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfFemales.Name" xml:space="preserve">
+    <value>lblNumberOfFemales</value>
+  </data>
+  <data name="btnReady.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Name" xml:space="preserve">
+    <value>cmbType</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ntbNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="ToolStripButtonPrintIdForm.Text" xml:space="preserve">
+    <value>&amp;Print</value>
+  </data>
+  <data name="&gt;&gt;tspEditProperties.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ntbNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblNumberOfFemales.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbLocation.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblType.Name" xml:space="preserve">
+    <value>lblType</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="tspEditProperties.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
+  </data>
+  <data name="lblPurpose.Text" xml:space="preserve">
+    <value>Purpose:</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblType.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="PanelProperties.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonPrintIdForm.Name" xml:space="preserve">
+    <value>ToolStripButtonPrintIdForm</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfMales.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ToolStripButtonNewProperty.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ToolStripButtonNewProperty.ToolTipText" xml:space="preserve">
+    <value>New property</value>
+  </data>
+  <data name="PanelProperties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 214</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfMales.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblLocation.Text" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonPrintIdForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfFemales.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tbName.Name" xml:space="preserve">
+    <value>tbName</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPeople.Name" xml:space="preserve">
+    <value>lblNumberOfPeople</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbPurpose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>485, 21</value>
+  </data>
+  <data name="tbName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tspEditProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>485, 20</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfFemales.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tspEditProperties.Name" xml:space="preserve">
+    <value>tspEditProperties</value>
+  </data>
+  <data name="lblName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfPeople.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ToolStripButtonDeleteProperty.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAALNSURBVDhPrY7LTxNRFMbvn6iJhBDjKyQEYlwYg3GhGxe4
+        0QRpEAWE8ppSaJnSlhZKgekL+pxpp5SWlv/l89xz5w6DGzcufvnOOd93zr3C7dzBde/Qkcg60PsazEi8
+        nPa492qhiwfLOuDN/LmstR/IBGshA/4LHv4vdC9r3eu81PYIxVIXuZwN2x6yLxxnBIcMW+Lccc09zadn
+        VpDJNtnTM4brISzLxcdPu5h9vw2+Q4hma4gmXZfaIFWM0KBeBo1IUfUywzpCnbzcqYO5LwdIphuoNW/V
+        PiGqjSGqjVumJpVM7ptDvH23iddv1pCmX1brA55f1gbcP3r8DTHzCqXLPh2UN9QdUandokIhGZSqe0ny
+        SC0a0TLK1QEK5RtEY5c8i8avYJV7Xl49VKFHRfFqAEXf03usSo+XJfFkHeHtgnpgr4KzQhcF+p3OljzE
+        RaVPL/VxQa/7dUAP0uqX86Esa2gph9xFlzyZJ7ycVItU5Is3yJd6YOU6APUn1rX/y9kPBsI7JeQsynv+
+        3ypOyDwpEFJ17ZE972LXrPkHP8+ZiKWaONYZvePtHZOKzPk1Muc9gvTCg+r0qYvlsIWp6VX/oGTdKLOn
+        80e8rziiXqTyXUiS+WulZ6peNyp49uIHH/m6kMX80inXiytniGfblFX5IElCJHIuTCKR6/rsJluYeBri
+        A5NTK9hLtRBJNDE1o35rmA3OBfdMVhcifuwiJsl2WI3DFsYnFnjxydg8Qqvn9CMX+5k2Ftcsni9tFFWe
+        5vHjDqG1A7FHwehRB3tENNPhBc3LyV/YjDc8v41I2uEfS28nafOcPdqTROmWiKQpmGrDICIpB2Pj33nh
+        +auf2DJbMOiIQRnlt7G8U+FMOFb3Z1IN2pU5sZV0sHXoIWtCHtSz7UP7oZ+wsfC7gLX9xv2Mc6oWYdPG
+        BhGmIOu/SDisGyYp7ajZvc8H/xfrpo0/e9/yQQyh9NsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="lblNumberOfMales.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblNumberOfPeople.Text" xml:space="preserve">
+    <value>Total number of people:</value>
+  </data>
+  <data name="&gt;&gt;cmbType.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tbName.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="ToolStripButtonPrintIdForm.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAMiSURBVDhPrZLZT1NBFMbnj0BwS0RxSRDEDVCMJgIakSXy
+        IioaYlS0WIkKiokRUFxo0EQfjBpQtlJCBcpaKjYU2aRSukEFKSSERxIIT/BEPs/MvbcUovHFSX75zpk5
+        39e5t5e5XZNwuyfh4vDar/ep/wxHnlPORC/XTClWmZUBec+3z2vl3G/Gv2Z8wPcLMr5bkC4uLmLtWlhY
+        8IUqs8o8czi8cDi9sHMck6IWPd8nlpeX5ZiVNT8/L83JM/41sw1PwGYnSIdIJbwYov5va2ZmRpoX0Kzi
+        J9jg0AQGh34JrFxtUj1om8DS0pIcsbLm5ubEjJgVTMBKs0oO67f+Qr91HAMEV97HHLmPbSHpmJqakmOk
+        xR+V74XvUWFPRBaiD+UiLPyG8Aj/j3Gwnu/jkBgTeib1FfIL2vAovw0Jp5+LXiE55YXg2fMOHI8twMHI
+        Oyh6aqJQFXrJy2GW/jF0943B0vcTvObGd+/7oau1o9Ew8lfi4h/jUWEb7ucZELI9g/yUQ35m7vkJc68H
+        XI8ee4hP5dY/BihUa214/caCffvVUGVpUaz5ii3BaZRBOZTBvnR78OUbQXo4Jg9lH7+vCtB/dgmt0zvF
+        rYs1nXhSZMT+A7dxLbMK129oERAQLzJMlMGMXaMwdnmIUezYkQFNiVkE8EePjLqLTZtTsWFjCv0JKuzc
+        dRmxcYXiLHR3Ji6kf8DZtLd0w3PC324ZBWs1j4DTYh5FxF41Sl52iXcYvPU8rlwtRU5uDW6qy3Aruwrq
+        bB39s/dQ3+CmR85GUrIGQeuThF/KGAFr6nTDQDR1SrfiLzvmyAN4vV54PB7B9PQ0ZmdnxafDZxKTNAgJ
+        uYjAoETh4xiEusEaTG7UczpcQrlBMfovpQ/dfQ2BgQlYF3iKPG40mFyEoi4wvdGJunYX9MS/wsLCrkNv
+        dKGmeRh1pNwnvFRz6iiL1bY5UdvqFKa1nDhZhKjoHPrOLiGIHq9UN4CqRht03EPoyMe9XHWtDrHPqlsc
+        qG6W4bV/T2ib7avOtXxvrYfvyTWrMNhRSVQ0yfovmhxCKw2k5JH2Vs5F4P+i3GDHb8qK0yStJ49jAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;lblPurpose.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblPurpose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PanelProperties.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ToolStripButtonEditProperty.ToolTipText" xml:space="preserve">
+    <value>Edit property</value>
+  </data>
+  <data name="&gt;&gt;tbLocation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfPeople.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ToolStripButtonEditProperty.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAJCSURBVDhPrZBLT1pRFIXP7+kjtZN23o76GLS/gEcCJIBA
+        hJkBGgZNE8LMeTUajKQGlErVELEirRTK5XUFVGZMCDHhH6zufbgXr+YWatKbfNl7n7PWYh9Es3GFZvMK
+        DYZ7wzytRg2j6fQ7OWu90JtbZl2gnU3PudfvDRpjL1gw/QWN6Rb6zL0+63oNXavrhaJcQqlfoka8e5+4
+        F69ef8SLlx+kX+YQovr7AtUaQdXMNIs3bz/JwIrmrxDirHKBs0pPYmaax7PnQZSrnDHJEaVyD6VyFz+I
+        lZWVexGPx+HxeMjfk/7Sry7Eyc8uJnSk6O4Guvn6+hrD4RCj0Qjj8Rj8dTodGcj+ooYolDo4Pu2gcHo+
+        NZvBZlVVJcaeAzmjQBnHVEX+5Bz5ogquZkGziEQicLlc0psvElTFwbGKg+8EVRb97clm32AwgNvtll7O
+        2Kcqckdt5I5Uoj01m6E/0Ui/35cbTjLa2Cu0IbL5Fpjd/OxAMxKJhPwPbzJaEJnDJtJE5rAlRfOerM9M
+        LBaTgexNE5wltveb+MJ8a9wS/wuBQABWqxWcsb3fkIhUro6tvQZSRCgUwpMFDxaeevHosQsPHjoQDAYR
+        jUa1/SC3Wlpakuc2m00GpnLkJ7YoS2x+rWMzW0eSCIfDWF5exuLiooSN/CS73Q6/3w+fzye3cjqd8Hq9
+        sFgscDgc0pvMKkhSlljfVbC+o8G9cSY2dmq37jf47K6Hz7RerKZrWCNWM1qdR0aRdS1NlTyTs5t7Gfi/
+        +Jyu4Q/q06RKZvz2kQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cmbType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>485, 21</value>
+  </data>
+  <data name="&gt;&gt;tspEditProperties.Parent" xml:space="preserve">
+    <value>PanelProperties</value>
+  </data>
+  <data name="tbLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewProperty.Name" xml:space="preserve">
+    <value>ToolStripButtonNewProperty</value>
+  </data>
+  <data name="ntbNumberOfFemales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 92</value>
+  </data>
+  <data name="lblPurpose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNumberOfFemales.Text" xml:space="preserve">
+    <value>Number of females:</value>
+  </data>
+  <data name="&gt;&gt;cmbPurpose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ntbNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 92</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNewProperty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStripButtonDeleteProperty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="cmbType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ToolStripButtonEditProperty.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;ntbNumberOfFemales.Name" xml:space="preserve">
+    <value>ntbNumberOfFemales</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tspEditProperties.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="tspEditProperties.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+</root>

@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>DetailKeyMoment</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.Name">
+    <value>cmbPeriodDirection</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.Name">
+    <value>cmbPeriodUnit</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmbReferenceMoment.Name">
+    <value>cmbReferenceMoment</value>
+  </data>
+  <data name="&gt;&gt;cmbReferenceMoment.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbReferenceMoment.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectValue, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbReferenceMoment.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dtbExactDateKeyMoment.Name">
+    <value>dtbExactDateKeyMoment</value>
+  </data>
+  <data name="&gt;&gt;dtbExactDateKeyMoment.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtbExactDateKeyMoment.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbExactDateKeyMoment.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dtpKeyMoment.Name">
+    <value>dtpKeyMoment</value>
+  </data>
+  <data name="&gt;&gt;dtpKeyMoment.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtpKeyMoment.Type">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpKeyMoment.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Name">
+    <value>lblDate</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDate.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Name">
+    <value>lblDescription</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.Name">
+    <value>ntbPeriod</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.Type">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.Name">
+    <value>rbtnExactDate</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.ZOrder">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.Name">
+    <value>rbtnReferenceDate</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tbDescription.Name">
+    <value>tbDescription</value>
+  </data>
+  <data name="&gt;&gt;tbDescription.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbDescription.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbDescription.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="dtbExactDateKeyMoment.Text">
+    <value>30/05/2013</value>
+  </data>
+  <data name="lblDate.Text">
+    <value>Date:</value>
+  </data>
+  <data name="lblDescription.Text">
+    <value>Description:</value>
+  </data>
+  <data name="rbtnExactDate.Text">
+    <value>At this exact date:</value>
+  </data>
+</root>

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;gbNumber.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.ZOrder">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblAgreeText.ZOrder">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.ZOrder">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.ZOrder">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbAgreeText.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="gbAgreement.Text">
+    <value>Choix</value>
+  </data>
+  <data name="gbNumber.Text">
+    <value>Nombre</value>
+  </data>
+  <data name="gbScoreValues.Text">
+    <value>Valeurs cibles</value>
+  </data>
+  <data name="gbScoring.Text">
+    <value>Notation</value>
+  </data>
+  <data name="lblAgreeText.Text">
+    <value>Accord:</value>
+  </data>
+  <data name="lblDisagreeText.Text">
+    <value>Désaccord:</value>
+  </data>
+  <data name="lblNrDecimals.Text">
+    <value>Décimales:</value>
+  </data>
+  <data name="rbtnScoringPercentage.Text">
+    <value>Score = pourcentage du cible</value>
+  </data>
+  <data name="rbtnScoringScore.Text">
+    <value>Score = valeur quand le cible est achevé (défault)</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>IndicatorScales</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbAgreement.Name">
+    <value>gbAgreement</value>
+  </data>
+  <data name="&gt;&gt;gbAgreement.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbAgreement.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbAgreement.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbNumber.Name">
+    <value>gbNumber</value>
+  </data>
+  <data name="&gt;&gt;gbNumber.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbNumber.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbScoreValues.Name">
+    <value>gbScoreValues</value>
+  </data>
+  <data name="&gt;&gt;gbScoreValues.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbScoreValues.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbScoreValues.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.Name">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbScoring.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAgreeText.Name">
+    <value>lblAgreeText</value>
+  </data>
+  <data name="&gt;&gt;lblAgreeText.Parent">
+    <value>gbAgreement</value>
+  </data>
+  <data name="&gt;&gt;lblAgreeText.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDisagreeText.Name">
+    <value>lblDisagreeText</value>
+  </data>
+  <data name="&gt;&gt;lblDisagreeText.Parent">
+    <value>gbAgreement</value>
+  </data>
+  <data name="&gt;&gt;lblDisagreeText.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDisagreeText.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.Name">
+    <value>lblNrDecimals</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.Parent">
+    <value>gbNumber</value>
+  </data>
+  <data name="&gt;&gt;lblNrDecimals.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals.Name">
+    <value>ntbNrDecimals</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals.Parent">
+    <value>gbNumber</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals.Type">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbNrDecimals.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Name">
+    <value>rbtnScoringPercentage</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Parent">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringPercentage.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Name">
+    <value>rbtnScoringScore</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Parent">
+    <value>gbScoring</value>
+  </data>
+  <data name="&gt;&gt;rbtnScoringScore.Type">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAgreeText.Name">
+    <value>tbAgreeText</value>
+  </data>
+  <data name="&gt;&gt;tbAgreeText.Parent">
+    <value>gbAgreement</value>
+  </data>
+  <data name="&gt;&gt;tbAgreeText.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbDisagreeText.Name">
+    <value>tbDisagreeText</value>
+  </data>
+  <data name="&gt;&gt;tbDisagreeText.Parent">
+    <value>gbAgreement</value>
+  </data>
+  <data name="&gt;&gt;tbDisagreeText.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbDisagreeText.ZOrder">
+    <value>0</value>
+  </data>
+</root>

@@ -1,0 +1,2406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1850006B-9021-473F-99EB-A84DD3B7633C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>FaciliDev.LogFramer.My.MyApplication</StartupObject>
+    <RootNamespace>FaciliDev.LogFramer</RootNamespace>
+    <AssemblyName>LogFramer 2.0</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ApplicationIcon>Logframer Icon.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>F547B85D32FB603F42E54B28533FCFC28F33FE3A</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>D:\Documenten Bart\LogFramer\Publish\Logframer 2.0 installation files\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>8</UpdateInterval>
+    <UpdateIntervalUnits>Weeks</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.logframer.eu/sites/default/files/publish/version20/</InstallUrl>
+    <SupportUrl>http://www.logframer.eu</SupportUrl>
+    <ProductName>Logframer 2.0</ProductName>
+    <PublisherName>FaciliDev</PublisherName>
+    <WebPage>publish.htm</WebPage>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LogFramer 2.0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LogFramer 2.0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>LogFramer 2.0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>LogFramer 2.0.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Ribbon\System.Windows.Forms.Ribbon35.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ComboBox\ucComboBoxSelectGuid.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorFrequencyLikert.Designer.vb">
+      <DependentUpon>ucIndicatorFrequencyLikert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorFrequencyLikert.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Fields\ucNumericBoundTextBoxLF.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewEmails.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewRiskMonitoringDeadlines.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewTelephoneNumbers.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewWebsites.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\frmParent_Collaborate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Import-export\Web\classEmailIO.vb" />
+    <Compile Include="Import-export\Web\classInternet.vb" />
+    <Compile Include="Import-export\Web\classSkypeIO.vb" />
+    <Compile Include="Project classes\classFindReplace.vb" />
+    <Compile Include="Controls\Others\classPrintRectangle.vb" />
+    <Compile Include="Controls\Others\ucRiskMonitoringDeadlines.Designer.vb">
+      <DependentUpon>ucRiskMonitoringDeadlines.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Others\ucRiskMonitoringDeadlines.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Others\ucTabControlProject.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Budget references datagridviews\classBudgetItemReferenceGridRow.vb" />
+    <Compile Include="Datagridviews\Budget references datagridviews\DataGridViewBudgetItemReferences.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\DataGridViewExcelPreview.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\classBudgetGridRow.vb" />
+    <Compile Include="Datagridviews\Budget references datagridviews\classBudgetResourceReferenceGridRow.vb" />
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewBaseClass.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewBudgetYear_Graphics.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewBudgetYear_Methods.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewBudgetYear_VirtualMode.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewExchangeRates.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewBudgetYear.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Assumptions\ucAssumptionDependencies.Designer.vb">
+      <DependentUpon>ucAssumptionDependencies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Assumptions\ucAssumptionDependencies.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Assumptions\ucAssumptionAssumptions.Designer.vb">
+      <DependentUpon>ucAssumptionAssumptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Assumptions\ucAssumptionAssumptions.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Assumptions\ucAssumptionRisks.Designer.vb">
+      <DependentUpon>ucAssumptionRisks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Assumptions\ucAssumptionRisks.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Budget\ucBudgetItemRatio.Designer.vb">
+      <DependentUpon>ucBudgetItemRatio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Budget\ucBudgetItemRatio.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewBudgetItemReferences.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Others\ucImage.Designer.vb">
+      <DependentUpon>ucImage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Others\ucImage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorTargetsImages.Designer.vb">
+      <DependentUpon>ucIndicatorTargetsImages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorTargetsImages.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewLogframe_Graphics.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewLogframe_Methods.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewLogframe_VirtualMode.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewPlanning_Graphics.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewPlanning_Methods.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewPlanning_VirtualMode.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Statements datagridviews\DataGridViewResponseClasses.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Target datagridviews\classTargetFormulaGridRow.vb" />
+    <Compile Include="Datagridviews\Target datagridviews\classTargetFrequencyLikertGridRow.vb" />
+    <Compile Include="Datagridviews\Target datagridviews\DataGridViewTargetsFrequencyLikert.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Target datagridviews\DataGridViewTargetsFormula.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorFormula.Designer.vb">
+      <DependentUpon>ucIndicatorFormula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorFormula.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Statements datagridviews\classStatementFormulaGridRow.vb" />
+    <Compile Include="Datagridviews\Statements datagridviews\DataGridViewStatementsFormula.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorRatio.Designer.vb">
+      <DependentUpon>ucIndicatorRatio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorRatio.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Target datagridviews\classTargetMaxDiffGridRow.vb" />
+    <Compile Include="Datagridviews\Target datagridviews\DataGridViewTargetsMaxDiff.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorTargetsSemanticDiff.Designer.vb">
+      <DependentUpon>ucIndicatorTargetsSemanticDiff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorTargetsSemanticDiff.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Statements datagridviews\DataGridViewStatementsMaxDiff.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Target datagridviews\DataGridViewTargetsSemanticDiff.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Target datagridviews\DataGridViewTargetsScaleLikertType.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorMaxDiff.Designer.vb">
+      <DependentUpon>ucIndicatorMaxDiff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorMaxDiff.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewSubIndicatorsBase.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorOpenEnded.Designer.vb">
+      <DependentUpon>ucIndicatorOpenEnded.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorOpenEnded.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Target datagridviews\DataGridViewTargetsRanking.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorRanking.Designer.vb">
+      <DependentUpon>ucIndicatorRanking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorRanking.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Statements datagridviews\classStatementGridRow.vb" />
+    <Compile Include="Datagridviews\Target datagridviews\classTargetScalesGridRow.vb" />
+    <Compile Include="Datagridviews\Target datagridviews\classTargetScalesLikertGridRow.vb" />
+    <Compile Include="Datagridviews\Target datagridviews\DataGridViewTargetsScaleLikert.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Statements datagridviews\DataGridViewStatementsScales.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorTargetsLikertScale.Designer.vb">
+      <DependentUpon>ucIndicatorTargetsLikertScale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorTargetsLikertScale.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorScales.Designer.vb">
+      <DependentUpon>ucIndicatorScales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorScales.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Target datagridviews\DataGridViewTargetsScales.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorMixedSubIndicators.Designer.vb">
+      <DependentUpon>ucIndicatorMixedSubIndicators.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorMixedSubIndicators.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewSubIndicatorsBeneficiary.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorMultipleOption.Designer.vb">
+      <DependentUpon>ucIndicatorMultipleOption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorMultipleOption.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Target datagridviews\DataGridViewTargetsClasses.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorYesNo.Designer.vb">
+      <DependentUpon>ucIndicatorYesNo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorYesNo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\classQuestionnaireGridRow.vb" />
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewQuestionnaire.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Target datagridviews\DataGridViewTargetsValues.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewTargetDeadlines.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewSubIndicators.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\classLogframeRows.vb" />
+    <Compile Include="Datagridviews\Main datagridviews\classPlanningGridRow.vb" />
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewLogframe.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RTF\RichTextColumnLogframe.vb" />
+    <Compile Include="Controls\RTF\RichTextEditingControlLogframe.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RTF\RichTextManager.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewClipboard.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewProcess.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewCountryOrganisations.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewTargetGroupInformations.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewTargetGroupStatistics.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorValues.Designer.vb">
+      <DependentUpon>ucIndicatorValues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Detail controls Indicators\ucIndicatorValues.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Others\ucOrganisationInfo.Designer.vb">
+      <DependentUpon>ucOrganisationInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Others\ucOrganisationInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Others\ucSelectionRectangle.vb" />
+    <Compile Include="Controls\Others\ucTargetDeadlines.Designer.vb">
+      <DependentUpon>ucTargetDeadlines.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Others\ucTargetDeadlines.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailBudgetItem.Designer.vb">
+      <DependentUpon>ucDetailBudgetItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailBudgetItem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailActivity.Designer.vb">
+      <DependentUpon>ucDetailActivity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailActivity.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailClipboard.Designer.vb">
+      <DependentUpon>ucDetailClipboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailClipboard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailKeyMoment.Designer.vb">
+      <DependentUpon>ucDetailKeyMoment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailKeyMoment.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailExchangeRates.Designer.vb">
+      <DependentUpon>ucDetailExchangeRates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailExchangeRates.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogImportBudget.Designer.vb">
+      <DependentUpon>DialogImportBudget.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogImportBudget.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogBudgetItemReference.Designer.vb">
+      <DependentUpon>DialogBudgetItemReference.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogBudgetItemReference.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogExportToExcel.Designer.vb">
+      <DependentUpon>DialogExportToExcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogExportToExcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogImageSelect.Designer.vb">
+      <DependentUpon>DialogImageSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogImageSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogPopulationTarget.Designer.vb">
+      <DependentUpon>DialogPopulationTarget.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogPopulationTarget.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogResponseValue.Designer.vb">
+      <DependentUpon>DialogResponseValue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogResponseValue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogTargetFormula.Designer.vb">
+      <DependentUpon>DialogTargetFormula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogTargetFormula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogTargetDeadline.Designer.vb">
+      <DependentUpon>DialogTargetDeadline.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogTargetDeadline.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogTarget.Designer.vb">
+      <DependentUpon>DialogTarget.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogTarget.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogIndicator.Designer.vb">
+      <DependentUpon>DialogIndicator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogIndicator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogActivity.Designer.vb">
+      <DependentUpon>DialogActivity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogActivity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expression Parser\classExpressionParser.vb" />
+    <Compile Include="Forms\AboutLogframer.Designer.vb">
+      <DependentUpon>AboutLogframer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AboutLogframer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Controls\Others\classSelectedText.vb" />
+    <Compile Include="Datagridviews\ucStructuredComboBoxColumnNumberUnit.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ucListViewCloudProjects.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Fields\ucCheckBoxLF.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ComboBox\ucComboBoxSelectValue.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewBaseClassRichText.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\DataGridViewProjectLogic.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ComboBox\ucComboBoxText.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ucListViewSortable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Fields\ucTextBoxLF.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewKeyMoments.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewAddresses.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewContacts.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewPartners.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ComboBox\ucComboBoxSelectIndex.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Fields\ucDateTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Fields\ucDateTimePickerLF.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailProjectInfo.Designer.vb">
+      <DependentUpon>ucDetailProjectInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailProjectInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailResource.Designer.vb">
+      <DependentUpon>ucDetailResource.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailResource.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailOutput.Designer.vb">
+      <DependentUpon>ucDetailOutput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailOutput.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailAssumption.Designer.vb">
+      <DependentUpon>ucDetailAssumption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailAssumption.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailVerificationSource.Designer.vb">
+      <DependentUpon>ucDetailVerificationSource.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailVerificationSource.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailGoal.Designer.vb">
+      <DependentUpon>ucDetailGoal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailGoal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailPurpose.Designer.vb">
+      <DependentUpon>ucDetailPurpose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailPurpose.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Listviews\ListViewTargetGroups.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Fields\ucNumericTextBoxLF.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\ucStructuredComboBoxColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\Main datagridviews\DataGridViewPlanning.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogFindContact.Designer.vb">
+      <DependentUpon>DialogFindContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogFindContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogFind.Designer.vb">
+      <DependentUpon>DialogFind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogFind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogImportLogframe.Designer.vb">
+      <DependentUpon>DialogImportLogframe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogImportLogframe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogProgress.Designer.vb">
+      <DependentUpon>DialogProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogKeyMoment.Designer.vb">
+      <DependentUpon>DialogKeyMoment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogKeyMoment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogPrintHeader.Designer.vb">
+      <DependentUpon>DialogPrintHeader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogPrintHeader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogPrintPreview.Designer.vb">
+      <DependentUpon>DialogPrintPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogPrintPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogContact.Designer.vb">
+      <DependentUpon>DialogContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogResponseClassValues.Designer.vb">
+      <DependentUpon>DialogResponseClassValues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogResponseClassValues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogSettings.Designer.vb">
+      <DependentUpon>DialogSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogWebsite.Designer.vb">
+      <DependentUpon>DialogWebsite.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogWebsite.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogEmail.Designer.vb">
+      <DependentUpon>DialogEmail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogEmail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogTelephoneNumber.Designer.vb">
+      <DependentUpon>DialogTelephoneNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogTelephoneNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogAddress.Designer.vb">
+      <DependentUpon>DialogAddress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogAddress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogExportToWord.Designer.vb">
+      <DependentUpon>DialogExportToWord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogExportToWord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogProjectPartner.Designer.vb">
+      <DependentUpon>DialogProjectPartner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogProjectPartner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogTargetGroup.Designer.vb">
+      <DependentUpon>DialogTargetGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogTargetGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogTargetGroupProperty.Designer.vb">
+      <DependentUpon>DialogTargetGroupProperty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogTargetGroupProperty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmParent.Designer.vb">
+      <DependentUpon>frmParent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmParent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmParent_Documents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmParent_ImportExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmParent_Items.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmParent_LayOut_Budget.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmParent_LayOut_Logframe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmParent_LayOut_Planning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmParent_Reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmParent_Text.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProject.Designer.vb">
+      <DependentUpon>frmProject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProject_Budget.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProject_DetailWindows.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProject_Logframe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProject_Planning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProject_Text.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Import-export\classExportBudget.vb" />
+    <Compile Include="Import-export\classExportMonitoringTool.vb" />
+    <Compile Include="Import-export\classExportRiskRegister.vb" />
+    <Compile Include="Import-export\Excel IO\classExcelIO.vb" />
+    <Compile Include="Import-export\classExportLogframe.vb" />
+    <Compile Include="Import-export\classExportPartnerList.vb" />
+    <Compile Include="Import-export\classExportPlanning.vb" />
+    <Compile Include="Import-export\classExportPmf.vb" />
+    <Compile Include="Import-export\classExportTargetGroupIdForm.vb" />
+    <Compile Include="Import-export\Excel IO\classExcelIO_Budget.vb" />
+    <Compile Include="Import-export\Excel IO\classExcelIO_Logframe.vb" />
+    <Compile Include="Import-export\Excel IO\classExcelIO_MonitoringTool.vb" />
+    <Compile Include="Import-export\Excel IO\classExcelIO_Pmf.vb" />
+    <Compile Include="Import-export\Excel IO\classExcelIO_RiskRegister.vb" />
+    <Compile Include="Import-export\Export rows\classExportIndicatorRow.vb" />
+    <Compile Include="Import-export\XML\classLogframeSerializer.vb" />
+    <Compile Include="Import-export\Others\classOfficeDetector.vb" />
+    <Compile Include="Import-export\Others\classOpenOffice.vb" />
+    <Compile Include="Import-export\Others\classOutlookIO.vb" />
+    <Compile Include="Import-export\Word IO\classWordIO_Logframe.vb" />
+    <Compile Include="Import-export\Word IO\classWordIO_PartnerList.vb" />
+    <Compile Include="Import-export\Word IO\classWordIO_Planning.vb" />
+    <Compile Include="Import-export\Word IO\classWordIO_Pmf.vb" />
+    <Compile Include="Import-export\Word IO\classWordIO_RiskTable.vb" />
+    <Compile Include="Import-export\classExportRiskTable.vb" />
+    <Compile Include="Import-export\Word IO\classWordIO_AssumptionsTable.vb" />
+    <Compile Include="Import-export\classExportAssumptionsTable.vb" />
+    <Compile Include="Import-export\Word IO\classWordIO_TargetGroupIdForm.vb" />
+    <Compile Include="LogFrame objects\classBasicObject.vb" />
+    <Compile Include="LogFrame objects\classBudget.vb" />
+    <Compile Include="LogFrame objects\classBudgetYear.vb" />
+    <Compile Include="LogFrame objects\classClipboardTextItem.vb" />
+    <Compile Include="LogFrame objects\classIdValuePair.vb" />
+    <Compile Include="LogFrame objects\classKeyMoment.vb" />
+    <Compile Include="LogFrame objects\classLogFrame.vb" />
+    <Compile Include="Import-export\Word IO\classWordIO.vb" />
+    <Compile Include="LogFrame objects\classLogframeObject.vb" />
+    <Compile Include="LogFrame objects\classLogframe_Get.vb" />
+    <Compile Include="LogFrame objects\classObjectCopy.vb" />
+    <Compile Include="LogFrame objects\classClipboardItem.vb" />
+    <Compile Include="modHelp.vb" />
+    <Compile Include="modLanguage.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\classPageImageList.vb" />
+    <Compile Include="Printing\classPrintBudget.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\classPrintPMF.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\classPrintAssumptions.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\classPrintDependencies.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\Print rows\classPrintBudgetRow.vb" />
+    <Compile Include="Printing\Print rows\classPrintIndicatorRow.vb" />
+    <Compile Include="Printing\Print rows\classPrintLogframeRows.vb" />
+    <Compile Include="Printing\Print rows\classPrintPlanningRow.vb" />
+    <Compile Include="Printing\Print rows\classPrintPmfRows.vb" />
+    <Compile Include="Printing\classPrintResources.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\classPrintTargetGroupIdForm.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\classPrintIndicators.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\classPrintLogFrame.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\classPrintPartnerList.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\classPrintRiskRegister.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\classPrintPlanning.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\classReportSetup.vb" />
+    <Compile Include="Printing\classReportBaseClass.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\Print rows\classPrintResourceRow.vb" />
+    <Compile Include="Printing\Print rows\classPrintRiskRegisterRow.vb" />
+    <Compile Include="Printing\Print rows\classPrintPartnerRow.vb" />
+    <Compile Include="Printing\Print rows\classPrintTargetGroupIdFormRows.vb" />
+    <Compile Include="Printing\Print rows\classPrintAssumptionRow.vb" />
+    <Compile Include="Printing\Print rows\classPrintDependencyRow.vb" />
+    <Compile Include="Printing\Print settings\ucPrintSettingsDependencies.Designer.vb">
+      <DependentUpon>ucPrintSettingsDependencies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsDependencies.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsAssumptions.Designer.vb">
+      <DependentUpon>ucPrintSettingsAssumptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsAssumptions.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsResources.Designer.vb">
+      <DependentUpon>ucPrintSettingsResources.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsResources.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsBudget.Designer.vb">
+      <DependentUpon>ucPrintSettingsBudget.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsBudget.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsPlanning.Designer.vb">
+      <DependentUpon>ucPrintSettingsPlanning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsPlanning.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsTargetGroupIdForm.Designer.vb">
+      <DependentUpon>ucPrintSettingsTargetGroupIdForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsTargetGroupIdForm.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsPartnerList.Designer.vb">
+      <DependentUpon>ucPrintSettingsPartnerList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsPartnerList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsRiskRegister.Designer.vb">
+      <DependentUpon>ucPrintSettingsRiskRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsRiskRegister.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsPmf.Designer.vb">
+      <DependentUpon>ucPrintSettingsPmf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsPmf.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsIndicators.Designer.vb">
+      <DependentUpon>ucPrintSettingsIndicators.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsIndicators.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsLogframe.Designer.vb">
+      <DependentUpon>ucPrintSettingsLogframe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettingsLogframe.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\ucCustomPrintPreview.Designer.vb">
+      <DependentUpon>ucCustomPrintPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\ucCustomPrintPreview.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettings.Designer.vb">
+      <DependentUpon>ucPrintSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\Print settings\ucPrintSettings.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Printing\ucPrintDetail.Designer.vb">
+      <DependentUpon>ucPrintDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Printing\ucPrintDetail.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project classes\classAddresses.vb" />
+    <Compile Include="Project classes\classContacts.vb" />
+    <Compile Include="Project classes\classCountries.vb" />
+    <Compile Include="Project classes\classCurrency.vb" />
+    <Compile Include="Project classes\classEmails.vb" />
+    <Compile Include="Project classes\classOrganisations.vb" />
+    <Compile Include="Project classes\classProjectPartners.vb" />
+    <Compile Include="Project classes\classTargetGroupInformations.vb" />
+    <Compile Include="Project classes\classTargetGroups.vb" />
+    <Compile Include="Project classes\classTelephoneNumbers.vb" />
+    <Compile Include="Project classes\classUndoList.vb" />
+    <Compile Include="Project classes\classUndoListItem.vb" />
+    <Compile Include="Project classes\classUndoListOld.vb" />
+    <Compile Include="Project classes\classUndoRedo.vb" />
+    <Compile Include="Project classes\classUndoRedo_Actions.vb" />
+    <Compile Include="Project classes\classUndoRedo_Reload.vb" />
+    <Compile Include="Project classes\classUndoRedo_Undo.vb" />
+    <Compile Include="Project classes\classWebsites.vb" />
+    <Compile Include="Project logic classes\AssumptionDetail\classRiskDetail.vb" />
+    <Compile Include="Project logic classes\AssumptionDetail\classAssumptionDetail.vb" />
+    <Compile Include="Project logic classes\AssumptionDetail\classDependencyDetail.vb" />
+    <Compile Include="Project logic classes\BudgetItemDetail\classExchangeRates.vb" />
+    <Compile Include="Project logic classes\classActivities.vb" />
+    <Compile Include="Project logic classes\ActivityDetail\classActivityDetail.vb" />
+    <Compile Include="Project logic classes\classGoals.vb" />
+    <Compile Include="Project logic classes\classOutputs.vb" />
+    <Compile Include="Project logic classes\classPurposes.vb" />
+    <Compile Include="Project logic classes\classBudgetItemReferences.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classRiskMonitoringDeadlines.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classResponseClasses.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classStatements.vb" />
+    <Compile Include="Dialogs\DialogValueRange.Designer.vb">
+      <DependentUpon>DialogValueRange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogValueRange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogNewUnit.Designer.vb">
+      <DependentUpon>DialogNewUnit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogNewUnit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Datagridviews\ucNumericTextBoxColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ComboBox\ucStructuredComboBoxItem.vb" />
+    <Compile Include="modMain.vb" />
+    <Compile Include="Controls\Fields\ucNumericTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Project logic classes\IndicatorDetail\classScalesDetail.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classTargetDeadlinesSection.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classValuesDetail.vb" />
+    <Compile Include="Project logic classes\classStructs.vb" />
+    <Compile Include="Controls\ComboBox\ucStructuredComboBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LogFrame objects\classGridRows.vb" />
+    <Compile Include="Controls\Others\ucColorPaletteDialog.Designer.vb">
+      <DependentUpon>ucColorPaletteDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Others\ucColorPaletteDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project logic classes\classIndicators.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classBooleanValues.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classTargets.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classValueRange.vb" />
+    <Compile Include="Project logic classes\classVerificationSources.vb" />
+    <Compile Include="Project logic classes\classAssumptions.vb" />
+    <Compile Include="Project logic classes\classResources.vb" />
+    <Compile Include="Project logic classes\classBudgetItems.vb" />
+    <Compile Include="Detail windows\ucDetailIndicator.Designer.vb">
+      <DependentUpon>ucDetailIndicator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail windows\ucDetailIndicator.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DialogWarning.Designer.vb">
+      <DependentUpon>DialogWarning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DialogWarning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogFrame objects\modGrid.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="Project logic classes\IndicatorDetail\classTargetDeadlines.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classResponseValues.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classPopulationTargets.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classBaseline.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classDoubleValues.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classOpenEndedDetail.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classAudioVisualDetail.vb" />
+    <Compile Include="Project logic classes\IndicatorDetail\classRiskMonitoring.vb" />
+    <Compile Include="Settings.vb" />
+    <Compile Include="Controls\ComboBox\ucWhiteSpaceComboBoxItem.vb" />
+    <Compile Include="Forms\SplashScreenLF.Designer.vb">
+      <DependentUpon>SplashScreenLF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplashScreenLF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionAssumptions.nl.resx">
+      <DependentUpon>ucAssumptionAssumptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionDependencies.en-GB.resx">
+      <DependentUpon>ucAssumptionDependencies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionDependencies.fr.resx">
+      <DependentUpon>ucAssumptionDependencies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionDependencies.nl.resx">
+      <DependentUpon>ucAssumptionDependencies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionDependencies.resx">
+      <DependentUpon>ucAssumptionDependencies.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionAssumptions.en-GB.resx">
+      <DependentUpon>ucAssumptionAssumptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionAssumptions.fr.resx">
+      <DependentUpon>ucAssumptionAssumptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionAssumptions.resx">
+      <DependentUpon>ucAssumptionAssumptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionRisks.en-GB.resx">
+      <DependentUpon>ucAssumptionRisks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionRisks.fr.resx">
+      <DependentUpon>ucAssumptionRisks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionRisks.nl.resx">
+      <DependentUpon>ucAssumptionRisks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Assumptions\ucAssumptionRisks.resx">
+      <DependentUpon>ucAssumptionRisks.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Budget\ucBudgetItemRatio.fr.resx">
+      <DependentUpon>ucBudgetItemRatio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Budget\ucBudgetItemRatio.nl.resx">
+      <DependentUpon>ucBudgetItemRatio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Budget\ucBudgetItemRatio.resx">
+      <DependentUpon>ucBudgetItemRatio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorFormula.fr.resx">
+      <DependentUpon>ucIndicatorFormula.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorFormula.nl.resx">
+      <DependentUpon>ucIndicatorFormula.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorFrequencyLikert.fr.resx">
+      <DependentUpon>ucIndicatorFrequencyLikert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorFrequencyLikert.nl.resx">
+      <DependentUpon>ucIndicatorFrequencyLikert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorFrequencyLikert.resx">
+      <DependentUpon>ucIndicatorFrequencyLikert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorMaxDiff.fr.resx">
+      <DependentUpon>ucIndicatorMaxDiff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorMaxDiff.nl.resx">
+      <DependentUpon>ucIndicatorMaxDiff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorMixedSubIndicators.fr.resx">
+      <DependentUpon>ucIndicatorMixedSubIndicators.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorMixedSubIndicators.nl.resx">
+      <DependentUpon>ucIndicatorMixedSubIndicators.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorMultipleOption.fr.resx">
+      <DependentUpon>ucIndicatorMultipleOption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorMultipleOption.nl.resx">
+      <DependentUpon>ucIndicatorMultipleOption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorOpenEnded.fr.resx">
+      <DependentUpon>ucIndicatorOpenEnded.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorOpenEnded.nl.resx">
+      <DependentUpon>ucIndicatorOpenEnded.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorRanking.fr.resx">
+      <DependentUpon>ucIndicatorRanking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorRanking.nl.resx">
+      <DependentUpon>ucIndicatorRanking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorRatio.fr.resx">
+      <DependentUpon>ucIndicatorRatio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorRatio.nl.resx">
+      <DependentUpon>ucIndicatorRatio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorScales.fr.resx">
+      <DependentUpon>ucIndicatorScales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorScales.nl.resx">
+      <DependentUpon>ucIndicatorScales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorTargetsImages.fr.resx">
+      <DependentUpon>ucIndicatorTargetsImages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorTargetsImages.nl.resx">
+      <DependentUpon>ucIndicatorTargetsImages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorTargetsLikertScale.fr.resx">
+      <DependentUpon>ucIndicatorTargetsLikertScale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorTargetsLikertScale.nl.resx">
+      <DependentUpon>ucIndicatorTargetsLikertScale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorTargetsSemanticDiff.fr.resx">
+      <DependentUpon>ucIndicatorTargetsSemanticDiff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorTargetsSemanticDiff.nl.resx">
+      <DependentUpon>ucIndicatorTargetsSemanticDiff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorValues.fr.resx">
+      <DependentUpon>ucIndicatorValues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorValues.nl.resx">
+      <DependentUpon>ucIndicatorValues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorYesNo.fr.resx">
+      <DependentUpon>ucIndicatorYesNo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorYesNo.nl.resx">
+      <DependentUpon>ucIndicatorYesNo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucImage.fr.resx">
+      <DependentUpon>ucImage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucImage.nl.resx">
+      <DependentUpon>ucImage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucOrganisationInfo.fr.resx">
+      <DependentUpon>ucOrganisationInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucOrganisationInfo.nl.resx">
+      <DependentUpon>ucOrganisationInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucRiskMonitoringDeadlines.fr.resx">
+      <DependentUpon>ucRiskMonitoringDeadlines.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucRiskMonitoringDeadlines.nl.resx">
+      <DependentUpon>ucRiskMonitoringDeadlines.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucRiskMonitoringDeadlines.resx">
+      <DependentUpon>ucRiskMonitoringDeadlines.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucImage.resx">
+      <DependentUpon>ucImage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorTargetsImages.resx">
+      <DependentUpon>ucIndicatorTargetsImages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorFormula.resx">
+      <DependentUpon>ucIndicatorFormula.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorRatio.resx">
+      <DependentUpon>ucIndicatorRatio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorTargetsSemanticDiff.resx">
+      <DependentUpon>ucIndicatorTargetsSemanticDiff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorMaxDiff.resx">
+      <DependentUpon>ucIndicatorMaxDiff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorOpenEnded.resx">
+      <DependentUpon>ucIndicatorOpenEnded.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorRanking.resx">
+      <DependentUpon>ucIndicatorRanking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorTargetsLikertScale.resx">
+      <DependentUpon>ucIndicatorTargetsLikertScale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorScales.resx">
+      <DependentUpon>ucIndicatorScales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorMixedSubIndicators.resx">
+      <DependentUpon>ucIndicatorMixedSubIndicators.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorMultipleOption.resx">
+      <DependentUpon>ucIndicatorMultipleOption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorYesNo.resx">
+      <DependentUpon>ucIndicatorYesNo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Detail controls Indicators\ucIndicatorValues.resx">
+      <DependentUpon>ucIndicatorValues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucOrganisationInfo.resx">
+      <DependentUpon>ucOrganisationInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucTargetDeadlines.fr.resx">
+      <DependentUpon>ucTargetDeadlines.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucTargetDeadlines.nl.resx">
+      <DependentUpon>ucTargetDeadlines.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucTargetDeadlines.resx">
+      <DependentUpon>ucTargetDeadlines.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailActivity.nl.resx">
+      <DependentUpon>ucDetailActivity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailAssumption.nl.resx">
+      <DependentUpon>ucDetailAssumption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailBudgetItem.en-GB.resx">
+      <DependentUpon>ucDetailBudgetItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailBudgetItem.fr.resx">
+      <DependentUpon>ucDetailBudgetItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailBudgetItem.nl.resx">
+      <DependentUpon>ucDetailBudgetItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailBudgetItem.resx">
+      <DependentUpon>ucDetailBudgetItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailActivity.en-GB.resx">
+      <DependentUpon>ucDetailActivity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailActivity.fr.resx">
+      <DependentUpon>ucDetailActivity.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailActivity.resx">
+      <DependentUpon>ucDetailActivity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailClipboard.fr.resx">
+      <DependentUpon>ucDetailClipboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailClipboard.nl.resx">
+      <DependentUpon>ucDetailClipboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailClipboard.resx">
+      <DependentUpon>ucDetailClipboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailExchangeRates.fr.resx">
+      <DependentUpon>ucDetailExchangeRates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailExchangeRates.nl.resx">
+      <DependentUpon>ucDetailExchangeRates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailGoal.nl.resx">
+      <DependentUpon>ucDetailGoal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailIndicator.nl.resx">
+      <DependentUpon>ucDetailIndicator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailKeyMoment.fr.resx">
+      <DependentUpon>ucDetailKeyMoment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailKeyMoment.nl.resx">
+      <DependentUpon>ucDetailKeyMoment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailKeyMoment.resx">
+      <DependentUpon>ucDetailKeyMoment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailExchangeRates.resx">
+      <DependentUpon>ucDetailExchangeRates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailOutput.nl.resx">
+      <DependentUpon>ucDetailOutput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailProjectInfo.fr.resx">
+      <DependentUpon>ucDetailProjectInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailProjectInfo.nl.resx">
+      <DependentUpon>ucDetailProjectInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailPurpose.nl.resx">
+      <DependentUpon>ucDetailPurpose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailResource.nl.resx">
+      <DependentUpon>ucDetailResource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailVerificationSource.nl.resx">
+      <DependentUpon>ucDetailVerificationSource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogActivity.fr.resx">
+      <DependentUpon>DialogActivity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogActivity.nl.resx">
+      <DependentUpon>DialogActivity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogAddress.nl.resx">
+      <DependentUpon>DialogAddress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogBudgetItemReference.fr.resx">
+      <DependentUpon>DialogBudgetItemReference.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogBudgetItemReference.nl.resx">
+      <DependentUpon>DialogBudgetItemReference.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogContact.nl.resx">
+      <DependentUpon>DialogContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogEmail.nl.resx">
+      <DependentUpon>DialogEmail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogExportToExcel.fr.resx">
+      <DependentUpon>DialogExportToExcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogExportToExcel.nl.resx">
+      <DependentUpon>DialogExportToExcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogExportToWord.nl.resx">
+      <DependentUpon>DialogExportToWord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogFind.nl.resx">
+      <DependentUpon>DialogFind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogFindContact.nl.resx">
+      <DependentUpon>DialogFindContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogImageSelect.fr.resx">
+      <DependentUpon>DialogImageSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogImageSelect.nl.resx">
+      <DependentUpon>DialogImageSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogImportBudget.en-GB.resx">
+      <DependentUpon>DialogImportBudget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogImportBudget.fr.resx">
+      <DependentUpon>DialogImportBudget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogImportBudget.nl.resx">
+      <DependentUpon>DialogImportBudget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogImportBudget.resx">
+      <DependentUpon>DialogImportBudget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogBudgetItemReference.resx">
+      <DependentUpon>DialogBudgetItemReference.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogExportToExcel.resx">
+      <DependentUpon>DialogExportToExcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogImageSelect.resx">
+      <DependentUpon>DialogImageSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogImportLogframe.nl.resx">
+      <DependentUpon>DialogImportLogframe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogIndicator.fr.resx">
+      <DependentUpon>DialogIndicator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogIndicator.nl.resx">
+      <DependentUpon>DialogIndicator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogKeyMoment.nl.resx">
+      <DependentUpon>DialogKeyMoment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogNewUnit.nl.resx">
+      <DependentUpon>DialogNewUnit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPopulationTarget.en-GB.resx">
+      <DependentUpon>DialogPopulationTarget.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPopulationTarget.fr.resx">
+      <DependentUpon>DialogPopulationTarget.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPopulationTarget.nl.resx">
+      <DependentUpon>DialogPopulationTarget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPopulationTarget.resx">
+      <DependentUpon>DialogPopulationTarget.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPrintHeader.nl.resx">
+      <DependentUpon>DialogPrintHeader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPrintPreview.nl.resx">
+      <DependentUpon>DialogPrintPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogProgress.fr.resx">
+      <DependentUpon>DialogProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogProgress.nl.resx">
+      <DependentUpon>DialogProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogProjectPartner.nl.resx">
+      <DependentUpon>DialogProjectPartner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogResponseClassValues.nl.resx">
+      <DependentUpon>DialogResponseClassValues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogResponseValue.en-GB.resx">
+      <DependentUpon>DialogResponseValue.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogResponseValue.fr.resx">
+      <DependentUpon>DialogResponseValue.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogResponseValue.nl.resx">
+      <DependentUpon>DialogResponseValue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogResponseValue.resx">
+      <DependentUpon>DialogResponseValue.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogSettings.nl.resx">
+      <DependentUpon>DialogSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTarget.nl.resx">
+      <DependentUpon>DialogTarget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetDeadline.nl.resx">
+      <DependentUpon>DialogTargetDeadline.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetFormula.en-GB.resx">
+      <DependentUpon>DialogTargetFormula.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetFormula.fr.resx">
+      <DependentUpon>DialogTargetFormula.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetFormula.nl.resx">
+      <DependentUpon>DialogTargetFormula.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetFormula.resx">
+      <DependentUpon>DialogTargetFormula.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetDeadline.en-GB.resx">
+      <DependentUpon>DialogTargetDeadline.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetDeadline.fr.resx">
+      <DependentUpon>DialogTargetDeadline.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetDeadline.resx">
+      <DependentUpon>DialogTargetDeadline.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTarget.en-GB.resx">
+      <DependentUpon>DialogTarget.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTarget.fr.resx">
+      <DependentUpon>DialogTarget.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTarget.resx">
+      <DependentUpon>DialogTarget.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogIndicator.resx">
+      <DependentUpon>DialogIndicator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogActivity.resx">
+      <DependentUpon>DialogActivity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetGroup.nl.resx">
+      <DependentUpon>DialogTargetGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetGroupProperty.nl.resx">
+      <DependentUpon>DialogTargetGroupProperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTelephoneNumber.nl.resx">
+      <DependentUpon>DialogTelephoneNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogValueRange.nl.resx">
+      <DependentUpon>DialogValueRange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogWarning.nl.resx">
+      <DependentUpon>DialogWarning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogWebsite.nl.resx">
+      <DependentUpon>DialogWebsite.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AboutLogframer.fr-FR.resx">
+      <DependentUpon>AboutLogframer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AboutLogframer.resx">
+      <DependentUpon>AboutLogframer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailProjectInfo.resx">
+      <DependentUpon>ucDetailProjectInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailAssumption.en-GB.resx">
+      <DependentUpon>ucDetailAssumption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailAssumption.fr.resx">
+      <DependentUpon>ucDetailAssumption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailGoal.en-GB.resx">
+      <DependentUpon>ucDetailGoal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailGoal.fr.resx">
+      <DependentUpon>ucDetailGoal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailIndicator.en-GB.resx">
+      <DependentUpon>ucDetailIndicator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailIndicator.fr.resx">
+      <DependentUpon>ucDetailIndicator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailOutput.en-GB.resx">
+      <DependentUpon>ucDetailOutput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailOutput.fr.resx">
+      <DependentUpon>ucDetailOutput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailPurpose.en-GB.resx">
+      <DependentUpon>ucDetailPurpose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailPurpose.fr.resx">
+      <DependentUpon>ucDetailPurpose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailResource.en-GB.resx">
+      <DependentUpon>ucDetailResource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailResource.fr.resx">
+      <DependentUpon>ucDetailResource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailResource.resx">
+      <DependentUpon>ucDetailResource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailOutput.resx">
+      <DependentUpon>ucDetailOutput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailAssumption.resx">
+      <DependentUpon>ucDetailAssumption.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailVerificationSource.en-GB.resx">
+      <DependentUpon>ucDetailVerificationSource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailVerificationSource.fr.resx">
+      <DependentUpon>ucDetailVerificationSource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailVerificationSource.resx">
+      <DependentUpon>ucDetailVerificationSource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailGoal.resx">
+      <DependentUpon>ucDetailGoal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailPurpose.resx">
+      <DependentUpon>ucDetailPurpose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogFindContact.en-GB.resx">
+      <DependentUpon>DialogFindContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogFindContact.fr.resx">
+      <DependentUpon>DialogFindContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogFindContact.resx">
+      <DependentUpon>DialogFindContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogAddress.en-GB.resx">
+      <DependentUpon>DialogAddress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogAddress.fr.resx">
+      <DependentUpon>DialogAddress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogContact.en-GB.resx">
+      <DependentUpon>DialogContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogContact.fr.resx">
+      <DependentUpon>DialogContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogEmail.en-GB.resx">
+      <DependentUpon>DialogEmail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogEmail.fr.resx">
+      <DependentUpon>DialogEmail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogExportToWord.en-GB.resx">
+      <DependentUpon>DialogExportToWord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogExportToWord.fr.resx">
+      <DependentUpon>DialogExportToWord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogFind.en-GB.resx">
+      <DependentUpon>DialogFind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogFind.fr.resx">
+      <DependentUpon>DialogFind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogFind.resx">
+      <DependentUpon>DialogFind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogImportLogframe.en-GB.resx">
+      <DependentUpon>DialogImportLogframe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogImportLogframe.fr.resx">
+      <DependentUpon>DialogImportLogframe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogImportLogframe.resx">
+      <DependentUpon>DialogImportLogframe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPrintHeader.en-GB.resx">
+      <DependentUpon>DialogPrintHeader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPrintHeader.fr.resx">
+      <DependentUpon>DialogPrintHeader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogProgress.resx">
+      <DependentUpon>DialogProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogKeyMoment.en-GB.resx">
+      <DependentUpon>DialogKeyMoment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogKeyMoment.fr.resx">
+      <DependentUpon>DialogKeyMoment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogKeyMoment.resx">
+      <DependentUpon>DialogKeyMoment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogProjectPartner.en-GB.resx">
+      <DependentUpon>DialogProjectPartner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogProjectPartner.fr.resx">
+      <DependentUpon>DialogProjectPartner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPrintHeader.resx">
+      <DependentUpon>DialogPrintHeader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPrintPreview.en-GB.resx">
+      <DependentUpon>DialogPrintPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPrintPreview.fr.resx">
+      <DependentUpon>DialogPrintPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogPrintPreview.resx">
+      <DependentUpon>DialogPrintPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogContact.resx">
+      <DependentUpon>DialogContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogResponseClassValues.en-GB.resx">
+      <DependentUpon>DialogResponseClassValues.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogResponseClassValues.fr.resx">
+      <DependentUpon>DialogResponseClassValues.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogResponseClassValues.resx">
+      <DependentUpon>DialogResponseClassValues.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogSettings.en-GB.resx">
+      <DependentUpon>DialogSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogSettings.fr.resx">
+      <DependentUpon>DialogSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogSettings.resx">
+      <DependentUpon>DialogSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetGroup.en-GB.resx">
+      <DependentUpon>DialogTargetGroup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetGroup.fr.resx">
+      <DependentUpon>DialogTargetGroup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetGroupProperty.en-GB.resx">
+      <DependentUpon>DialogTargetGroupProperty.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetGroupProperty.fr.resx">
+      <DependentUpon>DialogTargetGroupProperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTelephoneNumber.en-GB.resx">
+      <DependentUpon>DialogTelephoneNumber.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTelephoneNumber.fr.resx">
+      <DependentUpon>DialogTelephoneNumber.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogWebsite.en-GB.resx">
+      <DependentUpon>DialogWebsite.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogWebsite.fr.resx">
+      <DependentUpon>DialogWebsite.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogWebsite.resx">
+      <DependentUpon>DialogWebsite.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogEmail.resx">
+      <DependentUpon>DialogEmail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTelephoneNumber.resx">
+      <DependentUpon>DialogTelephoneNumber.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogAddress.resx">
+      <DependentUpon>DialogAddress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogExportToWord.resx">
+      <DependentUpon>DialogExportToWord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogProjectPartner.resx">
+      <DependentUpon>DialogProjectPartner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetGroup.resx">
+      <DependentUpon>DialogTargetGroup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogTargetGroupProperty.resx">
+      <DependentUpon>DialogTargetGroupProperty.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogNewUnit.en-GB.resx">
+      <DependentUpon>DialogNewUnit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogNewUnit.fr.resx">
+      <DependentUpon>DialogNewUnit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogValueRange.en-GB.resx">
+      <DependentUpon>DialogValueRange.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogValueRange.fr.resx">
+      <DependentUpon>DialogValueRange.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogValueRange.resx">
+      <DependentUpon>DialogValueRange.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Others\ucColorPaletteDialog.resx">
+      <DependentUpon>ucColorPaletteDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogWarning.en-GB.resx">
+      <DependentUpon>DialogWarning.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogWarning.fr.resx">
+      <DependentUpon>DialogWarning.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogNewUnit.resx">
+      <DependentUpon>DialogNewUnit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail windows\ucDetailIndicator.resx">
+      <DependentUpon>ucDetailIndicator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DialogWarning.resx">
+      <DependentUpon>DialogWarning.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmParent.fr.resx">
+      <DependentUpon>frmParent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmParent.nl.resx">
+      <DependentUpon>frmParent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmParent.resx">
+      <DependentUpon>frmParent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProject.fr.resx">
+      <DependentUpon>frmProject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProject.nl.resx">
+      <DependentUpon>frmProject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProject.resx">
+      <DependentUpon>frmProject.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettings.nl.resx">
+      <DependentUpon>ucPrintSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsAssumptions.nl.resx">
+      <DependentUpon>ucPrintSettingsAssumptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsBudget.nl.resx">
+      <DependentUpon>ucPrintSettingsBudget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsDependencies.en-GB.resx">
+      <DependentUpon>ucPrintSettingsDependencies.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsDependencies.fr.resx">
+      <DependentUpon>ucPrintSettingsDependencies.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsDependencies.nl.resx">
+      <DependentUpon>ucPrintSettingsDependencies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsDependencies.resx">
+      <DependentUpon>ucPrintSettingsDependencies.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsAssumptions.en-GB.resx">
+      <DependentUpon>ucPrintSettingsAssumptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsAssumptions.fr.resx">
+      <DependentUpon>ucPrintSettingsAssumptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsAssumptions.resx">
+      <DependentUpon>ucPrintSettingsAssumptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsIndicators.nl.resx">
+      <DependentUpon>ucPrintSettingsIndicators.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsLogframe.nl.resx">
+      <DependentUpon>ucPrintSettingsLogframe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPartnerList.nl.resx">
+      <DependentUpon>ucPrintSettingsPartnerList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPlanning.nl.resx">
+      <DependentUpon>ucPrintSettingsPlanning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPmf.nl.resx">
+      <DependentUpon>ucPrintSettingsPmf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsResources.en-GB.resx">
+      <DependentUpon>ucPrintSettingsResources.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsResources.fr.resx">
+      <DependentUpon>ucPrintSettingsResources.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsResources.nl.resx">
+      <DependentUpon>ucPrintSettingsResources.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsResources.resx">
+      <DependentUpon>ucPrintSettingsResources.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsBudget.en-GB.resx">
+      <DependentUpon>ucPrintSettingsBudget.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsBudget.fr.resx">
+      <DependentUpon>ucPrintSettingsBudget.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsBudget.resx">
+      <DependentUpon>ucPrintSettingsBudget.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsRiskRegister.nl.resx">
+      <DependentUpon>ucPrintSettingsRiskRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsTargetGroupIdForm.nl.resx">
+      <DependentUpon>ucPrintSettingsTargetGroupIdForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\ucPrintDetail.en-GB.resx">
+      <DependentUpon>ucPrintDetail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\ucPrintDetail.fr.resx">
+      <DependentUpon>ucPrintDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettings.en-GB.resx">
+      <DependentUpon>ucPrintSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettings.fr.resx">
+      <DependentUpon>ucPrintSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsIndicators.en-GB.resx">
+      <DependentUpon>ucPrintSettingsIndicators.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsIndicators.fr.resx">
+      <DependentUpon>ucPrintSettingsIndicators.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsLogframe.en-GB.resx">
+      <DependentUpon>ucPrintSettingsLogframe.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsLogframe.fr.resx">
+      <DependentUpon>ucPrintSettingsLogframe.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPartnerList.en-GB.resx">
+      <DependentUpon>ucPrintSettingsPartnerList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPartnerList.fr.resx">
+      <DependentUpon>ucPrintSettingsPartnerList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPlanning.en-GB.resx">
+      <DependentUpon>ucPrintSettingsPlanning.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPlanning.fr.resx">
+      <DependentUpon>ucPrintSettingsPlanning.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPlanning.resx">
+      <DependentUpon>ucPrintSettingsPlanning.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPmf.en-GB.resx">
+      <DependentUpon>ucPrintSettingsPmf.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPmf.fr.resx">
+      <DependentUpon>ucPrintSettingsPmf.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsRiskRegister.en-GB.resx">
+      <DependentUpon>ucPrintSettingsRiskRegister.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsRiskRegister.fr.resx">
+      <DependentUpon>ucPrintSettingsRiskRegister.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsTargetGroupIdForm.en-GB.resx">
+      <DependentUpon>ucPrintSettingsTargetGroupIdForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsTargetGroupIdForm.fr.resx">
+      <DependentUpon>ucPrintSettingsTargetGroupIdForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsTargetGroupIdForm.resx">
+      <DependentUpon>ucPrintSettingsTargetGroupIdForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPartnerList.resx">
+      <DependentUpon>ucPrintSettingsPartnerList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsRiskRegister.resx">
+      <DependentUpon>ucPrintSettingsRiskRegister.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsPmf.resx">
+      <DependentUpon>ucPrintSettingsPmf.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsIndicators.resx">
+      <DependentUpon>ucPrintSettingsIndicators.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettingsLogframe.resx">
+      <DependentUpon>ucPrintSettingsLogframe.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\Print settings\ucPrintSettings.resx">
+      <DependentUpon>ucPrintSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\ucPrintDetail.nl.resx">
+      <DependentUpon>ucPrintDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\ucPrintDetail.resx">
+      <DependentUpon>ucPrintDetail.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashScreenLF.resx">
+      <DependentUpon>SplashScreenLF.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Help\Logframer 2 Aide.chm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\Logframer 2 Help.chm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\LF 2.0 - File buttons - help klein.png" />
+    <None Include="Resources\LF 2.0 - File buttons - help groot.png" />
+    <None Include="Resources\Logframer 2.0 splash screen.png" />
+    <None Include="Resources\LF 2.0 - Collaborate buttons - Skype klein.png" />
+    <None Include="Resources\LF 2.0 - Collaborate buttons - Skype groot.png" />
+    <None Include="Resources\LF 2.0 - Collaborate buttons - Skype 64px.png" />
+    <None Include="Resources\LF 2.0 - Collaborate buttons - Skype 48px.png" />
+    <None Include="Resources\LF 2.0 - Collaborate buttons - Letter klein.png" />
+    <None Include="Resources\LF 2.0 - Collaborate buttons - Letter groot.png" />
+    <None Include="Resources\LF 2.0 - Collaborate buttons - Internet klein.png" />
+    <None Include="Resources\LF 2.0 - Collaborate buttons - Internet groot.png" />
+    <None Include="Resources\LF 2.0 - Collaborate buttons - Email klein.png" />
+    <None Include="Resources\LF 2.0 - Collaborate buttons - Email groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - multi-year budget groen klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - multi-year budget groen groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - multi-year budget blauw klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - multi-year budget blauw groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - single-year budget rood klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - single-year budget rood groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - single-year budget groen klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - single-year budget groen groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - single-year budget blauw klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - single-year budget blauw groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - single-year budget klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - single-year budget groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - multi-year budget klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - multi-year budget groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - exchange rate klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - exchange rate groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - currency klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - currency groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - description kolom klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - description kolom groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - link key moments klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - link key moments groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - link activiteiten klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - link activiteiten groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - unlink klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - unlink groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - link klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - link groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - activiteiten klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - activiteiten groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - key moment klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - key moment groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - kalender week klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - kalender week groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - kalender maand klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - kalender maand groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - kalender jaar klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - kalender jaar groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - kalender dag klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - kalender dag groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - print ID form groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - language klein.png" />
+    <None Include="Resources\LF 2.0 - File buttons - language groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - settings groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - settings klein.png" />
+    <None Include="Resources\LF 2.0 - File buttons - print risk register groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - print PMF groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - print indicators groot.png" />
+    <None Include="Resources\LF 2.0 - Main tabcontrol - planning2.png" />
+    <None Include="Resources\LF 2.0 - Main tabcontrol - budget.png" />
+    <None Include="Resources\LF 2.0 - Main tabcontrol - planning.png" />
+    <None Include="Resources\LF 2.0 - Main tabcontrol - project info.png" />
+    <None Include="Resources\Word icon 32px.png" />
+    <None Include="Resources\Word icon 16px.png" />
+    <None Include="Resources\Excel icon 32px.png" />
+    <None Include="Resources\Excel icon 16px.png" />
+    <None Include="Resources\LF 2.0 - File buttons - print budget groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - print planning groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - print logframe dubbel groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - print logframe groot.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - alle tekst selecteren klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - niveau lager klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - niveau hoger klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - sectie omlaag klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - sectie omhoog klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - omlaag klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - omhoog klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - bewerken klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - omlaag groot.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - omhoog groot.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - bewerken groot.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - item verwijderen groot.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - item verwijderen klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - subitem invoegen klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - hoofditem invoegen klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - item invoegen klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - item invoegen.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - nieuw item.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - kopiëren klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - plakken klein.png" />
+    <None Include="Resources\LF 2.0 - Item buttons - plakken groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - lege cellen groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - lege cellen klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - resources-budget groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - resources-budget klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - detailvenster groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - detailvenster klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - purposes klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - purposes groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - activities sectie groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - activities sectie klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - outputs sectie groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - outputs sectie klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - purposes sectie groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - purposes sectie klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - goals sectie groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - goals sectie klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - hypothesen kolom groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - hypothesen kolom klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - verificatiebronnen kolom groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - verificatiebronnen kolom klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - indicatoren kolom groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - indicatoren kolom klein.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - project logica groot.png" />
+    <None Include="Resources\LF 2.0 - Lay-out buttons - project logica klein.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - selecteren loka groot.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - selecteren loka klein.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - selecteren cel groot.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - selecteren cel klein.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - vervangen groot.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - vervangen klein.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - zoeken groot.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - zoeken klein.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst plakken groot.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst plakken klein.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst kopiëren.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst knippen.png" />
+    <None Include="Resources\LF 2.0 - Edit buttons - redo.png" />
+    <None Include="Resources\LF 2.0 - Edit buttons - undo.png" />
+    <None Include="Resources\LF 2.0 - File buttons - upload klein.png" />
+    <None Include="Resources\LF 2.0 - File buttons - download klein.png" />
+    <None Include="Resources\LF 2.0 - File buttons - cloud klein.png" />
+    <None Include="Resources\LF 2.0 - File buttons - upload groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - download groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - cloud groot.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst hoofd-kleine letters.png" />
+    <None Include="Resources\LF 2.0 - Paragraph buttons - linker indent verkleinen.png" />
+    <None Include="Resources\LF 2.0 - Paragraph buttons - linker indent vergroten.png" />
+    <None Include="Resources\LF 2.0 - Paragraph buttons - rechts uitlijnen.png" />
+    <None Include="Resources\LF 2.0 - Paragraph buttons - links uitlijnen.png" />
+    <None Include="Resources\LF 2.0 - Paragraph buttons - centreren.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst normaliseren.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst verkleinen.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst vergroten.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst superscript.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst subscript.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst schuin.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst onderlijnd.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst markeerkleur.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst kleur.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst doorstreept.png" />
+    <None Include="Resources\LF 2.0 - Text buttons - tekst vet.png" />
+    <None Include="Resources\LF 2.0 - File buttons - sluiten project groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - sluiten project klein.png" />
+    <None Include="Resources\LF 2.0 - File buttons - opslaan project groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - opslaan project klein.png" />
+    <None Include="Resources\LF 2.0 - File buttons - project groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - project klein.png" />
+    <None Include="Resources\LF 2.0 - File buttons - nieuw project groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - nieuw project klein.png" />
+    <None Include="Resources\LF 2.0 - File buttons - open project groot.png" />
+    <None Include="Resources\LF 2.0 - File buttons - open project klein.png" />
+    <None Include="Ribbon\System.Windows.Forms.Ribbon35.dll" />
+    <None Include="Resources\Logframer 1.3 splash screen.png" />
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DetailMail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DetailWeb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileOpen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileSave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FilePrint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FilePrintPreview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditCut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditCopy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditPaste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditDelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LayOutProjectLogic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logframer Icon.ico" />
+    <None Include="Resources\Print table fill.png" />
+    <None Include="Resources\Print table grid.png" />
+    <None Include="Resources\Print margins wide.png" />
+    <None Include="Resources\Print margins medium.png" />
+    <None Include="Resources\Print margins small.png" />
+    <None Include="Resources\Print landscape1.png" />
+    <None Include="Resources\Print portrait2.png" />
+    <None Include="Resources\Print landscape.png" />
+    <None Include="Resources\Print portrait1.png" />
+    <None Include="Resources\Print portrait.png" />
+    <None Include="Resources\Printer middelgroot1.png" />
+    <None Include="Resources\Printer middelgroot.png" />
+    <None Include="Resources\Printer groot.png" />
+    <None Include="Resources\Logframer splash screen.png" />
+    <None Include="Resources\Logframer 1.1 splash screen.png" />
+    <None Include="Resources\Logframer_splash_screen.png" />
+    <None Include="Resources\Logframer icon-128-no text.png" />
+    <None Include="Resources\Logframer logo large.png" />
+    <None Include="Resources\Logframer Icon.ico" />
+    <None Include="Resources\TextUnderline.png" />
+    <None Include="Resources\TextSuperscript.png" />
+    <None Include="Resources\TextSubscript.png" />
+    <None Include="Resources\TextStrikeOut.png" />
+    <None Include="Resources\TextRight.png" />
+    <None Include="Resources\TextMarker.png" />
+    <None Include="Resources\TextLeft.png" />
+    <None Include="Resources\TextItalic.png" />
+    <None Include="Resources\TextColor.png" />
+    <None Include="Resources\TextCenter.png" />
+    <None Include="Resources\TextBold.png" />
+    <None Include="Resources\Logframer logo.png" />
+    <None Include="Resources\LayOutVerificationSources.png" />
+    <None Include="Resources\LayOutPlanning.png" />
+    <None Include="Resources\LayOutIndicators.png" />
+    <None Include="Resources\LayOutHideEmpty.png" />
+    <None Include="Resources\LayOutDetails.png" />
+    <None Include="Resources\LayOutAssumptions.png" />
+    <None Include="Resources\Help.png" />
+    <None Include="Resources\DetailShowDetail.png" />
+    <None Include="Resources\DetailNewRow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <FileAssociation Include=".lfr">
+      <Visible>False</Visible>
+      <Description>Logframer document</Description>
+      <Progid>Logframer.Document</Progid>
+      <DefaultIcon>Logframer Icon.ico</DefaultIcon>
+    </FileAssociation>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

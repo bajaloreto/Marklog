@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>ucPrintDetail</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomPrintPreview.Name">
+    <value>CustomPrintPreview</value>
+  </data>
+  <data name="&gt;&gt;CustomPrintPreview.Parent">
+    <value>SplitContainerPrint.Panel2</value>
+  </data>
+  <data name="&gt;&gt;CustomPrintPreview.Type">
+    <value>FaciliDev.LogFramer.CustomPrintPreview, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;CustomPrintPreview.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ItemActualSize.Name">
+    <value>ItemActualSize</value>
+  </data>
+  <data name="&gt;&gt;ItemActualSize.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemFullPage.Name">
+    <value>ItemFullPage</value>
+  </data>
+  <data name="&gt;&gt;ItemFullPage.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemPageWidth.Name">
+    <value>ItemPageWidth</value>
+  </data>
+  <data name="&gt;&gt;ItemPageWidth.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemTwoPages.Name">
+    <value>ItemTwoPages</value>
+  </data>
+  <data name="&gt;&gt;ItemTwoPages.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.Name">
+    <value>SplitContainerPrint</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.Panel1.Name">
+    <value>SplitContainerPrint.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.Panel1.Parent">
+    <value>SplitContainerPrint</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.Panel1.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.Panel1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.Panel2.Name">
+    <value>SplitContainerPrint.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.Panel2.Parent">
+    <value>SplitContainerPrint</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.Panel2.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.Panel2.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.Type">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPrint.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonFirst.Name">
+    <value>ToolStripButtonFirst</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonFirst.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonLast.Name">
+    <value>ToolStripButtonLast</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonLast.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNext.Name">
+    <value>ToolStripButtonNext</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonNext.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonPrevious.Name">
+    <value>ToolStripButtonPrevious</value>
+  </data>
+  <data name="&gt;&gt;ToolStripButtonPrevious.Type">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripLabelPageCount.Name">
+    <value>ToolStripLabelPageCount</value>
+  </data>
+  <data name="&gt;&gt;ToolStripLabelPageCount.Type">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripPreview.Name">
+    <value>ToolStripPreview</value>
+  </data>
+  <data name="&gt;&gt;ToolStripPreview.Parent">
+    <value>SplitContainerPrint.Panel2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripPreview.Type">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripPreview.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripTextBoxPage.Name">
+    <value>ToolStripTextBoxPage</value>
+  </data>
+  <data name="&gt;&gt;ToolStripTextBoxPage.Type">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom10.Name">
+    <value>Zoom10</value>
+  </data>
+  <data name="&gt;&gt;Zoom10.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom100.Name">
+    <value>Zoom100</value>
+  </data>
+  <data name="&gt;&gt;Zoom100.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom150.Name">
+    <value>Zoom150</value>
+  </data>
+  <data name="&gt;&gt;Zoom150.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom200.Name">
+    <value>Zoom200</value>
+  </data>
+  <data name="&gt;&gt;Zoom200.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom25.Name">
+    <value>Zoom25</value>
+  </data>
+  <data name="&gt;&gt;Zoom25.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom50.Name">
+    <value>Zoom50</value>
+  </data>
+  <data name="&gt;&gt;Zoom50.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom500.Name">
+    <value>Zoom500</value>
+  </data>
+  <data name="&gt;&gt;Zoom500.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom75.Name">
+    <value>Zoom75</value>
+  </data>
+  <data name="&gt;&gt;Zoom75.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbZoom.Name">
+    <value>cmbZoom</value>
+  </data>
+  <data name="&gt;&gt;cmbZoom.Type">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ItemActualSize.Text">
+    <value>Actual Size</value>
+  </data>
+  <data name="ItemFullPage.Text">
+    <value>Full Page</value>
+  </data>
+  <data name="ItemPageWidth.Text">
+    <value>Page Width</value>
+  </data>
+  <data name="ItemTwoPages.Text">
+    <value>Two Pages</value>
+  </data>
+  <data name="ToolStripButtonFirst.Text">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="ToolStripButtonFirst.ToolTipText">
+    <value>First page</value>
+  </data>
+  <data name="ToolStripButtonLast.Text">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="ToolStripButtonNext.Text">
+    <value>&gt;</value>
+  </data>
+  <data name="ToolStripButtonPrevious.Text">
+    <value>&lt;</value>
+  </data>
+  <data name="ToolStripLabelPageCount.Text">
+    <value>of 1</value>
+  </data>
+  <data name="ToolStripPreview.Text">
+    <value>ToolStripFormatting</value>
+  </data>
+  <data name="ToolStripTextBoxPage.ToolTipText">
+    <value>Current page number</value>
+  </data>
+  <data name="Zoom10.Text">
+    <value>10%</value>
+  </data>
+  <data name="Zoom100.Text">
+    <value>100%</value>
+  </data>
+  <data name="Zoom150.Text">
+    <value>150%</value>
+  </data>
+  <data name="Zoom200.Text">
+    <value>200%</value>
+  </data>
+  <data name="Zoom25.Text">
+    <value>25%</value>
+  </data>
+  <data name="Zoom50.Text">
+    <value>50%</value>
+  </data>
+  <data name="Zoom500.Text">
+    <value>500%</value>
+  </data>
+  <data name="Zoom75.Text">
+    <value>75%</value>
+  </data>
+  <data name="cmbZoom.Text">
+    <value>&amp;Zoom</value>
+  </data>
+</root>

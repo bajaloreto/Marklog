@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;gbTotals.Parent" xml:space="preserve">
+    <value>TabPageSubIndicators</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TabPageSubIndicators.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblWeightingFactorChildren.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbAggregateHorizontal.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TabPageScores.Name" xml:space="preserve">
+    <value>TabPageScores</value>
+  </data>
+  <data name="gbWeightingChildren.Text" xml:space="preserve">
+    <value>Weighting</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblResponseType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAggregateVertical.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;cmbRegistration.Name" xml:space="preserve">
+    <value>cmbRegistration</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmbTargetGroupGuid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 33</value>
+  </data>
+  <data name="cmbTargetGroupGuid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 21</value>
+  </data>
+  <data name="&gt;&gt;cmbRegistration.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TabPageSubIndicators.Name" xml:space="preserve">
+    <value>TabPageSubIndicators</value>
+  </data>
+  <data name="&gt;&gt;gbWeightingChildren.Parent" xml:space="preserve">
+    <value>TabPageSubIndicators</value>
+  </data>
+  <data name="cmbRegistration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 6</value>
+  </data>
+  <data name="lblWeightingFactorChildren.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="gbWeightingChildren.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 48</value>
+  </data>
+  <data name="&gt;&gt;TabPageSubIndicators.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbIndicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1158, 16</value>
+  </data>
+  <data name="&gt;&gt;lblResponseType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TabPageRegistration.Text" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="TabPageSubIndicators.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;cmbQuestionType.Parent" xml:space="preserve">
+    <value>TabPageScores</value>
+  </data>
+  <data name="chkAdvanced.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TabControlIndicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1165, 249</value>
+  </data>
+  <data name="&gt;&gt;lblTargetGroupName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbTotals.Text" xml:space="preserve">
+    <value>Calculate total score of this indicator</value>
+  </data>
+  <data name="PanelTargets.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargets.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblRegistration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbIndicator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt, style=Bold</value>
+  </data>
+  <data name="lblTargetGroupName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="gbWeightingChildren.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 60</value>
+  </data>
+  <data name="&gt;&gt;TabPageSubIndicators.Parent" xml:space="preserve">
+    <value>TabControlIndicator</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateHorizontal.Name" xml:space="preserve">
+    <value>lblAggregateHorizontal</value>
+  </data>
+  <data name="&gt;&gt;gbSubIndicators.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkAdvanced.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbSubIndicators.Text" xml:space="preserve">
+    <value>Sub-indicators</value>
+  </data>
+  <data name="lblRegistration.Text" xml:space="preserve">
+    <value>Registration:</value>
+  </data>
+  <data name="TabPageScores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="cmbAggregateHorizontal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 21</value>
+  </data>
+  <data name="&gt;&gt;lblRegistration.Parent" xml:space="preserve">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="chkAdvanced.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cmbAggregateVertical.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="&gt;&gt;TabPageRegistration.Name" xml:space="preserve">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="&gt;&gt;PanelQuestionType.Name" xml:space="preserve">
+    <value>PanelQuestionType</value>
+  </data>
+  <data name="&gt;&gt;TabControlIndicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbTotals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 48</value>
+  </data>
+  <data name="lblTargetGroupName.Text" xml:space="preserve">
+    <value>Target group:</value>
+  </data>
+  <data name="ntbWeightingFactorChildren.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="cmbQuestionType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 21</value>
+  </data>
+  <data name="lblAggregateHorizontal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="TabPageTargets.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TabPageRegistration.Parent" xml:space="preserve">
+    <value>TabControlIndicator</value>
+  </data>
+  <data name="gbWeightingChildren.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblResponseType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblRegistration.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TabPageRegistration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1157, 223</value>
+  </data>
+  <data name="tbIndicator.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="TabPageTargets.Text" xml:space="preserve">
+    <value>Targets</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblResponseType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPageScores.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="gbSubIndicators.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblRegistration.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbRegistration.Parent" xml:space="preserve">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="&gt;&gt;PanelQuestionType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageRegistration.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkAdvanced.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRegistration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;TabPageSubIndicators.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAggregateVertical.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="lblTargetGroupName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TabPageScores.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateHorizontal.Parent" xml:space="preserve">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="lblWeightingFactorChildren.Text" xml:space="preserve">
+    <value>Weighting factor:</value>
+  </data>
+  <data name="&gt;&gt;gbWeightingChildren.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbWeightingFactorChildren.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblRegistration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TabPageScores.Text" xml:space="preserve">
+    <value>Scoring</value>
+  </data>
+  <data name="TabPageScores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1157, 223</value>
+  </data>
+  <data name="TabPageRegistration.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ntbWeightingFactorChildren.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 19</value>
+  </data>
+  <data name="gbSubIndicators.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;gbWeightingChildren.Name" xml:space="preserve">
+    <value>gbWeightingChildren</value>
+  </data>
+  <data name="cmbRegistration.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkAdvanced.Text" xml:space="preserve">
+    <value>Show advanced options</value>
+  </data>
+  <data name="TabPageTargets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1157, 223</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateVertical.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbSubIndicators.Parent" xml:space="preserve">
+    <value>TabPageSubIndicators</value>
+  </data>
+  <data name="&gt;&gt;lblResponseType.Name" xml:space="preserve">
+    <value>lblResponseType</value>
+  </data>
+  <data name="&gt;&gt;PanelTargets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbIndicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 3</value>
+  </data>
+  <data name="&gt;&gt;TabPageRegistration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTargetGroupName.Name" xml:space="preserve">
+    <value>lblTargetGroupName</value>
+  </data>
+  <data name="TabPageRegistration.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargets.Name" xml:space="preserve">
+    <value>TabPageTargets</value>
+  </data>
+  <data name="TabPageSubIndicators.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblWeightingFactorChildren.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblResponseType.Parent" xml:space="preserve">
+    <value>TabPageScores</value>
+  </data>
+  <data name="&gt;&gt;PanelTargets.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblAggregateVertical.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRegistration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="&gt;&gt;tbIndicator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbAggregateHorizontal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 60</value>
+  </data>
+  <data name="&gt;&gt;chkAdvanced.Parent" xml:space="preserve">
+    <value>TabPageScores</value>
+  </data>
+  <data name="chkAdvanced.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 8</value>
+  </data>
+  <data name="PanelQuestionType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="&gt;&gt;lblWeightingFactorChildren.Parent" xml:space="preserve">
+    <value>gbWeightingChildren</value>
+  </data>
+  <data name="lblTargetGroupName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmbTargetGroupGuid.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkAdvanced.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblWeightingFactorChildren.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="cmbRegistration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 21</value>
+  </data>
+  <data name="&gt;&gt;cmbRegistration.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbWeightingFactorChildren.Name" xml:space="preserve">
+    <value>ntbWeightingFactorChildren</value>
+  </data>
+  <data name="chkAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="gbSubIndicators.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 6</value>
+  </data>
+  <data name="&gt;&gt;TabControlIndicator.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblAggregateHorizontal.Text" xml:space="preserve">
+    <value>Aggregate:</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateHorizontal.Name" xml:space="preserve">
+    <value>cmbAggregateHorizontal</value>
+  </data>
+  <data name="TabControlIndicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 25</value>
+  </data>
+  <data name="&gt;&gt;lblWeightingFactorChildren.Name" xml:space="preserve">
+    <value>lblWeightingFactorChildren</value>
+  </data>
+  <data name="&gt;&gt;lblTargetGroupName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPageSubIndicators.Text" xml:space="preserve">
+    <value>Sub-indicators</value>
+  </data>
+  <data name="lblResponseType.Text" xml:space="preserve">
+    <value>Question type:</value>
+  </data>
+  <data name="&gt;&gt;TabPageScores.Parent" xml:space="preserve">
+    <value>TabControlIndicator</value>
+  </data>
+  <data name="&gt;&gt;chkAdvanced.Name" xml:space="preserve">
+    <value>chkAdvanced</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1168, 274</value>
+  </data>
+  <data name="&gt;&gt;gbTotals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlIndicator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabPageScores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbIndicator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateVertical.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateVertical.Parent" xml:space="preserve">
+    <value>gbTotals</value>
+  </data>
+  <data name="lblAggregateVertical.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ntbWeightingFactorChildren.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblResponseType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="gbTotals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateHorizontal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateHorizontal.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelQuestionType.Parent" xml:space="preserve">
+    <value>TabPageScores</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateVertical.Name" xml:space="preserve">
+    <value>lblAggregateVertical</value>
+  </data>
+  <data name="&gt;&gt;PanelQuestionType.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateVertical.Parent" xml:space="preserve">
+    <value>gbTotals</value>
+  </data>
+  <data name="TabPageTargets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;cmbQuestionType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PanelTargets.Name" xml:space="preserve">
+    <value>PanelTargets</value>
+  </data>
+  <data name="&gt;&gt;ntbWeightingFactorChildren.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateHorizontal.Parent" xml:space="preserve">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="PanelQuestionType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="cmbQuestionType.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblWeightingFactorChildren.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="lblWeightingFactorChildren.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gbTotals.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblTargetGroupName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargets.Parent" xml:space="preserve">
+    <value>TabControlIndicator</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.Parent" xml:space="preserve">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="PanelTargets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TabControlIndicator.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblAggregateHorizontal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PanelQuestionType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1145, 184</value>
+  </data>
+  <data name="TabPageSubIndicators.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1157, 223</value>
+  </data>
+  <data name="&gt;&gt;TabPageScores.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbSubIndicators.Name" xml:space="preserve">
+    <value>gbSubIndicators</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblAggregateVertical.Text" xml:space="preserve">
+    <value>Aggregate:</value>
+  </data>
+  <data name="&gt;&gt;TabControlIndicator.Name" xml:space="preserve">
+    <value>TabControlIndicator</value>
+  </data>
+  <data name="&gt;&gt;cmbQuestionType.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.StructuredComboBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateHorizontal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbTotals.Name" xml:space="preserve">
+    <value>gbTotals</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateHorizontal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRegistration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="&gt;&gt;tbIndicator.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateVertical.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbTotals.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblAggregateVertical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="&gt;&gt;lblAggregateVertical.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblResponseType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbAggregateVertical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 21</value>
+  </data>
+  <data name="lblAggregateHorizontal.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbAggregateVertical.Name" xml:space="preserve">
+    <value>cmbAggregateVertical</value>
+  </data>
+  <data name="&gt;&gt;lblTargetGroupName.Parent" xml:space="preserve">
+    <value>TabPageRegistration</value>
+  </data>
+  <data name="lblAggregateHorizontal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResponseType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="cmbAggregateVertical.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;PanelTargets.Parent" xml:space="preserve">
+    <value>TabPageTargets</value>
+  </data>
+  <data name="TabPageRegistration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;lblRegistration.Name" xml:space="preserve">
+    <value>lblRegistration</value>
+  </data>
+  <data name="&gt;&gt;gbSubIndicators.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbQuestionType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 6</value>
+  </data>
+  <data name="&gt;&gt;gbWeightingChildren.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PanelQuestionType.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblTargetGroupName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 36</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DetailIndicator</value>
+  </data>
+  <data name="&gt;&gt;cmbQuestionType.Name" xml:space="preserve">
+    <value>cmbQuestionType</value>
+  </data>
+  <data name="lblAggregateHorizontal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 63</value>
+  </data>
+  <data name="&gt;&gt;lblWeightingFactorChildren.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbTargetGroupGuid.Name" xml:space="preserve">
+    <value>cmbTargetGroupGuid</value>
+  </data>
+  <data name="gbSubIndicators.Size" type="System.Drawing.Size, System.Drawing">
+    <value>827, 211</value>
+  </data>
+  <data name="PanelTargets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1157, 223</value>
+  </data>
+  <data name="&gt;&gt;tbIndicator.Name" xml:space="preserve">
+    <value>tbIndicator</value>
+  </data>
+  <data name="PanelTargets.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tbIndicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ntbWeightingFactorChildren.Parent" xml:space="preserve">
+    <value>gbWeightingChildren</value>
+  </data>
+  <data name="TabControlIndicator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>56</value>
+  </metadata>
+</root>

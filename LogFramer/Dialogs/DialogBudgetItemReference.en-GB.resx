@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Budget item reference</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DialogBudgetItemReference</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Name">
+    <value>OK_Button</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbActivity.Name">
+    <value>cmbActivity</value>
+  </data>
+  <data name="&gt;&gt;cmbActivity.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbActivity.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbActivity.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmbResource.Name">
+    <value>cmbResource</value>
+  </data>
+  <data name="&gt;&gt;cmbResource.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbResource.Type">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbResource.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Name">
+    <value>lblActivity</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblPercentage.Name">
+    <value>lblPercentage</value>
+  </data>
+  <data name="&gt;&gt;lblPercentage.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPercentage.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPercentage.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblResource.Name">
+    <value>lblResource</value>
+  </data>
+  <data name="&gt;&gt;lblResource.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblResource.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResource.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblTotalCost.Name">
+    <value>lblTotalCost</value>
+  </data>
+  <data name="&gt;&gt;lblTotalCost.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTotalCost.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTotalCost.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbPercentage.Name">
+    <value>ntbPercentage</value>
+  </data>
+  <data name="&gt;&gt;ntbPercentage.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbPercentage.Type">
+    <value>FaciliDev.LogFramer.NumericTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbPercentage.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ntbTotalCost.Name">
+    <value>ntbTotalCost</value>
+  </data>
+  <data name="&gt;&gt;ntbTotalCost.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbTotalCost.Type">
+    <value>FaciliDev.LogFramer.NumericTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbTotalCost.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="Cancel_Button.Text">
+    <value>Cancel</value>
+  </data>
+  <data name="OK_Button.Text">
+    <value>OK</value>
+  </data>
+  <data name="lblActivity.Text">
+    <value>Activity:</value>
+  </data>
+  <data name="lblPercentage.Text">
+    <value>Percentage:</value>
+  </data>
+  <data name="lblResource.Text">
+    <value>Resource:</value>
+  </data>
+  <data name="lblTotalCost.Text">
+    <value>Amount:</value>
+  </data>
+</root>

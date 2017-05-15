@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;Clipboard.Name">
+    <value>Clipboard</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.Panel1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.Panel2.ZOrder">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.Panel1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.Panel1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.Panel2.ZOrder">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;TabControlQuestionnaires.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageActions.ZOrder">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;TabPageMonitoring.ZOrder">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;TabPagePlanning.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TabPageProject.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageTeamLevel.ZOrder">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;dgvPlanning.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="TabPageActions.Text">
+    <value>Actions</value>
+  </data>
+  <data name="TabPageBudget.Text">
+    <value>MMMM Budget</value>
+  </data>
+  <data name="TabPageLogframe.Text">
+    <value>MMMM Cadre logique</value>
+  </data>
+  <data name="TabPageMonitoring.Text">
+    <value>Système de suivi</value>
+  </data>
+  <data name="TabPagePlanning.Text">
+    <value>MMMM Planification</value>
+  </data>
+  <data name="TabPageProgrammeLevel.Text">
+    <value>Niveau de programme</value>
+  </data>
+  <data name="TabPageProject.Text">
+    <value>MMMM Projet</value>
+  </data>
+  <data name="TabPageTeamLevel.Text">
+    <value>Niveau de l'équipe</value>
+  </data>
+  <data name="$this.Text">
+    <value>frmProject</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>frmProject</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Clipboard.Parent">
+    <value>SplitContainerUtilities.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Clipboard.Type">
+    <value>FaciliDev.LogFramer.DetailClipboard, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Clipboard.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn1.Name">
+    <value>DataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn1.Type">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn2.Name">
+    <value>DataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn2.Type">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn3.Name">
+    <value>DataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn3.Type">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn4.Name">
+    <value>DataGridViewTextBoxColumn4</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn4.Type">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn5.Name">
+    <value>DataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewTextBoxColumn5.Type">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageListTabs.Name">
+    <value>ImageListTabs</value>
+  </data>
+  <data name="&gt;&gt;ImageListTabs.Type">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProjectInfo.Name">
+    <value>ProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;ProjectInfo.Parent">
+    <value>TabPageProject</value>
+  </data>
+  <data name="&gt;&gt;ProjectInfo.Type">
+    <value>FaciliDev.LogFramer.DetailProjectInfo, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ProjectInfo.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RichTextColumnLogframe1.Name">
+    <value>RichTextColumnLogframe1</value>
+  </data>
+  <data name="&gt;&gt;RichTextColumnLogframe1.Type">
+    <value>FaciliDev.LogFramer.RichTextColumnLogframe, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.Name">
+    <value>SplitContainerExchangeRates</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.Panel1.Name">
+    <value>SplitContainerExchangeRates.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.Panel1.Parent">
+    <value>SplitContainerExchangeRates</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.Panel1.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.Panel1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.Panel2.Name">
+    <value>SplitContainerExchangeRates.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.Panel2.Parent">
+    <value>SplitContainerExchangeRates</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.Panel2.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.Panel2.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.Parent">
+    <value>TabPageBudget</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.Type">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerExchangeRates.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.Name">
+    <value>SplitContainerLogFrame</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.Panel1.Name">
+    <value>SplitContainerLogFrame.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.Panel1.Parent">
+    <value>SplitContainerLogFrame</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.Panel1.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.Panel1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.Panel2.Name">
+    <value>SplitContainerLogFrame.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.Panel2.Parent">
+    <value>SplitContainerLogFrame</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.Panel2.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.Panel2.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.Parent">
+    <value>TabPageLogframe</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerLogFrame.Type">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.Name">
+    <value>SplitContainerMain</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.Panel1.Name">
+    <value>SplitContainerMain.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.Panel1.Parent">
+    <value>SplitContainerMain</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.Panel1.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.Panel2.Name">
+    <value>SplitContainerMain.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.Panel2.Parent">
+    <value>SplitContainerMain</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.Panel2.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.Parent">
+    <value>SplitContainerUtilities.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerMain.Type">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.Name">
+    <value>SplitContainerPlanning</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.Panel1.Name">
+    <value>SplitContainerPlanning.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.Panel1.Parent">
+    <value>SplitContainerPlanning</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.Panel1.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.Panel2.Name">
+    <value>SplitContainerPlanning.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.Panel2.Parent">
+    <value>SplitContainerPlanning</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.Panel2.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.Panel2.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.Parent">
+    <value>TabPagePlanning</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPlanning.Type">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.Name">
+    <value>SplitContainerUtilities</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.Panel1.Name">
+    <value>SplitContainerUtilities.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.Panel1.Parent">
+    <value>SplitContainerUtilities</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.Panel1.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.Panel2.Name">
+    <value>SplitContainerUtilities.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.Panel2.Parent">
+    <value>SplitContainerUtilities</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.Panel2.Type">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.Type">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerUtilities.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControlBudget.Name">
+    <value>TabControlBudget</value>
+  </data>
+  <data name="&gt;&gt;TabControlBudget.Parent">
+    <value>SplitContainerExchangeRates.Panel1</value>
+  </data>
+  <data name="&gt;&gt;TabControlBudget.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlBudget.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControlProject.Name">
+    <value>TabControlProject</value>
+  </data>
+  <data name="&gt;&gt;TabControlProject.Parent">
+    <value>SplitContainerMain.Panel1</value>
+  </data>
+  <data name="&gt;&gt;TabControlProject.Type">
+    <value>FaciliDev.LogFramer.ucTabControlProject, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TabControlProject.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControlQuestionnaires.Name">
+    <value>TabControlQuestionnaires</value>
+  </data>
+  <data name="&gt;&gt;TabControlQuestionnaires.Parent">
+    <value>TabPageMonitoring</value>
+  </data>
+  <data name="&gt;&gt;TabControlQuestionnaires.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Name">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Parent">
+    <value>TabControlBudget</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageActions.Name">
+    <value>TabPageActions</value>
+  </data>
+  <data name="&gt;&gt;TabPageActions.Parent">
+    <value>TabControlProject</value>
+  </data>
+  <data name="&gt;&gt;TabPageActions.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageBudget.Name">
+    <value>TabPageBudget</value>
+  </data>
+  <data name="&gt;&gt;TabPageBudget.Parent">
+    <value>TabControlProject</value>
+  </data>
+  <data name="&gt;&gt;TabPageBudget.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageBudget.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TabPageLogframe.Name">
+    <value>TabPageLogframe</value>
+  </data>
+  <data name="&gt;&gt;TabPageLogframe.Parent">
+    <value>TabControlProject</value>
+  </data>
+  <data name="&gt;&gt;TabPageLogframe.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageLogframe.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPageMonitoring.Name">
+    <value>TabPageMonitoring</value>
+  </data>
+  <data name="&gt;&gt;TabPageMonitoring.Parent">
+    <value>TabControlProject</value>
+  </data>
+  <data name="&gt;&gt;TabPageMonitoring.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPagePlanning.Name">
+    <value>TabPagePlanning</value>
+  </data>
+  <data name="&gt;&gt;TabPagePlanning.Parent">
+    <value>TabControlProject</value>
+  </data>
+  <data name="&gt;&gt;TabPagePlanning.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageProgrammeLevel.Name">
+    <value>TabPageProgrammeLevel</value>
+  </data>
+  <data name="&gt;&gt;TabPageProgrammeLevel.Parent">
+    <value>TabControlQuestionnaires</value>
+  </data>
+  <data name="&gt;&gt;TabPageProgrammeLevel.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageProgrammeLevel.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageProject.Name">
+    <value>TabPageProject</value>
+  </data>
+  <data name="&gt;&gt;TabPageProject.Parent">
+    <value>TabControlProject</value>
+  </data>
+  <data name="&gt;&gt;TabPageProject.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageTeamLevel.Name">
+    <value>TabPageTeamLevel</value>
+  </data>
+  <data name="&gt;&gt;TabPageTeamLevel.Parent">
+    <value>TabControlQuestionnaires</value>
+  </data>
+  <data name="&gt;&gt;TabPageTeamLevel.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvLogframe.Name">
+    <value>dgvLogframe</value>
+  </data>
+  <data name="&gt;&gt;dgvLogframe.Parent">
+    <value>SplitContainerLogFrame.Panel1</value>
+  </data>
+  <data name="&gt;&gt;dgvLogframe.Type">
+    <value>FaciliDev.LogFramer.DataGridViewLogframe, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dgvLogframe.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvPlanning.Name">
+    <value>dgvPlanning</value>
+  </data>
+  <data name="&gt;&gt;dgvPlanning.Parent">
+    <value>SplitContainerPlanning.Panel1</value>
+  </data>
+  <data name="&gt;&gt;dgvPlanning.Type">
+    <value>FaciliDev.LogFramer.DataGridViewPlanning, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TabPage1.Text">
+    <value>TabPage1</value>
+  </data>
+</root>

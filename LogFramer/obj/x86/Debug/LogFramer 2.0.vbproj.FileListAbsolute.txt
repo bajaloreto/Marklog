@@ -1,0 +1,966 @@
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/LogFramer 2.0.exe.config
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/LogFramer 2.0.exe.manifest
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/LogFramer 2.0.application
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/LogFramer 2.0.exe
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/LogFramer 2.0.pdb
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/LogFramer 2.0.xml
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/nl/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/en-GB/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/fr/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/fr-FR/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/System.Windows.Forms.Ribbon35.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/LogFramer 2.0.vbprojResolveAssemblyReference.cache
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.BudgetItemRatio.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFrequencyLikert.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucRiskMonitoringDeadlines.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucImage.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsImages.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFormula.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRatio.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsSemanticDiff.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMaxDiff.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorOpenEnded.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRanking.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsLikertScale.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorScales.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMixedSubIndicators.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMultipleOption.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorYesNo.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorValues.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucOrganisationInfo.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucTargetDeadlines.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailClipboard.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailKeyMoment.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailExchangeRates.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogBudgetItemReference.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToExcel.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImageSelect.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogIndicator.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogActivity.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddProjectPartner.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AboutLogframer.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailProjectInfo.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogCloudAccount.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogCloudListProjects.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProgress.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucColorPaletteDialog.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmParent.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmProject.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.Resources.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.SplashScreenLF.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.BudgetItemRatio.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.BudgetItemRatio.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFormula.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFormula.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFrequencyLikert.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFrequencyLikert.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMaxDiff.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMaxDiff.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMixedSubIndicators.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMixedSubIndicators.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMultipleOption.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMultipleOption.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorOpenEnded.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorOpenEnded.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRanking.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRanking.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRatio.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRatio.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorScales.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorScales.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsImages.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsImages.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsLikertScale.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsLikertScale.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsSemanticDiff.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsSemanticDiff.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorValues.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorValues.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorYesNo.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorYesNo.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucImage.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucImage.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucOrganisationInfo.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucOrganisationInfo.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucRiskMonitoringDeadlines.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucRiskMonitoringDeadlines.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucTargetDeadlines.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucTargetDeadlines.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailClipboard.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailClipboard.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailExchangeRates.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailExchangeRates.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailKeyMoment.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailKeyMoment.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailProjectInfo.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailProjectInfo.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogActivity.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogActivity.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddProjectPartner.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddProjectPartner.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogBudgetItemReference.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogBudgetItemReference.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToExcel.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToExcel.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImageSelect.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImageSelect.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogIndicator.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogIndicator.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProgress.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProgress.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AboutLogframer.fr-FR.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogCloudAccount.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogCloudAccount.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogCloudListProjects.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogCloudListProjects.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmParent.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmParent.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmProject.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmProject.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/LogFramer 2.0.vbproj.GenerateResource.Cache
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/nl/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/en-GB/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/fr/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/fr-FR/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/LogFramer 2.0.exe.manifest
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/LogFramer 2.0.application
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/LogFramer 2.0.exe
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/LogFramer 2.0.xml
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/obj/x86/Debug/LogFramer 2.0.pdb
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/Help/Logframer 2 Aide.chm
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0/LogFramer/bin/x86/Debug/Help/Logframer 2 Help.chm
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/LogFramer 2.0.exe.config
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/LogFramer 2.0.exe
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/LogFramer 2.0.xml
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/LogFramer 2.0.pdb
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/Help/Logframer 2 Aide.chm
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/Help/Logframer 2 Help.chm
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/LogFramer 2.0.exe.manifest
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/LogFramer 2.0.application
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/LogFramer 2.0.exe
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/LogFramer 2.0.pdb
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/LogFramer 2.0.xml
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/nl/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/en-GB/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/fr/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/fr-FR/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/bin/x86/Debug/System.Windows.Forms.Ribbon35.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/LogFramer 2.0.vbprojResolveAssemblyReference.cache
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.BudgetItemRatio.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFrequencyLikert.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucRiskMonitoringDeadlines.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucImage.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsImages.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFormula.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRatio.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsSemanticDiff.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMaxDiff.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorOpenEnded.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRanking.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsLikertScale.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorScales.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMixedSubIndicators.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMultipleOption.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorYesNo.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorValues.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucOrganisationInfo.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucTargetDeadlines.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailClipboard.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailKeyMoment.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailExchangeRates.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogBudgetItemReference.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToExcel.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImageSelect.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogIndicator.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogActivity.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AboutLogframer.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailProjectInfo.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProgress.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucColorPaletteDialog.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmParent.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmProject.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.Resources.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.SplashScreenLF.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.BudgetItemRatio.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.BudgetItemRatio.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFormula.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFormula.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFrequencyLikert.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFrequencyLikert.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMaxDiff.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMaxDiff.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMixedSubIndicators.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMixedSubIndicators.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMultipleOption.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMultipleOption.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorOpenEnded.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorOpenEnded.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRanking.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRanking.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRatio.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRatio.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorScales.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorScales.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsImages.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsImages.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsLikertScale.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsLikertScale.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsSemanticDiff.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsSemanticDiff.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorValues.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorValues.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorYesNo.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorYesNo.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucImage.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucImage.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucOrganisationInfo.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucOrganisationInfo.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucRiskMonitoringDeadlines.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucRiskMonitoringDeadlines.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucTargetDeadlines.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucTargetDeadlines.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailClipboard.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailClipboard.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailExchangeRates.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailExchangeRates.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailKeyMoment.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailKeyMoment.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailProjectInfo.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailProjectInfo.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogActivity.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogActivity.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogBudgetItemReference.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogBudgetItemReference.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToExcel.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToExcel.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImageSelect.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImageSelect.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogIndicator.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogIndicator.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProgress.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProgress.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AboutLogframer.fr-FR.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmParent.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmParent.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmProject.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmProject.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.en-GB.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.fr.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.nl.resources
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/LogFramer 2.0.vbproj.GenerateResource.Cache
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/nl/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/en-GB/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/fr/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/fr-FR/LogFramer 2.0.resources.dll
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/LogFramer 2.0.exe.manifest
+D:/Documenten Bart/Visual Studio 2010/Projects/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/LogFramer 2.0.application
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/LogFramer 2.0.vbprojResolveAssemblyReference.cache
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.BudgetItemRatio.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFrequencyLikert.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucRiskMonitoringDeadlines.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucImage.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsImages.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFormula.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRatio.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsSemanticDiff.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMaxDiff.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorOpenEnded.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRanking.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsLikertScale.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorScales.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMixedSubIndicators.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMultipleOption.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorYesNo.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorValues.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucOrganisationInfo.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucTargetDeadlines.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailClipboard.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailKeyMoment.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailExchangeRates.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogBudgetItemReference.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToExcel.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImageSelect.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogIndicator.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogActivity.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AboutLogframer.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailProjectInfo.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProgress.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucColorPaletteDialog.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmParent.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmProject.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.SplashScreenLF.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionDependencies.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionAssumptions.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AssumptionRisks.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.BudgetItemRatio.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.BudgetItemRatio.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFormula.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFormula.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFrequencyLikert.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorFrequencyLikert.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMaxDiff.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMaxDiff.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMixedSubIndicators.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMixedSubIndicators.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMultipleOption.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorMultipleOption.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorOpenEnded.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorOpenEnded.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRanking.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRanking.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRatio.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorRatio.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorScales.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorScales.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsImages.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsImages.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsLikertScale.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsLikertScale.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsSemanticDiff.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorTargetsSemanticDiff.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorValues.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorValues.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorYesNo.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.IndicatorYesNo.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucImage.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucImage.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucOrganisationInfo.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucOrganisationInfo.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucRiskMonitoringDeadlines.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucRiskMonitoringDeadlines.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucTargetDeadlines.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucTargetDeadlines.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailBudgetItem.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailActivity.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailClipboard.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailClipboard.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailExchangeRates.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailExchangeRates.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailKeyMoment.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailKeyMoment.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailProjectInfo.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailProjectInfo.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogActivity.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogActivity.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogBudgetItemReference.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogBudgetItemReference.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToExcel.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToExcel.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImageSelect.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImageSelect.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportBudget.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogIndicator.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogIndicator.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPopulationTarget.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProgress.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProgress.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseValue.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetFormula.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetDeadline.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTarget.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.AboutLogframer.fr-FR.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailAssumption.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailGoal.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailIndicator.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailOutput.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailPurpose.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailResource.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DetailVerificationSource.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFindContact.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogAddress.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogContact.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogEmail.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogExportToWord.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogFind.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogImportLogframe.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintHeader.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogKeyMoment.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogProjectPartner.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogPrintPreview.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogResponseClassValues.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogSettings.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroup.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTargetGroupInformation.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogTelephoneNumber.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWebsite.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogNewUnit.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogValueRange.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.DialogWarning.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmParent.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmParent.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmProject.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.frmProject.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsDependencies.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsAssumptions.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsResources.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsBudget.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettings.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsIndicators.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsLogframe.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsPartnerList.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPlanning.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.PrintSettingsPmf.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsRiskRegister.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.en-GB.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintSettingsTargetGroupIdForm.fr.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/FaciliDev.LogFramer.ucPrintDetail.nl.resources
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/LogFramer 2.0.vbproj.GenerateResource.Cache
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/LogFramer 2.0.exe
+/Users/Hugo/Downloads/LogFramer 2.0 - source code/LogFramer/obj/x86/Debug/LogFramer 2.0.xml

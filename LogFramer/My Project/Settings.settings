@@ -1,0 +1,306 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="setDefaultFont" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Verdana, 10pt</Value>
+    </Setting>
+    <Setting Name="setRepeatPurposes" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setRepeatOutputs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setShowIndicatorColumn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setShowVerificationSourceColumn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setShowAssumptionColumn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setShowResourcesBudget" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setSysFont" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Arial, 12pt, style=Bold</Value>
+    </Setting>
+    <Setting Name="setStruct1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Goals</Value>
+    </Setting>
+    <Setting Name="setStruct2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Purposes</Value>
+    </Setting>
+    <Setting Name="setStruct3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Outputs</Value>
+    </Setting>
+    <Setting Name="setStruct4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Activities</Value>
+    </Setting>
+    <Setting Name="setLogframeHideEmptyCells" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setLayOutToolBarVisible" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setDocName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="setDocPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="setWarnLinkedObjectDelete" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setStruct1sing" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Goal</Value>
+    </Setting>
+    <Setting Name="setStruct2sing" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Purpose</Value>
+    </Setting>
+    <Setting Name="setStruct3sing" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Output</Value>
+    </Setting>
+    <Setting Name="setStruct4sing" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Activity</Value>
+    </Setting>
+    <Setting Name="setDefaultIndicatorType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="setShowDetailsLogframe" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setPrintIndicatorsPrintPurposes" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPrintIndicatorsPrintOutputs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPrintIndicatorsPrintOptionValues" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPrintIndicatorsPrintValueRanges" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPrintIndicatorsPrintTargets" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPrintIndicatorsPrintActivities" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPlanningPeriodView" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setPlanningPeriod" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setPrintPlanningShowActivityLinks" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPlanningElementsView" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setDefaultCurrency" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EUR</Value>
+    </Setting>
+    <Setting Name="setProjectLogicIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setDefaultFontUI" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Verdana, 11pt</Value>
+    </Setting>
+    <Setting Name="setHelpPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Help\Logframer 2 Help.chm</Value>
+    </Setting>
+    <Setting Name="setLanguage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en-GB</Value>
+    </Setting>
+    <Setting Name="setRecentFilesList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="setRecentFilesMax" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="setDefaultFontSections" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Verdana, 11pt, style=Bold</Value>
+    </Setting>
+    <Setting Name="setDefaultFontSectionColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="setDefaultColorSectionTop" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">LightGray</Value>
+    </Setting>
+    <Setting Name="setDefaultColorSectionBottom" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Gray</Value>
+    </Setting>
+    <Setting Name="setDefaultFontSortNumbers" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Verdana, 10pt</Value>
+    </Setting>
+    <Setting Name="setSearchContacts" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setMyPrinterSettings" Type="System.Drawing.Printing.PrinterSettings" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="setPrintPartnersBorders" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPrintPartnersFill" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setPrintTargetgroupIdBorders" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setPrintTargetgroupIdFill" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setPrintPlanningRepeatRowHeaders" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setPrintTargetgroupName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">- </Value>
+    </Setting>
+    <Setting Name="setPrintTargetgroupSection" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setPrintIndicatorsTargetgroupGuid" Type="System.Guid" Scope="User">
+      <Value Profile="(Default)">00000000-0000-0000-0000-000000000000</Value>
+    </Setting>
+    <Setting Name="setPrintIndicatorsSection" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setPrintPmfSection" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setPrintRiskRegisterRiskCategory" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setPrintPlanningPeriodView" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setPrintPlanningElements" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setPrintPlanningPeriodFrom" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="setPrintPlanningPeriodUntil" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="setPrintPlanningOutputGuid" Type="System.Guid" Scope="User">
+      <Value Profile="(Default)">00000000-0000-0000-0000-000000000000</Value>
+    </Setting>
+    <Setting Name="setPrintPartnersIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setTimerAutoSave" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setCloudUserApiKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="setServerBaseUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost/lfcloud/public/index.php/api/v1/</Value>
+    </Setting>
+    <Setting Name="setCloudUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="setCloudUserPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="setIndentIncrement" Type="System.String" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="setShowDetailsPlanning" Type="System.String" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setShowDatesColumns" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPlanningHideEmptyCells" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setPlanningActivityLinks" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPlanningKeyMomentLinks" Type="System.String" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setShowAdvancedIndicatorOptions" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setShowDurationColumns" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setBudgetHideEmptyCells" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setShowLocalCurrencyColumn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setShowExchangeRates" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setShowDetailsBudget" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setPrintPlanningShowDatesColumns" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPrintPlanningElementsView" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setPrintPlanningShowKeyMomentLinks" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPrintBudgetShowDurationColumns" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPrintBudgetShowLocalCurrencyColumns" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPrintBudgetShowExchangeRates" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setPrintBudgetPagesWide" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="setPrintPmfPagesWide" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="setPrintIndicatorsMeasurement" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="setPrintRiskRegisterPagesWide" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="setPrintResourcesPagesWide" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="setPrintAssumptionsSection" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="setPrintAssumptionsPagesWide" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="setPrintDependenciesSection" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="setPrintDependenciesPagesWide" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="setPrintDependenciesShowDeliverables" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setPrintPmfShowTargetRowTitles" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setHelpOnline" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.logframer.eu/</Value>
+    </Setting>
+    <Setting Name="setHelpOnlineFacilidev" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.facilidev.eu/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

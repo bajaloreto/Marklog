@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Target</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DialogTargetFormula</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Name">
+    <value>OK_Button</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OK_Button.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin.Name">
+    <value>cmbOpMin</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbOpMin.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dtbDeadline.Name">
+    <value>dtbDeadline</value>
+  </data>
+  <data name="&gt;&gt;dtbDeadline.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtbDeadline.Type">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbDeadline.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblDeadline.Name">
+    <value>lblDeadline</value>
+  </data>
+  <data name="&gt;&gt;lblDeadline.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDeadline.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDeadline.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblFormula.Name">
+    <value>lblFormula</value>
+  </data>
+  <data name="&gt;&gt;lblFormula.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFormula.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFormula.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblFormulaDescription.Name">
+    <value>lblFormulaDescription</value>
+  </data>
+  <data name="&gt;&gt;lblFormulaDescription.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFormulaDescription.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFormulaDescription.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblScoringValue.Name">
+    <value>lblScoringValue</value>
+  </data>
+  <data name="&gt;&gt;lblScoringValue.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblScoringValue.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblScoringValue.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblScoringValueDescription.Name">
+    <value>lblScoringValueDescription</value>
+  </data>
+  <data name="&gt;&gt;lblScoringValueDescription.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblScoringValueDescription.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblScoringValueDescription.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ntbScoringValue.Name">
+    <value>ntbScoringValue</value>
+  </data>
+  <data name="&gt;&gt;ntbScoringValue.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ntbScoringValue.Type">
+    <value>FaciliDev.LogFramer.NumericTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbScoringValue.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbFormula.Name">
+    <value>tbFormula</value>
+  </data>
+  <data name="&gt;&gt;tbFormula.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbFormula.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFormula.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="Cancel_Button.Text">
+    <value>Cancel</value>
+  </data>
+  <data name="OK_Button.Text">
+    <value>OK</value>
+  </data>
+  <data name="lblDeadline.Text">
+    <value>Deadline (date):</value>
+  </data>
+  <data name="lblFormula.Text">
+    <value>Formula</value>
+  </data>
+  <data name="lblFormulaDescription.Text">
+    <value>Use this field to enter the formula to calculate the value for the target. You can use the following codes in your formula:
+     BL = baseline
+     T1 = first target
+     T2 = second target
+     T3 = third target...
+
+Example: if you want to set a target value that is 120% of the baseline, enter:
+     BL * 1.2</value>
+  </data>
+  <data name="lblScoringValue.Text">
+    <value>Scoring value</value>
+  </data>
+  <data name="lblScoringValueDescription.Text">
+    <value>If the criteria above are met, this is the value that will be used to measure the indicator.</value>
+  </data>
+</root>

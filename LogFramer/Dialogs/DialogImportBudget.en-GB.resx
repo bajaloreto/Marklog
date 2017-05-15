@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Import budget from a MS Excel document</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DialogImportBudget</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Name">
+    <value>Cancel_Button</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_Button.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TabControlSteps.Name">
+    <value>TabControlSteps</value>
+  </data>
+  <data name="&gt;&gt;TabControlSteps.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControlSteps.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlSteps.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectColumns.Name">
+    <value>TabPageSelectColumns</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectColumns.Parent">
+    <value>TabControlSteps</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectColumns.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectColumns.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectDocument.Name">
+    <value>TabPageSelectDocument</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectDocument.Parent">
+    <value>TabControlSteps</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectDocument.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectDocument.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectRows.Name">
+    <value>TabPageSelectRows</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectRows.Parent">
+    <value>TabControlSteps</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectRows.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectRows.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectSpreadsheet.Name">
+    <value>TabPageSelectSpreadsheet</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectSpreadsheet.Parent">
+    <value>TabControlSteps</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectSpreadsheet.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageSelectSpreadsheet.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Name">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Parent">
+    <value>TabPageSelectRows</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelColumns.Name">
+    <value>TableLayoutPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelColumns.Parent">
+    <value>TabPageSelectColumns</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelColumns.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelColumns.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnImport.Name">
+    <value>btnImport</value>
+  </data>
+  <data name="&gt;&gt;btnImport.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnImport.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnImport.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFile.Name">
+    <value>btnLoadFile</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFile.Parent">
+    <value>TabPageSelectDocument</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFile.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoadFile.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnToStep2.Name">
+    <value>btnToStep2</value>
+  </data>
+  <data name="&gt;&gt;btnToStep2.Parent">
+    <value>TabPageSelectDocument</value>
+  </data>
+  <data name="&gt;&gt;btnToStep2.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnToStep2.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnToStep3.Name">
+    <value>btnToStep3</value>
+  </data>
+  <data name="&gt;&gt;btnToStep3.Parent">
+    <value>TabPageSelectSpreadsheet</value>
+  </data>
+  <data name="&gt;&gt;btnToStep3.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnToStep3.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnToStep4.Name">
+    <value>btnToStep4</value>
+  </data>
+  <data name="&gt;&gt;btnToStep4.Parent">
+    <value>TabPageSelectColumns</value>
+  </data>
+  <data name="&gt;&gt;btnToStep4.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnToStep4.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnDescription.Name">
+    <value>cmbColumnDescription</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnDescription.Parent">
+    <value>TableLayoutPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnDescription.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnDescription.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnDuration.Name">
+    <value>cmbColumnDuration</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnDuration.Parent">
+    <value>TableLayoutPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnDuration.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnDuration.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnNumber.Name">
+    <value>cmbColumnNumber</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnNumber.Parent">
+    <value>TableLayoutPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnNumber.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnNumber.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnTotalCost.Name">
+    <value>cmbColumnTotalCost</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnTotalCost.Parent">
+    <value>TableLayoutPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnTotalCost.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnTotalCost.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnUnitCost.Name">
+    <value>cmbColumnUnitCost</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnUnitCost.Parent">
+    <value>TableLayoutPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnUnitCost.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbColumnUnitCost.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectWorksheet.Name">
+    <value>cmbSelectWorksheet</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectWorksheet.Parent">
+    <value>TabPageSelectSpreadsheet</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectWorksheet.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectWorksheet.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgWorkSheet.Name">
+    <value>dgWorkSheet</value>
+  </data>
+  <data name="&gt;&gt;dgWorkSheet.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgWorkSheet.Type">
+    <value>FaciliDev.LogFramer.DataGridViewExcelPreview, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dgWorkSheet.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Name">
+    <value>lblDescription</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Parent">
+    <value>TableLayoutPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.ZOrder">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Name">
+    <value>lblDuration</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Parent">
+    <value>TableLayoutPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Name">
+    <value>lblFileName</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Parent">
+    <value>TabPageSelectDocument</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblFirstRow.Name">
+    <value>lblFirstRow</value>
+  </data>
+  <data name="&gt;&gt;lblFirstRow.Parent">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblFirstRow.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFirstRow.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblLastRow.Name">
+    <value>lblLastRow</value>
+  </data>
+  <data name="&gt;&gt;lblLastRow.Parent">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblLastRow.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLastRow.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.Name">
+    <value>lblNumber</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.Parent">
+    <value>TableLayoutPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumber.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblSelectWorksheet.Name">
+    <value>lblSelectWorksheet</value>
+  </data>
+  <data name="&gt;&gt;lblSelectWorksheet.Parent">
+    <value>TabPageSelectSpreadsheet</value>
+  </data>
+  <data name="&gt;&gt;lblSelectWorksheet.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSelectWorksheet.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblStep1.Name">
+    <value>lblStep1</value>
+  </data>
+  <data name="&gt;&gt;lblStep1.Parent">
+    <value>TabPageSelectDocument</value>
+  </data>
+  <data name="&gt;&gt;lblStep1.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStep1.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblStep2.Name">
+    <value>lblStep2</value>
+  </data>
+  <data name="&gt;&gt;lblStep2.Parent">
+    <value>TabPageSelectSpreadsheet</value>
+  </data>
+  <data name="&gt;&gt;lblStep2.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStep2.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblStep3.Name">
+    <value>lblStep3</value>
+  </data>
+  <data name="&gt;&gt;lblStep3.Parent">
+    <value>TabPageSelectColumns</value>
+  </data>
+  <data name="&gt;&gt;lblStep3.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStep3.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblStep4.Name">
+    <value>lblStep4</value>
+  </data>
+  <data name="&gt;&gt;lblStep4.Parent">
+    <value>TabPageSelectRows</value>
+  </data>
+  <data name="&gt;&gt;lblStep4.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStep4.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblTotalCost.Name">
+    <value>lblTotalCost</value>
+  </data>
+  <data name="&gt;&gt;lblTotalCost.Parent">
+    <value>TableLayoutPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;lblTotalCost.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTotalCost.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblUnitCost.Name">
+    <value>lblUnitCost</value>
+  </data>
+  <data name="&gt;&gt;lblUnitCost.Parent">
+    <value>TableLayoutPanelColumns</value>
+  </data>
+  <data name="&gt;&gt;lblUnitCost.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnitCost.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ntbFirstRow.Name">
+    <value>ntbFirstRow</value>
+  </data>
+  <data name="&gt;&gt;ntbFirstRow.Parent">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;ntbFirstRow.Type">
+    <value>FaciliDev.LogFramer.NumericTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbFirstRow.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ntbLastRow.Name">
+    <value>ntbLastRow</value>
+  </data>
+  <data name="&gt;&gt;ntbLastRow.Parent">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;ntbLastRow.Type">
+    <value>FaciliDev.LogFramer.NumericTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbLastRow.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbFileName.Name">
+    <value>tbFileName</value>
+  </data>
+  <data name="&gt;&gt;tbFileName.Parent">
+    <value>TabPageSelectDocument</value>
+  </data>
+  <data name="&gt;&gt;tbFileName.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFileName.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="Cancel_Button.Text">
+    <value>Cancel</value>
+  </data>
+  <data name="Label2.Text">
+    <value>Budget items:</value>
+  </data>
+  <data name="TabPageSelectColumns.Text">
+    <value>Step 3</value>
+  </data>
+  <data name="TabPageSelectDocument.Text">
+    <value>Step 1</value>
+  </data>
+  <data name="TabPageSelectRows.Text">
+    <value>Step 4</value>
+  </data>
+  <data name="TabPageSelectSpreadsheet.Text">
+    <value>Step 2</value>
+  </data>
+  <data name="btnImport.Text">
+    <value>Import</value>
+  </data>
+  <data name="btnToStep2.Text">
+    <value>Next step</value>
+  </data>
+  <data name="btnToStep3.Text">
+    <value>Next step</value>
+  </data>
+  <data name="btnToStep4.Text">
+    <value>Next step</value>
+  </data>
+  <data name="lblDescription.Text">
+    <value>Description</value>
+  </data>
+  <data name="lblDuration.Text">
+    <value>Duration</value>
+  </data>
+  <data name="lblFileName.Text">
+    <value>File name:</value>
+  </data>
+  <data name="lblFirstRow.Text">
+    <value>From row:</value>
+  </data>
+  <data name="lblLastRow.Text">
+    <value>Until row:</value>
+  </data>
+  <data name="lblNumber.Text">
+    <value>Number</value>
+  </data>
+  <data name="lblSelectWorksheet.Text">
+    <value>Worksheet:</value>
+  </data>
+  <data name="lblStep1.Text">
+    <value>Click on the Open file icon to select the MS Excel workbook that you want to open</value>
+  </data>
+  <data name="lblStep2.Text">
+    <value>Use the drop-down list to select the worksheet that contains your logframe. You can see the content of the selected worksheet below.</value>
+  </data>
+  <data name="lblStep3.Text">
+    <value>Indicate in which column (A, B, C, D...) the following elements of the logframe can be found.</value>
+  </data>
+  <data name="lblStep4.Text">
+    <value>Enter the numbers of the first and last rows of the budget</value>
+  </data>
+  <data name="lblTotalCost.Text">
+    <value>Total cost</value>
+  </data>
+  <data name="lblUnitCost.Text">
+    <value>Unit cost</value>
+  </data>
+</root>

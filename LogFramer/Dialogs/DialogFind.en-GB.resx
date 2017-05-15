@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Find and replace</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>DialogFind</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlFindReplace.Name">
+    <value>TabControlFindReplace</value>
+  </data>
+  <data name="&gt;&gt;TabControlFindReplace.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabControlFindReplace.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControlFindReplace.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageFind.Name">
+    <value>TabPageFind</value>
+  </data>
+  <data name="&gt;&gt;TabPageFind.Parent">
+    <value>TabControlFindReplace</value>
+  </data>
+  <data name="&gt;&gt;TabPageFind.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageFind.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageReplace.Name">
+    <value>TabPageReplace</value>
+  </data>
+  <data name="&gt;&gt;TabPageReplace.Parent">
+    <value>TabControlFindReplace</value>
+  </data>
+  <data name="&gt;&gt;TabPageReplace.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageReplace.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent">
+    <value>TabPageFind</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Name">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Parent">
+    <value>TabPageReplace</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Type">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnFindFirst.Name">
+    <value>btnFindFirst</value>
+  </data>
+  <data name="&gt;&gt;btnFindFirst.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnFindFirst.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFindFirst.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnFindNext.Name">
+    <value>btnFindNext</value>
+  </data>
+  <data name="&gt;&gt;btnFindNext.Parent">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnFindNext.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFindNext.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Name">
+    <value>btnReplaceAll</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Parent">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceClose.Name">
+    <value>btnReplaceClose</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceClose.Parent">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceClose.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceClose.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceNext.Name">
+    <value>btnReplaceNext</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceNext.Parent">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceNext.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceNext.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCase.Name">
+    <value>chkMatchCase</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCase.Parent">
+    <value>TabPageFind</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCase.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMatchCase.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkMatchWholeWord.Name">
+    <value>chkMatchWholeWord</value>
+  </data>
+  <data name="&gt;&gt;chkMatchWholeWord.Parent">
+    <value>TabPageFind</value>
+  </data>
+  <data name="&gt;&gt;chkMatchWholeWord.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMatchWholeWord.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceDetails.Name">
+    <value>chkReplaceDetails</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceDetails.Parent">
+    <value>TabPageReplace</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceDetails.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceDetails.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceMatchCase.Name">
+    <value>chkReplaceMatchCase</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceMatchCase.Parent">
+    <value>TabPageReplace</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceMatchCase.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceMatchCase.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceWholeWord.Name">
+    <value>chkReplaceWholeWord</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceWholeWord.Parent">
+    <value>TabPageReplace</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceWholeWord.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkReplaceWholeWord.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkSearchAllPanes.Name">
+    <value>chkSearchAllPanes</value>
+  </data>
+  <data name="&gt;&gt;chkSearchAllPanes.Parent">
+    <value>TabPageFind</value>
+  </data>
+  <data name="&gt;&gt;chkSearchAllPanes.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSearchAllPanes.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblFind.Name">
+    <value>lblFind</value>
+  </data>
+  <data name="&gt;&gt;lblFind.Parent">
+    <value>TabPageFind</value>
+  </data>
+  <data name="&gt;&gt;lblFind.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFind.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblFindReplace.Name">
+    <value>lblFindReplace</value>
+  </data>
+  <data name="&gt;&gt;lblFindReplace.Parent">
+    <value>TabPageReplace</value>
+  </data>
+  <data name="&gt;&gt;lblFindReplace.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFindReplace.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblMessage.Name">
+    <value>lblMessage</value>
+  </data>
+  <data name="&gt;&gt;lblMessage.Parent">
+    <value>TabPageFind</value>
+  </data>
+  <data name="&gt;&gt;lblMessage.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMessage.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblMessageReplace.Name">
+    <value>lblMessageReplace</value>
+  </data>
+  <data name="&gt;&gt;lblMessageReplace.Parent">
+    <value>TabPageReplace</value>
+  </data>
+  <data name="&gt;&gt;lblMessageReplace.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMessageReplace.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblReplace.Name">
+    <value>lblReplace</value>
+  </data>
+  <data name="&gt;&gt;lblReplace.Parent">
+    <value>TabPageReplace</value>
+  </data>
+  <data name="&gt;&gt;lblReplace.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReplace.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbFind.Name">
+    <value>tbFind</value>
+  </data>
+  <data name="&gt;&gt;tbFind.Parent">
+    <value>TabPageFind</value>
+  </data>
+  <data name="&gt;&gt;tbFind.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFind.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbFindReplace.Name">
+    <value>tbFindReplace</value>
+  </data>
+  <data name="&gt;&gt;tbFindReplace.Parent">
+    <value>TabPageReplace</value>
+  </data>
+  <data name="&gt;&gt;tbFindReplace.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFindReplace.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbReplace.Name">
+    <value>tbReplace</value>
+  </data>
+  <data name="&gt;&gt;tbReplace.Parent">
+    <value>TabPageReplace</value>
+  </data>
+  <data name="&gt;&gt;tbReplace.Type">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbReplace.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="TabPageFind.Text">
+    <value>Find</value>
+  </data>
+  <data name="TabPageReplace.Text">
+    <value>Replace</value>
+  </data>
+  <data name="btnClose.Text">
+    <value>Close</value>
+  </data>
+  <data name="btnFindFirst.Text">
+    <value>Find first</value>
+  </data>
+  <data name="btnFindNext.Text">
+    <value>Find next</value>
+  </data>
+  <data name="btnReplaceAll.Text">
+    <value>Replace all</value>
+  </data>
+  <data name="btnReplaceClose.Text">
+    <value>Close</value>
+  </data>
+  <data name="btnReplaceNext.Text">
+    <value>Replace</value>
+  </data>
+  <data name="chkMatchCase.Text">
+    <value>Match case</value>
+  </data>
+  <data name="chkMatchWholeWord.Text">
+    <value>Match whole word</value>
+  </data>
+  <data name="chkReplaceDetails.Text">
+    <value>Search all panes</value>
+  </data>
+  <data name="chkReplaceMatchCase.Text">
+    <value>Match case</value>
+  </data>
+  <data name="chkReplaceWholeWord.Text">
+    <value>Match whole word</value>
+  </data>
+  <data name="chkSearchAllPanes.Text">
+    <value>Search all panes</value>
+  </data>
+  <data name="lblFind.Text">
+    <value>Find this text:</value>
+  </data>
+  <data name="lblFindReplace.Text">
+    <value>Find this text:</value>
+  </data>
+  <data name="lblMessage.Text">
+    <value>lblMessage</value>
+  </data>
+  <data name="lblMessageReplace.Text">
+    <value>Replace message</value>
+  </data>
+  <data name="lblReplace.Text">
+    <value>Replace with:</value>
+  </data>
+</root>

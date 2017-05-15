@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;TabPageTargetGroups.Name" xml:space="preserve">
+    <value>TabPageTargetGroups</value>
+  </data>
+  <data name="&gt;&gt;TabPageDonors.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesGoals.Parent" xml:space="preserve">
+    <value>gbTargetDeadlinesGoals</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesGoals.Parent" xml:space="preserve">
+    <value>PanelTargetDeadlines</value>
+  </data>
+  <data name="&gt;&gt;lvPartners.Parent" xml:space="preserve">
+    <value>SplitContainerPartners.Panel1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TabPageTargetDeadlines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 934</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbTargetDeadlinesPurposes.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ucTargetDeadlinesOutputs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ucTargetDeadlinesGoals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;TabControlProjectInfo.Name" xml:space="preserve">
+    <value>TabControlProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lvContacts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>844, 541</value>
+  </data>
+  <data name="&gt;&gt;TabPagePartners.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.Panel2.Parent" xml:space="preserve">
+    <value>SplitContainerPartners</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesPurposes.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PanelTargetDeadlines.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PanelTargetDeadlines.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 934</value>
+  </data>
+  <data name="tbCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 55</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesOutputs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbRiskMonitoring.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvPartners.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ListViewPartners, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.DateTimePickerLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesOutputs.Parent" xml:space="preserve">
+    <value>PanelTargetDeadlines</value>
+  </data>
+  <data name="lblCode.Text" xml:space="preserve">
+    <value>Code:</value>
+  </data>
+  <data name="SplitContainerTargetGroups.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbShortTitle.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblShortTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 32</value>
+  </data>
+  <data name="&gt;&gt;PanelRiskMonitoring.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbProjectTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lvPartners.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gbRiskMonitoring.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="TabPageTargetDeadlines.Text" xml:space="preserve">
+    <value>Monitoring deadlines</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dtpEndDate.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 58</value>
+  </data>
+  <data name="tbProjectTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>808, 20</value>
+  </data>
+  <data name="gbTargetDeadlinesPurposes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>829, 180</value>
+  </data>
+  <data name="lblEndDate.Text" xml:space="preserve">
+    <value>End date:</value>
+  </data>
+  <data name="tbCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Name" xml:space="preserve">
+    <value>lblStartDate</value>
+  </data>
+  <data name="SplitContainerTargetGroups.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TabPageTargetGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 4</value>
+  </data>
+  <data name="lvTargetGroupStatistics.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargetGroups.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="lblDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="SplitContainerPartners.SplitterDistance" type="System.Int32, mscorlib">
+    <value>383</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesGoals.Name" xml:space="preserve">
+    <value>ucTargetDeadlinesGoals</value>
+  </data>
+  <data name="ucTargetDeadlinesPurposes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblShortTitle.Text" xml:space="preserve">
+    <value>Short title:</value>
+  </data>
+  <data name="ucTargetDeadlinesActivities.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="dtpEndDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="dtpStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 108</value>
+  </data>
+  <data name="ntbDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="SplitContainerPartners.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesOutputs.Parent" xml:space="preserve">
+    <value>gbTargetDeadlinesOutputs</value>
+  </data>
+  <data name="lvTargetGroupStatistics.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesPurposes.Parent" xml:space="preserve">
+    <value>PanelTargetDeadlines</value>
+  </data>
+  <data name="gbTargetDeadlinesPurposes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.Name" xml:space="preserve">
+    <value>lblEndDate</value>
+  </data>
+  <data name="TabPageTargetGroups.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucTargetDeadlinesGoals.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesPurposes.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ucTargetDeadlines, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gbRiskMonitoring.Name" xml:space="preserve">
+    <value>gbRiskMonitoring</value>
+  </data>
+  <data name="TabPageTargetGroups.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="gbTargetDeadlinesOutputs.Text" xml:space="preserve">
+    <value>Result measurement frequency</value>
+  </data>
+  <data name="TabPagePartners.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 4</value>
+  </data>
+  <data name="&gt;&gt;tbProjectTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbShortTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 29</value>
+  </data>
+  <data name="lblShortTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesGoals.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ucRiskMonitoring.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ucRiskMonitoringDeadlines, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="SplitContainerPartners.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Name" xml:space="preserve">
+    <value>dtpStartDate</value>
+  </data>
+  <data name="PanelTargetDeadlines.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblProjectTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 6</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Name" xml:space="preserve">
+    <value>lblDuration</value>
+  </data>
+  <data name="&gt;&gt;lvTargetGroups.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ListViewTargetGroups, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="SplitContainerTargetGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>844, 928</value>
+  </data>
+  <data name="SplitContainerTargetGroups.SplitterDistance" type="System.Int32, mscorlib">
+    <value>479</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesActivities.Name" xml:space="preserve">
+    <value>gbTargetDeadlinesActivities</value>
+  </data>
+  <data name="lvTargetGroups.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesOutputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPageDonors.Text" xml:space="preserve">
+    <value>Donors - contracts</value>
+  </data>
+  <data name="&gt;&gt;TabPageDonors.Parent" xml:space="preserve">
+    <value>TabControlProjectInfo</value>
+  </data>
+  <data name="ucTargetDeadlinesGoals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>821, 161</value>
+  </data>
+  <data name="dtpStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelTargetDeadlines.Name" xml:space="preserve">
+    <value>PanelTargetDeadlines</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.Panel2.Name" xml:space="preserve">
+    <value>SplitContainerTargetGroups.Panel2</value>
+  </data>
+  <data name="gbTargetDeadlinesActivities.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblProjectTitle.Text" xml:space="preserve">
+    <value>Project title:</value>
+  </data>
+  <data name="gbTargetDeadlinesActivities.Size" type="System.Drawing.Size, System.Drawing">
+    <value>824, 180</value>
+  </data>
+  <data name="TabControlProjectInfo.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 112</value>
+  </data>
+  <data name="&gt;&gt;ucRiskMonitoring.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lvTargetGroupStatistics.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ListViewTargetGroupStatistics, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesActivities.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ucTargetDeadlines, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesOutputs.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ucTargetDeadlines, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lvTargetGroupStatistics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>844, 445</value>
+  </data>
+  <data name="&gt;&gt;lblCode.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblStartDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbRiskMonitoring.Size" type="System.Drawing.Size, System.Drawing">
+    <value>824, 180</value>
+  </data>
+  <data name="PanelRiskMonitoring.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 186</value>
+  </data>
+  <data name="cmbDurationUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblEndDate.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="gbTargetDeadlinesOutputs.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesPurposes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblProjectTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PanelRiskMonitoring.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 744</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesPurposes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lvTargetGroupStatistics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Name" xml:space="preserve">
+    <value>ntbDuration</value>
+  </data>
+  <data name="lblStartDate.Text" xml:space="preserve">
+    <value>Start date:</value>
+  </data>
+  <data name="ucTargetDeadlinesGoals.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesOutputs.Name" xml:space="preserve">
+    <value>ucTargetDeadlinesOutputs</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargetDeadlines.Name" xml:space="preserve">
+    <value>TabPageTargetDeadlines</value>
+  </data>
+  <data name="ucTargetDeadlinesActivities.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ucRiskMonitoring.Size" type="System.Drawing.Size, System.Drawing">
+    <value>815, 161</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblProjectTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ucTargetDeadlinesPurposes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tbCode.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tbCode.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblShortTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbTargetDeadlinesGoals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.Name" xml:space="preserve">
+    <value>SplitContainerTargetGroups</value>
+  </data>
+  <data name="&gt;&gt;lblCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ucTargetDeadlinesPurposes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 161</value>
+  </data>
+  <data name="&gt;&gt;PanelRiskMonitoring.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesPurposes.Name" xml:space="preserve">
+    <value>ucTargetDeadlinesPurposes</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TabPageTargetDeadlines.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesActivities.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesActivities.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesOutputs.Name" xml:space="preserve">
+    <value>gbTargetDeadlinesOutputs</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesGoals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbShortTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="&gt;&gt;tbShortTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ucTargetDeadlinesActivities.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dtpStartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.Panel2.Name" xml:space="preserve">
+    <value>SplitContainerPartners.Panel2</value>
+  </data>
+  <data name="lblStartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gbTargetDeadlinesGoals.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Name" xml:space="preserve">
+    <value>dtpEndDate</value>
+  </data>
+  <data name="ucTargetDeadlinesActivities.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 161</value>
+  </data>
+  <data name="gbTargetDeadlinesActivities.Text" xml:space="preserve">
+    <value>Progress measurement frequency</value>
+  </data>
+  <data name="lblEndDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 138</value>
+  </data>
+  <data name="tbShortTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;PanelTargetDeadlines.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargetDeadlines.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblShortTitle.Name" xml:space="preserve">
+    <value>lblShortTitle</value>
+  </data>
+  <data name="TabPageDonors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 934</value>
+  </data>
+  <data name="TabPageTargetGroups.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargetGroups.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbTargetDeadlinesPurposes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 189</value>
+  </data>
+  <data name="SplitContainerPartners.Size" type="System.Drawing.Size, System.Drawing">
+    <value>844, 928</value>
+  </data>
+  <data name="gbTargetDeadlinesGoals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>827, 180</value>
+  </data>
+  <data name="&gt;&gt;lblProjectTitle.Name" xml:space="preserve">
+    <value>lblProjectTitle</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShortTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCode.Name" xml:space="preserve">
+    <value>lblCode</value>
+  </data>
+  <data name="ucRiskMonitoring.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbTargetDeadlinesGoals.Text" xml:space="preserve">
+    <value>Impact measurment frequency</value>
+  </data>
+  <data name="lvPartners.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gbRiskMonitoring.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lvContacts.Name" xml:space="preserve">
+    <value>lvContacts</value>
+  </data>
+  <data name="&gt;&gt;TabControlProjectInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesGoals.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ucTargetDeadlines, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TabControlProjectInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblProjectTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ucTargetDeadlinesOutputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 161</value>
+  </data>
+  <data name="lblCode.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gbTargetDeadlinesPurposes.Text" xml:space="preserve">
+    <value>Effect measurement frequency</value>
+  </data>
+  <data name="&gt;&gt;tbShortTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lvTargetGroups.Parent" xml:space="preserve">
+    <value>SplitContainerTargetGroups.Panel1</value>
+  </data>
+  <data name="&gt;&gt;PanelRiskMonitoring.Parent" xml:space="preserve">
+    <value>PanelTargetDeadlines</value>
+  </data>
+  <data name="TabPagePartners.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lvTargetGroupStatistics.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 84</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.Panel2.Parent" xml:space="preserve">
+    <value>SplitContainerTargetGroups</value>
+  </data>
+  <data name="&gt;&gt;TabPagePartners.Parent" xml:space="preserve">
+    <value>TabControlProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lvPartners.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lvTargetGroupStatistics.Name" xml:space="preserve">
+    <value>lvTargetGroupStatistics</value>
+  </data>
+  <data name="cmbDurationUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 81</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblDuration.Text" xml:space="preserve">
+    <value>Duration:</value>
+  </data>
+  <data name="gbTargetDeadlinesGoals.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ucTargetDeadlinesPurposes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplitContainerTargetGroups.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="TabControlProjectInfo.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="gbTargetDeadlinesActivities.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Name" xml:space="preserve">
+    <value>cmbDurationUnit</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.Name" xml:space="preserve">
+    <value>SplitContainerPartners</value>
+  </data>
+  <data name="lvContacts.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TabPagePartners.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 934</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesActivities.Parent" xml:space="preserve">
+    <value>PanelTargetDeadlines</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lvTargetGroups.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPagePartners.Name" xml:space="preserve">
+    <value>TabPagePartners</value>
+  </data>
+  <data name="SplitContainerPartners.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="gbRiskMonitoring.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lvContacts.Parent" xml:space="preserve">
+    <value>SplitContainerPartners.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvContacts.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ListViewContacts, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TabPagePartners.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lvTargetGroups.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ucTargetDeadlinesOutputs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DetailProjectInfo</value>
+  </data>
+  <data name="&gt;&gt;tbShortTitle.Name" xml:space="preserve">
+    <value>tbShortTitle</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageDonors.Name" xml:space="preserve">
+    <value>TabPageDonors</value>
+  </data>
+  <data name="lvTargetGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lvTargetGroupStatistics.Parent" xml:space="preserve">
+    <value>SplitContainerTargetGroups.Panel2</value>
+  </data>
+  <data name="lblProjectTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gbTargetDeadlinesOutputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 375</value>
+  </data>
+  <data name="TabPageDonors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 4</value>
+  </data>
+  <data name="&gt;&gt;lvPartners.Name" xml:space="preserve">
+    <value>lvPartners</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.Parent" xml:space="preserve">
+    <value>TabPagePartners</value>
+  </data>
+  <data name="&gt;&gt;TabControlProjectInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPageTargetGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 934</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.Panel1.Name" xml:space="preserve">
+    <value>SplitContainerTargetGroups.Panel1</value>
+  </data>
+  <data name="lblShortTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lvTargetGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>844, 479</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lvContacts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblProjectTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesPurposes.Name" xml:space="preserve">
+    <value>gbTargetDeadlinesPurposes</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesActivities.Name" xml:space="preserve">
+    <value>ucTargetDeadlinesActivities</value>
+  </data>
+  <data name="ucRiskMonitoring.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 13</value>
+  </data>
+  <data name="lblCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TabPageTargetDeadlines.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 4</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.Parent" xml:space="preserve">
+    <value>TabPageTargetGroups</value>
+  </data>
+  <data name="&gt;&gt;PanelRiskMonitoring.Name" xml:space="preserve">
+    <value>PanelRiskMonitoring</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.Panel1.Parent" xml:space="preserve">
+    <value>SplitContainerTargetGroups</value>
+  </data>
+  <data name="lblProjectTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargetDeadlines.Parent" xml:space="preserve">
+    <value>TabControlProjectInfo</value>
+  </data>
+  <data name="ntbDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 81</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesActivities.Parent" xml:space="preserve">
+    <value>gbTargetDeadlinesActivities</value>
+  </data>
+  <data name="&gt;&gt;gbRiskMonitoring.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelTargetDeadlines.Parent" xml:space="preserve">
+    <value>TabPageTargetDeadlines</value>
+  </data>
+  <data name="dtpEndDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 134</value>
+  </data>
+  <data name="&gt;&gt;lblCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucRiskMonitoring.Parent" xml:space="preserve">
+    <value>gbRiskMonitoring</value>
+  </data>
+  <data name="lblShortTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lvContacts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lvContacts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>883, 1105</value>
+  </data>
+  <data name="&gt;&gt;TabPageDonors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbProjectTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 3</value>
+  </data>
+  <data name="&gt;&gt;tbCode.Name" xml:space="preserve">
+    <value>tbCode</value>
+  </data>
+  <data name="&gt;&gt;lblShortTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SplitContainerPartners.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="lblEndDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerTargetGroups.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCode.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblShortTitle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.Panel1.Name" xml:space="preserve">
+    <value>SplitContainerPartners.Panel1</value>
+  </data>
+  <data name="TabControlProjectInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>877, 942</value>
+  </data>
+  <data name="&gt;&gt;tbCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDuration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PanelRiskMonitoring.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;lvPartners.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbProjectTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbProjectTitle.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ucTargetDeadlinesOutputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="TabControlProjectInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="gbRiskMonitoring.Text" xml:space="preserve">
+    <value>Risk monitoring frequency</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.Panel1.Parent" xml:space="preserve">
+    <value>SplitContainerPartners</value>
+  </data>
+  <data name="SplitContainerTargetGroups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="TabPagePartners.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbDurationUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="&gt;&gt;ucRiskMonitoring.Name" xml:space="preserve">
+    <value>ucRiskMonitoring</value>
+  </data>
+  <data name="lblEndDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.DateTimePickerLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="gbTargetDeadlinesActivities.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 561</value>
+  </data>
+  <data name="lblStartDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;gbRiskMonitoring.Parent" xml:space="preserve">
+    <value>PanelRiskMonitoring</value>
+  </data>
+  <data name="&gt;&gt;SplitContainerPartners.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbProjectTitle.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblCode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ntbDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="PanelRiskMonitoring.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesGoals.Name" xml:space="preserve">
+    <value>gbTargetDeadlinesGoals</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesPurposes.Parent" xml:space="preserve">
+    <value>gbTargetDeadlinesPurposes</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesGoals.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="gbTargetDeadlinesOutputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>824, 180</value>
+  </data>
+  <data name="TabPagePartners.Text" xml:space="preserve">
+    <value>Partners</value>
+  </data>
+  <data name="gbTargetDeadlinesOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="TabPageDonors.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TabControlProjectInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 160</value>
+  </data>
+  <data name="&gt;&gt;PanelTargetDeadlines.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PanelTargetDeadlines.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericBoundTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucTargetDeadlinesOutputs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargetDeadlines.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblProjectTitle.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lvTargetGroups.Name" xml:space="preserve">
+    <value>lvTargetGroups</value>
+  </data>
+  <data name="TabPageTargetGroups.Text" xml:space="preserve">
+    <value>Target groups</value>
+  </data>
+  <data name="lblDuration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gbTargetDeadlinesActivities.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbProjectTitle.Name" xml:space="preserve">
+    <value>tbProjectTitle</value>
+  </data>
+  <data name="lvPartners.Size" type="System.Drawing.Size, System.Drawing">
+    <value>844, 383</value>
+  </data>
+  <data name="PanelTargetDeadlines.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;TabPageTargetGroups.Parent" xml:space="preserve">
+    <value>TabControlProjectInfo</value>
+  </data>
+  <data name="TabControlProjectInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblEndDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr</value>
+  </metadata>
+</root>

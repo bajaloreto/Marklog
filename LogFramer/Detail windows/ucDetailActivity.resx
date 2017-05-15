@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TabPagePreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lblEndDatePreparation.Text" xml:space="preserve">
+    <value>Ends:</value>
+  </data>
+  <data name="&gt;&gt;cmbFollowUpUnit.Name" xml:space="preserve">
+    <value>cmbFollowUpUnit</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateFollowUp.Name" xml:space="preserve">
+    <value>dtbEndDateFollowUp</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationFromStart.Name" xml:space="preserve">
+    <value>chkPreparationFromStart</value>
+  </data>
+  <data name="rbtnExactDate.Text" xml:space="preserve">
+    <value>At this exact date:</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rbtnReferenceDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblEndDateMainActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;chkDurationUntilEnd.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;lblEndDatePreparation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblStartDateMainActivity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbGuidReferenceMoment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 6</value>
+  </data>
+  <data name="TabPagePreparation.Text" xml:space="preserve">
+    <value>Preparation &amp; Follow-up</value>
+  </data>
+  <data name="&gt;&gt;cmbPreparationUnit.Name" xml:space="preserve">
+    <value>cmbPreparationUnit</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbGuidReferenceMoment.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="chkDurationUntilEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="dtbStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 33</value>
+  </data>
+  <data name="&gt;&gt;ntbPreparation.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;tbActivity.Name" xml:space="preserve">
+    <value>tbActivity</value>
+  </data>
+  <data name="lblExactStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lblFollowUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="&gt;&gt;lblOrganisation.Parent" xml:space="preserve">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="&gt;&gt;lvRepeatDates.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDatePreparation.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDatePreparation.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="TabPageOrganisation.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rbtnReferenceDate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ntbRepeatEvery.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lvDetailProcesses.Parent" xml:space="preserve">
+    <value>TabPageChildActivities</value>
+  </data>
+  <data name="ntbPreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 6</value>
+  </data>
+  <data name="dtbEndDatePreparation.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="lblType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbFollowUpUnit.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEndDatePreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>652, 9</value>
+  </data>
+  <data name="&gt;&gt;TabPageDuration.Name" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="lblExactEndDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkPreparationRepeat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 8</value>
+  </data>
+  <data name="&gt;&gt;lvDetailProcesses.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ListViewProcesses, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbLocation.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dtbEndDateFollowUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>692, 32</value>
+  </data>
+  <data name="tbActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 16</value>
+  </data>
+  <data name="&gt;&gt;lblExactStartDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRepeat.Name" xml:space="preserve">
+    <value>lblRepeat</value>
+  </data>
+  <data name="&gt;&gt;cmbType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateMainActivity.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="cmbRepeatUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpRepeat.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateFollowUp.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatEvery.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbPreparationUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateFollowUp.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="TabPagePreparation.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrganisation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbtnExactDate.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateMainActivity.Name" xml:space="preserve">
+    <value>dtbStartDateMainActivity</value>
+  </data>
+  <data name="lblEndDateMainActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 114</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbPeriodUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="tbActivity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cmbRepeatUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 6</value>
+  </data>
+  <data name="cmbLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ntbFollowUp.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpUntilEnd.Name" xml:space="preserve">
+    <value>chkFollowUpUntilEnd</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Name" xml:space="preserve">
+    <value>lblActivity</value>
+  </data>
+  <data name="lblEndDateMainActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="dtbStartDateFollowUp.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblPreparation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lvDetailProcesses.Name" xml:space="preserve">
+    <value>lvDetailProcesses</value>
+  </data>
+  <data name="chkPreparationFromStart.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblPreparation.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ntbDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cmbFollowUpUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;dtbExactEndDate.Name" xml:space="preserve">
+    <value>dtbExactEndDate</value>
+  </data>
+  <data name="chkRepeatUntilEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateFollowUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.Name" xml:space="preserve">
+    <value>rbtnReferenceDate</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatTimes.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDate.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="dtbStartDateMainActivity.Text" xml:space="preserve">
+    <value>30/05/2013</value>
+  </data>
+  <data name="&gt;&gt;TabPageDuration.Parent" xml:space="preserve">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="dtbEndDatePreparation.Text" xml:space="preserve">
+    <value>30/05/2013</value>
+  </data>
+  <data name="lblTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dtbExactStartDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbGuidReferenceMoment.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblEndDatePreparation.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblExactStartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkFollowUpRepeat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TabPagePreparation.Parent" xml:space="preserve">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="lblRepeat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ntbPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="chkPreparationFromStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 8</value>
+  </data>
+  <data name="&gt;&gt;lblExactStartDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPageDuration.Text" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="dtbExactEndDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1081, 3</value>
+  </data>
+  <data name="&gt;&gt;cmbOrganisation.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkDurationUntilEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblActivity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblExactEndDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dtbStartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="dtbExactStartDate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="dtbEndDateFollowUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="&gt;&gt;lblStartDatePreparation.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lvRepeatDates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEndDateFollowUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="&gt;&gt;cmbFollowUpUnit.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;cmbLocation.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationRepeat.Name" xml:space="preserve">
+    <value>chkPreparationRepeat</value>
+  </data>
+  <data name="&gt;&gt;lblFollowUp.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="cmbPeriodDirection.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkPreparationRepeat.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblExactStartDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblEndDateFollowUp.Text" xml:space="preserve">
+    <value>Ends:</value>
+  </data>
+  <data name="chkDurationUntilEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 61</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatDates.Name" xml:space="preserve">
+    <value>lblRepeatDates</value>
+  </data>
+  <data name="&gt;&gt;TabPageChildActivities.Parent" xml:space="preserve">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="lblOrganisation.Text" xml:space="preserve">
+    <value>Organised by:</value>
+  </data>
+  <data name="lvRepeatDates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 33</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Name" xml:space="preserve">
+    <value>lblDuration</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;TabPagePreparation.Name" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="lblLocation.Text" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="tbActivity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt, style=Bold</value>
+  </data>
+  <data name="lblEndDatePreparation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lvRepeatDates.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="rbtnExactDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="chkPreparationFromStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkDurationUntilEnd.Text" xml:space="preserve">
+    <value>Until end of project</value>
+  </data>
+  <data name="TabPageOrganisation.Text" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateMainActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageRepeat.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbActivity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dtbExactEndDate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;dtbExactStartDate.Name" xml:space="preserve">
+    <value>dtbExactStartDate</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 9</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateFollowUp.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblEndDatePreparation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvRepeatDates.Parent" xml:space="preserve">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="dtbStartDatePreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 6</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateMainActivity.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkFollowUpRepeat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDatePreparation.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblStartDateFollowUp.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblStartDateFollowUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="dtbStartDatePreparation.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateFollowUp.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ntbPeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 6</value>
+  </data>
+  <data name="lblStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectValue, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TabControlActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblType.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateMainActivity.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationFromStart.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbOrganisation.Parent" xml:space="preserve">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="&gt;&gt;cmbOrganisation.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxText, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpUntilEnd.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateMainActivity.Name" xml:space="preserve">
+    <value>lblStartDateMainActivity</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateMainActivity.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;TabPageDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblStartDateMainActivity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFollowUp.Text" xml:space="preserve">
+    <value>Follow-up:</value>
+  </data>
+  <data name="cmbDurationUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateFollowUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartDatePreparation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dtbExactStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;cmbGuidReferenceMoment.Name" xml:space="preserve">
+    <value>cmbGuidReferenceMoment</value>
+  </data>
+  <data name="lvDetailProcesses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblExactEndDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dtbStartDateFollowUp.Text" xml:space="preserve">
+    <value>30/05/2013</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Name" xml:space="preserve">
+    <value>ntbDuration</value>
+  </data>
+  <data name="&gt;&gt;lblTimes.Name" xml:space="preserve">
+    <value>lblTimes</value>
+  </data>
+  <data name="cmbPeriodDirection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 6</value>
+  </data>
+  <data name="dtbStartDateFollowUp.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ntbFollowUp.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ntbRepeatTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatUntilEnd.Name" xml:space="preserve">
+    <value>chkRepeatUntilEnd</value>
+  </data>
+  <data name="lblPreparation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblExactStartDate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="TabPageDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 188</value>
+  </data>
+  <data name="cmbPeriodUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 6</value>
+  </data>
+  <data name="lblActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="lblRepeat.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblNumberRepeats.Name" xml:space="preserve">
+    <value>lblNumberRepeats</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateFollowUp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblStartDatePreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 9</value>
+  </data>
+  <data name="lblPreparation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblEndDateFollowUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>652, 35</value>
+  </data>
+  <data name="chkPreparationFromStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="lblPreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 10</value>
+  </data>
+  <data name="TabPageDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.Name" xml:space="preserve">
+    <value>cmbPeriodDirection</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateFollowUp.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatUntilEnd.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblEndDateMainActivity.Text" xml:space="preserve">
+    <value>End date:</value>
+  </data>
+  <data name="TabControlActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbPreparation.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatTimes.Name" xml:space="preserve">
+    <value>ntbRepeatTimes</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.Name" xml:space="preserve">
+    <value>cmbPeriodUnit</value>
+  </data>
+  <data name="lblFollowUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTimes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNumberRepeats.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TabPageDuration.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblStartDatePreparation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cmbLocation.Parent" xml:space="preserve">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="lblEndDatePreparation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationFromStart.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblDuration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnReferenceDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 9</value>
+  </data>
+  <data name="chkPreparationFromStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TabControlActivity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblEndDateMainActivity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateMainActivity.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="cmbFollowUpUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateMainActivity.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ntbPreparation.Name" xml:space="preserve">
+    <value>ntbPreparation</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatUntilEnd.Parent" xml:space="preserve">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="dtbEndDatePreparation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.Name" xml:space="preserve">
+    <value>lblLocation</value>
+  </data>
+  <data name="dtbStartDateMainActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 86</value>
+  </data>
+  <data name="dtbStartDateFollowUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 32</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRepeatUntilEnd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lvRepeatDates.Name" xml:space="preserve">
+    <value>lvRepeatDates</value>
+  </data>
+  <data name="lblLocation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dtbExactEndDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblStartDatePreparation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="&gt;&gt;cmbGuidReferenceMoment.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectValue, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblOrganisation.Name" xml:space="preserve">
+    <value>lblOrganisation</value>
+  </data>
+  <data name="chkDurationUntilEnd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateMainActivity.Name" xml:space="preserve">
+    <value>lblEndDateMainActivity</value>
+  </data>
+  <data name="lblStartDateMainActivity.Text" xml:space="preserve">
+    <value>Start date:</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDatePreparation.Name" xml:space="preserve">
+    <value>dtbStartDatePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblEndDatePreparation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TabPagePreparation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblNumberRepeats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateMainActivity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbPreparationUnit.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrganisation.Parent" xml:space="preserve">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="lblLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 60</value>
+  </data>
+  <data name="dtbStartDateFollowUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="TabPageChildActivities.Text" xml:space="preserve">
+    <value>Child activities</value>
+  </data>
+  <data name="lblStartDateFollowUp.Text" xml:space="preserve">
+    <value>Follow-up starts:</value>
+  </data>
+  <data name="lblRepeatDates.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmbPreparationUnit.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="rbtnReferenceDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lvRepeatDates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 152</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateMainActivity.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.Name" xml:space="preserve">
+    <value>rbtnExactDate</value>
+  </data>
+  <data name="cmbLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 21</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrganisation.Name" xml:space="preserve">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="lblExactEndDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1044, 6</value>
+  </data>
+  <data name="lblExactStartDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmbPreparationUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="lblFollowUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 36</value>
+  </data>
+  <data name="chkPreparationRepeat.Text" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="lblLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="dtbEndDateFollowUp.Text" xml:space="preserve">
+    <value>30/05/2013</value>
+  </data>
+  <data name="chkRepeatUntilEnd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRepeat.Text" xml:space="preserve">
+    <value>Repeat every:</value>
+  </data>
+  <data name="cmbOrganisation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 21</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOrganisation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dtbExactStartDate.Text" xml:space="preserve">
+    <value>30/05/2013</value>
+  </data>
+  <data name="cmbRepeatUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="lblRepeatDates.Text" xml:space="preserve">
+    <value>Dates:</value>
+  </data>
+  <data name="TabControlActivity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateMainActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtbExactEndDate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TabPageRepeat.Name" xml:space="preserve">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="chkFollowUpUntilEnd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFollowUp.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cmbType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 3</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatTimes.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;rbtnExactDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndDatePreparation.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;ntbFollowUp.Name" xml:space="preserve">
+    <value>ntbFollowUp</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>Activity type:</value>
+  </data>
+  <data name="lblDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 62</value>
+  </data>
+  <data name="&gt;&gt;TabPageDuration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbPreparationUnit.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="rbtnReferenceDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="&gt;&gt;lblOrganisation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPageChildActivities.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lblEndDateFollowUp.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="cmbType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="cmbDurationUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 59</value>
+  </data>
+  <data name="&gt;&gt;dtbExactStartDate.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cmbType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 21</value>
+  </data>
+  <data name="lblPreparation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="&gt;&gt;lblPreparation.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="lblDuration.Text" xml:space="preserve">
+    <value>Duration:</value>
+  </data>
+  <data name="dtbStartDateMainActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="lvDetailProcesses.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblStartDateMainActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ntbPeriod.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblActivity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cmbOrganisation.Name" xml:space="preserve">
+    <value>cmbOrganisation</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationFromStart.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="TabPageRepeat.Text" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="lvRepeatDates.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cmbLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 57</value>
+  </data>
+  <data name="chkDurationUntilEnd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDatePreparation.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbRepeatUnit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblExactEndDate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="dtbEndDateMainActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="TabPageChildActivities.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbtnReferenceDate.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateFollowUp.Name" xml:space="preserve">
+    <value>dtbStartDateFollowUp</value>
+  </data>
+  <data name="lblEndDateFollowUp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDate.Name" xml:space="preserve">
+    <value>dtbStartDate</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblNumberRepeats.Text" xml:space="preserve">
+    <value>Repeat:</value>
+  </data>
+  <data name="lblStartDatePreparation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent" xml:space="preserve">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="chkRepeatUntilEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 8</value>
+  </data>
+  <data name="&gt;&gt;lblFollowUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTimes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblExactEndDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblStartDateFollowUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblExactEndDate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatDates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbGuidReferenceMoment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>753, 21</value>
+  </data>
+  <data name="rbtnExactDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 33</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateMainActivity.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="TabControlActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="&gt;&gt;TabPageChildActivities.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ntbRepeatTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 6</value>
+  </data>
+  <data name="lblEndDateFollowUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="dtbEndDateFollowUp.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;TabPagePreparation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dtbEndDateMainActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="rbtnExactDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblExactStartDate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 9</value>
+  </data>
+  <data name="ntbPreparation.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmbPeriodDirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDatePreparation.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="dtbExactStartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblNumberRepeats.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRepeat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="dtbStartDatePreparation.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;lblStartDatePreparation.Name" xml:space="preserve">
+    <value>lblStartDatePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatDates.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkPreparationRepeat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblExactEndDate.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblRepeatDates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateFollowUp.Name" xml:space="preserve">
+    <value>lblEndDateFollowUp</value>
+  </data>
+  <data name="&gt;&gt;cmbRepeatUnit.Parent" xml:space="preserve">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;lblNumberRepeats.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpUntilEnd.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblNumberRepeats.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dtbEndDateFollowUp.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatEvery.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.NumericTextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblActivity.Text" xml:space="preserve">
+    <value>Activity:</value>
+  </data>
+  <data name="chkFollowUpRepeat.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="dtbExactEndDate.Text" xml:space="preserve">
+    <value>30/05/2013</value>
+  </data>
+  <data name="lblOrganisation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lvDetailProcesses.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblTimes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkPreparationFromStart.Text" xml:space="preserve">
+    <value>From start of project</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationRepeat.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="ntbRepeatEvery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 6</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateFollowUp.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationRepeat.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TabPageRepeat.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpRepeat.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblStart.Text" xml:space="preserve">
+    <value>Activity starts:</value>
+  </data>
+  <data name="ntbPreparation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="ntbFollowUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 32</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDatePreparation.Name" xml:space="preserve">
+    <value>dtbEndDatePreparation</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodDirection.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chkRepeatUntilEnd.Text" xml:space="preserve">
+    <value>Until end of project</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatTimes.Parent" xml:space="preserve">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="lblStartDateFollowUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 35</value>
+  </data>
+  <data name="chkFollowUpUntilEnd.Text" xml:space="preserve">
+    <value>Until end of project</value>
+  </data>
+  <data name="&gt;&gt;chkDurationUntilEnd.Name" xml:space="preserve">
+    <value>chkDurationUntilEnd</value>
+  </data>
+  <data name="&gt;&gt;lblExactStartDate.Name" xml:space="preserve">
+    <value>lblExactStartDate</value>
+  </data>
+  <data name="&gt;&gt;TabPageRepeat.Parent" xml:space="preserve">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="ntbDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 59</value>
+  </data>
+  <data name="ntbRepeatEvery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;lblFollowUp.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dtbExactEndDate.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblFollowUp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DetailActivity</value>
+  </data>
+  <data name="&gt;&gt;dtbEndDateMainActivity.Name" xml:space="preserve">
+    <value>dtbEndDateMainActivity</value>
+  </data>
+  <data name="lblStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="lblStartDatePreparation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblNumberRepeats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 9</value>
+  </data>
+  <data name="dtbEndDateMainActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 112</value>
+  </data>
+  <data name="lblTimes.Text" xml:space="preserve">
+    <value>times</value>
+  </data>
+  <data name="&gt;&gt;lblEndDatePreparation.Name" xml:space="preserve">
+    <value>lblEndDatePreparation</value>
+  </data>
+  <data name="TabPageRepeat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 188</value>
+  </data>
+  <data name="lvDetailProcesses.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmbOrganisation.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmbPreparationUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="dtbExactStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>938, 3</value>
+  </data>
+  <data name="lblRepeat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="lblStartDateMainActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 88</value>
+  </data>
+  <data name="dtbStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 20</value>
+  </data>
+  <data name="lblNumberRepeats.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDatePreparation.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TabPageDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmbOrganisation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 30</value>
+  </data>
+  <data name="&gt;&gt;lblRepeat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageOrganisation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStart.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cmbGuidReferenceMoment.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkFollowUpUntilEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="chkFollowUpUntilEnd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblStartDateFollowUp.Name" xml:space="preserve">
+    <value>lblStartDateFollowUp</value>
+  </data>
+  <data name="&gt;&gt;chkPreparationRepeat.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Name" xml:space="preserve">
+    <value>cmbType</value>
+  </data>
+  <data name="lblRepeatDates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
+  </data>
+  <data name="lblLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TabPageOrganisation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;dtbExactStartDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkFollowUpUntilEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="&gt;&gt;lblPreparation.Name" xml:space="preserve">
+    <value>lblPreparation</value>
+  </data>
+  <data name="lblEndDateMainActivity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ntbDuration.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="&gt;&gt;tbActivity.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblRepeatDates.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDuration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ntbRepeatTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatEvery.Parent" xml:space="preserve">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="lblStartDateFollowUp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbType.Parent" xml:space="preserve">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="&gt;&gt;TabControlActivity.Name" xml:space="preserve">
+    <value>TabControlActivity</value>
+  </data>
+  <data name="lblEndDateFollowUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tbActivity.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ntbFollowUp.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="dtbEndDatePreparation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>692, 6</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1185, 242</value>
+  </data>
+  <data name="lblStartDateFollowUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="&gt;&gt;TabPageRepeat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblExactEndDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Name" xml:space="preserve">
+    <value>lblStart</value>
+  </data>
+  <data name="&gt;&gt;ntbRepeatEvery.Name" xml:space="preserve">
+    <value>ntbRepeatEvery</value>
+  </data>
+  <data name="TabControlActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1179, 214</value>
+  </data>
+  <data name="lblOrganisation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
+  </data>
+  <data name="chkPreparationRepeat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="lblPreparation.Text" xml:space="preserve">
+    <value>Preparation:</value>
+  </data>
+  <data name="lblStartDatePreparation.Text" xml:space="preserve">
+    <value>Preparation starts:</value>
+  </data>
+  <data name="&gt;&gt;cmbLocation.Name" xml:space="preserve">
+    <value>cmbLocation</value>
+  </data>
+  <data name="cmbDurationUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateFollowUp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkFollowUpRepeat.Text" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="&gt;&gt;chkDurationUntilEnd.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatDates.Parent" xml:space="preserve">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="dtbStartDatePreparation.Text" xml:space="preserve">
+    <value>30/05/2013</value>
+  </data>
+  <data name="lblStartDateMainActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="lblEndDateMainActivity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRepeatUntilEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dtbEndDatePreparation.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;TabPageChildActivities.Name" xml:space="preserve">
+    <value>TabPageChildActivities</value>
+  </data>
+  <data name="&gt;&gt;ntbPeriod.Name" xml:space="preserve">
+    <value>ntbPeriod</value>
+  </data>
+  <data name="dtbExactEndDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateFollowUp.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblEndDateMainActivity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbDurationUnit.Name" xml:space="preserve">
+    <value>cmbDurationUnit</value>
+  </data>
+  <data name="ntbFollowUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;lblTimes.Parent" xml:space="preserve">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="chkFollowUpRepeat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 34</value>
+  </data>
+  <data name="&gt;&gt;lblNumberRepeats.Parent" xml:space="preserve">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="cmbPeriodUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbPeriodUnit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;chkDurationUntilEnd.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.CheckBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblTimes.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="lblOrganisation.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkPreparationRepeat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TabControlActivity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkFollowUpRepeat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="&gt;&gt;lblRepeat.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblFollowUp.Name" xml:space="preserve">
+    <value>lblFollowUp</value>
+  </data>
+  <data name="tbActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 3</value>
+  </data>
+  <data name="lblEndDatePreparation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dtbEndDateMainActivity.Text" xml:space="preserve">
+    <value>30/05/2013</value>
+  </data>
+  <data name="&gt;&gt;TabPageChildActivities.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbRepeatUnit.Name" xml:space="preserve">
+    <value>cmbRepeatUnit</value>
+  </data>
+  <data name="&gt;&gt;cmbFollowUpUnit.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblExactStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>895, 6</value>
+  </data>
+  <data name="lblRepeatDates.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStart.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblStartDateMainActivity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="rbtnExactDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblRepeat.Parent" xml:space="preserve">
+    <value>TabPageRepeat</value>
+  </data>
+  <data name="&gt;&gt;lblLocation.Parent" xml:space="preserve">
+    <value>TabPageOrganisation</value>
+  </data>
+  <data name="dtbStartDateMainActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblExactEndDate.Name" xml:space="preserve">
+    <value>lblExactEndDate</value>
+  </data>
+  <data name="&gt;&gt;dtbStartDateFollowUp.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblStartDatePreparation.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ntbDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ntbFollowUp.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="tbActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblExactEndDate.Text" xml:space="preserve">
+    <value>Ends</value>
+  </data>
+  <data name="lblActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 5</value>
+  </data>
+  <data name="lblActivity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;cmbRepeatUnit.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.ComboBoxSelectIndex, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtbExactEndDate.Type" xml:space="preserve">
+    <value>FaciliDev.LogFramer.DateTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpRepeat.Name" xml:space="preserve">
+    <value>chkFollowUpRepeat</value>
+  </data>
+  <data name="TabPagePreparation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 188</value>
+  </data>
+  <data name="lvDetailProcesses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 188</value>
+  </data>
+  <data name="chkFollowUpUntilEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 35</value>
+  </data>
+  <data name="&gt;&gt;lblPreparation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartDatePreparation.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpUntilEnd.Parent" xml:space="preserve">
+    <value>TabPagePreparation</value>
+  </data>
+  <data name="&gt;&gt;lblType.Name" xml:space="preserve">
+    <value>lblType</value>
+  </data>
+  <data name="&gt;&gt;cmbGuidReferenceMoment.Parent" xml:space="preserve">
+    <value>TabPageDuration</value>
+  </data>
+  <data name="TabPageChildActivities.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 188</value>
+  </data>
+  <data name="lblExactStartDate.Text" xml:space="preserve">
+    <value>Starts:</value>
+  </data>
+  <data name="lblType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatUntilEnd.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chkFollowUpRepeat.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblRepeat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblOrganisation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ntbPreparation.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblOrganisation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="cmbFollowUpUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 32</value>
+  </data>
+  <data name="TabPageOrganisation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 188</value>
+  </data>
+  <data name="dtbStartDatePreparation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="TabPageRepeat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr</value>
+  </metadata>
+</root>

@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="FaciliDev.LogFramer.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="FaciliDev.LogFramer.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <system.diagnostics>
+        <sources>
+            <!-- This section defines the logging configuration for My.Application.Log -->
+            <source name="DefaultSource" switchName="DefaultSwitch">
+                <listeners>
+                    <add name="FileLog"/>
+                    <!-- Uncomment the below section to write to the Application Event Log -->
+                    <!--<add name="EventLog"/>-->
+                </listeners>
+            </source>
+        </sources>
+        <switches>
+            <add name="DefaultSwitch" value="Information" />
+        </switches>
+        <sharedListeners>
+            <add name="FileLog"
+                 type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                 initializeData="FileLogWriter"/>
+            <!-- Uncomment the below section and replace APPLICATION_NAME with the name of your application to write to the Application Event Log -->
+            <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+        </sharedListeners>
+    </system.diagnostics>
+    <userSettings>
+        <FaciliDev.LogFramer.My.MySettings>
+            <setting name="setDefaultFont" serializeAs="String">
+                <value>Verdana, 10pt</value>
+            </setting>
+            <setting name="setRepeatPurposes" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setRepeatOutputs" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setShowIndicatorColumn" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setShowVerificationSourceColumn" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setShowAssumptionColumn" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setShowResourcesBudget" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setSysFont" serializeAs="String">
+                <value>Arial, 12pt, style=Bold</value>
+            </setting>
+            <setting name="setStruct1" serializeAs="String">
+                <value>Goals</value>
+            </setting>
+            <setting name="setStruct2" serializeAs="String">
+                <value>Purposes</value>
+            </setting>
+            <setting name="setStruct3" serializeAs="String">
+                <value>Outputs</value>
+            </setting>
+            <setting name="setStruct4" serializeAs="String">
+                <value>Activities</value>
+            </setting>
+            <setting name="setLogframeHideEmptyCells" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setLayOutToolBarVisible" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setDocName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="setDocPath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="setWarnLinkedObjectDelete" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setStruct1sing" serializeAs="String">
+                <value>Goal</value>
+            </setting>
+            <setting name="setStruct2sing" serializeAs="String">
+                <value>Purpose</value>
+            </setting>
+            <setting name="setStruct3sing" serializeAs="String">
+                <value>Output</value>
+            </setting>
+            <setting name="setStruct4sing" serializeAs="String">
+                <value>Activity</value>
+            </setting>
+            <setting name="setDefaultIndicatorType" serializeAs="String">
+                <value>50</value>
+            </setting>
+            <setting name="setShowDetailsLogframe" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setPrintIndicatorsPrintPurposes" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPrintIndicatorsPrintOutputs" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPrintIndicatorsPrintOptionValues" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPrintIndicatorsPrintValueRanges" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPrintIndicatorsPrintTargets" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPrintIndicatorsPrintActivities" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPlanningPeriodView" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setPlanningPeriod" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setPrintPlanningShowActivityLinks" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPlanningElementsView" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setDefaultCurrency" serializeAs="String">
+                <value>EUR</value>
+            </setting>
+            <setting name="setProjectLogicIndex" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setDefaultFontUI" serializeAs="String">
+                <value>Verdana, 11pt</value>
+            </setting>
+            <setting name="setHelpPath" serializeAs="String">
+                <value>Help\Logframer 2 Help.chm</value>
+            </setting>
+            <setting name="setLanguage" serializeAs="String">
+                <value>en-GB</value>
+            </setting>
+            <setting name="setRecentFilesMax" serializeAs="String">
+                <value>4</value>
+            </setting>
+            <setting name="setDefaultFontSections" serializeAs="String">
+                <value>Verdana, 11pt, style=Bold</value>
+            </setting>
+            <setting name="setDefaultFontSectionColor" serializeAs="String">
+                <value>White</value>
+            </setting>
+            <setting name="setDefaultColorSectionTop" serializeAs="String">
+                <value>LightGray</value>
+            </setting>
+            <setting name="setDefaultColorSectionBottom" serializeAs="String">
+                <value>Gray</value>
+            </setting>
+            <setting name="setDefaultFontSortNumbers" serializeAs="String">
+                <value>Verdana, 10pt</value>
+            </setting>
+            <setting name="setSearchContacts" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setPrintPartnersBorders" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPrintPartnersFill" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setPrintTargetgroupIdBorders" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setPrintTargetgroupIdFill" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setPrintPlanningRepeatRowHeaders" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setPrintTargetgroupName" serializeAs="String">
+                <value>- </value>
+            </setting>
+            <setting name="setPrintTargetgroupSection" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setPrintIndicatorsTargetgroupGuid" serializeAs="String">
+                <value>00000000-0000-0000-0000-000000000000</value>
+            </setting>
+            <setting name="setPrintIndicatorsSection" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setPrintPmfSection" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setPrintRiskRegisterRiskCategory" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setPrintPlanningPeriodView" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setPrintPlanningElements" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setPrintPlanningPeriodFrom" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="setPrintPlanningPeriodUntil" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="setPrintPlanningOutputGuid" serializeAs="String">
+                <value>00000000-0000-0000-0000-000000000000</value>
+            </setting>
+            <setting name="setPrintPartnersIndex" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setTimerAutoSave" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setCloudUserApiKey" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="setCloudUserName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="setCloudUserPassword" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="setIndentIncrement" serializeAs="String">
+                <value>7</value>
+            </setting>
+            <setting name="setShowDetailsPlanning" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setShowDatesColumns" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPlanningHideEmptyCells" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setPlanningActivityLinks" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPlanningKeyMomentLinks" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setShowAdvancedIndicatorOptions" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setShowDurationColumns" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setBudgetHideEmptyCells" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setShowLocalCurrencyColumn" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setShowExchangeRates" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setShowDetailsBudget" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setPrintPlanningShowDatesColumns" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPrintPlanningElementsView" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setPrintPlanningShowKeyMomentLinks" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPrintBudgetShowDurationColumns" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPrintBudgetShowLocalCurrencyColumns" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPrintBudgetShowExchangeRates" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="setPrintBudgetPagesWide" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="setPrintPmfPagesWide" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="setPrintIndicatorsMeasurement" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="setPrintRiskRegisterPagesWide" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="setPrintResourcesPagesWide" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="setPrintAssumptionsSection" serializeAs="String">
+                <value>2</value>
+            </setting>
+            <setting name="setPrintAssumptionsPagesWide" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="setPrintDependenciesSection" serializeAs="String">
+                <value>2</value>
+            </setting>
+            <setting name="setPrintDependenciesPagesWide" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="setPrintDependenciesShowDeliverables" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setPrintPmfShowTargetRowTitles" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="setHelpOnline" serializeAs="String">
+                <value>http://www.logframer.eu/</value>
+            </setting>
+            <setting name="setHelpOnlineFacilidev" serializeAs="String">
+                <value>http://www.facilidev.eu/</value>
+            </setting>
+        </FaciliDev.LogFramer.My.MySettings>
+    </userSettings>
+    <applicationSettings>
+        <FaciliDev.LogFramer.My.MySettings>
+            <setting name="setServerBaseUri" serializeAs="String">
+                <value>http://localhost/lfcloud/public/index.php/api/v1/</value>
+            </setting>
+        </FaciliDev.LogFramer.My.MySettings>
+    </applicationSettings>
+</configuration>

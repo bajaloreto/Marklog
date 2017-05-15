@@ -1,0 +1,897 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LogFramer2.0
+</name>
+</assembly>
+<members>
+<member name="T:FaciliDev.LogFramer.OfficeDetector.MSOfficeApp">
+	<summary>
+ Possible Office apps.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:FaciliDev.LogFramer.OfficeDetector.Version">
+	<summary>
+ Possible versions
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FaciliDev.LogFramer.OfficeDetector.ListAllOfficeVersions">
+	<summary>
+ Lists all available MS Office apps and version in console window
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FaciliDev.LogFramer.OfficeDetector.GetVersionsID(FaciliDev.LogFramer.OfficeDetector.MSOfficeApp)">
+	<summary>
+ Returns version number as integer
+ </summary>
+	<param name="app"></param>
+	<returns></returns>
+	<remarks>Value is 0 if no version could be detected</remarks>
+</member><member name="M:FaciliDev.LogFramer.OfficeDetector.GetVersionsString(FaciliDev.LogFramer.OfficeDetector.MSOfficeApp)">
+	<summary>
+ Returns the version string
+ </summary>
+	<param name="app"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Budget_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.CollaborateEmail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.CollaborateEmail_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.CollaborateInternet">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.CollaborateInternet_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.CollaborateLetter">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.CollaborateLetter_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.CollaborateSkype">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.CollaborateSkype_48px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.CollaborateSkype_64px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.CollaborateSkype_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.CopyItems">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Cut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.DetailMail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.DetailNewRow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.DetailShowDetail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Detailweb">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.EditCopy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.EditCut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.EditDelete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.EditItem">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.EditItem_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.EditPaste">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.EditRedo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.EditUndo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Excel_icon_16px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Excel_icon_32px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileClose">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileClose_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileCloud">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileCloud_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileDownload">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileDownload_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileHelp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileHelp_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileLanguage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileLanguage_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileNew">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileNew_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileOpen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileOpen_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FilePrint">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FilePrintBudget_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FilePrintIdForm_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FilePrintIndicators_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FilePrintLogframe_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FilePrintPlanning_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FilePrintPMF_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FilePrintPreview">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FilePrintRiskRegister_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileProject">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileProject_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileSave">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileSave_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileSettings">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileSettings_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileUpload">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FileUpload_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontBold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontCapsSmall">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontClearFormating">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontItalic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontMarkerColour">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontSizeLarger">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontSizeSmaller">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontStrikeThrough">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontSubscript">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontSuperscript">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontTextColour">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.FontUnderline">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Help">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.InsertItem">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.InsertItem_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.InsertParentItem">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.InsertSubItem">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsLevelDown">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsLevelUp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsLink">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsLink_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsMoveDown">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsMoveDown_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsMoveUp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsMoveUp_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsSectionDown">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsSectionUp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsUnlink">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ItemsUnlink_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutActivities">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutActivities_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutActivitiesSection">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutActivitiesSection_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutAssumptions">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutAssumptionsColumn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutAssumptionsColumn_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutBudgetBlue">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutBudgetBlue_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutBudgetGreen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutBudgetGreen_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutBudgetRed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutBudgetRed_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutCalenderDay">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutCalenderDay_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutCalenderMonth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutCalenderMonth_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutCalenderWeek">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutCalenderWeek_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutCalenderYear">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutCalenderYear_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutCurrency">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutCurrency_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutDescriptionColumn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutDescriptionColumn_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutDetails">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutEmptyCells">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutEmptyCells_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutExchangeRate">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutExchangeRate_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutGoalsSection">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutGoalsSection_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutHideEmpty">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutIndicators">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutIndicatorsColumn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutIndicatorsColumn_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutKeyMoment">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutKeyMoment_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutLinkActivities">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutLinkActivities_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutLinkKeyMoments">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutLinkKeyMoments_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutMultiYearBudget">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutMultiYearBudget_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutMultiYearBudgetBlue">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutMultiYearBudgetBlue_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutMultiYearBudgetGreen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutMultiYearBudgetGreen_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutOutputsSection">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutOutputsSection_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutPlanning">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutProjectLogic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutProjectLogicColumn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutProjectLogicColumn_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutPurposesOnly">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutPurposesOnly_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutPurposesSection">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutPurposesSection_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutResourcesBudget">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutResourcesBudget_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutShowDetails">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutShowDetails_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutSingleYearBudget">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutSingleYearBudget_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutVerificationSources">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutVerificationSourcesColumn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.LayOutverificationSourcesColumn_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Logframer_2_0_splash_screen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Logframer_2_Aide">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Logframer_2_Help">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Logframer_Icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Logframer_icon_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Logframer_splash_screen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.NewItem_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ParagraphAlignCentre">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ParagraphAlignLeft">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ParagraphAlignRight">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ParagraphLeftIndentDecrease">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ParagraphLeftIndentIncrease">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Paste">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Paste_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.PasteItems">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.PasteItems_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Planning_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Print_landscape">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Print_landscape1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Print_margins_medium">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Print_margins_small">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Print_margins_wide">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Print_portrait">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Print_portrait1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Print_portrait2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Print_table_fill">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Print_table_grid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Printer_groot">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Printer_middelgroot">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Printer_middelgroot1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.ProjectInfo_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.RemoveItem">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.RemoveItem_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextBold">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextCenter">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextColor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextFind">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextFind_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextItalic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextLeft">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextMarker">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextReplace">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextReplace_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextRight">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextSelectAll">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextSelectInCell">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextSelectInCell_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextSelectLogframe">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextSelectLogframe_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextStrikeOut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextSubscript">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextSuperscript">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.TextUnderline">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Word_icon_16px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:FaciliDev.LogFramer.My.Resources.Resources.Word_icon_32px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:FaciliDev.LogFramer.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

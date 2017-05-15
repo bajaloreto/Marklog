@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gbAgreement.Text">
+    <value>Keuzes</value>
+  </data>
+  <data name="gbScoreValues.Text">
+    <value>Doelwaarden</value>
+  </data>
+  <data name="gbStatements.Text">
+    <value>Statements</value>
+  </data>
+  <data name="lblBestOption.Text">
+    <value>Beste keuze:</value>
+  </data>
+  <data name="lblBestValueScore.Text">
+    <value>Waarde van 'Beste keuze':</value>
+  </data>
+  <data name="lblNo.Text">
+    <value>Waarde van 'Slechtste keuze':</value>
+  </data>
+  <data name="lblWorstOption.Text">
+    <value>Slechtste keuze:</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>IndicatorMaxDiff</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent">
+    <value>gbScoreValues</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbAgreement.Name">
+    <value>gbAgreement</value>
+  </data>
+  <data name="&gt;&gt;gbAgreement.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbAgreement.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbAgreement.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbScoreValues.Name">
+    <value>gbScoreValues</value>
+  </data>
+  <data name="&gt;&gt;gbScoreValues.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbScoreValues.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbScoreValues.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbStatements.Name">
+    <value>gbStatements</value>
+  </data>
+  <data name="&gt;&gt;gbStatements.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbStatements.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbStatements.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblBestOption.Name">
+    <value>lblBestOption</value>
+  </data>
+  <data name="&gt;&gt;lblBestOption.Parent">
+    <value>gbAgreement</value>
+  </data>
+  <data name="&gt;&gt;lblBestOption.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBestOption.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblBestValueScore.Name">
+    <value>lblBestValueScore</value>
+  </data>
+  <data name="&gt;&gt;lblBestValueScore.Parent">
+    <value>gbScoreValues</value>
+  </data>
+  <data name="&gt;&gt;lblBestValueScore.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBestValueScore.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblNo.Name">
+    <value>lblNo</value>
+  </data>
+  <data name="&gt;&gt;lblNo.Parent">
+    <value>gbScoreValues</value>
+  </data>
+  <data name="&gt;&gt;lblNo.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNo.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblWorstOption.Name">
+    <value>lblWorstOption</value>
+  </data>
+  <data name="&gt;&gt;lblWorstOption.Parent">
+    <value>gbAgreement</value>
+  </data>
+  <data name="&gt;&gt;lblWorstOption.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWorstOption.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ntbBestOptionScore.Name">
+    <value>ntbBestOptionScore</value>
+  </data>
+  <data name="&gt;&gt;ntbBestOptionScore.Parent">
+    <value>gbScoreValues</value>
+  </data>
+  <data name="&gt;&gt;ntbBestOptionScore.Type">
+    <value>FaciliDev.LogFramer.NumericTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbBestOptionScore.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ntbNotSelectedScore.Name">
+    <value>ntbNotSelectedScore</value>
+  </data>
+  <data name="&gt;&gt;ntbNotSelectedScore.Parent">
+    <value>gbScoreValues</value>
+  </data>
+  <data name="&gt;&gt;ntbNotSelectedScore.Type">
+    <value>FaciliDev.LogFramer.NumericTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbNotSelectedScore.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ntbWorstOptionScore.Name">
+    <value>ntbWorstOptionScore</value>
+  </data>
+  <data name="&gt;&gt;ntbWorstOptionScore.Parent">
+    <value>gbScoreValues</value>
+  </data>
+  <data name="&gt;&gt;ntbWorstOptionScore.Type">
+    <value>FaciliDev.LogFramer.NumericTextBox, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ntbWorstOptionScore.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbAgreeText.Name">
+    <value>tbAgreeText</value>
+  </data>
+  <data name="&gt;&gt;tbAgreeText.Parent">
+    <value>gbAgreement</value>
+  </data>
+  <data name="&gt;&gt;tbAgreeText.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbAgreeText.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbDisagreeText.Name">
+    <value>tbDisagreeText</value>
+  </data>
+  <data name="&gt;&gt;tbDisagreeText.Parent">
+    <value>gbAgreement</value>
+  </data>
+  <data name="&gt;&gt;tbDisagreeText.Type">
+    <value>FaciliDev.LogFramer.TextBoxLF, LogFramer 2.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbDisagreeText.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="Label1.Text">
+    <value>Value of 'Not selected':</value>
+  </data>
+</root>

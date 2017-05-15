@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name">
+    <value>PrintSettingsPlanning</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxOutput.Name">
+    <value>GroupBoxOutput</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxOutput.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxOutput.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxOutput.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxView.Name">
+    <value>GroupBoxView</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxView.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxView.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxView.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatRowHeaders.Name">
+    <value>chkRepeatRowHeaders</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatRowHeaders.Parent">
+    <value>GroupBoxView</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatRowHeaders.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatRowHeaders.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkShowActivityLinks.Name">
+    <value>chkShowActivityLinks</value>
+  </data>
+  <data name="&gt;&gt;chkShowActivityLinks.Parent">
+    <value>GroupBoxView</value>
+  </data>
+  <data name="&gt;&gt;chkShowActivityLinks.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowActivityLinks.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkShowDatesColumns.Name">
+    <value>chkShowDatesColumns</value>
+  </data>
+  <data name="&gt;&gt;chkShowDatesColumns.Parent">
+    <value>GroupBoxView</value>
+  </data>
+  <data name="&gt;&gt;chkShowDatesColumns.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowDatesColumns.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkShowKeyMomentLinks.Name">
+    <value>chkShowKeyMomentLinks</value>
+  </data>
+  <data name="&gt;&gt;chkShowKeyMomentLinks.Parent">
+    <value>GroupBoxView</value>
+  </data>
+  <data name="&gt;&gt;chkShowKeyMomentLinks.Type">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowKeyMomentLinks.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectOutput.Name">
+    <value>cmbSelectOutput</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectOutput.Parent">
+    <value>GroupBoxOutput</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectOutput.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectOutput.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectPeriodView.Name">
+    <value>cmbSelectPeriodView</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectPeriodView.Parent">
+    <value>GroupBoxView</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectPeriodView.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSelectPeriodView.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbShowElements.Name">
+    <value>cmbShowElements</value>
+  </data>
+  <data name="&gt;&gt;cmbShowElements.Parent">
+    <value>GroupBoxView</value>
+  </data>
+  <data name="&gt;&gt;cmbShowElements.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbShowElements.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dtpPeriodFrom.Name">
+    <value>dtpPeriodFrom</value>
+  </data>
+  <data name="&gt;&gt;dtpPeriodFrom.Parent">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;dtpPeriodFrom.Type">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpPeriodFrom.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dtpPeriodUntil.Name">
+    <value>dtpPeriodUntil</value>
+  </data>
+  <data name="&gt;&gt;dtpPeriodUntil.Parent">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;dtpPeriodUntil.Type">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpPeriodUntil.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblFrom.Name">
+    <value>lblFrom</value>
+  </data>
+  <data name="&gt;&gt;lblFrom.Parent">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblFrom.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFrom.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblUntil.Name">
+    <value>lblUntil</value>
+  </data>
+  <data name="&gt;&gt;lblUntil.Parent">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblUntil.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUntil.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="GroupBox1.Text">
+    <value>Select period</value>
+  </data>
+  <data name="GroupBoxOutput.Text">
+    <value>Select</value>
+  </data>
+  <data name="GroupBoxView.Text">
+    <value>View</value>
+  </data>
+  <data name="chkRepeatRowHeaders.Text">
+    <value>Repeat row headers</value>
+  </data>
+  <data name="chkShowActivityLinks.Text">
+    <value>Activity links</value>
+  </data>
+  <data name="chkShowDatesColumns.Text">
+    <value>Show dates columns</value>
+  </data>
+  <data name="chkShowKeyMomentLinks.Text">
+    <value>Key moment links</value>
+  </data>
+  <data name="lblFrom.Text">
+    <value>From:</value>
+  </data>
+  <data name="lblUntil.Text">
+    <value>Until:</value>
+  </data>
+</root>
